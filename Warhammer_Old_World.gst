@@ -1,10 +1,11 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<gameSystem xmlns="http://www.battlescribe.net/schema/gameSystemSchema" id="sys-31d1-bf57-53ea-ad55" name="Warhammer The Old World" battleScribeVersion="2.03" revision="151" type="gameSystem" library="true" authorName="Flammy" authorContact="Discord: vflam" authorUrl="www.newrecruit.eu" publicationId="768b-3da1-a182-a1d8">
+<gameSystem xmlns="http://www.battlescribe.net/schema/gameSystemSchema" id="sys-31d1-bf57-53ea-ad55" name="Warhammer The Old World Custom" battleScribeVersion="2.03" revision="151" type="gameSystem" library="true" authorName="Flammy" authorContact="Discord: vflam" authorUrl="www.newrecruit.eu" publicationId="768b-3da1-a182-a1d8">
   <categoryEntries>
     <categoryEntry name="Named Characters" hidden="false" id="3ba8-a41e-b6ae-d4ba"/>
     <categoryEntry name="Characters" hidden="false" id="a4cc-15c9-cfae-1b3b"/>
     <categoryEntry id="f0e3-2e32-8866-ea32" name="Core"/>
     <categoryEntry name="Special" hidden="false" id="633f-f67a-1b6a-d203"/>
+    <categoryEntry name="Global" hidden="false" id="2bfe-5863-46fe-d283"/>
     <categoryEntry name="Rare" hidden="false" id="2bfe-5863-46fe-d284"/>
     <categoryEntry name="Mercenaries" hidden="false" id="5b84-2c3c-869d-3522"/>
     <categoryEntry name="CHAMPION" hidden="true" id="83a1-945c-564c-84af"/>
@@ -76,6 +77,7 @@
     <categoryEntry name="Faction: Tomb Kings: Mortuary Cult" id="22ae-234f-ffd2-6c4f" hidden="true"/>
     <categoryEntry name="Faction: Tomb Kings - Nehekharan Royal Host" id="fdc8-bc34-f83d-4833" hidden="true"/>
     <categoryEntry name="Faction: Vampire Counts" id="7345-d692-6f6a-d6f6" hidden="true"/>
+    <categoryEntry name="Faction: Vampire Coast" id="7345-d692-6f6a-d6f7" hidden="true"/>
     <categoryEntry name="Faction: Warriors of Chaos" id="75a1-ee95-da32-b765" hidden="true"/>
     <categoryEntry name="Faction: Wood Elf Realms" id="f9f5-dd21-7903-b9c" hidden="true"/>
     <categoryEntry name="Commander of the Empire" id="94df-cedb-8070-80ec" hidden="true"/>
@@ -200,6 +202,31 @@
             </modifier>
           </modifiers>
         </categoryLink>
+        <categoryLink name="Global" hidden="false" id="e603-b373-46b1-4236" targetId="2bfe-5863-46fe-d283">
+          <constraints>
+            <constraint type="max" value="25" field="limit::points" scope="force" shared="true" id="f0f7-32b6-d076-214b" percentValue="true" includeChildSelections="true"/>
+          </constraints>
+          <modifiers>
+            <modifier type="set" value="33" field="f0f7-32b6-d076-214a">
+              <conditionGroups>
+                <conditionGroup type="or">
+                  <conditions>
+                    <condition type="instanceOf" value="1" field="selections" scope="primary-catalogue" childId="c637-f6be-935d-faae" shared="true"/>
+                    <condition type="instanceOf" value="1" field="selections" scope="primary-catalogue" childId="7318-4de6-f164-6575" shared="true"/>
+                    <condition type="instanceOf" value="1" field="selections" scope="primary-catalogue" childId="bb5-4152-4695-83a5" shared="true"/>
+                    <condition type="instanceOf" value="1" field="selections" scope="primary-catalogue" childId="a339-984f-3777-c73f" shared="true"/>
+                    <condition type="instanceOf" value="1" field="selections" scope="primary-catalogue" childId="09eb-a3a1-87f4-7fef" shared="true"/>
+                    <condition type="instanceOf" value="1" field="selections" scope="primary-catalogue" childId="142f-feb2-1509-865b" shared="true"/>
+                    <condition type="instanceOf" value="1" field="selections" scope="primary-catalogue" childId="6dc7-f698-014b-63e1" shared="true"/>
+                    <condition type="instanceOf" value="1" field="selections" scope="primary-catalogue" childId="9fe3-70dd-d556-b9bb" shared="true"/>
+                    <condition type="instanceOf" value="1" field="selections" scope="primary-catalogue" childId="86da-6653-7618-1f76" shared="true"/>
+                    <condition type="instanceOf" value="1" field="selections" scope="primary-catalogue" childId="a9dd-e192-9fec-b81e" shared="true"/>
+                  </conditions>
+                </conditionGroup>
+              </conditionGroups>
+            </modifier>
+          </modifiers>
+        </categoryLink>
         <categoryLink name="Mercenaries" hidden="false" id="6032-af52-ae71-e755" targetId="5b84-2c3c-869d-3522">
           <constraints>
             <constraint type="max" value="20" field="limit::points" scope="force" shared="true" id="4bbb-90a8-3513-cbec" percentValue="true" includeChildSelections="true"/>
@@ -279,6 +306,31 @@
               </modifiers>
             </categoryLink>
             <categoryLink name="Rare" hidden="false" id="5b63-5e5e-a32c-f5e3" targetId="2bfe-5863-46fe-d284">
+              <constraints>
+                <constraint type="max" value="6.25" field="limit::points" scope="force" shared="true" id="8ba0-768c-298f-9056" percentValue="true" includeChildSelections="true"/>
+              </constraints>
+              <modifiers>
+                <modifier type="set" value="8.25" field="8ba0-768c-298f-9056">
+                  <conditionGroups>
+                    <conditionGroup type="or">
+                      <conditions>
+                        <condition type="instanceOf" value="1" field="selections" scope="primary-catalogue" childId="c637-f6be-935d-faae" shared="true"/>
+                        <condition type="instanceOf" value="1" field="selections" scope="primary-catalogue" childId="7318-4de6-f164-6575" shared="true"/>
+                        <condition type="instanceOf" value="1" field="selections" scope="primary-catalogue" childId="bb5-4152-4695-83a5" shared="true"/>
+                        <condition type="instanceOf" value="1" field="selections" scope="primary-catalogue" childId="a339-984f-3777-c73f" shared="true"/>
+                        <condition type="instanceOf" value="1" field="selections" scope="primary-catalogue" childId="09eb-a3a1-87f4-7fef" shared="true"/>
+                        <condition type="instanceOf" value="1" field="selections" scope="primary-catalogue" childId="142f-feb2-1509-865b" shared="true"/>
+                        <condition type="instanceOf" value="1" field="selections" scope="primary-catalogue" childId="6dc7-f698-014b-63e1" shared="true"/>
+                        <condition type="instanceOf" value="1" field="selections" scope="primary-catalogue" childId="9fe3-70dd-d556-b9bb" shared="true"/>
+                        <condition type="instanceOf" value="1" field="selections" scope="primary-catalogue" childId="86da-6653-7618-1f76" shared="true"/>
+                        <condition type="instanceOf" value="1" field="selections" scope="primary-catalogue" childId="a9dd-e192-9fec-b81e" shared="true"/>
+                      </conditions>
+                    </conditionGroup>
+                  </conditionGroups>
+                </modifier>
+              </modifiers>
+            </categoryLink>
+            <categoryLink name="Global" hidden="false" id="5b63-5e5e-a32c-f5e2" targetId="2bfe-5863-46fe-d283">
               <constraints>
                 <constraint type="max" value="6.25" field="limit::points" scope="force" shared="true" id="8ba0-768c-298f-9056" percentValue="true" includeChildSelections="true"/>
               </constraints>
@@ -542,6 +594,20 @@
                         </conditionGroup>
                       </conditionGroups>
                     </conditionGroup>
+					
+					<conditionGroup type="and">
+                      <conditions>
+                        <condition type="instanceOf" value="1" field="selections" scope="parent" childId="4545-8340-9988-9ea1" shared="true"/>
+                      </conditions>
+                      <conditionGroups>
+                        <conditionGroup type="or">
+                          <conditions>
+                            <condition type="instanceOf" value="1" field="selections" scope="primary-catalogue" childId="be27-8084-f552-1f4" shared="true"/>
+                          </conditions>
+                        </conditionGroup>
+                      </conditionGroups>
+                    </conditionGroup>
+					
                     <conditionGroup type="and">
                       <conditions>
                         <condition type="instanceOf" value="1" field="selections" scope="parent" childId="d9b0-fa44-a251-bfea" shared="true"/>
@@ -1424,7 +1490,27 @@ If every model in a unit has this special rule, roll once for the entire unit. I
     </profile>
     <profile name="Regimental Unit" hidden="false" id="7424-ec43-7581-965a" typeId="c1ac-c1c8-f9d5-9673" typeName="Special Rule" page="176" publicationId="768b-3da1-a182-a1d8">
       <characteristics>
-        <characteristic name="Description" typeId="9f84-4221-785a-db50">A unit with this special rule can be accompanied by ‘detachments’ (see page 282).</characteristic>
+        <characteristic name="Description" typeId="9f84-4221-785a-db50">A unit with this special rule can be accompanied by ‘detachments’ (see page 282).
+		
+Detachments must be deployed at the same time as the regimental unit they are assigned to, and must be deployed within 3" of that unit. If the regimental unit is held in reserve as reinforcements, its detachment(s) will as well and will arrive with it.
+In battle, regimental units provide leadership to their detachments. Unless the regimental unit is fleeing, a detachment may use the Leadership characteristic of its regimental unit whilst it is within 3" of that unit. Note that if the detachment's Leadership characteristic is higher, it may use its own Leadership instead.
+Detachments fight so closely alongside their regimental units that they are affected by the same battlefield psychology. If a regimental unit has any of the special rules listed below, it confers those special rules onto its detachments whilst they are within 3" of it:
+
+Frenzy
+
+Hatred (X)
+
+Immune to Psychology
+
+Stubborn
+
+Detachments are trained to support their regimental unit in battle. When an enemy unit declares a charge against a regimental unit, and if that regimental unit does not Flee as a charge reaction, each of its detachments that is within 3" of it, not engaged in combat and not fleeing can declare a Supporting Action.
+
+A detachment can only attempt a single Supporting Action per turn:
+
+Any detachment that is able to make a Supporting Action may declare that it will make a 'Supporting Charge'. At the end of the Charge Moves sub-phase, a detachment that declared a Supporting Charge and that is not engaged in combat or fleeing makes an out-of-sequence charge against one enemy unit that charged into contact with its regimental unit during this turn.
+
+Any detachment that is able to make a Supporting Action may declare that it will make a 'Supporting Charge'. At the end of the Charge Moves sub-phase, a detachment that declared a Supporting Charge and that is not engaged in combat or fleeing makes an out-of-sequence charge against one enemy unit that charged into contact with its regimental unit during this turn.</characteristic>
       </characteristics>
     </profile>
     <profile name="Requires Two Hands" hidden="false" id="4f8d-35e-6be9-dabb" typeId="c1ac-c1c8-f9d5-9673" typeName="Special Rule" page="176" publicationId="768b-3da1-a182-a1d8">
@@ -7422,7 +7508,8 @@ Related: Lance Formation</characteristic>
     </profile>
     <profile name="Lay In Wait" typeId="c1ac-c1c8-f9d5-9673" typeName="Special Rule" hidden="false" id="f850-2a38-a101-8b15">
       <characteristics>
-        <characteristic name="Description" id="5877-5b13-83bf-fa92" hidden="false" typeId="9f84-4221-785a-db50">0-1 unit of Skeleton Skirmishers per 1,000 points may have the  Ambushers  special rule for free.</characteristic>
+        <characteristic name="Description" id="5877-5b13-83bf-fa92" hidden="false" typeId="9f84-4221-785a-db50">0-1 unit of Skeleton Skirmishers per 1,000 points may have the  
+		ambushers special rule for free.</characteristic>
       </characteristics>
       <comment>imported</comment>
     </profile>
@@ -13967,7 +14054,7 @@ Any war machine that has its Toughness reduced in this way also loses the Move o
     </selectionEntry>
     <selectionEntry type="upgrade" import="true" name="Renegades (Square Based)" hidden="false" id="974c-3bf3-af4b-701d">
       <constraints>
-        <constraint type="max" value="0" field="selections" scope="parent" shared="true" id="f31e-4067-047f-fba9">
+        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="f31e-4067-047f-fba9">
           <comment>Renegades</comment>
         </constraint>
       </constraints>
