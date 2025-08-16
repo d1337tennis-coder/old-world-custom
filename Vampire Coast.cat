@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <catalogue library="false"
            id="4545-8340-9988-9ea1"
-           name="Vampire Counts"
+           name="Vampire Coast"
            gameSystemId="sys-31d1-bf57-53ea-ad55"
            gameSystemRevision="49"
            revision="61"
@@ -296,7 +296,7 @@
 				                typeId="c435-6b14-f77e-3c72">2</characteristic>
 			</characteristics>
 		</profile>
-		<profile name="Dire Wolf"
+		<profile name="Scurvy Dog"
 		         typeId="b070-143a-73f-2772"
 		         typeName="Model"
 		         hidden="false"
@@ -322,7 +322,7 @@
 				                typeId="c435-6b14-f77e-3c72">3</characteristic>
 			</characteristics>
 		</profile>
-		<profile name="Doom Wolf"
+		<profile name="Dire Scurvy Dog"
 		         typeId="b070-143a-73f-2772"
 		         typeName="Model"
 		         hidden="false"
@@ -741,7 +741,7 @@ Resurrected models are added to the front rank until it reaches the minimum requ
 				                typeId="c435-6b14-f77e-3c72">5</characteristic>
 			</characteristics>
 		</profile>
-		<profile name="Crypt Haunter"
+		<profile name="Prime Hulk"
 		         typeId="b070-143a-73f-2772"
 		         typeName="Model"
 		         hidden="false"
@@ -891,7 +891,7 @@ Resurrected models are added to the front rank until it reaches the minimum requ
 				                typeId="772a-a7ff-f6b3-df71">In combat, this model must make one of its attacks each turn with this weapon.</characteristic>
 			</characteristics>
 		</profile>
-		<profile name="Filth-encrusted Claws"
+		<profile name="Amalgamated Arms"
 		         typeId="a378-c633-912d-11ce"
 		         typeName="Weapon"
 		         hidden="false"
@@ -904,7 +904,7 @@ Resurrected models are added to the front rank until it reaches the minimum requ
 				<characteristic name="AP"
 				                typeId="9429-ffe7-2ce5-e9a5">-1</characteristic>
 				<characteristic name="Special Rules"
-				                typeId="5f83-3633-336b-93b4">Poisoned Attacks</characteristic>
+				                typeId="5f83-3633-336b-93b4">Extra Attacks (+D3)</characteristic>
 				<characteristic name="Notes"
 				                typeId="772a-a7ff-f6b3-df71"/>
 			</characteristics>
@@ -927,17 +927,17 @@ Resurrected models are added to the front rank until it reaches the minimum requ
 				                typeId="772a-a7ff-f6b3-df71"/>
 			</characteristics>
 		</profile>
-		<profile name="Lore Of Undeath"
+		<profile name="Lore Of The Deep"
 		         typeId="c1ac-c1c8-f9d5-9673"
 		         typeName="Special Rule"
 		         hidden="false"
 		         id="790b-ac72-a11e-cdbf">
 			<characteristics>
 				<characteristic name="Description"
-				                typeId="9f84-4221-785a-db50">A Wizard with the ‘Lore of Undeath’ special rule may discard one of their randomly generated spells as normal. When they do so, they may select instead either the signature spell of their chosen Lore of Magic, or one of the spells listed below:
+				                typeId="9f84-4221-785a-db50">A Wizard with the ‘Lore Of The Deep’ special rule may discard one of their randomly generated spells as normal. When they do so, they may select instead either the signature spell of their chosen Lore of Magic, or one of the spells listed below:
 
-• Vanhal’s Danse Macabre 
-• Hellish Vigour 
+• Kiss Of The Deep 
+• Dead Eye 
 • Raise Dead</characteristic>
 			</characteristics>
 		</profile>
@@ -1045,7 +1045,7 @@ Resurrected models are added to the front rank until it reaches the minimum requ
 		         publicationId="1c5e-3047-5732-f4">
 			<characteristics>
 				<characteristic name="Description"
-				                typeId="9f84-4221-785a-db50">During the Command sub-phase of their turn, this Vampire may attempt to resurrect fallen creatures of the night by making a Leadership test (using their own Leadership). If this test is passed, a single friendly unit of Fell Bats, Bat Swarms or Dire Wolves that is within 12&quot; of this model recovers D6 lost Wounds.</characteristic>
+				                typeId="9f84-4221-785a-db50">During the Command sub-phase of their turn, this Vampire may attempt to resurrect fallen creatures of the night by making a Leadership test (using their own Leadership). If this test is passed, a single friendly unit of Fell Bats, Bat Swarms or Scurvy Dogs that is within 12&quot; of this model recovers D6 lost Wounds.</characteristic>
 			</characteristics>
 		</profile>
 		<profile name="Beguile"
@@ -1153,14 +1153,14 @@ Resurrected models are added to the front rank until it reaches the minimum requ
 	<sharedSelectionEntries>
 		<selectionEntry type="upgrade"
 		                import="true"
-		                name="Filth-Encrusted Claws"
+		                name="Amalgamated Arms"
 		                hidden="false"
 		                id="5faa-b301-3a54-e02f">
 			<infoLinks>
 				<infoLink targetId="a570-53-8c8b-96a"
 				          id="e703-dfda-b661-9c5a"
 				          type="profile"
-				          name="Filth-encrusted Claws"
+				          name="Amalgamated Arms"
 				          hidden="false"/>
 			</infoLinks>
 			<costs>
@@ -1307,11 +1307,11 @@ Resurrected models are added to the front rank until it reaches the minimum requ
 						          type="profile"
 						          id="d1a6437a-c4718064"
 						          targetId="193c-4d0d-de6b-bbb1"/>
-						<infoLink name="Lore of Undeath"
+						<infoLink name="Lore Of The Deep"
 						          hidden="false"
 						          id="7f36-a659-41de-acbf"
 						          type="infoGroup"
-						          targetId="5b5f-acf0-7c9-33b5"/>
+						          targetId="5b5f-acf0-7c9-33b6"/>
 					</infoLinks>
 					<costs>
 						<cost name="pts"
@@ -1416,7 +1416,7 @@ Resurrected models are added to the front rank until it reaches the minimum requ
 										          field="name"/>
 									</modifiers>
 								</infoLink>
-								<infoLink name="Lore Of Undeath"
+								<infoLink name="Lore Of The Deep"
 								          hidden="false"
 								          id="d2292ebc-ba618546"
 								          type="profile"
@@ -1454,7 +1454,7 @@ Resurrected models are added to the front rank until it reaches the minimum requ
 								           targetId="7d76-b1a1-1535-a04c">
 									<modifiers>
 										<modifier type="add"
-										          value="The General of a Vampire Counts army must also be a wizard."
+										          value="The General of a Vampire Coast army must also be a wizard."
 										          field="error">
 											<conditionGroups>
 												<conditionGroup type="and">
@@ -1857,11 +1857,11 @@ Resurrected models are added to the front rank until it reaches the minimum requ
 						          type="profile"
 						          id="1f17c472-87b5353c"
 						          targetId="193c-4d0d-de6b-bbb1"/>
-						<infoLink name="Lore of Undeath"
+						<infoLink name="Lore Of The Deep"
 						          hidden="false"
 						          id="556c-27c2-4bb6-e859"
 						          type="infoGroup"
-						          targetId="5b5f-acf0-7c9-33b5"/>
+						          targetId="5b5f-acf0-7c9-33b6"/>
 					</infoLinks>
 					<costs>
 						<cost name="pts"
@@ -1979,7 +1979,7 @@ Resurrected models are added to the front rank until it reaches the minimum requ
 										          field="name"/>
 									</modifiers>
 								</infoLink>
-								<infoLink name="Lore Of Undeath"
+								<infoLink name="Lore Of The Deep"
 								          hidden="false"
 								          id="93124a04-fc428fce"
 								          type="profile"
@@ -2446,11 +2446,11 @@ Resurrected models are added to the front rank until it reaches the minimum requ
 						          type="profile"
 						          id="ffb3993-38cba441"
 						          targetId="193c-4d0d-de6b-bbb1"/>
-						<infoLink name="Lore of Undeath"
+						<infoLink name="Lore Of The Deep"
 						          hidden="false"
 						          id="d64c-803e-f0b1-ddae"
 						          type="infoGroup"
-						          targetId="5b5f-acf0-7c9-33b5"/>
+						          targetId="5b5f-acf0-7c9-33b6"/>
 					</infoLinks>
 					<costs>
 						<cost name="pts"
@@ -2720,7 +2720,7 @@ Resurrected models are added to the front rank until it reaches the minimum requ
 						          id="8c2188ed-b0f33ea3/Master Necromancer"
 						          type="profile"
 						          targetId="9219-4a13-f83c-5ae1"/>
-						<infoLink name="Lore Of Undeath"
+						<infoLink name="Lore Of The Deep"
 						          hidden="false"
 						          id="29062d23-dcc2f151/Master Necromancer"
 						          type="profile"
@@ -3070,7 +3070,7 @@ Resurrected models are added to the front rank until it reaches the minimum requ
 						          id="8c2188ed-b0f33ea3/Necromantic Acolyte"
 						          type="profile"
 						          targetId="9219-4a13-f83c-5ae1"/>
-						<infoLink name="Lore Of Undeath"
+						<infoLink name="Lore Of The Deep"
 						          hidden="false"
 						          id="29062d23-dcc2f151/Necromantic Acolyte"
 						          type="profile"
@@ -3095,11 +3095,11 @@ Resurrected models are added to the front rank until it reaches the minimum requ
 				</infoGroup>
 			</infoGroups>
 			<infoLinks>
-				<infoLink name="Lore of Undeath"
+				<infoLink name="Lore Of The Deep"
 				          hidden="false"
 				          id="7908-54b3-712c-591b"
 				          type="infoGroup"
-				          targetId="5b5f-acf0-7c9-33b5"/>
+				          targetId="5b5f-acf0-7c9-33b6"/>
 			</infoLinks>
 			<categoryLinks>
 				<categoryLink name="Faction: Vampire Counts"
@@ -4987,9 +4987,52 @@ Resurrected models are added to the front rank until it reaches the minimum requ
 						          id="3ba5e2f6-913445c0"
 						          type="profile"
 						          targetId="4176-fb21-2d35-b9c9"/>
+						<infoLink name="Regimental Unit"
+						          id="e4e5-8c65-69f6-ce7b"
+						          hidden="false"
+						          type="profile"
+						          targetId="7424-ec43-7581-965a">
+							<modifiers>
+								<modifier type="set"
+								          value="false"
+								          field="hidden">
+									<conditions>
+										<condition type="atLeast"
+										           value="1"
+										           field="selections"
+										           scope="force"
+										           childId="974c-3bf3-af4b-701d"
+										           shared="true"
+										           includeChildSelections="true">
+											<comment>Renegades</comment>
+										</condition>
+									</conditions>
+									<comment>Renegades</comment>
+								</modifier>
+							</modifiers>
+						</infoLink>
 					</infoLinks>
 				</infoGroup>
 			</infoGroups>
+			<entryLinks>
+				<entryLink import="true"
+				           name="Scurvy Dogs"
+				           hidden="false"
+				           id="4c8f-9a50-7b96-6ef5"
+				           type="selectionEntry"
+				           targetId="85ad2a06-6189d990"
+				           sortIndex="3">
+					<constraints>
+						<constraint type="max"
+						            value="1"
+						            field="selections"
+						            scope="parent"
+						            shared="false"
+						            id="54c81fbf-2f720dcd"
+						            includeChildSelections="false"/>
+					</constraints>
+				</entryLink>
+			</entryLinks>
 			<categoryLinks>
 				<categoryLink name="Faction: Vampire Counts"
 				              hidden="false"
@@ -5042,7 +5085,7 @@ Resurrected models are added to the front rank until it reaches the minimum requ
 						      value="46"/>
 					</costs>
 					<entryLinks>
-						<entryLink name="Filth-Encrusted Claws"
+						<entryLink name="Amalgamated Arms"
 						           id="e4786800-309a8d4a"
 						           hidden="false"
 						           type="selectionEntry"
@@ -5083,7 +5126,7 @@ Resurrected models are added to the front rank until it reaches the minimum requ
 					<selectionEntries>
 						<selectionEntry type="model"
 						                subType="crew"
-						                name="Crypt Haunter"
+						                name="Prime Hulk"
 						                id="40ec9ad2-6977fc1c"
 						                hidden="false">
 							<infoLinks>
@@ -5094,7 +5137,7 @@ Resurrected models are added to the front rank until it reaches the minimum requ
 								          targetId="ad5c-2cde-2bda-4288">
 									<modifiers>
 										<modifier type="set"
-										          value="Crypt Haunter"
+										          value="Prime Hulk"
 										          field="name"/>
 										<modifier type="increment"
 										          value="1"
@@ -6692,12 +6735,12 @@ Resurrected models are added to the front rank until it reaches the minimum requ
 		</selectionEntry>
 		<selectionEntry type="unit"
 		                import="true"
-		                name="Dire Wolves"
+		                name="Scurvy Dogs"
 		                hidden="false"
 		                id="85ad2a06-6189d990"
 		                collective="false">
 			<profiles>
-				<profile name="Dire Wolves"
+				<profile name="Scurvy Dogs"
 				         typeId="2878-9a1f-dd74-48e3"
 				         typeName="Unit"
 				         hidden="false"
@@ -6712,12 +6755,12 @@ Resurrected models are added to the front rank until it reaches the minimum requ
 			</profiles>
 			<selectionEntries>
 				<selectionEntry type="model"
-				                name="Dire Wolf"
+				                name="Scurvy Dog"
 				                id="1b3c4df0-8ca33dba"
 				                hidden="false"
 				                sortIndex="1">
 					<infoLinks>
-						<infoLink name="Dire Wolf"
+						<infoLink name="Scurvy Dog"
 						          hidden="false"
 						          type="profile"
 						          id="4e9dca96-3413160"
@@ -6781,18 +6824,18 @@ Resurrected models are added to the front rank until it reaches the minimum requ
 					<selectionEntries>
 						<selectionEntry type="model"
 						                subType="crew"
-						                name="Doom Wolf"
+						                name="Dire Scurvy Dog"
 						                id="1c59ee05-341734fb"
 						                hidden="false">
 							<infoLinks>
-								<infoLink name="Dire Wolf"
+								<infoLink name="Scurvy Dog"
 								          hidden="false"
 								          type="profile"
 								          id="6f133523-3a27b951"
 								          targetId="5ba4-1dd6-2a91-a0c7">
 									<modifiers>
 										<modifier type="set"
-										          value="Doom Wolf"
+										          value="Dire Scurvy Dog"
 										          field="name"/>
 										<modifier type="increment"
 										          value="1"
@@ -6834,6 +6877,38 @@ Resurrected models are added to the front rank until it reaches the minimum requ
 							</categoryLinks>
 						</selectionEntry>
 					</selectionEntries>
+				</selectionEntryGroup>
+				<selectionEntryGroup name="Detatchment"
+				                     id="f316-d79f-53cb-f5b7"
+				                     hidden="true"
+				                     sortIndex="4">
+					<entryLinks>
+						<entryLink import="true"
+						           name="Detachment"
+						           hidden="false"
+						           id="0041-cf10-0481-211d"
+						           targetId="551d-34fe-3832-416d"
+						           type="selectionEntry"
+						           sortIndex="1"/>
+					</entryLinks>
+					<modifiers>
+						<modifier type="set"
+						          value="false"
+						          field="hidden">
+							<conditions>
+								<condition type="atLeast"
+								           value="1"
+								           field="selections"
+								           scope="force"
+								           childId="974c-3bf3-af4b-701d"
+								           shared="true"
+								           includeChildSelections="true">
+									<comment>Renegades</comment>
+								</condition>
+							</conditions>
+							<comment>Renegades</comment>
+						</modifier>
+					</modifiers>
 				</selectionEntryGroup>
 			</selectionEntryGroups>
 			<infoGroups>
@@ -7851,11 +7926,11 @@ Resurrected models are added to the front rank until it reaches the minimum requ
 				          hidden="false"
 				          type="profile"
 				          targetId="d456-e30e-f85d-14d"/>
-				<infoLink name="Lore of Undeath"
+				<infoLink name="Lore Of The Deep"
 				          id="f370-9f2a-205e-81aa"
 				          hidden="false"
 				          type="infoGroup"
-				          targetId="5b5f-acf0-7c9-33b5"/>
+				          targetId="5b5f-acf0-7c9-33b6"/>
 			</infoLinks>
 			<costs>
 				<cost name="pts"
@@ -8275,7 +8350,7 @@ Resurrected models are added to the front rank until it reaches the minimum requ
 								          field="name"/>
 							</modifiers>
 						</infoLink>
-						<infoLink name="Lore Of Undeath"
+						<infoLink name="Lore Of The Deep"
 						          id="68e5a80f-106ba49d"
 						          hidden="false"
 						          type="profile"
@@ -8365,6 +8440,15 @@ Resurrected models are added to the front rank until it reaches the minimum requ
 				              targetId="a4cc-15c9-cfae-1b3b"
 				              primary="true"/>
 			</categoryLinks>
+			<constraints>
+				<constraint type="max"
+				            value="1"
+				            field="selections"
+				            scope="parent"
+				            shared="false"
+				            id="a7dac92d-ba607ce3"
+				            includeChildSelections="false"/>
+			</constraints>
 		</entryLink>
 		<entryLink import="true"
 		           name="Necromantic Acolyte"
@@ -8372,8 +8456,6 @@ Resurrected models are added to the front rank until it reaches the minimum requ
 		           id="758c1ce6-75a96bf0"
 		           type="selectionEntry"
 		           targetId="824d1325-da3dc21b">
-			<categoryLinks>
-			</categoryLinks>
 			<categoryLinks>
 				<categoryLink name="Characters"
 				              hidden="false"
@@ -8426,6 +8508,13 @@ Resurrected models are added to the front rank until it reaches the minimum requ
 		           id="fca943a-f6d4b24"
 		           type="selectionEntry"
 		           targetId="43e40e59-363a50af">
+			<categoryLinks>
+				<categoryLink name="Characters"
+				              hidden="false"
+				              id="489-c9d5-fed6-3e9c"
+				              targetId="a4cc-15c9-cfae-1b3b"
+				              primary="true"/>
+			</categoryLinks>
 		</entryLink>
 		<entryLink import="true"
 		           name="Depth Guard"
@@ -8489,6 +8578,15 @@ Resurrected models are added to the front rank until it reaches the minimum requ
 				              primary="false"
 				              targetId="fec1-537a-bbeb-7926"/>
 			</categoryLinks>
+			<constraints>
+				<constraint type="min"
+				            value="1"
+				            field="selections"
+				            scope="force"
+				            shared="true"
+				            id="4591-a3bb-aa44-914d"
+				            includeChildSelections="true"/>
+			</constraints>
 		</entryLink>
 		<entryLink import="true"
 		           name="Animated Hulks"
@@ -8617,7 +8715,7 @@ Resurrected models are added to the front rank until it reaches the minimum requ
 			</modifiers>
 		</entryLink>
 		<entryLink import="true"
-		           name="Dire Wolves"
+		           name="Scurvy Dogs"
 		           hidden="false"
 		           id="7fb4acf0-f460a4ba"
 		           type="selectionEntry"
@@ -9011,7 +9109,7 @@ Resurrected models are added to the front rank until it reaches the minimum requ
 				</modifier>
 			</modifiers>
 		</categoryEntry>
-		</categoryEntries>
+	</categoryEntries>
 	<sharedSelectionEntryGroups>
 		<selectionEntryGroup name="Mount"
 		                     hidden="false"

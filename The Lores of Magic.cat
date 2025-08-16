@@ -938,6 +938,50 @@ However, if this model casts the Light of Death Bound spell, this Bound spell wi
         </profile>
       </profiles>
     </infoGroup>
+	<infoGroup name="Lore of The Deep" hidden="false" id="5b5f-acf0-7c9-33b6">
+      <comment>Lore of Magic</comment>
+      <profiles>
+        <profile name="Raise Dead" typeId="8232-ae14-b1f6-b4df" typeName="Spell" hidden="false" id="4ee2-60-e41c-708e">
+          <characteristics>
+            <characteristic name="Number" typeId="8a2b-690b-e552-6aa0">3</characteristic>
+            <characteristic name="Type" typeId="c2ca-5fd1-5e9d-bc90">Enchantment</characteristic>
+            <characteristic name="Casting Value" typeId="d84d-3b8b-654a-9e1a">10+</characteristic>
+            <characteristic name="Range" typeId="1043-a0ad-2909-dd28">12</characteristic>
+            <characteristic name="Effect" typeId="64ba-31-acf0-5a">Place a unit of 2D3 Risen Zombies on the battlefield anywhere completely within 12&quot; of this model, but not within 1&quot; of any enemy models. This unit cannot declare a charge during the turn in which it was raised.</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="Kiss Of The Deep" typeId="8232-ae14-b1f6-b4df" typeName="Spell" hidden="false" id="7356-68b4-107d-2dff">
+          <characteristics>
+            <characteristic name="Number" typeId="8a2b-690b-e552-6aa0">1</characteristic>
+            <characteristic name="Type" typeId="c2ca-5fd1-5e9d-bc90">Magical Vortex</characteristic>
+            <characteristic name="Casting Value" typeId="d84d-3b8b-654a-9e1a">7+/9+</characteristic>
+            <characteristic name="Range" typeId="1043-a0ad-2909-dd28">15</characteristic>
+            <characteristic name="Effect" typeId="64ba-31-acf0-5a">If this spell is cast with a casting result of 8 or more, the target friendly unit gains a +D3 modifier to one of the following characteristics (to a maximum of 10). If this spell is cast with a casting result of 12 or more, the target friendly unit gains a +D3 modifier to two of the following characteristics (to a maximum of 10). This spell lasts until your next Start of Turn sub-phase.Remains in Play. If this spell is cast with a casting
+result of 7 or more, place a small (3") blast template so that
+its central hole is within 15" of the caster. If this spell is cast
+with a casting result of 9 or more, place a large (5") blast
+template so that its central hole is within 15" of the caster.
+Whilst in play, the template does not move and is treated
+as a water terrain feature. Enemy units treat the water
+terrain as dangerous terrain, and any unit (friend or foe)
+with the Flaming Attacks special rule within the water
+terrain loses the Flaming Attacks special rule, unless they
+also have the Magical Attacks special rule. </characteristic>
+          </characteristics>
+        </profile>
+        <profile name="Dead Eye" typeId="8232-ae14-b1f6-b4df" typeName="Spell" hidden="false" id="f806-9fb-d767-14b7">
+          <characteristics>
+            <characteristic name="Number" typeId="8a2b-690b-e552-6aa0">2</characteristic>
+            <characteristic name="Type" typeId="c2ca-5fd1-5e9d-bc90">Enchantment</characteristic>
+            <characteristic name="Casting Value" typeId="d84d-3b8b-654a-9e1a">7+</characteristic>
+            <characteristic name="Range" typeId="1043-a0ad-2909-dd28">12</characteristic>
+            <characteristic name="Effect" typeId="64ba-31-acf0-5a">A target friendly unit gains a +D3 modifier to their
+Ballistic Skill characteristic (to a maximum of 10). This
+spell lasts until your next Start of Turn sub-phase. </characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+    </infoGroup>
     <infoGroup name="Lore of Undeath" hidden="false" id="5b5f-acf0-7c9-33b5">
       <comment>Lore of Magic</comment>
       <profiles>
