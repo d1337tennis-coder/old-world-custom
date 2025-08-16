@@ -76,7 +76,7 @@
     <categoryEntry name="Faction: Tomb Kings: Mortuary Cult" id="22ae-234f-ffd2-6c4f" hidden="true"/>
     <categoryEntry name="Faction: Tomb Kings - Nehekharan Royal Host" id="fdc8-bc34-f83d-4833" hidden="true"/>
     <categoryEntry name="Faction: Vampire Counts" id="7345-d692-6f6a-d6f6" hidden="true"/>
-	<categoryEntry name="Faction: Vampire Coast" id="7345-d692-6f6a-d6f6" hidden="true"/>
+    <categoryEntry name="Faction: Vampire Coast" id="7345-d692-6f6a-d6f7" hidden="true"/>
     <categoryEntry name="Faction: Warriors of Chaos" id="75a1-ee95-da32-b765" hidden="true"/>
     <categoryEntry name="Faction: Wood Elf Realms" id="f9f5-dd21-7903-b9c" hidden="true"/>
     <categoryEntry name="Commander of the Empire" id="94df-cedb-8070-80ec" hidden="true"/>
@@ -543,6 +543,20 @@
                         </conditionGroup>
                       </conditionGroups>
                     </conditionGroup>
+					
+					<conditionGroup type="and">
+                      <conditions>
+                        <condition type="instanceOf" value="1" field="selections" scope="parent" childId="4545-8340-9988-9ea1" shared="true"/>
+                      </conditions>
+                      <conditionGroups>
+                        <conditionGroup type="or">
+                          <conditions>
+                            <condition type="instanceOf" value="1" field="selections" scope="primary-catalogue" childId="be27-8084-f552-1f4" shared="true"/>
+                          </conditions>
+                        </conditionGroup>
+                      </conditionGroups>
+                    </conditionGroup>
+					
                     <conditionGroup type="and">
                       <conditions>
                         <condition type="instanceOf" value="1" field="selections" scope="parent" childId="d9b0-fa44-a251-bfea" shared="true"/>

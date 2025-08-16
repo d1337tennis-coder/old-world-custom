@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue library="false" id="4545-8340-9988-9ea0" name="Vampire Coast" gameSystemId="sys-31d1-bf57-53ea-ad55" gameSystemRevision="49" revision="61" battleScribeVersion="2.03" type="catalogue" xmlns="http://www.battlescribe.net/schema/catalogueSchema" authorContact="Giloushaker#2496">
+<catalogue library="false" id="4545-8340-9988-9ea0" name="Vampire Counts" gameSystemId="sys-31d1-bf57-53ea-ad55" gameSystemRevision="49" revision="61" battleScribeVersion="2.03" type="catalogue" xmlns="http://www.battlescribe.net/schema/catalogueSchema" authorContact="Giloushaker#2496">
   <sharedProfiles>
     <profile name="Vampire Count" typeId="b070-143a-73f-2772" typeName="Model" hidden="false" id="57d7-6e34-d546-4b92">
       <characteristics>
@@ -53,6 +53,32 @@
         <characteristic name="Ld" typeId="c435-6b14-f77e-3c72">7</characteristic>
       </characteristics>
     </profile>
+    <profile name="Strigoi Ghoul King" typeId="b070-143a-73f-2772" typeName="Model" hidden="false" id="3ba1-d1c3-85db-7b40">
+      <characteristics>
+        <characteristic name="M" typeId="cd3b-a5a4-e185-5a9d">6</characteristic>
+        <characteristic name="WS" typeId="b007-7d58-4f14-1e01">6</characteristic>
+        <characteristic name="BS" typeId="59f9-ccf5-1155-fb05">3</characteristic>
+        <characteristic name="S" typeId="5b6b-1427-2a45-dd0c">5</characteristic>
+        <characteristic name="T" typeId="ab43-8b61-83e7-d090">5</characteristic>
+        <characteristic name="W" typeId="83ed-7b82-bf1f-e558">3</characteristic>
+        <characteristic name="I" typeId="73b1-abe5-72f8-41e2">7</characteristic>
+        <characteristic name="A" typeId="dddc-9fbd-b0fd-a480">5</characteristic>
+        <characteristic name="Ld" typeId="c435-6b14-f77e-3c72">8</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Cairn Wraith" typeId="b070-143a-73f-2772" typeName="Model" hidden="false" id="70d2-e90f-ae9-7642">
+      <characteristics>
+        <characteristic name="M" typeId="cd3b-a5a4-e185-5a9d">6</characteristic>
+        <characteristic name="WS" typeId="b007-7d58-4f14-1e01">4</characteristic>
+        <characteristic name="BS" typeId="59f9-ccf5-1155-fb05">0</characteristic>
+        <characteristic name="S" typeId="5b6b-1427-2a45-dd0c">3</characteristic>
+        <characteristic name="T" typeId="ab43-8b61-83e7-d090">3</characteristic>
+        <characteristic name="W" typeId="83ed-7b82-bf1f-e558">3</characteristic>
+        <characteristic name="I" typeId="73b1-abe5-72f8-41e2">2</characteristic>
+        <characteristic name="A" typeId="dddc-9fbd-b0fd-a480">2</characteristic>
+        <characteristic name="Ld" typeId="c435-6b14-f77e-3c72">6</characteristic>
+      </characteristics>
+    </profile>
     <profile name="Wight King" typeId="b070-143a-73f-2772" typeName="Model" hidden="false" id="c886-9a30-fee7-e4be">
       <characteristics>
         <characteristic name="M" typeId="cd3b-a5a4-e185-5a9d">4</characteristic>
@@ -92,29 +118,56 @@
         <characteristic name="Ld" typeId="c435-6b14-f77e-3c72">6</characteristic>
       </characteristics>
     </profile>
-    <profile name="Rotting Promethian" typeId="b070-143a-73f-2772" typeName="Model" hidden="false" id="8892-757b-d362-a1c3">
+    <profile name="Skeletal Steed" typeId="b070-143a-73f-2772" typeName="Model" hidden="false" id="8892-757b-d362-a1c3">
       <characteristics>
-        <characteristic name="M" typeId="cd3b-a5a4-e185-5a9d">6</characteristic>
+        <characteristic name="M" typeId="cd3b-a5a4-e185-5a9d">7</characteristic>
         <characteristic name="WS" typeId="b007-7d58-4f14-1e01">2</characteristic>
         <characteristic name="BS" typeId="59f9-ccf5-1155-fb05">-</characteristic>
-        <characteristic name="S" typeId="5b6b-1427-2a45-dd0c">4</characteristic>
-        <characteristic name="T" typeId="ab43-8b61-83e7-d090">5</characteristic>
-        <characteristic name="W" typeId="83ed-7b82-bf1f-e558">3</characteristic>
-        <characteristic name="I" typeId="73b1-abe5-72f8-41e2">1</characteristic>
-        <characteristic name="A" typeId="dddc-9fbd-b0fd-a480">2</characteristic>
+        <characteristic name="S" typeId="5b6b-1427-2a45-dd0c">3</characteristic>
+        <characteristic name="T" typeId="ab43-8b61-83e7-d090">-</characteristic>
+        <characteristic name="W" typeId="83ed-7b82-bf1f-e558">-</characteristic>
+        <characteristic name="I" typeId="73b1-abe5-72f8-41e2">2</characteristic>
+        <characteristic name="A" typeId="dddc-9fbd-b0fd-a480">1</characteristic>
         <characteristic name="Ld" typeId="c435-6b14-f77e-3c72">-</characteristic>
       </characteristics>
-      <comment>Character Mounts/Rotting Promethian</comment>
+      <comment>Character Mounts/Skeletal Steed</comment>
     </profile>
-    <profile name="Depth Guard" typeId="b070-143a-73f-2772" typeName="Model" hidden="false" id="3877-8b67-1cd9-17d0">
+    <profile name="Nightmare" typeId="b070-143a-73f-2772" typeName="Model" hidden="false" id="ac5a-4d2f-494f-15b7">
       <characteristics>
-        <characteristic name="M" typeId="cd3b-a5a4-e185-5a9d">6</characteristic>
-        <characteristic name="WS" typeId="b007-7d58-4f14-1e01">5</characteristic>
+        <characteristic name="M" typeId="cd3b-a5a4-e185-5a9d">7</characteristic>
+        <characteristic name="WS" typeId="b007-7d58-4f14-1e01">3</characteristic>
+        <characteristic name="BS" typeId="59f9-ccf5-1155-fb05">-</characteristic>
+        <characteristic name="S" typeId="5b6b-1427-2a45-dd0c">4</characteristic>
+        <characteristic name="T" typeId="ab43-8b61-83e7-d090">-</characteristic>
+        <characteristic name="W" typeId="83ed-7b82-bf1f-e558">-</characteristic>
+        <characteristic name="I" typeId="73b1-abe5-72f8-41e2">2</characteristic>
+        <characteristic name="A" typeId="dddc-9fbd-b0fd-a480">1</characteristic>
+        <characteristic name="Ld" typeId="c435-6b14-f77e-3c72">-</characteristic>
+      </characteristics>
+      <comment>Nightmare/Nightmare</comment>
+    </profile>
+    <profile name="Grave Guard" typeId="b070-143a-73f-2772" typeName="Model" hidden="false" id="3877-8b67-1cd9-17d0">
+      <characteristics>
+        <characteristic name="M" typeId="cd3b-a5a4-e185-5a9d">4</characteristic>
+        <characteristic name="WS" typeId="b007-7d58-4f14-1e01">3</characteristic>
         <characteristic name="BS" typeId="59f9-ccf5-1155-fb05">3</characteristic>
         <characteristic name="S" typeId="5b6b-1427-2a45-dd0c">4</characteristic>
         <characteristic name="T" typeId="ab43-8b61-83e7-d090">4</characteristic>
         <characteristic name="W" typeId="83ed-7b82-bf1f-e558">1</characteristic>
-        <characteristic name="I" typeId="73b1-abe5-72f8-41e2">4</characteristic>
+        <characteristic name="I" typeId="73b1-abe5-72f8-41e2">3</characteristic>
+        <characteristic name="A" typeId="dddc-9fbd-b0fd-a480">1</characteristic>
+        <characteristic name="Ld" typeId="c435-6b14-f77e-3c72">7</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Seneschal" typeId="b070-143a-73f-2772" typeName="Model" hidden="false" id="6f79-8bf2-b955-39e2">
+      <characteristics>
+        <characteristic name="M" typeId="cd3b-a5a4-e185-5a9d">4</characteristic>
+        <characteristic name="WS" typeId="b007-7d58-4f14-1e01">3</characteristic>
+        <characteristic name="BS" typeId="59f9-ccf5-1155-fb05">3</characteristic>
+        <characteristic name="S" typeId="5b6b-1427-2a45-dd0c">4</characteristic>
+        <characteristic name="T" typeId="ab43-8b61-83e7-d090">4</characteristic>
+        <characteristic name="W" typeId="83ed-7b82-bf1f-e558">1</characteristic>
+        <characteristic name="I" typeId="73b1-abe5-72f8-41e2">3</characteristic>
         <characteristic name="A" typeId="dddc-9fbd-b0fd-a480">2</characteristic>
         <characteristic name="Ld" typeId="c435-6b14-f77e-3c72">7</characteristic>
       </characteristics>
@@ -158,6 +211,32 @@
         <characteristic name="Ld" typeId="c435-6b14-f77e-3c72">2</characteristic>
       </characteristics>
     </profile>
+    <profile name="Crypt Ghoul" typeId="b070-143a-73f-2772" typeName="Model" hidden="false" id="b54a-269f-1849-d5f1">
+      <characteristics>
+        <characteristic name="M" typeId="cd3b-a5a4-e185-5a9d">5</characteristic>
+        <characteristic name="WS" typeId="b007-7d58-4f14-1e01">3</characteristic>
+        <characteristic name="BS" typeId="59f9-ccf5-1155-fb05">3</characteristic>
+        <characteristic name="S" typeId="5b6b-1427-2a45-dd0c">3</characteristic>
+        <characteristic name="T" typeId="ab43-8b61-83e7-d090">4</characteristic>
+        <characteristic name="W" typeId="83ed-7b82-bf1f-e558">1</characteristic>
+        <characteristic name="I" typeId="73b1-abe5-72f8-41e2">3</characteristic>
+        <characteristic name="A" typeId="dddc-9fbd-b0fd-a480">2</characteristic>
+        <characteristic name="Ld" typeId="c435-6b14-f77e-3c72">5</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Crypt Ghast" typeId="b070-143a-73f-2772" typeName="Model" hidden="false" id="5cb2-f619-6abf-462f">
+      <characteristics>
+        <characteristic name="M" typeId="cd3b-a5a4-e185-5a9d">5</characteristic>
+        <characteristic name="WS" typeId="b007-7d58-4f14-1e01">3</characteristic>
+        <characteristic name="BS" typeId="59f9-ccf5-1155-fb05">3</characteristic>
+        <characteristic name="S" typeId="5b6b-1427-2a45-dd0c">3</characteristic>
+        <characteristic name="T" typeId="ab43-8b61-83e7-d090">4</characteristic>
+        <characteristic name="W" typeId="83ed-7b82-bf1f-e558">1</characteristic>
+        <characteristic name="I" typeId="73b1-abe5-72f8-41e2">3</characteristic>
+        <characteristic name="A" typeId="dddc-9fbd-b0fd-a480">3</characteristic>
+        <characteristic name="Ld" typeId="c435-6b14-f77e-3c72">5</characteristic>
+      </characteristics>
+    </profile>
     <profile name="Vargheist" typeId="b070-143a-73f-2772" typeName="Model" hidden="false" id="1aaf-8a5f-45d8-4fe">
       <characteristics>
         <characteristic name="M" typeId="cd3b-a5a4-e185-5a9d">6</characteristic>
@@ -183,6 +262,86 @@
         <characteristic name="A" typeId="dddc-9fbd-b0fd-a480">4</characteristic>
         <characteristic name="Ld" typeId="c435-6b14-f77e-3c72">7</characteristic>
       </characteristics>
+    </profile>
+    <profile name="Blood Knight" typeId="b070-143a-73f-2772" typeName="Model" hidden="false" id="15cf-d66d-a9da-15a2">
+      <characteristics>
+        <characteristic name="M" typeId="cd3b-a5a4-e185-5a9d">-</characteristic>
+        <characteristic name="WS" typeId="b007-7d58-4f14-1e01">5</characteristic>
+        <characteristic name="BS" typeId="59f9-ccf5-1155-fb05">3</characteristic>
+        <characteristic name="S" typeId="5b6b-1427-2a45-dd0c">4</characteristic>
+        <characteristic name="T" typeId="ab43-8b61-83e7-d090">4</characteristic>
+        <characteristic name="W" typeId="83ed-7b82-bf1f-e558">1</characteristic>
+        <characteristic name="I" typeId="73b1-abe5-72f8-41e2">4</characteristic>
+        <characteristic name="A" typeId="dddc-9fbd-b0fd-a480">2</characteristic>
+        <characteristic name="Ld" typeId="c435-6b14-f77e-3c72">7</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Kastellan" typeId="b070-143a-73f-2772" typeName="Model" hidden="false" id="86e1-4934-bee0-cf15">
+      <characteristics>
+        <characteristic name="M" typeId="cd3b-a5a4-e185-5a9d">-</characteristic>
+        <characteristic name="WS" typeId="b007-7d58-4f14-1e01">5</characteristic>
+        <characteristic name="BS" typeId="59f9-ccf5-1155-fb05">3</characteristic>
+        <characteristic name="S" typeId="5b6b-1427-2a45-dd0c">4</characteristic>
+        <characteristic name="T" typeId="ab43-8b61-83e7-d090">4</characteristic>
+        <characteristic name="W" typeId="83ed-7b82-bf1f-e558">1</characteristic>
+        <characteristic name="I" typeId="73b1-abe5-72f8-41e2">4</characteristic>
+        <characteristic name="A" typeId="dddc-9fbd-b0fd-a480">3</characteristic>
+        <characteristic name="Ld" typeId="c435-6b14-f77e-3c72">7</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Nightmare" typeId="b070-143a-73f-2772" typeName="Model" hidden="false" id="c60a-36e-bc9a-83f5">
+      <characteristics>
+        <characteristic name="M" typeId="cd3b-a5a4-e185-5a9d">7</characteristic>
+        <characteristic name="WS" typeId="b007-7d58-4f14-1e01">3</characteristic>
+        <characteristic name="BS" typeId="59f9-ccf5-1155-fb05">-</characteristic>
+        <characteristic name="S" typeId="5b6b-1427-2a45-dd0c">4</characteristic>
+        <characteristic name="T" typeId="ab43-8b61-83e7-d090">-</characteristic>
+        <characteristic name="W" typeId="83ed-7b82-bf1f-e558">-</characteristic>
+        <characteristic name="I" typeId="73b1-abe5-72f8-41e2">2</characteristic>
+        <characteristic name="A" typeId="dddc-9fbd-b0fd-a480">1</characteristic>
+        <characteristic name="Ld" typeId="c435-6b14-f77e-3c72">-</characteristic>
+      </characteristics>
+      <comment>Blood Knights/Nightmare</comment>
+    </profile>
+    <profile name="Black Knight" typeId="b070-143a-73f-2772" typeName="Model" hidden="false" id="8d01-ca72-6fc-18f2">
+      <characteristics>
+        <characteristic name="M" typeId="cd3b-a5a4-e185-5a9d">-</characteristic>
+        <characteristic name="WS" typeId="b007-7d58-4f14-1e01">3</characteristic>
+        <characteristic name="BS" typeId="59f9-ccf5-1155-fb05">0</characteristic>
+        <characteristic name="S" typeId="5b6b-1427-2a45-dd0c">4</characteristic>
+        <characteristic name="T" typeId="ab43-8b61-83e7-d090">4</characteristic>
+        <characteristic name="W" typeId="83ed-7b82-bf1f-e558">1</characteristic>
+        <characteristic name="I" typeId="73b1-abe5-72f8-41e2">3</characteristic>
+        <characteristic name="A" typeId="dddc-9fbd-b0fd-a480">1</characteristic>
+        <characteristic name="Ld" typeId="c435-6b14-f77e-3c72">6</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Hell Knight" typeId="b070-143a-73f-2772" typeName="Model" hidden="false" id="989b-45a8-a56d-2249">
+      <characteristics>
+        <characteristic name="M" typeId="cd3b-a5a4-e185-5a9d">-</characteristic>
+        <characteristic name="WS" typeId="b007-7d58-4f14-1e01">3</characteristic>
+        <characteristic name="BS" typeId="59f9-ccf5-1155-fb05">0</characteristic>
+        <characteristic name="S" typeId="5b6b-1427-2a45-dd0c">4</characteristic>
+        <characteristic name="T" typeId="ab43-8b61-83e7-d090">4</characteristic>
+        <characteristic name="W" typeId="83ed-7b82-bf1f-e558">1</characteristic>
+        <characteristic name="I" typeId="73b1-abe5-72f8-41e2">3</characteristic>
+        <characteristic name="A" typeId="dddc-9fbd-b0fd-a480">2</characteristic>
+        <characteristic name="Ld" typeId="c435-6b14-f77e-3c72">6</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Skeletal Steed" typeId="b070-143a-73f-2772" typeName="Model" hidden="false" id="e980-55f2-3e8-9065">
+      <characteristics>
+        <characteristic name="M" typeId="cd3b-a5a4-e185-5a9d">7</characteristic>
+        <characteristic name="WS" typeId="b007-7d58-4f14-1e01">2</characteristic>
+        <characteristic name="BS" typeId="59f9-ccf5-1155-fb05">-</characteristic>
+        <characteristic name="S" typeId="5b6b-1427-2a45-dd0c">3</characteristic>
+        <characteristic name="T" typeId="ab43-8b61-83e7-d090">-</characteristic>
+        <characteristic name="W" typeId="83ed-7b82-bf1f-e558">-</characteristic>
+        <characteristic name="I" typeId="73b1-abe5-72f8-41e2">2</characteristic>
+        <characteristic name="A" typeId="dddc-9fbd-b0fd-a480">1</characteristic>
+        <characteristic name="Ld" typeId="c435-6b14-f77e-3c72">-</characteristic>
+      </characteristics>
+      <comment>Black Knights/Skeletal Steed</comment>
     </profile>
     <profile name="Dire Wolf" typeId="b070-143a-73f-2772" typeName="Model" hidden="false" id="5ba4-1dd6-2a91-a0c7">
       <characteristics>
@@ -210,6 +369,98 @@
         <characteristic name="Ld" typeId="c435-6b14-f77e-3c72">3</characteristic>
       </characteristics>
     </profile>
+    <profile name="Hexwraith" typeId="b070-143a-73f-2772" typeName="Model" hidden="false" id="ebad-4d4b-8589-2ec9">
+      <characteristics>
+        <characteristic name="M" typeId="cd3b-a5a4-e185-5a9d">-</characteristic>
+        <characteristic name="WS" typeId="b007-7d58-4f14-1e01">3</characteristic>
+        <characteristic name="BS" typeId="59f9-ccf5-1155-fb05">0</characteristic>
+        <characteristic name="S" typeId="5b6b-1427-2a45-dd0c">3</characteristic>
+        <characteristic name="T" typeId="ab43-8b61-83e7-d090">3</characteristic>
+        <characteristic name="W" typeId="83ed-7b82-bf1f-e558">1</characteristic>
+        <characteristic name="I" typeId="73b1-abe5-72f8-41e2">2</characteristic>
+        <characteristic name="A" typeId="dddc-9fbd-b0fd-a480">1</characteristic>
+        <characteristic name="Ld" typeId="c435-6b14-f77e-3c72">5</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Hellwraith" typeId="b070-143a-73f-2772" typeName="Model" hidden="false" id="6040-d18d-f63a-61e2">
+      <characteristics>
+        <characteristic name="M" typeId="cd3b-a5a4-e185-5a9d">-</characteristic>
+        <characteristic name="WS" typeId="b007-7d58-4f14-1e01">3</characteristic>
+        <characteristic name="BS" typeId="59f9-ccf5-1155-fb05">0</characteristic>
+        <characteristic name="S" typeId="5b6b-1427-2a45-dd0c">3</characteristic>
+        <characteristic name="T" typeId="ab43-8b61-83e7-d090">3</characteristic>
+        <characteristic name="W" typeId="83ed-7b82-bf1f-e558">1</characteristic>
+        <characteristic name="I" typeId="73b1-abe5-72f8-41e2">2</characteristic>
+        <characteristic name="A" typeId="dddc-9fbd-b0fd-a480">2</characteristic>
+        <characteristic name="Ld" typeId="c435-6b14-f77e-3c72">5</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Spectral Steed" typeId="b070-143a-73f-2772" typeName="Model" hidden="false" id="e731-556f-d38d-38ef">
+      <characteristics>
+        <characteristic name="M" typeId="cd3b-a5a4-e185-5a9d">8</characteristic>
+        <characteristic name="WS" typeId="b007-7d58-4f14-1e01">2</characteristic>
+        <characteristic name="BS" typeId="59f9-ccf5-1155-fb05">-</characteristic>
+        <characteristic name="S" typeId="5b6b-1427-2a45-dd0c">3</characteristic>
+        <characteristic name="T" typeId="ab43-8b61-83e7-d090">-</characteristic>
+        <characteristic name="W" typeId="83ed-7b82-bf1f-e558">-</characteristic>
+        <characteristic name="I" typeId="73b1-abe5-72f8-41e2">2</characteristic>
+        <characteristic name="A" typeId="dddc-9fbd-b0fd-a480">1</characteristic>
+        <characteristic name="Ld" typeId="c435-6b14-f77e-3c72">-</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Coven Throne" typeId="b070-143a-73f-2772" typeName="Model" hidden="false" id="43a8-189a-dac9-b9ca">
+      <characteristics>
+        <characteristic name="M" typeId="cd3b-a5a4-e185-5a9d">-</characteristic>
+        <characteristic name="WS" typeId="b007-7d58-4f14-1e01">-</characteristic>
+        <characteristic name="BS" typeId="59f9-ccf5-1155-fb05">-</characteristic>
+        <characteristic name="S" typeId="5b6b-1427-2a45-dd0c">5</characteristic>
+        <characteristic name="T" typeId="ab43-8b61-83e7-d090">5</characteristic>
+        <characteristic name="W" typeId="83ed-7b82-bf1f-e558">5</characteristic>
+        <characteristic name="I" typeId="73b1-abe5-72f8-41e2">-</characteristic>
+        <characteristic name="A" typeId="dddc-9fbd-b0fd-a480">-</characteristic>
+        <characteristic name="Ld" typeId="c435-6b14-f77e-3c72">-</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Pallid Handmaidens (x2)" typeId="b070-143a-73f-2772" typeName="Model" hidden="false" id="73fe-c0e8-b3ad-948c">
+      <characteristics>
+        <characteristic name="M" typeId="cd3b-a5a4-e185-5a9d">-</characteristic>
+        <characteristic name="WS" typeId="b007-7d58-4f14-1e01">5</characteristic>
+        <characteristic name="BS" typeId="59f9-ccf5-1155-fb05">3</characteristic>
+        <characteristic name="S" typeId="5b6b-1427-2a45-dd0c">5</characteristic>
+        <characteristic name="T" typeId="ab43-8b61-83e7-d090">-</characteristic>
+        <characteristic name="W" typeId="83ed-7b82-bf1f-e558">-</characteristic>
+        <characteristic name="I" typeId="73b1-abe5-72f8-41e2">5</characteristic>
+        <characteristic name="A" typeId="dddc-9fbd-b0fd-a480">2</characteristic>
+        <characteristic name="Ld" typeId="c435-6b14-f77e-3c72">7</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Spirit Horde" typeId="b070-143a-73f-2772" typeName="Model" hidden="false" id="b645-8949-423-455e">
+      <characteristics>
+        <characteristic name="M" typeId="cd3b-a5a4-e185-5a9d">6</characteristic>
+        <characteristic name="WS" typeId="b007-7d58-4f14-1e01">3</characteristic>
+        <characteristic name="BS" typeId="59f9-ccf5-1155-fb05">0</characteristic>
+        <characteristic name="S" typeId="5b6b-1427-2a45-dd0c">3</characteristic>
+        <characteristic name="T" typeId="ab43-8b61-83e7-d090">-</characteristic>
+        <characteristic name="W" typeId="83ed-7b82-bf1f-e558">-</characteristic>
+        <characteristic name="I" typeId="73b1-abe5-72f8-41e2">1</characteristic>
+        <characteristic name="A" typeId="dddc-9fbd-b0fd-a480">D6</characteristic>
+        <characteristic name="Ld" typeId="c435-6b14-f77e-3c72">-</characteristic>
+      </characteristics>
+      <comment>Coven Throne/Spirit Horde</comment>
+    </profile>
+    <profile name="Mortis Engine" typeId="b070-143a-73f-2772" typeName="Model" hidden="false" id="7512-3a1e-a046-58a4">
+      <characteristics>
+        <characteristic name="M" typeId="cd3b-a5a4-e185-5a9d">-</characteristic>
+        <characteristic name="WS" typeId="b007-7d58-4f14-1e01">-</characteristic>
+        <characteristic name="BS" typeId="59f9-ccf5-1155-fb05">-</characteristic>
+        <characteristic name="S" typeId="5b6b-1427-2a45-dd0c">5</characteristic>
+        <characteristic name="T" typeId="ab43-8b61-83e7-d090">5</characteristic>
+        <characteristic name="W" typeId="83ed-7b82-bf1f-e558">5</characteristic>
+        <characteristic name="I" typeId="73b1-abe5-72f8-41e2">-</characteristic>
+        <characteristic name="A" typeId="dddc-9fbd-b0fd-a480">-</characteristic>
+        <characteristic name="Ld" typeId="c435-6b14-f77e-3c72">-</characteristic>
+      </characteristics>
+    </profile>
     <profile name="Banshees (x3)" typeId="b070-143a-73f-2772" typeName="Model" hidden="false" id="7fd7-f1fb-b905-c279">
       <characteristics>
         <characteristic name="M" typeId="cd3b-a5a4-e185-5a9d">-</characteristic>
@@ -222,6 +473,20 @@
         <characteristic name="A" typeId="dddc-9fbd-b0fd-a480">1</characteristic>
         <characteristic name="Ld" typeId="c435-6b14-f77e-3c72">5</characteristic>
       </characteristics>
+    </profile>
+    <profile name="Spirit Horde" typeId="b070-143a-73f-2772" typeName="Model" hidden="false" id="e8fe-e89f-1d70-a08">
+      <characteristics>
+        <characteristic name="M" typeId="cd3b-a5a4-e185-5a9d">6</characteristic>
+        <characteristic name="WS" typeId="b007-7d58-4f14-1e01">3</characteristic>
+        <characteristic name="BS" typeId="59f9-ccf5-1155-fb05">0</characteristic>
+        <characteristic name="S" typeId="5b6b-1427-2a45-dd0c">3</characteristic>
+        <characteristic name="T" typeId="ab43-8b61-83e7-d090">-</characteristic>
+        <characteristic name="W" typeId="83ed-7b82-bf1f-e558">-</characteristic>
+        <characteristic name="I" typeId="73b1-abe5-72f8-41e2">1</characteristic>
+        <characteristic name="A" typeId="dddc-9fbd-b0fd-a480">D6</characteristic>
+        <characteristic name="Ld" typeId="c435-6b14-f77e-3c72">-</characteristic>
+      </characteristics>
+      <comment>Mortis Engine/Spirit Horde</comment>
     </profile>
     <profile name="Corpse Cart" typeId="b070-143a-73f-2772" typeName="Model" hidden="false" id="51ce-2fe3-100d-160e">
       <characteristics>
@@ -262,6 +527,45 @@
         <characteristic name="Ld" typeId="c435-6b14-f77e-3c72">-</characteristic>
       </characteristics>
     </profile>
+    <profile name="Black Coach" typeId="b070-143a-73f-2772" typeName="Model" hidden="false" id="2cb-e3fb-cfd3-8c35">
+      <characteristics>
+        <characteristic name="M" typeId="cd3b-a5a4-e185-5a9d">-</characteristic>
+        <characteristic name="WS" typeId="b007-7d58-4f14-1e01">-</characteristic>
+        <characteristic name="BS" typeId="59f9-ccf5-1155-fb05">-</characteristic>
+        <characteristic name="S" typeId="5b6b-1427-2a45-dd0c">5</characteristic>
+        <characteristic name="T" typeId="ab43-8b61-83e7-d090">6</characteristic>
+        <characteristic name="W" typeId="83ed-7b82-bf1f-e558">4</characteristic>
+        <characteristic name="I" typeId="73b1-abe5-72f8-41e2">-</characteristic>
+        <characteristic name="A" typeId="dddc-9fbd-b0fd-a480">-</characteristic>
+        <characteristic name="Ld" typeId="c435-6b14-f77e-3c72">-</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Wraith (x1)" typeId="b070-143a-73f-2772" typeName="Model" hidden="false" id="d1b8-cf5e-7460-576a">
+      <characteristics>
+        <characteristic name="M" typeId="cd3b-a5a4-e185-5a9d">-</characteristic>
+        <characteristic name="WS" typeId="b007-7d58-4f14-1e01">3</characteristic>
+        <characteristic name="BS" typeId="59f9-ccf5-1155-fb05">0</characteristic>
+        <characteristic name="S" typeId="5b6b-1427-2a45-dd0c">3</characteristic>
+        <characteristic name="T" typeId="ab43-8b61-83e7-d090">-</characteristic>
+        <characteristic name="W" typeId="83ed-7b82-bf1f-e558">-</characteristic>
+        <characteristic name="I" typeId="73b1-abe5-72f8-41e2">2</characteristic>
+        <characteristic name="A" typeId="dddc-9fbd-b0fd-a480">2</characteristic>
+        <characteristic name="Ld" typeId="c435-6b14-f77e-3c72">5</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Zombie Dragon" typeId="b070-143a-73f-2772" typeName="Model" hidden="false" id="60db-14be-87c2-319d">
+      <characteristics>
+        <characteristic name="M" typeId="cd3b-a5a4-e185-5a9d">6</characteristic>
+        <characteristic name="WS" typeId="b007-7d58-4f14-1e01">4</characteristic>
+        <characteristic name="BS" typeId="59f9-ccf5-1155-fb05">-</characteristic>
+        <characteristic name="S" typeId="5b6b-1427-2a45-dd0c">6</characteristic>
+        <characteristic name="T" typeId="ab43-8b61-83e7-d090">1</characteristic>
+        <characteristic name="W" typeId="83ed-7b82-bf1f-e558">5</characteristic>
+        <characteristic name="I" typeId="73b1-abe5-72f8-41e2">2</characteristic>
+        <characteristic name="A" typeId="dddc-9fbd-b0fd-a480">5</characteristic>
+        <characteristic name="Ld" typeId="c435-6b14-f77e-3c72">-</characteristic>
+      </characteristics>
+    </profile>
     <profile name="Terrorgheist" typeId="b070-143a-73f-2772" typeName="Model" hidden="false" id="20d6-3c33-ed64-2649">
       <characteristics>
         <characteristic name="M" typeId="cd3b-a5a4-e185-5a9d">6</characteristic>
@@ -273,6 +577,19 @@
         <characteristic name="I" typeId="73b1-abe5-72f8-41e2">3</characteristic>
         <characteristic name="A" typeId="dddc-9fbd-b0fd-a480">4</characteristic>
         <characteristic name="Ld" typeId="c435-6b14-f77e-3c72">4</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Abyssal Terror" typeId="b070-143a-73f-2772" typeName="Model" hidden="false" id="4628-f380-f88e-7c00">
+      <characteristics>
+        <characteristic name="M" typeId="cd3b-a5a4-e185-5a9d">6</characteristic>
+        <characteristic name="WS" typeId="b007-7d58-4f14-1e01">4</characteristic>
+        <characteristic name="BS" typeId="59f9-ccf5-1155-fb05">-</characteristic>
+        <characteristic name="S" typeId="5b6b-1427-2a45-dd0c">5</characteristic>
+        <characteristic name="T" typeId="ab43-8b61-83e7-d090">1</characteristic>
+        <characteristic name="W" typeId="83ed-7b82-bf1f-e558">4</characteristic>
+        <characteristic name="I" typeId="73b1-abe5-72f8-41e2">2</characteristic>
+        <characteristic name="A" typeId="dddc-9fbd-b0fd-a480">3</characteristic>
+        <characteristic name="Ld" typeId="c435-6b14-f77e-3c72">-</characteristic>
       </characteristics>
     </profile>
     <profile name="Varghulf" typeId="b070-143a-73f-2772" typeName="Model" hidden="false" id="108d-f743-d0f9-b8f0">
@@ -487,17 +804,17 @@ Note also that at least one model must remain in order for a unit to be healed. 
 Resurrected models are added to the front rank until it reaches the minimum required to claim a Rank Bonus, after which additional models can be added to the front or rear rank. If the unit already has more than one rank, models can only be added to the rear rank. A unit cannot be taken beyond its starting size.</characteristic>
       </characteristics>
     </profile>
-    <profile name="Rotting Promethian" typeId="b070-143a-73f-2772" typeName="Model" hidden="false" id="f7a3-1451-345a-5e19">
+    <profile name="Skeletal Steed" typeId="b070-143a-73f-2772" typeName="Model" hidden="false" id="f7a3-1451-345a-5e19">
       <characteristics>
-        <characteristic name="M" typeId="cd3b-a5a4-e185-5a9d">6</characteristic>
+        <characteristic name="M" typeId="cd3b-a5a4-e185-5a9d">7</characteristic>
         <characteristic name="WS" typeId="b007-7d58-4f14-1e01">2</characteristic>
         <characteristic name="BS" typeId="59f9-ccf5-1155-fb05">-</characteristic>
-        <characteristic name="S" typeId="5b6b-1427-2a45-dd0c">4</characteristic>
-        <characteristic name="T" typeId="ab43-8b61-83e7-d090">5</characteristic>
-        <characteristic name="W" typeId="83ed-7b82-bf1f-e558">3</characteristic>
-        <characteristic name="I" typeId="73b1-abe5-72f8-41e2">1</characteristic>
-        <characteristic name="A" typeId="dddc-9fbd-b0fd-a480">2</characteristic>
-        <characteristic name="Ld" typeId="c435-6b14-f77e-3c72">3</characteristic>
+        <characteristic name="S" typeId="5b6b-1427-2a45-dd0c">3</characteristic>
+        <characteristic name="T" typeId="ab43-8b61-83e7-d090">-</characteristic>
+        <characteristic name="W" typeId="83ed-7b82-bf1f-e558">-</characteristic>
+        <characteristic name="I" typeId="73b1-abe5-72f8-41e2">2</characteristic>
+        <characteristic name="A" typeId="dddc-9fbd-b0fd-a480">1</characteristic>
+        <characteristic name="Ld" typeId="c435-6b14-f77e-3c72">-</characteristic>
       </characteristics>
       <comment>Skeletal Steed/Skeletal Steed</comment>
     </profile>
@@ -551,6 +868,19 @@ Resurrected models are added to the front rank until it reaches the minimum requ
         <characteristic name="I" typeId="73b1-abe5-72f8-41e2">3</characteristic>
         <characteristic name="A" typeId="dddc-9fbd-b0fd-a480">2</characteristic>
         <characteristic name="Ld" typeId="c435-6b14-f77e-3c72">3</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Spirit Host" typeId="b070-143a-73f-2772" typeName="Model" hidden="false" id="6130-abb4-5b79-1faf">
+      <characteristics>
+        <characteristic name="M" typeId="cd3b-a5a4-e185-5a9d">6</characteristic>
+        <characteristic name="WS" typeId="b007-7d58-4f14-1e01">3</characteristic>
+        <characteristic name="BS" typeId="59f9-ccf5-1155-fb05">0</characteristic>
+        <characteristic name="S" typeId="5b6b-1427-2a45-dd0c">3</characteristic>
+        <characteristic name="T" typeId="ab43-8b61-83e7-d090">3</characteristic>
+        <characteristic name="W" typeId="83ed-7b82-bf1f-e558">4</characteristic>
+        <characteristic name="I" typeId="73b1-abe5-72f8-41e2">1</characteristic>
+        <characteristic name="A" typeId="dddc-9fbd-b0fd-a480">4</characteristic>
+        <characteristic name="Ld" typeId="c435-6b14-f77e-3c72">4</characteristic>
       </characteristics>
     </profile>
     <profile name="Infested" typeId="c1ac-c1c8-f9d5-9673" typeName="Special Rule" hidden="false" id="2368-87b7-7d34-5a">
@@ -4130,40 +4460,113 @@ Resurrected models are added to the front rank until it reaches the minimum requ
         <categoryLink name="Characters" hidden="false" id="8eb1-67e8-715e-35c4" targetId="a4cc-15c9-cfae-1b3b" primary="true"/>
       </categoryLinks>
     </entryLink>
-    <entryLink import="true" name="Strigoi Ghoul King" hidden="false" id="aba2369b-f537e829" type="selectionEntry" targetId="a2f2f56e-2000d478">
-      <categoryLinks>
-        <categoryLink name="Characters" hidden="false" id="ad06-7ea9-2699-663a" targetId="a4cc-15c9-cfae-1b3b" primary="true"/>
-        <categoryLink targetId="cbbb-81fa-cee7-4ce3" id="4af5-1525-4387-184a" primary="false" name="0-1 Vampire Count, Master Necromancer, or Strigoi Ghoul King per 1,000 points"/>
-      </categoryLinks>
-    </entryLink>
-    <entryLink import="true" name="Cairn Wraith" hidden="false" id="b4e06cfa-ad8e5de4" type="selectionEntry" targetId="27225e11-e1698367">
-      <categoryLinks>
-        <categoryLink name="Characters" hidden="false" id="2d44-9498-42e4-2c70" targetId="a4cc-15c9-cfae-1b3b" primary="true"/>
-      </categoryLinks>
-    </entryLink>
-    <entryLink import="true" name="Wight King" hidden="false" id="7374098c-2efc79d6" type="selectionEntry" targetId="e74f1cd7-7006c725">
-      <categoryLinks>
-        <categoryLink name="Characters" hidden="false" id="a28e-f1d8-a491-3285" targetId="a4cc-15c9-cfae-1b3b" primary="true"/>
-        <categoryLink name="0-1 Wight King or Banshee per 1,000 points" hidden="false" id="c8ef-c477-8d53-64bc" targetId="87c7-fde5-4261-9b19" primary="false"/>
-      </categoryLinks>
-    </entryLink>
-    <entryLink import="true" name="Wight Lord" hidden="false" id="45d5318c-d51461d6" type="selectionEntry" targetId="9124461f-fd01a4ad">
-      <categoryLinks>
-        <categoryLink name="Characters" hidden="false" id="489-c9d5-fed6-3e9c" targetId="a4cc-15c9-cfae-1b3b" primary="true"/>
-      </categoryLinks>
-    </entryLink>
-    <entryLink import="true" name="Tomb Banshee" hidden="false" id="fca943a-f6d4b24" type="selectionEntry" targetId="43e40e59-363a50af">
-      <categoryLinks>
-        <categoryLink name="Characters" hidden="false" id="ca9-1ae5-678d-b30c" targetId="a4cc-15c9-cfae-1b3b" primary="true"/>
-        <categoryLink name="0-1 Wight King or Banshee per 1,000 points" hidden="false" id="658c-e6c7-296a-fd41" targetId="87c7-fde5-4261-9b19" primary="false"/>
-      </categoryLinks>
-    </entryLink>
-    <entryLink import="true" name="Grave Guard" hidden="false" id="f0c93292-b031d5dc" type="selectionEntry" targetId="2c65c970-45a4dd3a">
-      <categoryLinks>
-        <categoryLink name="Special" hidden="false" id="2dad-11a6-e759-8e85" targetId="633f-f67a-1b6a-d203" primary="true"/>
-        <categoryLink name="0-1 Grave Guard or Black Knight per 1,000 points" hidden="false" id="163d-b232-5823-64ea" targetId="9836-1bed-24-6e3f" primary="false"/>
-        <categoryLink name="Units (not including units whose troop type is &apos;swarms&apos;, &apos;war beasts&apos; or &apos;war machines&apos;)" hidden="false" id="7a7c-dc98-9b8a-f3d5" primary="false" targetId="fec1-537a-bbeb-7926"/>
-      </categoryLinks>
+    <entryLink import="true"
+           name="Strigoi Ghoul King"
+           hidden="false"
+           id="aba2369b-f537e829"
+           type="selectionEntry"
+           targetId="a2f2f56e-2000d478">
+	<categoryLinks>
+		<categoryLink name="Characters"
+		              hidden="false"
+		              id="ad06-7ea9-2699-663a"
+		              targetId="a4cc-15c9-cfae-1b3b"
+		              primary="true"/>
+		<categoryLink targetId="cbbb-81fa-cee7-4ce3"
+		              id="4af5-1525-4387-184a"
+		              primary="false"
+		              name="0-1 Vampire Count, Master Necromancer, or Strigoi Ghoul King per 1,000 points"/>
+	</categoryLinks>
+</entryLink>
+<entryLink import="true"
+           name="Cairn Wraith"
+           hidden="false"
+           id="b4e06cfa-ad8e5de4"
+           type="selectionEntry"
+           targetId="27225e11-e1698367">
+	<categoryLinks>
+		<categoryLink name="Characters"
+		              hidden="false"
+		              id="2d44-9498-42e4-2c70"
+		              targetId="a4cc-15c9-cfae-1b3b"
+		              primary="true"/>
+	</categoryLinks>
+</entryLink>
+<entryLink import="true"
+           name="Wight King"
+           hidden="false"
+           id="7374098c-2efc79d6"
+           type="selectionEntry"
+           targetId="e74f1cd7-7006c725">
+	<categoryLinks>
+		<categoryLink name="Characters"
+		              hidden="false"
+		              id="a28e-f1d8-a491-3285"
+		              targetId="a4cc-15c9-cfae-1b3b"
+		              primary="true"/>
+		<categoryLink name="0-1 Wight King or Banshee per 1,000 points"
+		              hidden="false"
+		              id="c8ef-c477-8d53-64bc"
+		              targetId="87c7-fde5-4261-9b19"
+		              primary="false"/>
+	</categoryLinks>
+</entryLink>
+<entryLink import="true"
+           name="Wight Lord"
+           hidden="false"
+           id="45d5318c-d51461d6"
+           type="selectionEntry"
+           targetId="9124461f-fd01a4ad">
+	<categoryLinks>
+		<categoryLink name="Characters"
+		              hidden="false"
+		              id="489-c9d5-fed6-3e9c"
+		              targetId="a4cc-15c9-cfae-1b3b"
+		              primary="true"/>
+	</categoryLinks>
+</entryLink>
+<entryLink import="true"
+           name="Tomb Banshee"
+           hidden="false"
+           id="fca943a-f6d4b24"
+           type="selectionEntry"
+           targetId="43e40e59-363a50af">
+	<categoryLinks>
+		<categoryLink name="Characters"
+		              hidden="false"
+		              id="ca9-1ae5-678d-b30c"
+		              targetId="a4cc-15c9-cfae-1b3b"
+		              primary="true"/>
+		<categoryLink name="0-1 Wight King or Banshee per 1,000 points"
+		              hidden="false"
+		              id="658c-e6c7-296a-fd41"
+		              targetId="87c7-fde5-4261-9b19"
+		              primary="false"/>
+	</categoryLinks>
+</entryLink>
+<entryLink import="true"
+           name="Grave Guard"
+           hidden="false"
+           id="f0c93292-b031d5dc"
+           type="selectionEntry"
+           targetId="2c65c970-45a4dd3a">
+	<categoryLinks>
+		<categoryLink name="Special"
+		              hidden="false"
+		              id="2dad-11a6-e759-8e85"
+		              targetId="633f-f67a-1b6a-d203"
+		              primary="true"/>
+		<categoryLink name="0-1 Grave Guard or Black Knight per 1,000 points"
+		              hidden="false"
+		              id="163d-b232-5823-64ea"
+		              targetId="9836-1bed-24-6e3f"
+		              primary="false"/>
+		<categoryLink name="Units (not including units whose troop type is &apos;swarms&apos;, &apos;war beasts&apos; or &apos;war machines&apos;)"
+		              hidden="false"
+		              id="7a7c-dc98-9b8a-f3d5"
+		              primary="false"
+		              targetId="fec1-537a-bbeb-7926"/>
+	</categoryLinks>
       <comment>Special</comment>
     </entryLink>
     <entryLink import="true" name="Skeleton Warriors" hidden="false" id="42f09538-6d0f7722" type="selectionEntry" targetId="c6eca90e-7fa10118">
