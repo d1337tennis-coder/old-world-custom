@@ -125,7 +125,7 @@
 				<characteristic name="WS"
 				                typeId="b007-7d58-4f14-1e01">5</characteristic>
 				<characteristic name="BS"
-				                typeId="59f9-ccf5-1155-fb05">0</characteristic>
+				                typeId="59f9-ccf5-1155-fb05">3</characteristic>
 				<characteristic name="S"
 				                typeId="5b6b-1427-2a45-dd0c">5</characteristic>
 				<characteristic name="T"
@@ -151,7 +151,7 @@
 				<characteristic name="WS"
 				                typeId="b007-7d58-4f14-1e01">4</characteristic>
 				<characteristic name="BS"
-				                typeId="59f9-ccf5-1155-fb05">0</characteristic>
+				                typeId="59f9-ccf5-1155-fb05">3</characteristic>
 				<characteristic name="S"
 				                typeId="5b6b-1427-2a45-dd0c">4</characteristic>
 				<characteristic name="T"
@@ -281,7 +281,7 @@
 				<characteristic name="WS"
 				                typeId="b007-7d58-4f14-1e01">2</characteristic>
 				<characteristic name="BS"
-				                typeId="59f9-ccf5-1155-fb05">0</characteristic>
+				                typeId="59f9-ccf5-1155-fb05">1</characteristic>
 				<characteristic name="S"
 				                typeId="5b6b-1427-2a45-dd0c">3</characteristic>
 				<characteristic name="T"
@@ -292,6 +292,32 @@
 				                typeId="73b1-abe5-72f8-41e2">1</characteristic>
 				<characteristic name="A"
 				                typeId="dddc-9fbd-b0fd-a480">1</characteristic>
+				<characteristic name="Ld"
+				                typeId="c435-6b14-f77e-3c72">2</characteristic>
+			</characteristics>
+		</profile>
+		<profile name="Bloaty"
+		         typeId="b070-143a-73f-2772"
+		         typeName="Model"
+		         hidden="false"
+		         id="8cc9-bd5d-e6e4-4127">
+			<characteristics>
+				<characteristic name="M"
+				                typeId="cd3b-a5a4-e185-5a9d">4</characteristic>
+				<characteristic name="WS"
+				                typeId="b007-7d58-4f14-1e01">2</characteristic>
+				<characteristic name="BS"
+				                typeId="59f9-ccf5-1155-fb05">0</characteristic>
+				<characteristic name="S"
+				                typeId="5b6b-1427-2a45-dd0c">3</characteristic>
+				<characteristic name="T"
+				                typeId="ab43-8b61-83e7-d090">3</characteristic>
+				<characteristic name="W"
+				                typeId="83ed-7b82-bf1f-e558">1</characteristic>
+				<characteristic name="I"
+				                typeId="73b1-abe5-72f8-41e2">1</characteristic>
+				<characteristic name="A"
+				                typeId="dddc-9fbd-b0fd-a480">2</characteristic>
 				<characteristic name="Ld"
 				                typeId="c435-6b14-f77e-3c72">2</characteristic>
 			</characteristics>
@@ -641,6 +667,35 @@ Note that this special rule is not cumulative. If two or more models in a unit h
 - Immune to Psychology
 - Unbreakable
 - Unstable A character with this special rule cannot join a unit without this special rule, and vice versa.</characteristic>
+			</characteristics>
+		</profile>
+		<profile name="Bloated"
+		         typeId="c1ac-c1c8-f9d5-9673"
+		         typeName="Special Rule"
+		         hidden="false"
+		         id="a6ee-a62b-1579-2c38">
+			<characteristics>
+				<characteristic name="Description"
+				                typeId="9f84-4221-785a-db50">If the Bloated Corpse suffers an unsaved
+Wound in close combat, one unit in base contact with the
+Bloated Corpse suffers D6 automatic Wounds with no
+armour save allowed (Ward saves and Regeneration saves
+may be taken as normal) before the Bloated Corpse is
+removed as a casualty. If the Bloated Corpse is removed as a
+casualty by any other means, the Zombie unit suffers D6
+automatic Wounds instead.</characteristic>
+			</characteristics>
+		</profile>
+		<profile name="Fire!!!"
+		         typeId="c1ac-c1c8-f9d5-9673"
+		         typeName="Special Rule"
+		         hidden="false"
+		         id="a6ee-a62b-1579-2c39">
+			<characteristics>
+				<characteristic name="Description"
+				                typeId="9f84-4221-785a-db50">Any units of Zombies or Deck Gunners within the Command
+range of one or more Wights gains a +1 modifier to their
+Ballistic Skill characteristic.</characteristic>
 			</characteristics>
 		</profile>
 		<profile name="The Newly Dead"
@@ -3257,6 +3312,11 @@ Resurrected models are added to the front rank until it reaches the minimum requ
 										          field="name"/>
 									</modifiers>
 								</infoLink>
+								<infoLink name="Fire!!!"
+								          hidden="false"
+								          id="78ddb550-6facba9a"
+								          type="profile"
+								          targetId="a6ee-a62b-1579-2c39"/>
 							</infoLinks>
 						</infoGroup>
 					</infoGroups>
@@ -3314,6 +3374,66 @@ Resurrected models are added to the front rank until it reaches the minimum requ
 								            id="af6d-104a-52ed-7231"
 								            includeChildSelections="false"/>
 							</constraints>
+						</selectionEntryGroup>
+						<selectionEntryGroup name="Ranged Weapon"
+						                     id="14f0-9b46-d80c-e850"
+						                     hidden="false"
+						                     defaultSelectionEntryId="6e1f-76f5-e373-86b8">
+							<constraints>
+								<constraint type="min"
+								            value="0"
+								            field="selections"
+								            scope="parent"
+								            shared="true"
+								            id="67b7-a596-c441-9a57"/>
+								<constraint type="max"
+								            value="1"
+								            field="selections"
+								            scope="parent"
+								            shared="true"
+								            id="9249-f92d-89fe-8d12"/>
+							</constraints>
+							<entryLinks>
+								<entryLink import="true"
+								           name="Pistol"
+								           hidden="false"
+								           id="58f9-0e15-1e82-5588"
+								           type="selectionEntry"
+								           targetId="d3c7-5222-61e8-9920"
+								           sortIndex="1">
+									<costs>
+										<cost name="pts"
+										      typeId="points"
+										      value="5"/>
+									</costs>
+								</entryLink>
+								<entryLink import="true"
+								           name="Handgun"
+								           hidden="false"
+								           id="f595-4652-53c8-7bd1"
+								           type="selectionEntry"
+								           targetId="e2ed-a3fd-dee5-3e9f"
+								           sortIndex="2">
+									<costs>
+										<cost name="pts"
+										      typeId="points"
+										      value="6"/>
+									</costs>
+								</entryLink>
+								<entryLink import="true"
+								           name="Blunderbuss"
+								           hidden="false"
+								           id="914c-69ea-8e2c-2b95"
+								           type="selectionEntry"
+								           targetId="4035-287b-e117-6b9d"
+								           sortIndex="3">
+									<costs>
+										<cost name="pts"
+										      typeId="points"
+										      value="8"/>
+									</costs>
+								</entryLink>
+							</entryLinks>
 						</selectionEntryGroup>
 					</selectionEntryGroups>
 					<constraints>
@@ -3526,6 +3646,11 @@ Resurrected models are added to the front rank until it reaches the minimum requ
 								          hidden="false"
 								          type="profile"
 								          targetId="6d9a-a7c4-e899-727a"/>
+								<infoLink name="Fire!!!"
+								          hidden="false"
+								          id="78ddb550-6facba9a"
+								          type="profile"
+								          targetId="a6ee-a62b-1579-2c39"/>
 							</infoLinks>
 						</infoGroup>
 					</infoGroups>
@@ -3619,6 +3744,66 @@ Resurrected models are added to the front rank until it reaches the minimum requ
 								            id="6e55-6e28-e57a-9483"
 								            includeChildSelections="false"/>
 							</constraints>
+						</selectionEntryGroup>
+						<selectionEntryGroup name="Ranged Weapon"
+						                     id="14f0-9b46-d80c-e850"
+						                     hidden="false"
+						                     defaultSelectionEntryId="6e1f-76f5-e373-86b8">
+							<constraints>
+								<constraint type="min"
+								            value="0"
+								            field="selections"
+								            scope="parent"
+								            shared="true"
+								            id="67b7-a596-c441-9a57"/>
+								<constraint type="max"
+								            value="1"
+								            field="selections"
+								            scope="parent"
+								            shared="true"
+								            id="9249-f92d-89fe-8d12"/>
+							</constraints>
+							<entryLinks>
+								<entryLink import="true"
+								           name="Pistol"
+								           hidden="false"
+								           id="58f9-0e15-1e82-5588"
+								           type="selectionEntry"
+								           targetId="d3c7-5222-61e8-9920"
+								           sortIndex="1">
+									<costs>
+										<cost name="pts"
+										      typeId="points"
+										      value="5"/>
+									</costs>
+								</entryLink>
+								<entryLink import="true"
+								           name="Handgun"
+								           hidden="false"
+								           id="f595-4652-53c8-7bd1"
+								           type="selectionEntry"
+								           targetId="e2ed-a3fd-dee5-3e9f"
+								           sortIndex="2">
+									<costs>
+										<cost name="pts"
+										      typeId="points"
+										      value="6"/>
+									</costs>
+								</entryLink>
+								<entryLink import="true"
+								           name="Blunderbuss"
+								           hidden="false"
+								           id="914c-69ea-8e2c-2b95"
+								           type="selectionEntry"
+								           targetId="4035-287b-e117-6b9d"
+								           sortIndex="3">
+									<costs>
+										<cost name="pts"
+										      typeId="points"
+										      value="8"/>
+									</costs>
+								</entryLink>
+							</entryLinks>
 						</selectionEntryGroup>
 					</selectionEntryGroups>
 					<constraints>
@@ -3730,13 +3915,15 @@ Resurrected models are added to the front rank until it reaches the minimum requ
 						      typeId="points"
 						      value="90"/>
 					</costs>
-					<entryLinks>
-						<entryLink name="Hand Weapon"
+					<selectionEntries>
+						<selectionEntry name="Hand Weapon"
 						           id="6b0e0e92-196fd1dc"
 						           hidden="false"
-						           type="selectionEntry"
+						           type="upgrade"
 						           targetId="721d-36e3-388a-c0d6"
-						           import="true">
+										sortIndex="1"
+						           import="true"
+										collective="true">
 							<constraints>
 								<constraint type="min"
 								            value="1"
@@ -3744,9 +3931,51 @@ Resurrected models are added to the front rank until it reaches the minimum requ
 								            scope="parent"
 								            shared="false"
 								            id="18e2ce21-4d69f7f7"/>
+								<constraint type="max"
+								            value="1"
+								            field="selections"
+								            scope="parent"
+								            shared="false"
+								            id="18e2ce21-4d69f7f7"/>
 							</constraints>
-						</entryLink>
-					</entryLinks>
+						</selectionEntry>
+					<selectionEntry type="upgrade"
+										import="true"
+										name="Ambushers"
+										hidden="false"
+										id="8723b2df-d01fab6d"
+										sortIndex="2"
+										collective="true">
+							<costs>
+								<cost name="pts"
+									  typeId="points"
+									  value="10"/>
+							</costs>
+							<infoLinks>
+								<infoLink name="Ambusher"
+										  id="2829f536-1a85c600"
+										  hidden="false"
+										  type="profile"
+										  targetId="1f64-3ddc-db58-12fb"/>
+							</infoLinks>
+							<infoLinks>
+								<infoLink name="Ambushers"
+										  hidden="false"
+										  type="profile"
+										  id="a6e4-d88d-78b9-f71e"
+										  targetId="8c0b-6fe6-dc06-512"/>
+							</infoLinks>
+							<constraints>
+								<constraint type="max"
+											value="1"
+											field="selections"
+											scope="parent"
+											shared="false"
+											id="5ff7bf60-eaf96e2a"
+											includeChildSelections="false"/>
+							</constraints>
+						</selectionEntry>
+					</selectionEntries>
 					<constraints>
 						<constraint type="min"
 						            value="1"
@@ -3832,6 +4061,21 @@ Resurrected models are added to the front rank until it reaches the minimum requ
 				              primary="false"
 				              targetId="7345-d692-6f6a-d6f6"/>
 			</categoryLinks>
+			<modifiers>
+				<modifier type="add"
+				          value="f680-2ff9-5247-2306"
+				          field="category">
+					<conditions>
+						<condition type="atLeast"
+						           value="1"
+						           field="selections"
+						           scope="root-entry"
+						           childId="8723b2df-d01fab6d"
+						           shared="true"
+						           includeChildSelections="true"/>
+					</conditions>
+				</modifier>
+			</modifiers>
 		</selectionEntry>
 		<selectionEntry type="unit"
 		                import="true"
@@ -4874,6 +5118,61 @@ Resurrected models are added to the front rank until it reaches the minimum requ
 				                     id="fe6deb10-558d425a"
 				                     sortIndex="2">
 					<selectionEntries>
+						<selectionEntry type="model"
+						                subType="crew"
+						                name="Bloaty"
+						                id="96069a4-9d90d2ee"
+						                hidden="false"
+						                sortIndex="1">
+							<infoLinks>
+								<infoLink name="Bloaty"
+								          hidden="false"
+								          type="profile"
+								          id="d159a842-4c55880c"
+								          targetId="8cc9-bd5d-e6e4-4126">
+									<modifiers>
+										<modifier type="set"
+										          value="Bloaty"
+										          field="name"/>
+										<modifier type="increment"
+										          value="1"
+										          field="dddc-9fbd-b0fd-a480"/>
+									</modifiers>
+								</infoLink>
+								<infoLink name="Champion"
+								          hidden="false"
+								          type="profile"
+								          id="eb368a95-c67c348b"
+								          targetId="5f1c-fd04-b0d5-d5e"/>
+								<infoLink name="Bloaty"
+								          hidden="false"
+								          type="profile"
+								          id="eb368a95-c67c348b"
+								          targetId="a6ee-a62b-1579-2c38"/>
+							</infoLinks>
+							<costs>
+								<cost name="pts"
+								      typeId="points"
+								      value="15"/>
+							</costs>
+							<constraints>
+								<constraint type="max"
+								            value="1"
+								            field="selections"
+								            scope="parent"
+								            shared="false"
+								            id="d7674efd-ce0d3233"
+								            includeChildSelections="false"/>
+							</constraints>
+							<comment>upgrades: 2cf94a97-957186e5</comment>
+							<categoryLinks>
+								<categoryLink name="Regular Infantry"
+								              hidden="false"
+								              id="f163-5e71-ffa3-4393"
+								              targetId="f3f7-ca43-674e-115f"
+								              primary="false"/>
+							</categoryLinks>
+						</selectionEntry>
 						<selectionEntry name="Standard Bearer"
 						                id="b2672a79-dd34c3cf"
 						                type="model"
@@ -4947,6 +5246,65 @@ Resurrected models are added to the front rank until it reaches the minimum requ
 								              targetId="f3f7-ca43-674e-115f"
 								              primary="false"/>
 							</categoryLinks>
+						</selectionEntry>
+					</selectionEntries>
+				</selectionEntryGroup>
+				<selectionEntryGroup name="Ranged Weapon"
+				                     id="14f0-9b46-d80c-e850"
+				                     hidden="false">
+					<modifiers>
+						<modifier type="set"
+						          value="false"
+						          field="hidden">
+							<conditions>
+								<condition type="atLeast"
+								           value="1"
+								           field="selections"
+								           scope="ancestor"
+								           childId="ed3f-1102-3044-59f5"
+								           shared="true"/>
+							</conditions>
+						</modifier>
+					</modifiers>
+					<selectionEntries>
+						<selectionEntry import="true"
+						                name="Pistol"
+						                hidden="false"
+						                id="58f9-0e15-1e82-5588"
+						                type="selectionEntry"
+						                targetId="d3c7-5222-61e8-9920"
+						                sortIndex="1">
+							<costs>
+								<cost name="pts"
+								      typeId="points"
+								      value=".5"/>
+							</costs>
+						</selectionEntry>
+						<selectionEntry import="true"
+						                name="Handgun"
+						                hidden="false"
+						                id="f595-4652-53c8-7bd1"
+						                type="selectionEntry"
+						                targetId="e2ed-a3fd-dee5-3e9f"
+						                sortIndex="2">
+							<costs>
+								<cost name="pts"
+								      typeId="points"
+								      value="1"/>
+							</costs>
+						</selectionEntry>
+						<selectionEntry import="true"
+						                name="Blunderbuss"
+						                hidden="false"
+						                id="914c-69ea-8e2c-2b95"
+						                type="selectionEntry"
+						                targetId="4035-287b-e117-6b9d"
+						                sortIndex="3">
+							<costs>
+								<cost name="pts"
+								      typeId="points"
+								      value="2"/>
+							</costs>
 						</selectionEntry>
 					</selectionEntries>
 				</selectionEntryGroup>
@@ -8923,6 +9281,68 @@ Resurrected models are added to the front rank until it reaches the minimum requ
 		               importRootEntries="true"/>
 	</catalogueLinks>
 	<categoryEntries>
+		<categoryEntry name="0-1 Syreen per 1,000 points may have the Ambushers special rule"
+		               id="f680-2ff9-5247-2306"
+		               hidden="true">
+			<constraints>
+				<constraint type="max"
+				            value="0"
+				            field="selections"
+				            scope="force"
+				            shared="true"
+				            id="a79a-6304-dd15-c629"
+				            includeChildSelections="true"/>
+			</constraints>
+			<modifiers>
+				<modifier type="increment"
+				          value="1"
+				          field="a79a-6304-dd15-c629">
+					<repeats>
+						<repeat value="1000"
+						        repeats="1"
+						        field="limit::points"
+						        scope="roster"
+						        childId="any"
+						        shared="true"
+						        roundUp="false"
+						        id="51ef-9b61-d741-e4e6"/>
+					</repeats>
+					<conditions>
+						<condition type="instanceOf"
+						           value="1"
+						           field="selections"
+						           scope="force"
+						           childId="8214-cf48-b1cd-5f5e"
+						           shared="true"
+						           includeChildSelections="true"/>
+					</conditions>
+				</modifier>
+				<modifier type="increment"
+				          value="1"
+				          field="a79a-6304-dd15-c629">
+					<repeats>
+						<repeat value="1000"
+						        repeats="1"
+						        field="points"
+						        scope="force"
+						        childId="any"
+						        shared="true"
+						        roundUp="false"
+						        id="cda1-122e-3c2e-e579"
+						        includeChildSelections="true"/>
+					</repeats>
+					<conditions>
+						<condition type="notInstanceOf"
+						           value="1"
+						           field="selections"
+						           scope="force"
+						           childId="8214-cf48-b1cd-5f5e"
+						           shared="true"
+						           includeChildSelections="true"/>
+					</conditions>
+				</modifier>
+			</modifiers>
+		</categoryEntry>
 		<categoryEntry name="0-1 Terrorgheist or Varghulf per 1,000 points"
 		               hidden="true"
 		               id="d41b-d3fa-a08b-a753">

@@ -1028,6 +1028,24 @@ Note that this special rule is not cumulative. If two or more models in a unit h
         <characteristic name="Notes" typeId="772a-a7ff-f6b3-df71">-</characteristic>
       </characteristics>
     </profile>
+		<profile name="Blunderbuss"
+		         hidden="false"
+		         id="4c62-cdd4-4e0c-4266"
+		         typeId="a378-c633-912d-11ce"
+		         typeName="Weapon">
+			<characteristics>
+				<characteristic name="R"
+				                typeId="2360-c777-5e07-ed58">12&quot;</characteristic>
+				<characteristic name="S"
+				                typeId="ac19-f99c-72e9-a1a7">3</characteristic>
+				<characteristic name="AP"
+				                typeId="9429-ffe7-2ce5-e9a5">-1</characteristic>
+				<characteristic name="Special Rules"
+				                typeId="5f83-3633-336b-93b4">Multiple Shots(D3), Volley Fire</characteristic>
+				<characteristic name="Notes"
+				                typeId="772a-a7ff-f6b3-df71">A model armed with a blunderbuss suffers no negativemodifiers for firing at long range, for using the Multiple Shots(D3) special rule, or whilst making a Stand &amp; Shoot charge reaction.</characteristic>
+			</characteristics>
+		</profile>
     <profile name="Stubborn" hidden="false" id="e351-bbd6-f470-b604" typeId="c1ac-c1c8-f9d5-9673" typeName="Special Rule" page="178" publicationId="768b-3da1-a182-a1d8">
       <characteristics>
         <characteristic name="Description" typeId="9f84-4221-785a-db50">The first time this unit is required to make a Break test it may choose not to and will automatically Fall Back in Good Order instead, even if the Unit Strength of the winning side is more than twice that of the losing side. A unit that is not Stubborn does not become Stubborn when joined by a character that is. A Stubborn character cannot use this special rule whilst part of a unit that is not Stubborn.</characteristic>
@@ -1439,7 +1457,27 @@ If every model in a unit has this special rule, roll once for the entire unit. I
     </profile>
     <profile name="Regimental Unit" hidden="false" id="7424-ec43-7581-965a" typeId="c1ac-c1c8-f9d5-9673" typeName="Special Rule" page="176" publicationId="768b-3da1-a182-a1d8">
       <characteristics>
-        <characteristic name="Description" typeId="9f84-4221-785a-db50">A unit with this special rule can be accompanied by ‘detachments’ (see page 282).</characteristic>
+        <characteristic name="Description" typeId="9f84-4221-785a-db50">A unit with this special rule can be accompanied by ‘detachments’ (see page 282).
+		
+Detachments must be deployed at the same time as the regimental unit they are assigned to, and must be deployed within 3" of that unit. If the regimental unit is held in reserve as reinforcements, its detachment(s) will as well and will arrive with it.
+In battle, regimental units provide leadership to their detachments. Unless the regimental unit is fleeing, a detachment may use the Leadership characteristic of its regimental unit whilst it is within 3" of that unit. Note that if the detachment's Leadership characteristic is higher, it may use its own Leadership instead.
+Detachments fight so closely alongside their regimental units that they are affected by the same battlefield psychology. If a regimental unit has any of the special rules listed below, it confers those special rules onto its detachments whilst they are within 3" of it:
+
+Frenzy
+
+Hatred (X)
+
+Immune to Psychology
+
+Stubborn
+
+Detachments are trained to support their regimental unit in battle. When an enemy unit declares a charge against a regimental unit, and if that regimental unit does not Flee as a charge reaction, each of its detachments that is within 3" of it, not engaged in combat and not fleeing can declare a Supporting Action.
+
+A detachment can only attempt a single Supporting Action per turn:
+
+Any detachment that is able to make a Supporting Action may declare that it will make a 'Supporting Charge'. At the end of the Charge Moves sub-phase, a detachment that declared a Supporting Charge and that is not engaged in combat or fleeing makes an out-of-sequence charge against one enemy unit that charged into contact with its regimental unit during this turn.
+
+Any detachment that is able to make a Supporting Action may declare that it will make a 'Supporting Charge'. At the end of the Charge Moves sub-phase, a detachment that declared a Supporting Charge and that is not engaged in combat or fleeing makes an out-of-sequence charge against one enemy unit that charged into contact with its regimental unit during this turn.</characteristic>
       </characteristics>
     </profile>
     <profile name="Requires Two Hands" hidden="false" id="4f8d-35e-6be9-dabb" typeId="c1ac-c1c8-f9d5-9673" typeName="Special Rule" page="176" publicationId="768b-3da1-a182-a1d8">
@@ -13609,6 +13647,14 @@ Any war machine that has its Toughness reduced in this way also loses the Move o
       </constraints>
       <infoLinks>
         <infoLink name="Pistol" hidden="false" type="profile" id="8882-976e-6ce2-17a0" targetId="4c62-cdd4-4e0c-4265"/>
+      </infoLinks>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Blunderbuss" hidden="false" id="4035-287b-e117-6b9d" collective="true">
+      <constraints>
+        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="618f-5e83-63ef-f591-max"/>
+      </constraints>
+      <infoLinks>
+        <infoLink name="Blunderbuss" hidden="false" type="profile" id="8882-976e-6ce2-17a0" targetId="4c62-cdd4-4e0c-4266"/>
       </infoLinks>
     </selectionEntry>
     <selectionEntry type="upgrade" import="true" name="Brace of Pistols" hidden="false" id="d8bb-85b0-3575-6029">
