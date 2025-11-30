@@ -608,6 +608,26 @@
 *Note that this is cumulative with the Indomitable (X) special rule.*</characteristic>
 			</characteristics>
 		</profile>
+		<profile name="Deck Droppers"
+		         typeId="c1ac-c1c8-f9d5-9673"
+		         typeName="Special Rule"
+		         hidden="false"
+		         id="9015-2214-a000-7399">
+			<characteristics>
+				<characteristic name="Description"
+				                typeId="9f84-4221-785a-db50">Although Deck Droppers carry a Zombie,
+the Zombie does not fight in close combat so does not have a
+separate profile. Instead, it allows the unit to perform a
+‘Flying Salvo’ attack against a single enemy unit that is not
+engaged in combat. To do so, the Deck Droppers unit must
+move (by flying) over the unit it wishes to attack during the
+Remaining Moves sub-phase. Once this unit’s movement is
+complete, roll a D6 for each Fell Bat in the Deck Droppers
+unit. For each result of a 4+, the target unit suffers a single
+Strength 4 hit with an AP of -1. For each result of a 1, the
+Deck Droppers unit suffers the hit instead.</characteristic>
+			</characteristics>
+		</profile>
 		<profile name="Bestial Fury"
 		         typeId="c1ac-c1c8-f9d5-9673"
 		         typeName="Special Rule"
@@ -653,6 +673,62 @@
 				                typeId="9f84-4221-785a-db50">A unit with this special rule reduces the number of wounds suffered due to the Unstable special rule by the number shown in brackets (shown here as ‘X’).
 
 Note that this special rule is not cumulative. If two or more models in a unit have this special rule, use the highest value for the entire unit. For example, if a character with Indomitable (2) joins a unit with Indomitable (1), the whole unit uses the character’s Indomitable (2) special rule.</characteristic>
+			</characteristics>
+		</profile>
+		<profile name="Impale"
+		         typeId="c1ac-c1c8-f9d5-9673"
+		         typeName="Special Rule"
+		         hidden="false"
+		         id="78b6-d212-caa2-cef2">
+			<characteristics>
+				<characteristic name="Description"
+				                typeId="9f84-4221-785a-db50">If the Necrofex Colossus rolls a natural 1 or 2 for the number of Random Attacks, the attacks
+gain the Monster Slayer special rule.</characteristic>
+			</characteristics>
+		</profile>
+		<profile name="Vortex of Death"
+		         typeId="c1ac-c1c8-f9d5-9673"
+		         typeName="Special Rule"
+		         hidden="false"
+		         id="78b6-d212-caa2-cef3">
+			<characteristics>
+				<characteristic name="Description"
+				                typeId="9f84-4221-785a-db50">Whilst within 12" of a Necrofex Colossus, any model (friend or foe) attempting to cast a spell
+from the Lore of Necromancy may apply a +1 modifier to any Casting roll they make. In
+addition, a Wizard mounted on a Necrofex Colossus increases their Dispel range by 3"</characteristic>
+			</characteristics>
+		</profile>
+		<profile name="Gun Arm"
+		         typeId="c1ac-c1c8-f9d5-9673"
+		         typeName="Special Rule"
+		         hidden="false"
+		         id="78b6-d212-caa2-cef4">
+			<characteristics>
+				<characteristic name="Description"
+				                typeId="9f84-4221-785a-db50">The Necrofex Colossus is equipped with a Carronade (see the Carronade unit entry). If a
+‘Misfire’ is rolled on the Artillery dice, this model loses a single Wound (instead of rolling on a
+Misfire table). </characteristic>
+			</characteristics>
+		</profile>
+		<profile name="Screams of the damned"
+		         typeId="c1ac-c1c8-f9d5-9673"
+		         typeName="Special Rule"
+		         hidden="false"
+		         id="78b6-d212-caa2-cef5">
+			<characteristics>
+				<characteristic name="Description"
+				                typeId="9f84-4221-785a-db50">A Necrofex Colossus with this upgrade gains the Wailing Dirge special rule</characteristic>
+			</characteristics>
+		</profile>
+		<profile name="Watery Grave"
+		         typeId="c1ac-c1c8-f9d5-9673"
+		         typeName="Special Rule"
+		         hidden="false"
+		         id="78b6-d212-caa2-cef6">
+			<characteristics>
+				<characteristic name="Description"
+				                typeId="9f84-4221-785a-db50">All open ground within 8" of a Necrofex Colossus with this upgrade counts as a water feature
+and difficult terrain. </characteristic>
 			</characteristics>
 		</profile>
 		<profile name="Necromantic Undead"
@@ -706,6 +782,16 @@ Ballistic Skill characteristic.</characteristic>
 			<characteristics>
 				<characteristic name="Description"
 				                typeId="9f84-4221-785a-db50">When resurrecting the fallen, a unit with this special rule can be taken beyond its starting size (but not beyond its maximum size).</characteristic>
+			</characteristics>
+		</profile>
+		<profile name="Aquatic"
+		         typeId="c1ac-c1c8-f9d5-9673"
+		         typeName="Special Rule"
+		         hidden="false"
+		         id="1f39-2789-f136-7645">
+			<characteristics>
+				<characteristic name="Description"
+				                typeId="9f84-4221-785a-db50">Models with this special rule do not suffer any modifiers to their Movement characteristic when moving through any difficult or dangerous terrain feature which has been designated a ‘water feature’. This might include shallow streams or fords, swampy ground, fast flowing rivers, ponds or lakes, and players should agree prior to the game if any terrain is a water feature.</characteristic>
 			</characteristics>
 		</profile>
 		<profile name="Wailing Dirge"
@@ -848,6 +934,32 @@ Resurrected models are added to the front rank until it reaches the minimum requ
 				                typeId="c435-6b14-f77e-3c72">3</characteristic>
 			</characteristics>
 		</profile>
+		<profile name="Rat Swarm"
+		         typeId="b070-143a-73f-2772"
+		         typeName="Model"
+		         hidden="false"
+		         id="9031-84d2-c581-1b10">
+			<characteristics>
+				<characteristic name="M"
+				                typeId="cd3b-a5a4-e185-5a9d">6</characteristic>
+				<characteristic name="WS"
+				                typeId="b007-7d58-4f14-1e01">2</characteristic>
+				<characteristic name="BS"
+				                typeId="59f9-ccf5-1155-fb05">0</characteristic>
+				<characteristic name="S"
+				                typeId="5b6b-1427-2a45-dd0c">2</characteristic>
+				<characteristic name="T"
+				                typeId="ab43-8b61-83e7-d090">2</characteristic>
+				<characteristic name="W"
+				                typeId="83ed-7b82-bf1f-e558">5</characteristic>
+				<characteristic name="I"
+				                typeId="73b1-abe5-72f8-41e2">3</characteristic>
+				<characteristic name="A"
+				                typeId="dddc-9fbd-b0fd-a480">5</characteristic>
+				<characteristic name="Ld"
+				                typeId="c435-6b14-f77e-3c72">3</characteristic>
+			</characteristics>
+		</profile>
 		<profile name="Fell Bat"
 		         typeId="b070-143a-73f-2772"
 		         typeName="Model"
@@ -957,9 +1069,27 @@ Resurrected models are added to the front rank until it reaches the minimum requ
 				<characteristic name="S"
 				                typeId="ac19-f99c-72e9-a1a7">S</characteristic>
 				<characteristic name="AP"
+				                typeId="9429-ffe7-2ce5-e9a5">-2</characteristic>
+				<characteristic name="Special Rules"
+				                typeId="5f83-3633-336b-93b4">Armour Bane (1), Multiple Wounds (2)</characteristic>
+				<characteristic name="Notes"
+				                typeId="772a-a7ff-f6b3-df71">In combat, this model must make one of its attacks each turn with this weapon.</characteristic>
+			</characteristics>
+		</profile>
+		<profile name="Claws"
+		         typeId="a378-c633-912d-11ce"
+		         typeName="Weapon"
+		         hidden="false"
+		         id="a570-53-8c8b-96b">
+			<characteristics>
+				<characteristic name="R"
+				                typeId="2360-c777-5e07-ed58">Combat</characteristic>
+				<characteristic name="S"
+				                typeId="ac19-f99c-72e9-a1a7">S</characteristic>
+				<characteristic name="AP"
 				                typeId="9429-ffe7-2ce5-e9a5">-1</characteristic>
 				<characteristic name="Special Rules"
-				                typeId="5f83-3633-336b-93b4">Extra Attacks (+D3)</characteristic>
+				                typeId="5f83-3633-336b-93b4">Strike Last, Killing Blow</characteristic>
 				<characteristic name="Notes"
 				                typeId="772a-a7ff-f6b3-df71"/>
 			</characteristics>
@@ -1009,20 +1139,38 @@ Resurrected models are added to the front rank until it reaches the minimum requ
 *Note that this is not cumulative with the Indomitable (X) special rule. If a unit is affected by both, use the highest value.*</characteristic>
 			</characteristics>
 		</profile>
-		<profile name="Wicked Claws"
+		<profile name="Massive Limbs"
 		         typeId="a378-c633-912d-11ce"
 		         typeName="Weapon"
 		         hidden="false"
-		         id="a952-5825-e8b9-bd43">
+		         id="a952-5825-e8b9-bd44">
 			<characteristics>
 				<characteristic name="R"
 				                typeId="2360-c777-5e07-ed58">Combat</characteristic>
 				<characteristic name="S"
 				                typeId="ac19-f99c-72e9-a1a7">S</characteristic>
 				<characteristic name="AP"
-				                typeId="9429-ffe7-2ce5-e9a5">-2</characteristic>
+				                typeId="9429-ffe7-2ce5-e9a5">-1</characteristic>
 				<characteristic name="Special Rules"
-				                typeId="5f83-3633-336b-93b4">-</characteristic>
+				                typeId="5f83-3633-336b-93b4">Killing Blow</characteristic>
+				<characteristic name="Notes"
+				                typeId="772a-a7ff-f6b3-df71"/>
+			</characteristics>
+		</profile>
+		<profile name="Giant Claws"
+		         typeId="a378-c633-912d-11ce"
+		         typeName="Weapon"
+		         hidden="false"
+		         id="a952-5825-e8b9-bd45">
+			<characteristics>
+				<characteristic name="R"
+				                typeId="2360-c777-5e07-ed58">Combat</characteristic>
+				<characteristic name="S"
+				                typeId="ac19-f99c-72e9-a1a7">S</characteristic>
+				<characteristic name="AP"
+				                typeId="9429-ffe7-2ce5-e9a5">-1</characteristic>
+				<characteristic name="Special Rules"
+				                typeId="5f83-3633-336b-93b4">Killing Blow, Strike Last</characteristic>
 				<characteristic name="Notes"
 				                typeId="772a-a7ff-f6b3-df71"/>
 			</characteristics>
@@ -1079,6 +1227,110 @@ Resurrected models are added to the front rank until it reaches the minimum requ
 				                typeId="c435-6b14-f77e-3c72">5</characteristic>
 			</characteristics>
 		</profile>
+		<profile name="Necrofex Colossus"
+		         typeId="b070-143a-73f-2772"
+		         typeName="Model"
+		         hidden="false"
+		         id="4628-f380-f88e-7c01">
+			<characteristics>
+				<characteristic name="M"
+				                typeId="cd3b-a5a4-e185-5a9d">6</characteristic>
+				<characteristic name="WS"
+				                typeId="b007-7d58-4f14-1e01">3</characteristic>
+				<characteristic name="BS"
+				                typeId="59f9-ccf5-1155-fb05">2</characteristic>
+				<characteristic name="S"
+				                typeId="5b6b-1427-2a45-dd0c">7</characteristic>
+				<characteristic name="T"
+				                typeId="ab43-8b61-83e7-d090">6</characteristic>
+				<characteristic name="W"
+				                typeId="83ed-7b82-bf1f-e558">6</characteristic>
+				<characteristic name="I"
+				                typeId="73b1-abe5-72f8-41e2">2</characteristic>
+				<characteristic name="A"
+				                typeId="dddc-9fbd-b0fd-a480">D6</characteristic>
+				<characteristic name="Ld"
+				                typeId="c435-6b14-f77e-3c72">5</characteristic>
+			</characteristics>
+		</profile>
+		<profile name="Rotting Leviathan"
+		         typeId="b070-143a-73f-2772"
+		         typeName="Model"
+		         hidden="false"
+		         id="ad5c-2cde-2bda-4289">
+			<characteristics>
+				<characteristic name="M"
+				                typeId="cd3b-a5a4-e185-5a9d">4</characteristic>
+				<characteristic name="WS"
+				                typeId="b007-7d58-4f14-1e01">3</characteristic>
+				<characteristic name="BS"
+				                typeId="59f9-ccf5-1155-fb05">-</characteristic>
+				<characteristic name="S"
+				                typeId="5b6b-1427-2a45-dd0c">6</characteristic>
+				<characteristic name="T"
+				                typeId="ab43-8b61-83e7-d090">6</characteristic>
+				<characteristic name="W"
+				                typeId="83ed-7b82-bf1f-e558">5</characteristic>
+				<characteristic name="I"
+				                typeId="73b1-abe5-72f8-41e2">1</characteristic>
+				<characteristic name="A"
+				                typeId="dddc-9fbd-b0fd-a480">5</characteristic>
+				<characteristic name="Ld"
+				                typeId="c435-6b14-f77e-3c72">5</characteristic>
+			</characteristics>
+		</profile>
+		<profile name="Zombie Crew"
+		         typeId="b070-143a-73f-2772"
+		         typeName="Model"
+		         hidden="false"
+		         id="4628-f380-f88e-7c03">
+			<characteristics>
+				<characteristic name="M"
+				                typeId="cd3b-a5a4-e185-5a9d">-</characteristic>
+				<characteristic name="WS"
+				                typeId="b007-7d58-4f14-1e01">2</characteristic>
+				<characteristic name="BS"
+				                typeId="59f9-ccf5-1155-fb05">1</characteristic>
+				<characteristic name="S"
+				                typeId="5b6b-1427-2a45-dd0c">3</characteristic>
+				<characteristic name="T"
+				                typeId="ab43-8b61-83e7-d090">-</characteristic>
+				<characteristic name="W"
+				                typeId="83ed-7b82-bf1f-e558">-</characteristic>
+				<characteristic name="I"
+				                typeId="73b1-abe5-72f8-41e2">1</characteristic>
+				<characteristic name="A"
+				                typeId="dddc-9fbd-b0fd-a480">1</characteristic>
+				<characteristic name="Ld"
+				                typeId="c435-6b14-f77e-3c72">-</characteristic>
+			</characteristics>
+		</profile>
+		<profile name="Rotting Promethian"
+		         typeId="b070-143a-73f-2772"
+		         typeName="Model"
+		         hidden="false"
+		         id="4628-f380-f88e-7c04">
+			<characteristics>
+				<characteristic name="M"
+				                typeId="cd3b-a5a4-e185-5a9d">4</characteristic>
+				<characteristic name="WS"
+				                typeId="b007-7d58-4f14-1e01">3</characteristic>
+				<characteristic name="BS"
+				                typeId="59f9-ccf5-1155-fb05">-</characteristic>
+				<characteristic name="S"
+				                typeId="5b6b-1427-2a45-dd0c">4</characteristic>
+				<characteristic name="T"
+				                typeId="ab43-8b61-83e7-d090">5</characteristic>
+				<characteristic name="W"
+				                typeId="83ed-7b82-bf1f-e558">3</characteristic>
+				<characteristic name="I"
+				                typeId="73b1-abe5-72f8-41e2">1</characteristic>
+				<characteristic name="A"
+				                typeId="dddc-9fbd-b0fd-a480">2</characteristic>
+				<characteristic name="Ld"
+				                typeId="c435-6b14-f77e-3c72">3</characteristic>
+			</characteristics>
+		</profile>
 		<profile name="Curse of the Revenant"
 		         typeId="c1ac-c1c8-f9d5-9673"
 		         typeName="Special Rule"
@@ -1100,7 +1352,7 @@ Resurrected models are added to the front rank until it reaches the minimum requ
 		         publicationId="1c5e-3047-5732-f4">
 			<characteristics>
 				<characteristic name="Description"
-				                typeId="9f84-4221-785a-db50">During the Command sub-phase of their turn, this Vampire may attempt to resurrect fallen creatures of the night by making a Leadership test (using their own Leadership). If this test is passed, a single friendly unit of Fell Bats, Bat Swarms or Scurvy Dogs that is within 12&quot; of this model recovers D6 lost Wounds.</characteristic>
+				                typeId="9f84-4221-785a-db50">During the Command sub-phase of their turn, this Vampire may attempt to resurrect fallen creatures of the night by making a Leadership test (using their own Leadership). If this test is passed, a single friendly unit of Fell Bats, Bat Swarms, Rat Swarms, or Scurvy Dogs that is within 12&quot; of this model recovers D6 lost Wounds.</characteristic>
 			</characteristics>
 		</profile>
 		<profile name="Beguile"
@@ -1234,6 +1486,32 @@ Resurrected models are added to the front rank until it reaches the minimum requ
 		</selectionEntry>
 		<selectionEntry type="upgrade"
 		                import="true"
+		                name="Claws"
+		                hidden="false"
+		                id="5faa-b301-3a54-e02g">
+			<infoLinks>
+				<infoLink targetId="a570-53-8c8b-96b"
+				          id="e703-dfda-b661-9c5a"
+				          type="profile"
+				          name="Claws"
+				          hidden="false"/>
+			</infoLinks>
+			<costs>
+				<cost name="pts"
+				      typeId="points"
+				      value="0"/>
+			</costs>
+			<constraints>
+				<constraint type="max"
+				            value="1"
+				            field="selections"
+				            scope="parent"
+				            shared="true"
+				            id="686b-bee4-a94b-701f"/>
+			</constraints>
+		</selectionEntry>
+		<selectionEntry type="upgrade"
+		                import="true"
 		                name="Filth-encrusted Talons"
 		                hidden="false"
 		                id="88ad-981d-3b69-1c8b">
@@ -1289,15 +1567,36 @@ Resurrected models are added to the front rank until it reaches the minimum requ
 		</selectionEntry>
 		<selectionEntry type="upgrade"
 		                import="true"
-		                name="Wicked Claws"
+		                name="Massive Limbs"
 		                hidden="false"
 		                id="6b9f81f0-b84cd1ba">
 			<infoLinks>
-				<infoLink name="Wicked Claws"
+				<infoLink name="Massive Limbs"
 				          hidden="false"
 				          id="bffcd781-d51706d7"
 				          type="profile"
-				          targetId="a952-5825-e8b9-bd43"/>
+				          targetId="a952-5825-e8b9-bd44"/>
+			</infoLinks>
+			<constraints>
+				<constraint type="max"
+				            value="1"
+				            field="selections"
+				            scope="parent"
+				            shared="true"
+				            id="c1ed-e1c4-c43a-0227"/>
+			</constraints>
+		</selectionEntry>
+		<selectionEntry type="upgrade"
+		                import="true"
+		                name="Massive Limbs"
+		                hidden="false"
+		                id="6b9f81f0-b84cd1bb">
+			<infoLinks>
+				<infoLink name="Massive Limbs"
+				          hidden="false"
+				          id="bffcd781-d51706d7"
+				          type="profile"
+				          targetId="a952-5825-e8b9-bd45"/>
 			</infoLinks>
 			<constraints>
 				<constraint type="max"
@@ -1798,6 +2097,66 @@ Resurrected models are added to the front rank until it reaches the minimum requ
 									</conditions>
 								</modifier>
 							</modifiers>
+						</selectionEntryGroup>
+						<selectionEntryGroup name="Ranged Weapon"
+						                     id="14f0-9b46-d80c-e850"
+						                     hidden="false"
+						                     defaultSelectionEntryId="6e1f-76f5-e373-86b8">
+							<constraints>
+								<constraint type="min"
+								            value="0"
+								            field="selections"
+								            scope="parent"
+								            shared="true"
+								            id="67b7-a596-c441-9a57"/>
+								<constraint type="max"
+								            value="1"
+								            field="selections"
+								            scope="parent"
+								            shared="true"
+								            id="9249-f92d-89fe-8d12"/>
+							</constraints>
+							<entryLinks>
+								<entryLink import="true"
+								           name="Pistol"
+								           hidden="false"
+								           id="58f9-0e15-1e82-5588"
+								           type="selectionEntry"
+								           targetId="d3c7-5222-61e8-9920"
+								           sortIndex="1">
+									<costs>
+										<cost name="pts"
+										      typeId="points"
+										      value="5"/>
+									</costs>
+								</entryLink>
+								<entryLink import="true"
+								           name="Brace of Pistols"
+								           hidden="false"
+								           id="58f9-0e15-1e82-5589"
+								           type="selectionEntry"
+								           targetId="d8bb-85b0-3575-6029"
+								           sortIndex="2">
+									<costs>
+										<cost name="pts"
+										      typeId="points"
+										      value="10"/>
+									</costs>
+								</entryLink>
+								<entryLink import="true"
+								           name="Handgun"
+								           hidden="false"
+								           id="f595-4652-53c8-7bd1"
+								           type="selectionEntry"
+								           targetId="e2ed-a3fd-dee5-3e9f"
+								           sortIndex="3">
+									<costs>
+										<cost name="pts"
+										      typeId="points"
+										      value="6"/>
+									</costs>
+								</entryLink>
+							</entryLinks>
 						</selectionEntryGroup>
 					</selectionEntryGroups>
 					<constraints>
@@ -2387,6 +2746,66 @@ Resurrected models are added to the front rank until it reaches the minimum requ
 								            id="531a-508b-d7ee-5a37"
 								            includeChildSelections="false"/>
 							</constraints>
+						</selectionEntryGroup>
+						<selectionEntryGroup name="Ranged Weapon"
+						                     id="14f0-9b46-d80c-e850"
+						                     hidden="false"
+						                     defaultSelectionEntryId="6e1f-76f5-e373-86b8">
+							<constraints>
+								<constraint type="min"
+								            value="0"
+								            field="selections"
+								            scope="parent"
+								            shared="true"
+								            id="67b7-a596-c441-9a57"/>
+								<constraint type="max"
+								            value="1"
+								            field="selections"
+								            scope="parent"
+								            shared="true"
+								            id="9249-f92d-89fe-8d12"/>
+							</constraints>
+							<entryLinks>
+								<entryLink import="true"
+								           name="Pistol"
+								           hidden="false"
+								           id="58f9-0e15-1e82-5588"
+								           type="selectionEntry"
+								           targetId="d3c7-5222-61e8-9920"
+								           sortIndex="1">
+									<costs>
+										<cost name="pts"
+										      typeId="points"
+										      value="5"/>
+									</costs>
+								</entryLink>
+								<entryLink import="true"
+								           name="Brace of Pistols"
+								           hidden="false"
+								           id="58f9-0e15-1e82-5589"
+								           type="selectionEntry"
+								           targetId="d8bb-85b0-3575-6029"
+								           sortIndex="2">
+									<costs>
+										<cost name="pts"
+										      typeId="points"
+										      value="10"/>
+									</costs>
+								</entryLink>
+								<entryLink import="true"
+								           name="Handgun"
+								           hidden="false"
+								           id="f595-4652-53c8-7bd1"
+								           type="selectionEntry"
+								           targetId="e2ed-a3fd-dee5-3e9f"
+								           sortIndex="3">
+									<costs>
+										<cost name="pts"
+										      typeId="points"
+										      value="6"/>
+									</costs>
+								</entryLink>
+							</entryLinks>
 						</selectionEntryGroup>
 					</selectionEntryGroups>
 					<constraints>
@@ -3917,13 +4336,13 @@ Resurrected models are added to the front rank until it reaches the minimum requ
 					</costs>
 					<selectionEntries>
 						<selectionEntry name="Hand Weapon"
-						           id="6b0e0e92-196fd1dc"
-						           hidden="false"
-						           type="upgrade"
-						           targetId="721d-36e3-388a-c0d6"
-										sortIndex="1"
-						           import="true"
-										collective="true">
+						                id="6b0e0e92-196fd1dc"
+						                hidden="false"
+						                type="upgrade"
+						                targetId="721d-36e3-388a-c0d6"
+						                sortIndex="1"
+						                import="true"
+						                collective="true">
 							<constraints>
 								<constraint type="min"
 								            value="1"
@@ -3939,40 +4358,33 @@ Resurrected models are added to the front rank until it reaches the minimum requ
 								            id="18e2ce21-4d69f7f7"/>
 							</constraints>
 						</selectionEntry>
-					<selectionEntry type="upgrade"
-										import="true"
-										name="Ambushers"
-										hidden="false"
-										id="8723b2df-d01fab6d"
-										sortIndex="2"
-										collective="true">
+						<selectionEntry type="upgrade"
+						                import="true"
+						                name="Ambushers"
+						                hidden="false"
+						                id="8723b2df-d01fab6d"
+						                sortIndex="2"
+						                collective="true">
 							<costs>
 								<cost name="pts"
-									  typeId="points"
-									  value="10"/>
+								      typeId="points"
+								      value="10"/>
 							</costs>
 							<infoLinks>
-								<infoLink name="Ambusher"
-										  id="2829f536-1a85c600"
-										  hidden="false"
-										  type="profile"
-										  targetId="1f64-3ddc-db58-12fb"/>
-							</infoLinks>
-							<infoLinks>
 								<infoLink name="Ambushers"
-										  hidden="false"
-										  type="profile"
-										  id="a6e4-d88d-78b9-f71e"
-										  targetId="8c0b-6fe6-dc06-512"/>
+								          hidden="false"
+								          type="profile"
+								          id="a6e4-d88d-78b9-f71e"
+								          targetId="8c0b-6fe6-dc06-512"/>
 							</infoLinks>
 							<constraints>
 								<constraint type="max"
-											value="1"
-											field="selections"
-											scope="parent"
-											shared="false"
-											id="5ff7bf60-eaf96e2a"
-											includeChildSelections="false"/>
+								            value="1"
+								            field="selections"
+								            scope="parent"
+								            shared="false"
+								            id="5ff7bf60-eaf96e2a"
+								            includeChildSelections="false"/>
 							</constraints>
 						</selectionEntry>
 					</selectionEntries>
@@ -4574,12 +4986,12 @@ Resurrected models are added to the front rank until it reaches the minimum requ
 		</selectionEntry>
 		<selectionEntry type="unit"
 		                import="true"
-		                name="Skeleton Warriors"
+		                name="Skeleton Crew"
 		                hidden="false"
 		                id="c6eca90e-7fa10118"
 		                collective="false">
 			<profiles>
-				<profile name="Skeleton Warriors"
+				<profile name="Skeleton Crew"
 				         typeId="2878-9a1f-dd74-48e3"
 				         typeName="Unit"
 				         hidden="false"
@@ -5605,6 +6017,248 @@ Resurrected models are added to the front rank until it reaches the minimum requ
 		</selectionEntry>
 		<selectionEntry type="unit"
 		                import="true"
+		                name="Rotting Promethians"
+		                hidden="false"
+		                id="475a2b9f-6b5c5e2e"
+		                collective="false">
+			<profiles>
+				<profile name="Rotting Promethians"
+				         typeId="4628-f380-f88e-7c04"
+				         typeName="Unit"
+				         hidden="false"
+				         id="ce3af615-8b01440d">
+					<characteristics>
+						<characteristic name="Troop Type"
+						                typeId="5d94-6b94-bd89-1944">Monstrous infantry</characteristic>
+						<characteristic name="Unit Size"
+						                typeId="80a1-bb6f-66e4-4a5b">3+</characteristic>
+					</characteristics>
+				</profile>
+			</profiles>
+			<entryLinks>
+			<entryLink name="Giant Claws"
+					   id="e4786800-309a8d4a"
+					   hidden="false"
+					   type="selectionEntry"
+					   targetId="6b9f81f0-b84cd1bb"
+					   import="true">
+					<constraints>
+						<constraint type="min"
+								value="1"
+								field="selections"
+								scope="parent"
+								shared="false"
+								id="de24daf-1ec81ebd"/>
+					</constraints>
+				</entryLink>
+			</entryLinks>
+			<selectionEntries>
+				<selectionEntry type="model"
+				                name="Rotting Promethian"
+				                id="2b0e1857-1af1e6a6"
+				                hidden="false"
+				                sortIndex="1">
+					<infoLinks>
+						<infoLink name="Prime Promethian"
+						          hidden="false"
+						          type="profile"
+						          id="f0c8b42d-3e870fe4"
+						          targetId="4628-f380-f88e-7c04"/>
+						<infoLink name="Base (40x40)"
+						          hidden="false"
+						          type="profile"
+						          id="182d913f-cd1ff34d"
+						          targetId="1b54-27fc-b510-61b8"/>
+					</infoLinks>
+					<constraints>
+						<constraint type="min"
+						            value="3"
+						            field="selections"
+						            scope="parent"
+						            shared="true"
+						            id="2424c588-890d1832"/>
+					</constraints>
+					<costs>
+						<cost name="pts"
+							  typeId="points"
+							  value="36"/>
+					</costs>
+					<categoryLinks>
+						<categoryLink name="Monstrous Infantry"
+						              hidden="false"
+						              id="d65-c9b4-ba93-f605"
+						              targetId="5c55-f9d6-b181-92f8"
+						              primary="false"/>
+					</categoryLinks>
+				</selectionEntry>
+				<selectionEntry type="upgrade"
+								import="true"
+								name="Zombie Riding Pair"
+								hidden="false"
+								id="8723b2df-d01fab6d"
+								sortIndex="2"
+								collective="true">
+					<costs>
+						<cost name="pts"
+							  typeId="points"
+							  value="4"/>
+					</costs>
+					<infoLinks>
+						<infoLink name="Zombie Riding Pair"
+								  hidden="false"
+								  type="profile"
+								  id="a6e4-d88d-78b9-f71e"
+								  targetId="8c0b-6fe6-dc06-511"/>
+					</infoLinks>
+				</selectionEntry>
+				<selectionEntry type="upgrade"
+								import="true"
+								name="Pistol"
+								hidden="false"
+								id="8723b2df-d01fab6d"
+								sortIndex="5"
+								collective="true">
+					<costs>
+						<cost name="pts"
+							  typeId="points"
+							  value=".5"/>
+					</costs>
+					<infoLinks>
+						<infoLink name="Pistol"
+								  hidden="false"
+								  type="profile"
+								  id="a6e4-d88d-78b9-f71e"
+								  targetId="d3c7-5222-61e8-9920"/>
+					</infoLinks>
+				</selectionEntry>
+				<selectionEntry type="upgrade"
+								import="true"
+								name="Handgun"
+								hidden="false"
+								id="8723b2df-d01fab6d"
+								sortIndex="6"
+								collective="true">
+					<costs>
+						<cost name="pts"
+							  typeId="points"
+							  value="1"/>
+					</costs>
+					<infoLinks>
+						<infoLink name="Handgun"
+								  hidden="false"
+								  type="profile"
+								  id="a6e4-d88d-78b9-f71e"
+								  targetId="7f58-91d4-ee6c-3cb7"/>
+					</infoLinks>
+				</selectionEntry>
+				<selectionEntry type="upgrade"
+								import="true"
+								name="Blunderbuss"
+								hidden="false"
+								id="8723b2df-d01fab6d"
+								sortIndex="7"
+								collective="true">
+					<costs>
+						<cost name="pts"
+							  typeId="points"
+							  value="2"/>
+					</costs>
+					<infoLinks>
+						<infoLink name="Blunderbuss"
+								  hidden="false"
+								  type="profile"
+								  id="a6e4-d88d-78b9-f71e"
+								  targetId="4035-287b-e117-6b9d"/>
+					</infoLinks>
+				</selectionEntry>
+			</selectionEntries>
+			<infoGroups>
+				<infoGroup name="Special Rules"
+				           hidden="false"
+				           id="be8b75af-70e806bd">
+					<infoLinks>
+						<infoLink name="Armoured Hide"
+						          hidden="false"
+						          type="profile"
+						          id="e8a4-6b05-37d4-308c"
+						          targetId="5450-cbf1-3e74-254a">
+							<modifiers>
+								<modifier type="append"
+								          value="(4)"
+								          field="name"/>
+							</modifiers>
+						</infoLink>
+						<infoLink name="Indomitable"
+						          hidden="false"
+						          id="f16b9422-b3689d6c"
+						          type="profile"
+						          targetId="78b6-d212-caa2-cef1">
+							<modifiers>
+								<modifier type="append"
+								          value="(1)"
+								          field="name"/>
+							</modifiers>
+						</infoLink>
+						<infoLink name="Move Through Cover"
+						          hidden="false"
+						          id="29983f33-afc266e1"
+						          type="profile"
+						          targetId="e83e-f127-1904-3858"/>
+						<infoLink name="Aquatic"
+						          hidden="false"
+						          id="34d0ea34-d50db13e"
+						          type="profile"
+						          targetId="1f39-2789-f136-7645"/>
+						<infoLink name="Necromantic Undead"
+						          hidden="false"
+						          id="6f66003e-63c79588"
+						          type="profile"
+						          targetId="a6ee-a62b-1579-2c37"/>
+						<infoLink name="Motley Crew"
+						          hidden="false"
+						          id="bfbb3a93-c0839d41"
+						          type="profile"
+						          targetId="6359-4018-5cd4-3720"/>
+						<infoLink name="Open Order"
+						          hidden="false"
+						          id="e455a62c-421e8576"
+						          type="profile"
+						          targetId="5b67-8535-146c-7cea"/>
+						<infoLink name="Regeneration"
+						          hidden="false"
+						          id="111433fb-37aa189"
+						          type="profile"
+						          targetId="2eb0-1ec8-8e04-72d4">
+							<modifiers>
+								<modifier type="append"
+								          value="(6+)"
+								          field="name"/>
+							</modifiers>
+						</infoLink>
+						<infoLink name="Stomp Attacks"
+						          hidden="false"
+						          id="50931576-8c23e440"
+						          type="profile"
+						          targetId="72db-24bb-7493-d753">
+							<modifiers>
+								<modifier type="append"
+								          value="(1)"
+								          field="name"/>
+							</modifiers>
+						</infoLink>
+					</infoLinks>
+				</infoGroup>
+			</infoGroups>
+			<categoryLinks>
+				<categoryLink name="Faction: Vampire Counts"
+				              hidden="false"
+				              id="a927-4963-ef8a-d4f2"
+				              primary="false"
+				              targetId="7345-d692-6f6a-d6f6"/>
+			</categoryLinks>
+		</selectionEntry>
+		<selectionEntry type="unit"
+		                import="true"
 		                name="Bat Swarms"
 		                hidden="false"
 		                id="a0676ab6-5e2b8f80"
@@ -5632,7 +6286,7 @@ Resurrected models are added to the front rank until it reaches the minimum requ
 						<infoLink name="Bat Swarm"
 						          hidden="false"
 						          type="profile"
-						          id="71775893-176ecb41"
+						          id="71775893-176ecb42"
 						          targetId="9031-84d2-c581-1b19"/>
 						<infoLink name="Base (40x40)"
 						          hidden="false"
@@ -5729,6 +6383,124 @@ Resurrected models are added to the front rank until it reaches the minimum requ
 		</selectionEntry>
 		<selectionEntry type="unit"
 		                import="true"
+		                name="Rat Swarms"
+		                hidden="false"
+		                id="a0676ab6-5e2b8f81"
+		                collective="false">
+			<profiles>
+				<profile name="Rat Swarms"
+				         typeId="2878-9a1f-dd74-48e3"
+				         typeName="Unit"
+				         hidden="false"
+				         id="c03e4364-d531deag">
+					<characteristics>
+						<characteristic name="Troop Type"
+						                typeId="5d94-6b94-bd89-1944">Swarms</characteristic>
+						<characteristic name="Unit Size"
+						                typeId="80a1-bb6f-66e4-4a5b">3+</characteristic>
+					</characteristics>
+				</profile>
+			</profiles>
+			<selectionEntries>
+				<selectionEntry type="model"
+				                name="Rat Swarm"
+				                id="54340175-ed68f66d"
+				                hidden="false">
+					<infoLinks>
+						<infoLink name="Rat Swarm"
+						          hidden="false"
+						          type="profile"
+						          id="71775893-176ecb43"
+						          targetId="9031-84d2-c581-1b10"/>
+						<infoLink name="Base (40x40)"
+						          hidden="false"
+						          type="profile"
+						          id="41a6e3c1-168eb118"
+						          targetId="1b54-27fc-b510-61b8"/>
+					</infoLinks>
+					<costs>
+						<cost name="pts"
+						      typeId="points"
+						      value="36"/>
+					</costs>
+					<entryLinks>
+						<entryLink name="Hand Weapon"
+						           id="d8b582b8-f640f8a2"
+						           hidden="false"
+						           type="selectionEntry"
+						           targetId="721d-36e3-388a-c0d6"
+						           sortIndex="2">
+							<constraints>
+								<constraint type="min"
+								            value="1"
+								            scope="parent"
+								            shared="false"
+								            field="selections"
+								            id="ab8c28e7-ecfadab5"/>
+							</constraints>
+						</entryLink>
+					</entryLinks>
+					<constraints>
+						<constraint type="min"
+						            value="3"
+						            field="selections"
+						            scope="parent"
+						            shared="true"
+						            id="2424c588-890d1832"/>
+					</constraints>
+					<categoryLinks>
+						<categoryLink name="Swarms"
+						              hidden="false"
+						              id="145d-fe05-4d61-e39e"
+						              targetId="db92-54fd-e023-d69f"
+						              primary="false"/>
+					</categoryLinks>
+				</selectionEntry>
+			</selectionEntries>
+			<infoGroups>
+				<infoGroup name="Special Rules"
+				           hidden="false"
+				           id="4f39b99a-15c70d84">
+					<infoLinks>
+						<infoLink name="Necromantic Undead"
+						          hidden="false"
+						          id="eaa54dcd-86c25403"
+						          type="profile"
+						          targetId="a6ee-a62b-1579-2c37"/>
+						<infoLink name="Regeneration"
+						          hidden="false"
+						          id="1e503402-6fb9b5cc"
+						          type="profile"
+						          targetId="2eb0-1ec8-8e04-72d4">
+							<modifiers>
+								<modifier type="append"
+								          value="(6+)"
+								          field="name"/>
+							</modifiers>
+						</infoLink>
+						<infoLink name="Vanguard"
+						          hidden="false"
+						          id="eaa54dcd-86c25404"
+						          type="profile"
+						          targetId="691e-10ec-4f7c-a2c4"/>
+						<infoLink name="Skirmishers"
+						          hidden="false"
+						          id="ff80fe71-f2467b47"
+						          type="profile"
+						          targetId="59a5-7eca-ee35-96ac"/>
+					</infoLinks>
+				</infoGroup>
+			</infoGroups>
+			<categoryLinks>
+				<categoryLink name="Faction: Vampire Counts"
+				              hidden="false"
+				              id="9d-e639-135d-57ee"
+				              primary="false"
+				              targetId="7345-d692-6f6a-d6f6"/>
+			</categoryLinks>
+		</selectionEntry>
+		<selectionEntry type="unit"
+		                import="true"
 		                name="Fell Bats"
 		                hidden="false"
 		                id="95bea3a5-509ece9b"
@@ -5769,13 +6541,13 @@ Resurrected models are added to the front rank until it reaches the minimum requ
 						      typeId="points"
 						      value="15"/>
 					</costs>
-					<entryLinks>
-						<entryLink name="Hand Weapon"
-						           id="b371d22a-c2fa18d4"
-						           hidden="false"
-						           type="selectionEntry"
-						           targetId="721d-36e3-388a-c0d6"
-						           sortIndex="2">
+					<selectionEntries>
+						<selectionEntry name="Hand Weapon"
+						                id="b371d22a-c2fa18d4"
+						                hidden="false"
+						                type="selectionEntry"
+						                targetId="721d-36e3-388a-c0d6"
+						                sortIndex="1">
 							<constraints>
 								<constraint type="min"
 								            value="1"
@@ -5783,9 +6555,45 @@ Resurrected models are added to the front rank until it reaches the minimum requ
 								            shared="false"
 								            field="selections"
 								            id="f3f2cb59-6deb25af"/>
+								<constraint type="max"
+								            value="1"
+								            field="selections"
+								            scope="parent"
+								            shared="false"
+								            id="5ff7bf60-eaf96e2a"
+								            includeChildSelections="false"/>
 							</constraints>
-						</entryLink>
-					</entryLinks>
+						</selectionEntry>
+						<selectionEntry type="upgrade"
+						                import="true"
+						                name="Deck Droppers"
+						                hidden="false"
+						                id="8723b2df-d01fab6d"
+						                sortIndex="1"
+						                collective="true">
+							<costs>
+								<cost name="pts"
+								      typeId="points"
+								      value="5"/>
+							</costs>
+							<infoLinks>
+								<infoLink name="Deck Droppers"
+								          id="2829f536-1a85c600"
+								          hidden="false"
+								          type="profile"
+								          targetId="9015-2214-a000-7399"/>
+							</infoLinks>
+							<constraints>
+								<constraint type="max"
+								            value="1"
+								            field="selections"
+								            scope="parent"
+								            shared="false"
+								            id="5ff7bf60-eaf96e2a"
+								            includeChildSelections="false"/>
+							</constraints>
+						</selectionEntry>
+					</selectionEntries>
 					<constraints>
 						<constraint type="min"
 						            value="3"
@@ -7666,42 +8474,6 @@ Resurrected models are added to the front rank until it reaches the minimum requ
 		</selectionEntry>
 		<selectionEntry type="unit"
 		                import="true"
-		                name="Black Coach"
-		                hidden="false"
-		                id="c9fd2057-fa28aea5"
-		                collective="false">
-			<profiles>
-				<profile name="Black Coach"
-				         typeId="2878-9a1f-dd74-48e3"
-				         typeName="Unit"
-				         hidden="false"
-				         id="2990bc2d-20ced7e3">
-					<characteristics>
-						<characteristic name="Troop Type"
-						                typeId="5d94-6b94-bd89-1944">Heavy Chariot</characteristic>
-						<characteristic name="Unit Size"
-						                typeId="80a1-bb6f-66e4-4a5b">1</characteristic>
-					</characteristics>
-				</profile>
-			</profiles>
-			<categoryLinks>
-				<categoryLink name="Faction: Vampire Counts"
-				              hidden="false"
-				              id="7820-471d-cbe1-edb0"
-				              primary="false"
-				              targetId="7345-d692-6f6a-d6f6"/>
-			</categoryLinks>
-			<entryLinks>
-				<entryLink import="true"
-				           name="Black Coach"
-				           hidden="false"
-				           id="c836-0d73-9c65-9e8a"
-				           type="selectionEntry"
-				           targetId="d6a7d14-ce6bc81e"/>
-			</entryLinks>
-		</selectionEntry>
-		<selectionEntry type="unit"
-		                import="true"
 		                name="Terrorgheist"
 		                hidden="false"
 		                id="fb8a7c6-7dcb6950"
@@ -7752,16 +8524,16 @@ Resurrected models are added to the front rank until it reaches the minimum requ
 		</selectionEntry>
 		<selectionEntry type="unit"
 		                import="true"
-		                name="Varghulf"
+		                name="Rotting Leviathan"
 		                hidden="false"
-		                id="70896e07-29f6d655"
+		                id="70896e07-29f6d656"
 		                collective="false">
 			<profiles>
-				<profile name="Varghulf"
+				<profile name="Rotting Leviathan"
 				         typeId="2878-9a1f-dd74-48e3"
 				         typeName="Unit"
 				         hidden="false"
-				         id="fc9e5d1d-14858ad3">
+				         id="fc9e5d1d-14858ad4">
 					<characteristics>
 						<characteristic name="Troop Type"
 						                typeId="5d94-6b94-bd89-1944">Monstrous creature</characteristic>
@@ -7772,14 +8544,14 @@ Resurrected models are added to the front rank until it reaches the minimum requ
 			</profiles>
 			<selectionEntries>
 				<selectionEntry type="model"
-				                name="Varghulf"
-				                id="8d23df94-9c46169e"
+				                name="Rotting Leviathan"
+				                id="8d23df94-9c46169f"
 				                hidden="false">
 					<infoLinks>
-						<infoLink name="Varghulf"
+						<infoLink name="Rotting Leviathan"
 						          hidden="false"
 						          type="profile"
-						          id="8f2b49f2-b4008ebc"
+						          id="8f2b49f2-b4008ebd"
 						          targetId="108d-f743-d0f9-b8f0"/>
 						<infoLink name="Base (50x50)"
 						          hidden="false"
@@ -7790,14 +8562,14 @@ Resurrected models are added to the front rank until it reaches the minimum requ
 					<costs>
 						<cost name="pts"
 						      typeId="points"
-						      value="140"/>
+						      value="200"/>
 					</costs>
 					<entryLinks>
 						<entryLink name="Wicked Claws"
 						           id="706e3cc1-7a534217"
 						           hidden="false"
 						           type="selectionEntry"
-						           targetId="6b9f81f0-b84cd1ba"
+						           targetId="6b9f81f0-b84cd1bb"
 						           sortIndex="1"
 						           import="true">
 							<constraints>
@@ -7809,11 +8581,11 @@ Resurrected models are added to the front rank until it reaches the minimum requ
 								            id="c11cd01e-f514e2e8"/>
 							</constraints>
 						</entryLink>
-						<entryLink name="Light Armour"
+						<entryLink name="Ships Hull"
 						           id="5b533e52-688d839c"
 						           hidden="false"
 						           type="selectionEntry"
-						           targetId="7cab-40e6-f134-de78"
+						           targetId="c56e-8d1b-bb4-de99"
 						           sortIndex="2">
 							<constraints>
 								<constraint type="min"
@@ -7840,10 +8612,10 @@ Resurrected models are added to the front rank until it reaches the minimum requ
 						            id="50f8e097-c46ce5"/>
 					</constraints>
 					<categoryLinks>
-						<categoryLink name="Monstrous Creature"
+						<categoryLink name="Behemoth"
 						              hidden="false"
 						              id="d314-364d-991f-363c"
-						              targetId="fb36-5275-617-c895"
+						              targetId="ab70-6b36-9ac9-324c"
 						              primary="false"/>
 						<categoryLink name="MAY_HAVE_ARMOUR"
 						              hidden="false"
@@ -7924,6 +8696,198 @@ Resurrected models are added to the front rank until it reaches the minimum requ
 						          id="c76581e6-5b8fa8f0"
 						          type="profile"
 						          targetId="c7a2-35bf-4313-f4f0"/>
+					</infoLinks>
+				</infoGroup>
+			</infoGroups>
+			<categoryLinks>
+				<categoryLink name="Faction: Vampire Counts"
+				              hidden="false"
+				              id="ce7f-e770-be5f-2e06"
+				              primary="false"
+				              targetId="7345-d692-6f6a-d6f6"/>
+			</categoryLinks>
+		</selectionEntry>
+		<selectionEntry type="unit"
+		                import="true"
+		                name="Necrofex Colossus"
+		                hidden="false"
+		                id="70896e07-29f6d657"
+		                collective="false">
+			<profiles>
+				<profile name="Necrofex Colossus"
+				         typeId="2878-9a1f-dd74-48e3"
+				         typeName="Unit"
+				         hidden="false"
+				         id="fc9e5d1d-14858ad3">
+					<characteristics>
+						<characteristic name="Troop Type"
+						                typeId="5d94-6b94-bd89-1944">Monstrous creature</characteristic>
+						<characteristic name="Unit Size"
+						                typeId="80a1-bb6f-66e4-4a5b">1</characteristic>
+					</characteristics>
+				</profile>
+			</profiles>
+			<selectionEntries>
+				<selectionEntry type="model"
+				                name="Necrofex Colossus"
+				                id="8d23df94-9c46169e"
+				                hidden="false">
+					<infoLinks>
+						<infoLink name="Necrofex Colossus"
+						          hidden="false"
+						          type="profile"
+						          id="8f2b49f2-b4008ebc"
+						          targetId="4628-f380-f88e-7c01"/>
+						<infoLink name="Base (60x100)"
+						          hidden="false"
+						          type="profile"
+						          id="46ec-2ecc-fbd3-a402"
+						          targetId="5125-89a4-916a-eabd"/>
+					</infoLinks>
+					<costs>
+						<cost name="pts"
+						      typeId="points"
+						      value="260"/>
+					</costs>
+					<selectionEntries>
+						<selectionEntry type="upgrade"
+						                import="true"
+						                name="Gun Arm"
+						                hidden="false"
+						                id="80004e7-aeefd6b5"
+						                sortIndex="5"
+						                collective="true">
+							<costs>
+								<cost name="pts"
+								      typeId="points"
+								      value="50"/>
+							</costs>
+							<infoLinks>
+								<infoLink name="Gun Arm"
+								          id="9282351e-fe271fe8"
+								          hidden="false"
+								          type="profile"
+								          targetId="78b6-d212-caa2-cef4"/>
+							</infoLinks>
+							<constraints>
+								<constraint type="max"
+								            value="1"
+								            field="selections"
+								            scope="parent"
+								            shared="false"
+								            id="a663c1a8-37c33352"
+								            includeChildSelections="false"/>
+							</constraints>
+						</selectionEntry>
+					</selectionEntries>
+					<entryLinks>
+						<entryLink name="Massive Limbs"
+						           id="706e3cc1-7a534217"
+						           hidden="false"
+						           type="selectionEntry"
+						           targetId="6b9f81f0-b84cd1ba"
+						           sortIndex="1"
+						           import="true">
+							<constraints>
+								<constraint type="min"
+								            value="1"
+								            field="selections"
+								            scope="parent"
+								            shared="false"
+								            id="c11cd01e-f514e2e8"/>
+							</constraints>
+						</entryLink>
+						<entryLink name="Heavy Armour"
+						           id="f9ed912f-fd5d463d"
+						           hidden="false"
+						           type="selectionEntry"
+						           targetId="62fb-f89d-afc-1cf1"
+						           sortIndex="2"
+						           import="true">
+							<constraints>
+								<constraint type="min"
+								            value="1"
+								            field="selections"
+								            scope="parent"
+								            shared="false"
+								            id="e8aefc5c-7fb91a66"/>
+							</constraints>
+						</entryLink>
+					</entryLinks>
+					<constraints>
+						<constraint type="min"
+						            value="1"
+						            field="selections"
+						            scope="parent"
+						            shared="true"
+						            id="3f0c4bf9-1ca4d94f"/>
+						<constraint type="max"
+						            value="1"
+						            field="selections"
+						            scope="parent"
+						            shared="true"
+						            id="50f8e097-c46ce5"/>
+					</constraints>
+					<categoryLinks>
+						<categoryLink name="Monstrous Creature"
+						              hidden="false"
+						              id="d314-364d-991f-363c"
+						              targetId="fb36-5275-617-c895"
+						              primary="false"/>
+						<categoryLink name="MAY_HAVE_ARMOUR"
+						              hidden="false"
+						              id="dde6-641a-150e-ca36"
+						              targetId="may-have-armour"/>
+					</categoryLinks>
+				</selectionEntry>
+			</selectionEntries>
+			<infoGroups>
+				<infoGroup name="Special Rules"
+				           hidden="false"
+				           id="fd92d9e7-ef4403b5">
+					<infoLinks>
+						<infoLink name="Aquatic"
+						          hidden="false"
+						          id="34d0ea34-d50db13e"
+						          type="profile"
+						          targetId="1f39-2789-f136-7645"/>
+						<infoLink name="Close Order"
+						          hidden="false"
+						          id="c398deb0-ae15487a"
+						          type="profile"
+						          targetId="883e-e1b1-4fe9-5912"/>
+						<infoLink name="Howdah" hidden="false" id="502dcc8d-1090dcc3" type="profile" targetId="b8f6-1cbc-b19-c7b7"/>		  
+						<infoLink name="Large Target" hidden="false" id="8ec37de-5dab0ca8" type="profile" targetId="c822-7ad0-f24a-e4af"/>
+						<infoLink name="Necromantic Undead"
+						          hidden="false"
+						          id="798d9196-327ac060"
+						          type="profile"
+						          targetId="a6ee-a62b-1579-2c37"/>
+						<infoLink name="Regeneration"
+						          hidden="false"
+						          id="58f357fa-8bb1f0e4"
+						          type="profile"
+						          targetId="2eb0-1ec8-8e04-72d4">
+							<modifiers>
+								<modifier type="append"
+								          value="(4+)"
+								          field="name"/>
+							</modifiers>
+						</infoLink>
+						<infoLink name="Stomp Attacks" hidden="false" id="4da02a5d-c28eee13" type="profile" targetId="72db-24bb-7493-d753">
+						  <modifiers>
+							<modifier type="append" value="(D3)" field="name"/>
+						  </modifiers>
+						</infoLink>
+						<infoLink name="Stubborn" id="d4ef-bd41-5482-8bc6" hidden="false" type="profile" targetId="e351-bbd6-f470-b604"/>
+						<infoLink name="Terror"
+						          hidden="false"
+						          id="c76581e6-5b8fa8f0"
+						          type="profile"
+						          targetId="c7a2-35bf-4313-f4f0"/>
+						<infoLink name="Timmm-Berrr!" hidden="false" id="bdb4506-576f1c90" type="profile" targetId="4f28-3f86-cf88-6b3a"/>
+						<infoLink name="Impale" hidden="false" id="bdb4506-576f1c91" type="profile" targetId="78b6-d212-caa2-cef2"/>
+						<infoLink name="Vortex of Death" hidden="false" id="bdb4506-576f1c92" type="profile" targetId="78b6-d212-caa2-cef3"/>
 					</infoLinks>
 				</infoGroup>
 			</infoGroups>
@@ -8900,7 +9864,7 @@ Resurrected models are added to the front rank until it reaches the minimum requ
 			<comment>Special</comment>
 		</entryLink>
 		<entryLink import="true"
-		           name="Skeleton Warriors"
+		           name="Skeleton Crew"
 		           hidden="false"
 		           id="42f09538-6d0f7722"
 		           type="selectionEntry"
@@ -8911,6 +9875,11 @@ Resurrected models are added to the front rank until it reaches the minimum requ
 				              id="99ae-e8dd-247d-e3e4"
 				              targetId="f0e3-2e32-8866-ea32"
 				              primary="true"/>
+				<categoryLink name="0-2 Skeleton Crew per 1,000 points"
+				              hidden="false"
+				              id="bccc-55f-c3e2-2a68"
+				              targetId="d41b-d3fa-a08b-a755"
+				              primary="false"/>
 				<categoryLink name="Units (not including units whose troop type is &apos;swarms&apos;, &apos;war beasts&apos; or &apos;war machines&apos;)"
 				              hidden="false"
 				              id="e7b4-aa6e-e3c5-2013"
@@ -8971,6 +9940,44 @@ Resurrected models are added to the front rank until it reaches the minimum requ
 			</categoryLinks>
 		</entryLink>
 		<entryLink import="true"
+		           name="Rotting Promethians"
+		           hidden="false"
+		           id="9dc5b9fd-60204536"
+		           type="selectionEntry"
+		           targetId="475a2b9f-6b5c5e2e">
+			<categoryLinks>
+				<categoryLink name="Special"
+				              hidden="false"
+				              id="f872-896b-6993-a61c"
+				              targetId="633f-f67a-1b6a-d203"
+				              primary="true"/>
+				<categoryLink name="Units (not including units whose troop type is &apos;swarms&apos;, &apos;war beasts&apos; or &apos;war machines&apos;)"
+				              hidden="false"
+				              id="cb44-c844-50c6-8cf3"
+				              primary="false"
+				              targetId="fec1-537a-bbeb-7926"/>
+			</categoryLinks>
+		</entryLink>
+		<entryLink import="true"
+		           name="Fell Bats"
+		           hidden="false"
+		           id="7f45a060-36d0472a"
+		           type="selectionEntry"
+		           targetId="95bea3a5-509ece9b">
+			<categoryLinks>
+				<categoryLink name="Special"
+				              hidden="false"
+				              id="f872-896b-6993-a61c"
+				              targetId="633f-f67a-1b6a-d203"
+				              primary="true"/>
+				<categoryLink name="Units (not including units whose troop type is &apos;swarms&apos;, &apos;war beasts&apos; or &apos;war machines&apos;)"
+				              hidden="false"
+				              id="cb44-c844-50c6-8cf3"
+				              primary="false"
+				              targetId="fec1-537a-bbeb-7926"/>
+			</categoryLinks>
+		</entryLink>
+		<entryLink import="true"
 		           name="Bat Swarms"
 		           hidden="false"
 		           id="7f45a060-36d0472a"
@@ -8979,26 +9986,31 @@ Resurrected models are added to the front rank until it reaches the minimum requ
 			<categoryLinks>
 				<categoryLink name="Core"
 				              hidden="false"
-				              id="d903-db7c-7b18-bcc5"
+				              id="d903-db7c-7b18-bcc8"
 				              targetId="f0e3-2e32-8866-ea32"
-				              primary="true"/>
-			</categoryLinks>
-		</entryLink>
-		<entryLink import="true"
-		           name="Fell Bats"
-		           hidden="false"
-		           id="21ce4bcb-31c5a599"
-		           type="selectionEntry"
-		           targetId="95bea3a5-509ece9b">
-			<categoryLinks>
-				<categoryLink name="Special"
-				              hidden="false"
-				              id="acc9-534f-3c9e-a9db"
-				              targetId="633f-f67a-1b6a-d203"
 				              primary="true"/>
 				<categoryLink name="Units (not including units whose troop type is &apos;swarms&apos;, &apos;war beasts&apos; or &apos;war machines&apos;)"
 				              hidden="false"
-				              id="03e0-e269-d747-8f3f"
+				              id="cb44-c844-50c6-8cf3"
+				              primary="false"
+				              targetId="fec1-537a-bbeb-7926"/>
+			</categoryLinks>
+		</entryLink>
+		<entryLink import="true"
+		           name="Rat Swarms"
+		           hidden="false"
+		           id="7f45a060-36d0472b"
+		           type="selectionEntry"
+		           targetId="a0676ab6-5e2b8f81">
+			<categoryLinks>
+				<categoryLink name="Core"
+				              hidden="false"
+				              id="d903-db7c-7b18-bcc8"
+				              targetId="f0e3-2e32-8866-ea32"
+				              primary="true"/>
+				<categoryLink name="Units (not including units whose troop type is &apos;swarms&apos;, &apos;war beasts&apos; or &apos;war machines&apos;)"
+				              hidden="false"
+				              id="cb44-c844-50c6-8cf3"
 				              primary="false"
 				              targetId="fec1-537a-bbeb-7926"/>
 			</categoryLinks>
@@ -9140,21 +10152,41 @@ Resurrected models are added to the front rank until it reaches the minimum requ
 			<comment>Rare</comment>
 		</entryLink>
 		<entryLink import="true"
-		           name="Varghulf"
+		           name="Rotting Leviathan"
+		           hidden="false"
+		           id="a8d16245-aeb1073c"
+		           type="selectionEntry"
+		           targetId="70896e07-29f6d656">
+			<categoryLinks>
+				<categoryLink name="Rare"
+				              hidden="false"
+				              id="9b97-6e2c-b34f-daa5"
+				              targetId="2bfe-5863-46fe-d284"
+				              primary="true"/>
+				<categoryLink name="Units (not including units whose troop type is &apos;swarms&apos;, &apos;war beasts&apos; or &apos;war machines&apos;)"
+				              hidden="false"
+				              id="bf1b-77fd-0f83-62f9"
+				              primary="false"
+				              targetId="fec1-537a-bbeb-7926"/>
+			</categoryLinks>
+			<comment>Rare</comment>
+		</entryLink>
+		<entryLink import="true"
+		           name="Necrofex Colossus"
 		           hidden="false"
 		           id="a8d16245-aeb1073b"
 		           type="selectionEntry"
-		           targetId="70896e07-29f6d655">
+		           targetId="70896e07-29f6d657">
 			<categoryLinks>
 				<categoryLink name="Rare"
 				              hidden="false"
 				              id="e057-242a-9753-ad39"
 				              targetId="2bfe-5863-46fe-d284"
 				              primary="true"/>
-				<categoryLink name="0-1 Terrorgheist or Varghulf per 1,000 points"
+				<categoryLink name="0-1 Necr Colossus per 1,000 points"
 				              hidden="false"
 				              id="bccc-55f-c3e2-2a68"
-				              targetId="d41b-d3fa-a08b-a753"
+				              targetId="d41b-d3fa-a08b-a754"
 				              primary="false"/>
 				<categoryLink name="Units (not including units whose troop type is &apos;swarms&apos;, &apos;war beasts&apos; or &apos;war machines&apos;)"
 				              hidden="false"
@@ -9163,98 +10195,6 @@ Resurrected models are added to the front rank until it reaches the minimum requ
 				              targetId="fec1-537a-bbeb-7926"/>
 			</categoryLinks>
 			<comment>Rare</comment>
-		</entryLink>
-		<entryLink import="true"
-		           name="Depth Guard"
-		           hidden="true"
-		           id="26a6-2f5a-d104-e6f1"
-		           type="selectionEntry"
-		           targetId="2c65c970-45a4dd3a">
-			<categoryLinks>
-				<categoryLink name="Core"
-				              hidden="false"
-				              id="7eba-4989-7a4c-5021"
-				              targetId="f0e3-2e32-8866-ea32"
-				              primary="true"/>
-				<categoryLink name="0-1 Animated Hulks or Depth Guard per 1,000 points"
-				              hidden="false"
-				              id="6e3b-4476-8977-4341"
-				              targetId="85c8-1fba-1d5e-bb7c"
-				              primary="false"/>
-				<categoryLink name="Units (not including units whose troop type is &apos;swarms&apos;, &apos;war beasts&apos; or &apos;war machines&apos;)"
-				              hidden="false"
-				              id="f6a4-95f3-7fda-ac79"
-				              primary="false"
-				              targetId="fec1-537a-bbeb-7926"/>
-			</categoryLinks>
-			<modifiers>
-				<modifier type="set"
-				          value="false"
-				          field="hidden">
-					<conditionGroups>
-						<conditionGroup type="or">
-							<conditions>
-								<condition type="atLeast"
-								           value="1"
-								           field="selections"
-								           scope="roster"
-								           childId="45d5318c-d51461d6"
-								           shared="true"
-								           includeChildSelections="true"/>
-								<condition type="atLeast"
-								           value="1"
-								           field="selections"
-								           scope="roster"
-								           childId="7374098c-2efc79d6"
-								           shared="true"
-								           includeChildSelections="true"/>
-							</conditions>
-						</conditionGroup>
-					</conditionGroups>
-				</modifier>
-			</modifiers>
-			<comment>Core</comment>
-		</entryLink>
-		<entryLink import="true"
-		           name="Terrorgheist"
-		           hidden="true"
-		           id="ccdb-3f83-db2e-bbb5"
-		           type="selectionEntry"
-		           targetId="fb8a7c6-7dcb6950">
-			<categoryLinks>
-				<categoryLink name="Special"
-				              hidden="false"
-				              id="5d32-6e62-a6ee-b8ce"
-				              targetId="633f-f67a-1b6a-d203"
-				              primary="true"/>
-				<categoryLink name="Units (not including units whose troop type is &apos;swarms&apos;, &apos;war beasts&apos; or &apos;war machines&apos;)"
-				              hidden="false"
-				              id="e375-c9a0-dcc7-3225"
-				              primary="false"
-				              targetId="fec1-537a-bbeb-7926"/>
-				<categoryLink targetId="e0cf-6c1f-3ac7-fab3"
-				              id="a569-ddd9-d197-723d"
-				              primary="false"
-				              name="0-1 Vargheists or Terrorgheist as a special choice"/>
-			</categoryLinks>
-			<modifiers>
-				<modifier type="set"
-				          value="false"
-				          field="hidden">
-					<conditions>
-						<condition type="atLeast"
-						           value="1"
-						           field="selections"
-						           scope="force"
-						           childId="d2665ea6-30239fb0"
-						           shared="true"
-						           includeChildSelections="true">
-							<comment>Strigoi Ghoul King General</comment>
-						</condition>
-					</conditions>
-				</modifier>
-			</modifiers>
-			<comment>Special</comment>
 		</entryLink>
 		<entryLink import="true"
 		           name="Renegades (Square Based)"
@@ -9343,7 +10283,7 @@ Resurrected models are added to the front rank until it reaches the minimum requ
 				</modifier>
 			</modifiers>
 		</categoryEntry>
-		<categoryEntry name="0-1 Terrorgheist or Varghulf per 1,000 points"
+		<categoryEntry name="0-1 Terrorgheist per 1,000 points"
 		               hidden="true"
 		               id="d41b-d3fa-a08b-a753">
 			<modifiers>
@@ -9372,6 +10312,130 @@ Resurrected models are added to the front rank until it reaches the minimum requ
 				</modifier>
 				<modifier type="increment"
 				          value="1"
+				          field="6c92-a37d-6888-7053">
+					<repeats>
+						<repeat value="1000"
+						        repeats="1"
+						        field="points"
+						        scope="force"
+						        childId="any"
+						        shared="true"
+						        roundUp="false"
+						        id="10c9-3540-6190-412f"
+						        includeChildSelections="true"/>
+					</repeats>
+					<conditions>
+						<condition type="notInstanceOf"
+						           value="1"
+						           field="selections"
+						           scope="force"
+						           childId="8214-cf48-b1cd-5f5e"
+						           shared="true"
+						           includeChildSelections="true"/>
+					</conditions>
+				</modifier>
+			</modifiers>
+			<constraints>
+				<constraint type="max"
+				            value="0"
+				            field="selections"
+				            scope="force"
+				            shared="true"
+				            id="6c92-a37d-6888-7053"
+				            includeChildSelections="true"/>
+			</constraints>
+		</categoryEntry>
+		<categoryEntry name="0-1 Necrofex Colossus per 1,000 points"
+		               hidden="true"
+		               id="d41b-d3fa-a08b-a754">
+			<modifiers>
+				<modifier type="increment"
+				          value="1"
+				          field="6c92-a37d-6888-7053">
+					<repeats>
+						<repeat value="1000"
+						        repeats="1"
+						        field="limit::points"
+						        scope="roster"
+						        childId="any"
+						        shared="true"
+						        roundUp="false"
+						        id="9257-c942-955d-48b7"/>
+					</repeats>
+					<conditions>
+						<condition type="instanceOf"
+						           value="1"
+						           field="selections"
+						           scope="force"
+						           childId="8214-cf48-b1cd-5f5e"
+						           shared="true"
+						           includeChildSelections="true"/>
+					</conditions>
+				</modifier>
+				<modifier type="increment"
+				          value="1"
+				          field="6c92-a37d-6888-7053">
+					<repeats>
+						<repeat value="1000"
+						        repeats="1"
+						        field="points"
+						        scope="force"
+						        childId="any"
+						        shared="true"
+						        roundUp="false"
+						        id="10c9-3540-6190-412f"
+						        includeChildSelections="true"/>
+					</repeats>
+					<conditions>
+						<condition type="notInstanceOf"
+						           value="1"
+						           field="selections"
+						           scope="force"
+						           childId="8214-cf48-b1cd-5f5e"
+						           shared="true"
+						           includeChildSelections="true"/>
+					</conditions>
+				</modifier>
+			</modifiers>
+			<constraints>
+				<constraint type="max"
+				            value="0"
+				            field="selections"
+				            scope="force"
+				            shared="true"
+				            id="6c92-a37d-6888-7053"
+				            includeChildSelections="true"/>
+			</constraints>
+		</categoryEntry>
+		<categoryEntry name="0-1 Skeleton Crew per 1,000 points"
+		               hidden="true"
+		               id="d41b-d3fa-a08b-a755">
+			<modifiers>
+				<modifier type="increment"
+				          value="2"
+				          field="6c92-a37d-6888-7053">
+					<repeats>
+						<repeat value="1000"
+						        repeats="1"
+						        field="limit::points"
+						        scope="roster"
+						        childId="any"
+						        shared="true"
+						        roundUp="false"
+						        id="9257-c942-955d-48b7"/>
+					</repeats>
+					<conditions>
+						<condition type="instanceOf"
+						           value="1"
+						           field="selections"
+						           scope="force"
+						           childId="8214-cf48-b1cd-5f5e"
+						           shared="true"
+						           includeChildSelections="true"/>
+					</conditions>
+				</modifier>
+				<modifier type="increment"
+				          value="2"
 				          field="6c92-a37d-6888-7053">
 					<repeats>
 						<repeat value="1000"
@@ -9543,50 +10607,15 @@ Resurrected models are added to the front rank until it reaches the minimum requ
 				            shared="true"
 				            id="1d00-1494-70c0-f133"/>
 			</constraints>
-			<entryLinks>
-				<entryLink import="true"
-				           name="Terrorgheist"
-				           hidden="true"
-				           id="cb52-7d0b-3d5c-441d"
-				           type="selectionEntry"
-				           targetId="450fb3b2-1df3aa7c"
-				           sortIndex="5">
-					<categoryLinks>
-						<categoryLink name="MOUNT"
-						              hidden="false"
-						              id="6b6b-1653-110a-2b95"
-						              targetId="c96a-608-5de4-b943"
-						              primary="false"/>
-					</categoryLinks>
-					<modifiers>
-						<modifier type="set"
-						          value="false"
-						          field="hidden">
-							<conditionGroups>
-								<conditionGroup type="or">
-									<conditions>
-										<condition type="instanceOf"
-										           value="1"
-										           field="selections"
-										           scope="ancestor"
-										           childId="aba2369b-f537e829"
-										           shared="true"/>
-									</conditions>
-								</conditionGroup>
-							</conditionGroups>
-						</modifier>
-					</modifiers>
-				</entryLink>
-			</entryLinks>
 			<selectionEntries>
 				<selectionEntry type="model"
-				                name="Mortis Engine"
+				                name="Necrofex Colossus"
 				                id="680b53e0-f8cc5eaa"
-				                hidden="true"
+				                hidden="false"
 				                subType="mount"
-				                sortIndex="4">
+				                sortIndex="3">
 					<infoLinks>
-						<infoLink name="Mortis Engine"
+						<infoLink name="Necrofex Colossus"
 						          hidden="false"
 						          type="profile"
 						          id="f1be7a06-c290a990"
@@ -9606,16 +10635,16 @@ Resurrected models are added to the front rank until it reaches the minimum requ
 								</modifier>
 							</modifiers>
 						</infoLink>
-						<infoLink name="Base (50x100)"
+						<infoLink name="Base (60x100)"
 						          hidden="false"
 						          type="profile"
-						          id="e5fb812e-f8e70238"
-						          targetId="d456-e30e-f85d-14d"/>
+						          id="46ec-2ecc-fbd3-a402"
+						          targetId="5125-89a4-916a-eabd"/>
 					</infoLinks>
 					<costs>
 						<cost name="pts"
 						      typeId="points"
-						      value="195"/>
+						      value="310"/>
 					</costs>
 					<constraints>
 						<constraint type="max"
@@ -9878,30 +10907,6 @@ Resurrected models are added to the front rank until it reaches the minimum requ
 							</characteristics>
 						</profile>
 					</profiles>
-					<modifiers>
-						<modifier type="set"
-						          value="false"
-						          field="hidden">
-							<conditionGroups>
-								<conditionGroup type="or">
-									<conditions>
-										<condition type="instanceOf"
-										           value="1"
-										           field="selections"
-										           scope="ancestor"
-										           childId="1ed21202-f13ca3cc"
-										           shared="true"/>
-										<condition type="instanceOf"
-										           value="1"
-										           field="selections"
-										           scope="ancestor"
-										           childId="824d1325-da3dc21b"
-										           shared="true"/>
-									</conditions>
-								</conditionGroup>
-							</conditionGroups>
-						</modifier>
-					</modifiers>
 					<categoryLinks>
 						<categoryLink name="Heavy Chariot"
 						              hidden="false"
@@ -9911,47 +10916,33 @@ Resurrected models are added to the front rank until it reaches the minimum requ
 					</categoryLinks>
 				</selectionEntry>
 				<selectionEntry type="model"
-				                name="Coven Throne"
+				                name="Rotting Leviathan"
 				                id="3d22ed0c-a1184156"
-				                hidden="true"
+				                hidden="false"
 				                subType="mount"
-				                sortIndex="6">
+				                sortIndex="2">
 					<infoLinks>
-						<infoLink name="Coven Throne"
+						<infoLink name="Rotting Leviathan"
 						          hidden="false"
 						          type="profile"
 						          id="b02d4e2a-a5f9b4d4"
-						          targetId="43a8-189a-dac9-b9ca">
-							<modifiers>
-								<modifier type="set"
-								          value="(+5)"
-								          field="83ed-7b82-bf1f-e558">
-									<conditions>
-										<condition type="instanceOf"
-										           value="1"
-										           field="selections"
-										           scope="ancestor"
-										           childId="a4cc-15c9-cfae-1b3b"
-										           shared="true"/>
-									</conditions>
-								</modifier>
-							</modifiers>
+						          targetId="ad5c-2cde-2bda-4289">
 						</infoLink>
 						<infoLink name="Base (50x100)"
 						          hidden="false"
 						          type="profile"
 						          id="7dd96116-6aec13e0"
 						          targetId="d456-e30e-f85d-14d"/>
-						<infoLink name="Coven Throne"
+						<infoLink name="Rotting Leviathan"
 						          id="adbd-821f-7ac6-ab98"
 						          hidden="false"
 						          type="infoGroup"
-						          targetId="8956-9484-4d5f-abad"/>
+						          targetId="4dfa7ed6-af9643a0"/>
 					</infoLinks>
 					<costs>
 						<cost name="pts"
 						      typeId="points"
-						      value="210"/>
+						      value="200"/>
 					</costs>
 					<constraints>
 						<constraint type="max"
@@ -9961,278 +10952,6 @@ Resurrected models are added to the front rank until it reaches the minimum requ
 						            shared="true"
 						            id="515dd703-13fc4a31"/>
 					</constraints>
-					<profiles>
-						<profile name="Coven Throne"
-						         typeId="2878-9a1f-dd74-48e3"
-						         typeName="Unit"
-						         hidden="false"
-						         id="eeea64c5-d2edf5bb">
-							<characteristics>
-								<characteristic name="Troop Type"
-								                typeId="5d94-6b94-bd89-1944">Heavy chariot</characteristic>
-								<characteristic name="Unit Size"
-								                typeId="80a1-bb6f-66e4-4a5b">1</characteristic>
-							</characteristics>
-						</profile>
-					</profiles>
-					<infoGroups>
-						<infoGroup name="Special Rules"
-						           hidden="false"
-						           id="95fb683f-27c7124d">
-							<infoLinks>
-								<infoLink name="Close Order"
-								          hidden="false"
-								          id="8ef00520-4e8185ea"
-								          type="profile"
-								          targetId="883e-e1b1-4fe9-5912"/>
-								<infoLink name="Dark Vitality"
-								          hidden="false"
-								          id="a09ef672-8f72d73c"
-								          type="profile"
-								          targetId="4190-a061-b7dc-3712"/>
-								<infoLink name="First Charge"
-								          hidden="false"
-								          id="d7d168f6-f3d39bc0"
-								          type="profile"
-								          targetId="785a-2886-af42-dce9"/>
-								<infoLink name="Fly"
-								          hidden="false"
-								          id="37226a02-544a3bcc"
-								          type="profile"
-								          targetId="c557-6102-9a35-bbcd">
-									<modifiers>
-										<modifier type="append"
-										          value="(8)"
-										          field="name"/>
-									</modifiers>
-								</infoLink>
-								<infoLink name="Ghoulish Glamour"
-								          hidden="false"
-								          id="bd87877e-a422e2c8"
-								          type="profile"
-								          targetId="fe97-12b2-dec1-4ed8"/>
-								<infoLink name="Impact Hits"
-								          hidden="false"
-								          id="caa7d479-4a201dcf"
-								          type="profile"
-								          targetId="5c2-e9dd-2715-a0c0">
-									<modifiers>
-										<modifier type="append"
-										          value="(D6+1)"
-										          field="name"/>
-									</modifiers>
-								</infoLink>
-								<infoLink name="Large Target"
-								          hidden="false"
-								          id="5bef0194-7a8289e"
-								          type="profile"
-								          targetId="c822-7ad0-f24a-e4af"/>
-								<infoLink name="Necromantic Undead"
-								          hidden="false"
-								          id="e393adee-50d7c8f8"
-								          type="profile"
-								          targetId="a6ee-a62b-1579-2c37"/>
-								<infoLink name="Random Attacks"
-								          hidden="false"
-								          id="f04166f4-199447fe"
-								          type="profile"
-								          targetId="1b08-4621-6379-ff1f">
-									<modifiers>
-										<modifier type="append"
-										          value="(Spirit Horde only)"
-										          field="name"/>
-									</modifiers>
-								</infoLink>
-								<infoLink name="Regeneration"
-								          hidden="false"
-								          id="6fc5772b-3a5c7979"
-								          type="profile"
-								          targetId="2eb0-1ec8-8e04-72d4">
-									<modifiers>
-										<modifier type="append"
-										          value="(6+)"
-										          field="name"/>
-									</modifiers>
-								</infoLink>
-								<infoLink name="Coven Throne Bound Spell"
-								          hidden="false"
-								          id="7ba0cd85-772b187b"
-								          type="profile"
-								          targetId="bd76-139a-4a2b-605b"/>
-								<infoLink name="Armour Value"
-								          hidden="false"
-								          id="3dbe6afe-d886aa48"
-								          type="profile"
-								          targetId="e099-1ebb-9e85-34c8">
-									<modifiers>
-										<modifier type="append"
-										          value=":  4+"
-										          field="name"/>
-									</modifiers>
-								</infoLink>
-							</infoLinks>
-						</infoGroup>
-					</infoGroups>
-					<selectionEntries>
-						<selectionEntry type="model"
-						                name="Pallid Handmaidens"
-						                id="dc3823a7-74f0ff75"
-						                hidden="false"
-						                sortIndex="1"
-						                subType="crew"
-						                collective="true">
-							<infoLinks>
-								<infoLink name="Pallid Handmaidens"
-								          hidden="false"
-								          type="profile"
-								          id="482e28bd-a84f3df3"
-								          targetId="4c0d-a388-62bf-92c2"/>
-							</infoLinks>
-							<costs>
-								<cost name="pts"
-								      typeId="points"
-								      value="0"/>
-							</costs>
-							<constraints>
-								<constraint type="min"
-								            value="2"
-								            field="selections"
-								            scope="parent"
-								            shared="false"
-								            id="79e137d4-ddd6acde"/>
-								<constraint type="max"
-								            value="2"
-								            field="selections"
-								            scope="parent"
-								            shared="false"
-								            id="67f4a336-7a8b0400"
-								            includeChildSelections="false"/>
-							</constraints>
-							<categoryLinks>
-								<categoryLink name="CHARIOT CREW"
-								              hidden="false"
-								              id="cbd17977-77e2ee45"
-								              targetId="4cf7-bf85-308d-c29a"
-								              primary="false"/>
-							</categoryLinks>
-							<entryLinks>
-								<entryLink import="true"
-								           name="Hand Weapon"
-								           hidden="false"
-								           id="ff4c-9a99-b0ed-2a5b"
-								           type="selectionEntry"
-								           targetId="721d-36e3-388a-c0d6">
-									<constraints>
-										<constraint type="min"
-										            value="1"
-										            field="selections"
-										            scope="parent"
-										            shared="true"
-										            id="9688-3b7a-ecab-fa4c"/>
-									</constraints>
-								</entryLink>
-							</entryLinks>
-						</selectionEntry>
-						<selectionEntry type="model"
-						                name="Spirit Horde"
-						                id="d8edb1d4-dcaf56de"
-						                hidden="false"
-						                sortIndex="2"
-						                subType="crew"
-						                collective="true">
-							<infoLinks>
-								<infoLink name="Spirit Horde"
-								          hidden="false"
-								          type="profile"
-								          id="1796eb2-7b378d7c"
-								          targetId="b645-8949-423-455e"/>
-							</infoLinks>
-							<costs>
-								<cost name="pts"
-								      typeId="points"
-								      value="0"/>
-							</costs>
-							<entryLinks>
-								<entryLink name="Hand Weapon"
-								           id="724cd946-cb320ed0"
-								           hidden="false"
-								           type="selectionEntry"
-								           targetId="721d-36e3-388a-c0d6"
-								           sortIndex="1"
-								           import="true">
-									<constraints>
-										<constraint type="min"
-										            value="1"
-										            field="selections"
-										            scope="parent"
-										            shared="false"
-										            id="db15dc9d-18450e53"/>
-									</constraints>
-								</entryLink>
-								<entryLink name="Lance"
-								           id="22dcdb7a-e7335864"
-								           hidden="false"
-								           type="selectionEntry"
-								           targetId="906a-c09d-9f34-a31f"
-								           sortIndex="2"
-								           import="true">
-									<constraints>
-										<constraint type="min"
-										            value="1"
-										            field="selections"
-										            scope="parent"
-										            shared="false"
-										            id="8bb74f29-5c2239ff"/>
-									</constraints>
-								</entryLink>
-							</entryLinks>
-							<categoryLinks>
-								<categoryLink name="CHARIOT CREW"
-								              hidden="false"
-								              id="381a4fd2-790091c"
-								              targetId="4cf7-bf85-308d-c29a"
-								              primary="false"/>
-							</categoryLinks>
-							<constraints>
-								<constraint type="min"
-								            value="1"
-								            field="selections"
-								            scope="parent"
-								            shared="true"
-								            id="dbbe-351c-f648-8c5-min"/>
-								<constraint type="max"
-								            value="1"
-								            field="selections"
-								            scope="parent"
-								            shared="true"
-								            id="dbbe-351c-f648-8c5-max"/>
-							</constraints>
-						</selectionEntry>
-					</selectionEntries>
-					<modifiers>
-						<modifier type="set"
-						          value="false"
-						          field="hidden">
-							<conditionGroups>
-								<conditionGroup type="or">
-									<conditions>
-										<condition type="instanceOf"
-										           value="1"
-										           field="selections"
-										           scope="ancestor"
-										           childId="2c543d28-8753d2d2"
-										           shared="true"/>
-										<condition type="instanceOf"
-										           value="1"
-										           field="selections"
-										           scope="ancestor"
-										           childId="a2837244-8c68760e"
-										           shared="true"/>
-									</conditions>
-								</conditionGroup>
-							</conditionGroups>
-						</modifier>
-					</modifiers>
 					<categoryLinks>
 						<categoryLink name="Heavy Chariot"
 						              hidden="false"
@@ -10242,626 +10961,119 @@ Resurrected models are added to the front rank until it reaches the minimum requ
 					</categoryLinks>
 				</selectionEntry>
 				<selectionEntry type="model"
-				                name="Abyssal Terror"
-				                id="b4a83544-694f210e"
-				                hidden="true"
-				                subType="mount"
-				                sortIndex="3">
-					<infoLinks>
-						<infoLink name="Base (50x100)"
-						          hidden="false"
-						          type="profile"
-						          id="4bfbf0ce-7c780ad8"
-						          targetId="d456-e30e-f85d-14d"/>
-						<infoLink name="Abyssal Terror"
-						          hidden="false"
-						          id="3e7-d85f-85b8-c70d"
-						          type="profile"
-						          targetId="4628-f380-f88e-7c00">
-							<modifiers>
-								<modifier type="set"
-								          value="(+4)"
-								          field="83ed-7b82-bf1f-e558">
-									<conditions>
-										<condition type="instanceOf"
-										           value="1"
-										           field="selections"
-										           scope="ancestor"
-										           childId="a4cc-15c9-cfae-1b3b"
-										           shared="true"/>
-									</conditions>
-								</modifier>
-								<modifier type="set"
-								          value="(+1)"
-								          field="ab43-8b61-83e7-d090">
-									<conditions>
-										<condition type="instanceOf"
-										           value="1"
-										           field="selections"
-										           scope="ancestor"
-										           childId="a4cc-15c9-cfae-1b3b"
-										           shared="true"/>
-									</conditions>
-								</modifier>
-							</modifiers>
-						</infoLink>
-					</infoLinks>
-					<costs>
-						<cost name="pts"
-						      typeId="points"
-						      value="120"/>
-					</costs>
-					<entryLinks>
-						<entryLink name="Wicked Claws"
-						           id="a39f0955-c2abd4b"
-						           hidden="false"
-						           type="selectionEntry"
-						           targetId="6b9f81f0-b84cd1ba"
-						           sortIndex="1"
-						           import="true">
-							<constraints>
-								<constraint type="min"
-								            value="1"
-								            field="selections"
-								            scope="parent"
-								            shared="false"
-								            id="fc11415a-3a245744"/>
-							</constraints>
-						</entryLink>
-						<entryLink name="Poisonous Tail"
-						           id="c2176b9f-a62f9e2d"
-						           hidden="false"
-						           type="selectionEntry"
-						           targetId="7891-812b-883f-7398"
-						           sortIndex="2"
-						           import="true">
-							<constraints>
-								<constraint type="min"
-								            value="1"
-								            field="selections"
-								            scope="parent"
-								            shared="false"
-								            id="d54a38cc-b0272f16"/>
-							</constraints>
-						</entryLink>
-						<entryLink name="Heavy Armour"
-						           id="a5c74df-9f825d6d"
-						           hidden="false"
-						           type="selectionEntry"
-						           targetId="62fb-f89d-afc-1cf1"
-						           sortIndex="3">
-							<constraints>
-								<constraint type="min"
-								            value="1"
-								            scope="parent"
-								            shared="false"
-								            field="selections"
-								            id="440aee8c-b1b436d6"/>
-							</constraints>
-							<categoryLinks>
-								<categoryLink name="Monstrous Creature"
-								              hidden="false"
-								              id="f77e-9216-ba0a-158a"
-								              targetId="fb36-5275-617-c895"
-								              primary="false"/>
-								<categoryLink name="Rare"
-								              hidden="false"
-								              id="10b6-b85b-a936-a255"
-								              targetId="2bfe-5863-46fe-d284"
-								              primary="false"/>
-							</categoryLinks>
-						</entryLink>
-					</entryLinks>
-					<constraints>
-						<constraint type="max"
-						            value="1"
-						            field="selections"
-						            scope="parent"
-						            shared="true"
-						            id="d7c5a2ab-fdff48f9"/>
-					</constraints>
-					<categoryLinks>
-						<categoryLink name="Monstrous Creature"
-						              hidden="false"
-						              id="f615-d86c-7a9d-3dad"
-						              targetId="fb36-5275-617-c895"
-						              primary="false"/>
-						<categoryLink name="MAY_HAVE_ARMOUR"
-						              hidden="false"
-						              id="b4f4-5678-e1d0-6aa4"
-						              targetId="may-have-armour"/>
-					</categoryLinks>
-					<profiles>
-						<profile name="Abyssal Terror"
-						         typeId="2878-9a1f-dd74-48e3"
-						         typeName="Unit"
-						         hidden="false"
-						         id="46cc-d6a0-3898-9ca1">
-							<characteristics>
-								<characteristic name="Troop Type"
-								                typeId="5d94-6b94-bd89-1944">Monstrous Creature</characteristic>
-								<characteristic name="Unit Size"
-								                typeId="80a1-bb6f-66e4-4a5b">1</characteristic>
-							</characteristics>
-						</profile>
-					</profiles>
-					<modifiers>
-						<modifier type="set"
-						          value="false"
-						          field="hidden">
-							<conditionGroups>
-								<conditionGroup type="or">
-									<conditions>
-										<condition type="instanceOf"
-										           value="1"
-										           field="selections"
-										           scope="ancestor"
-										           childId="2c543d28-8753d2d2"
-										           shared="true"/>
-										<condition type="instanceOf"
-										           value="1"
-										           field="selections"
-										           scope="ancestor"
-										           childId="1ed21202-f13ca3cc"
-										           shared="true"/>
-									</conditions>
-								</conditionGroup>
-							</conditionGroups>
-						</modifier>
-					</modifiers>
-					<infoGroups>
-						<infoGroup name="Special Rules"
-						           id="e1e1-f670-9c8e-87c9"
-						           hidden="false">
-							<infoLinks>
-								<infoLink name="Close Order"
-								          id="3f95-302-c29d-f28b"
-								          hidden="false"
-								          type="profile"
-								          targetId="883e-e1b1-4fe9-5912"/>
-								<infoLink name="Fly"
-								          id="b666-f53-d6f5-f0a"
-								          hidden="false"
-								          type="profile"
-								          targetId="c557-6102-9a35-bbcd">
-									<modifiers>
-										<modifier type="append"
-										          value="(9)"
-										          field="name"/>
-									</modifiers>
-								</infoLink>
-								<infoLink name="Large Target"
-								          id="2d3f-24cd-f60b-6fc4"
-								          hidden="false"
-								          type="profile"
-								          targetId="c822-7ad0-f24a-e4af"/>
-								<infoLink name="Necromantic Undead"
-								          id="44e5-2102-953d-980"
-								          hidden="false"
-								          type="profile"
-								          targetId="a6ee-a62b-1579-2c37"/>
-								<infoLink name="Stomp Attacks"
-								          id="7bb3-9f3c-9f4a-6f28"
-								          hidden="false"
-								          type="profile"
-								          targetId="72db-24bb-7493-d753">
-									<modifiers>
-										<modifier type="append"
-										          value="(D3)"
-										          field="name"/>
-									</modifiers>
-								</infoLink>
-								<infoLink name="Swiftstride"
-								          id="bf1-e8da-4ea9-1881"
-								          hidden="false"
-								          type="profile"
-								          targetId="dc91-48b3-3696-217"/>
-								<infoLink name="Terror"
-								          id="25c8-aa20-da4a-8159"
-								          hidden="false"
-								          type="profile"
-								          targetId="c7a2-35bf-4313-f4f0"/>
-							</infoLinks>
-						</infoGroup>
-					</infoGroups>
-				</selectionEntry>
-				<selectionEntry type="model"
-				                name="Zombie Dragon"
-				                id="3bf785a4-ea8f0eee"
-				                hidden="true"
-				                subType="mount"
-				                sortIndex="7">
-					<infoLinks>
-						<infoLink name="Zombie Dragon"
-						          hidden="false"
-						          type="profile"
-						          id="6384442-4d5f440c"
-						          targetId="60db-14be-87c2-319d">
-							<modifiers>
-								<modifier type="set"
-								          value="(+5)"
-								          field="83ed-7b82-bf1f-e558">
-									<conditions>
-										<condition type="instanceOf"
-										           value="1"
-										           field="selections"
-										           scope="ancestor"
-										           childId="a4cc-15c9-cfae-1b3b"
-										           shared="true"/>
-									</conditions>
-								</modifier>
-								<modifier type="set"
-								          value="(+1)"
-								          field="ab43-8b61-83e7-d090">
-									<conditions>
-										<condition type="instanceOf"
-										           value="1"
-										           field="selections"
-										           scope="ancestor"
-										           childId="a4cc-15c9-cfae-1b3b"
-										           shared="true"/>
-									</conditions>
-								</modifier>
-							</modifiers>
-						</infoLink>
-						<infoLink name="Base (100x150)"
-						          hidden="false"
-						          type="profile"
-						          id="bc7b7d4a-af8e3474"
-						          targetId="b56f-7f81-4ba1-ed2c"/>
-					</infoLinks>
-					<costs>
-						<cost name="pts"
-						      typeId="points"
-						      value="215"/>
-					</costs>
-					<entryLinks>
-						<entryLink name="Wicked Claws"
-						           id="a4e6ad9-896dc92f"
-						           hidden="false"
-						           type="selectionEntry"
-						           targetId="6b9f81f0-b84cd1ba"
-						           sortIndex="1"
-						           import="true"
-						           collective="true">
-							<constraints>
-								<constraint type="min"
-								            value="1"
-								            field="selections"
-								            scope="parent"
-								            shared="false"
-								            id="91ab79d6-9fe766a0"/>
-							</constraints>
-						</entryLink>
-						<entryLink name="Pestilential breath"
-						           id="cd9de80c-27e36456"
-						           hidden="false"
-						           type="selectionEntry"
-						           targetId="4442735b-2f703ee9"
-						           sortIndex="2"
-						           import="true"
-						           collective="true">
-							<constraints>
-								<constraint type="min"
-								            value="1"
-								            field="selections"
-								            scope="parent"
-								            shared="false"
-								            id="fe7f6dd3-1f0c3681"/>
-							</constraints>
-						</entryLink>
-						<entryLink name="Full Plate Armour"
-						           id="26c089a1-fb7dd777"
-						           hidden="false"
-						           type="selectionEntry"
-						           targetId="2505-873d-1655-3b0b"
-						           sortIndex="3">
-							<constraints>
-								<constraint type="min"
-								            value="1"
-								            scope="parent"
-								            shared="false"
-								            field="selections"
-								            id="c33b187e-95b1ebc8"/>
-							</constraints>
-						</entryLink>
-					</entryLinks>
-					<constraints>
-						<constraint type="max"
-						            value="1"
-						            field="selections"
-						            scope="parent"
-						            shared="true"
-						            id="b749ba8f-21b231d"/>
-					</constraints>
-					<categoryLinks>
-						<categoryLink name="Behemoth"
-						              hidden="false"
-						              id="916e-5bfc-7f04-ca56"
-						              targetId="3755-6732-99b2-c713"
-						              primary="false"/>
-						<categoryLink name="MAY_HAVE_ARMOUR"
-						              hidden="false"
-						              id="fe34-9a47-f67-4450"
-						              targetId="may-have-armour"/>
-					</categoryLinks>
-					<modifiers>
-						<modifier type="set"
-						          value="false"
-						          field="hidden">
-							<conditionGroups>
-								<conditionGroup type="or">
-									<conditions>
-										<condition type="instanceOf"
-										           value="1"
-										           field="selections"
-										           scope="ancestor"
-										           childId="2c543d28-8753d2d2"
-										           shared="true"/>
-										<condition type="instanceOf"
-										           value="1"
-										           field="selections"
-										           scope="ancestor"
-										           childId="1ed21202-f13ca3cc"
-										           shared="true"/>
-									</conditions>
-								</conditionGroup>
-							</conditionGroups>
-						</modifier>
-					</modifiers>
-					<infoGroups>
-						<infoGroup name="Special Rules"
-						           id="8dfc-2961-4881-4901"
-						           hidden="false">
-							<infoLinks>
-								<infoLink name="Carrion Feeders"
-								          id="e857-ef2a-a82a-7f03"
-								          hidden="false"
-								          type="profile"
-								          targetId="68-fd83-be63-86de"/>
-								<infoLink name="Close Order"
-								          id="e933-c11b-2d55-a0c4"
-								          hidden="false"
-								          type="profile"
-								          targetId="883e-e1b1-4fe9-5912"/>
-								<infoLink name="Fly"
-								          id="abd9-67ca-6c0f-b239"
-								          hidden="false"
-								          type="profile"
-								          targetId="c557-6102-9a35-bbcd">
-									<modifiers>
-										<modifier type="append"
-										          value="(9)"
-										          field="name"/>
-									</modifiers>
-								</infoLink>
-								<infoLink name="Large Target"
-								          id="b5e0-b29d-525a-a57d"
-								          hidden="false"
-								          type="profile"
-								          targetId="c822-7ad0-f24a-e4af"/>
-								<infoLink name="Necromantic Undead"
-								          id="535a-c1d9-0157-a4b9"
-								          hidden="false"
-								          type="profile"
-								          targetId="a6ee-a62b-1579-2c37"/>
-								<infoLink name="Stomp Attacks"
-								          id="bde4-1560-adac-dfd2"
-								          hidden="false"
-								          type="profile"
-								          targetId="72db-24bb-7493-d753">
-									<modifiers>
-										<modifier type="append"
-										          value="(D6)"
-										          field="name"/>
-									</modifiers>
-								</infoLink>
-								<infoLink name="Swiftstride"
-								          id="d2d6-0c46-e69a-097b"
-								          hidden="false"
-								          type="profile"
-								          targetId="dc91-48b3-3696-217"/>
-								<infoLink name="Terror"
-								          id="6f7b-0c5e-6563-7440"
-								          hidden="false"
-								          type="profile"
-								          targetId="c7a2-35bf-4313-f4f0"/>
-							</infoLinks>
-						</infoGroup>
-					</infoGroups>
-				</selectionEntry>
-				<selectionEntry type="model"
-				                name="Nightmare"
-				                id="9f83d124-2c5cfe6e"
-				                hidden="true"
-				                subType="mount"
-				                sortIndex="2">
-					<infoLinks>
-						<infoLink name="Nightmare"
-						          hidden="false"
-						          type="profile"
-						          id="6d27fc2-744ba38c"
-						          targetId="ac5a-4d2f-494f-15b7"/>
-						<infoLink name="Base (30x60)"
-						          hidden="false"
-						          type="profile"
-						          id="dc3d5ea-fd1dfe94"
-						          targetId="3a8b-1dd5-77fb-fdc3"/>
-					</infoLinks>
-					<costs>
-						<cost name="pts"
-						      typeId="points"
-						      value="16"/>
-					</costs>
-					<entryLinks>
-						<entryLink name="Hand Weapon"
-						           id="f0dfac31-c1c1bb07"
-						           hidden="false"
-						           type="selectionEntry"
-						           targetId="721d-36e3-388a-c0d6"
-						           sortIndex="1">
-							<constraints>
-								<constraint type="min"
-								            value="1"
-								            scope="parent"
-								            shared="false"
-								            field="selections"
-								            id="4ea4318e-e8584598"/>
-							</constraints>
-						</entryLink>
-						<entryLink name="Barding"
-						           id="f0789edb-65990e69"
-						           hidden="false"
-						           type="selectionEntry"
-						           targetId="718d-9fe8-f8ad-ad3c"
-						           sortIndex="2"
-						           import="true">
-							<constraints>
-								<constraint type="min"
-								            value="1"
-								            field="selections"
-								            scope="parent"
-								            shared="false"
-								            id="f6cdaff0-ec998fba"/>
-							</constraints>
-						</entryLink>
-					</entryLinks>
-					<constraints>
-						<constraint type="max"
-						            value="1"
-						            field="selections"
-						            scope="parent"
-						            shared="true"
-						            id="4721e3af-f55b04bd"/>
-					</constraints>
-					<infoGroups>
-						<infoGroup name="Special Rules"
-						           hidden="false"
-						           id="87e57b4b-a2a75919">
-							<infoLinks>
-								<infoLink name="Counter Charge"
-								          hidden="false"
-								          id="f252e40-392f218a"
-								          type="profile"
-								          targetId="5186-798d-69d-6545"/>
-								<infoLink name="First Charge"
-								          hidden="false"
-								          id="95680242-b921120c"
-								          type="profile"
-								          targetId="785a-2886-af42-dce9"/>
-								<infoLink name="Necromantic Undead"
-								          hidden="false"
-								          id="3f34da12-7304415c"
-								          type="profile"
-								          targetId="a6ee-a62b-1579-2c37"/>
-								<infoLink name="Swiftstride"
-								          hidden="false"
-								          id="9c3cd596-9d8fe460"
-								          type="profile"
-								          targetId="dc91-48b3-3696-217"/>
-							</infoLinks>
-						</infoGroup>
-					</infoGroups>
-					<modifiers>
-						<modifier type="set"
-						          value="false"
-						          field="hidden">
-							<conditionGroups>
-								<conditionGroup type="or">
-									<conditions>
-										<condition type="instanceOf"
-										           value="1"
-										           field="selections"
-										           scope="ancestor"
-										           childId="2c543d28-8753d2d2"
-										           shared="true"/>
-										<condition type="instanceOf"
-										           value="1"
-										           field="selections"
-										           scope="ancestor"
-										           childId="a2837244-8c68760e"
-										           shared="true"/>
-										<condition type="instanceOf"
-										           value="1"
-										           field="selections"
-										           scope="ancestor"
-										           childId="1ed21202-f13ca3cc"
-										           shared="true"/>
-										<condition type="instanceOf"
-										           value="1"
-										           field="selections"
-										           scope="ancestor"
-										           childId="824d1325-da3dc21b"
-										           shared="true"/>
-									</conditions>
-								</conditionGroup>
-							</conditionGroups>
-						</modifier>
-					</modifiers>
-					<categoryLinks>
-						<categoryLink name="Heavy Cavalry"
-						              hidden="false"
-						              id="a72d-78f4-6d25-e4ef"
-						              targetId="5165-d052-cfc2-5887"
-						              primary="false"/>
-					</categoryLinks>
-				</selectionEntry>
-				<selectionEntry type="model"
-				                name="Skeletal Steed"
+				                name="Rotting Promethian"
 				                id="4dfa7ed6-af9643a0"
-				                hidden="true"
+				                hidden="false"
 				                subType="mount"
 				                sortIndex="1">
 					<infoLinks>
-						<infoLink name="Skeletal Steed"
+						<infoLink name="Armoured Hide"
+						          hidden="false"
+						          type="profile"
+						          id="e8a4-6b05-37d4-308c"
+						          targetId="5450-cbf1-3e74-254a">
+							<modifiers>
+								<modifier type="append"
+								          value="(4)"
+								          field="name"/>
+							</modifiers>
+						</infoLink>
+						<infoLink name="Rotting Promethian"
 						          hidden="false"
 						          type="profile"
 						          id="9ce47f04-f3db1cce"
-						          targetId="f7a3-1451-345a-5e19"/>
+						          targetId="4628-f380-f88e-7c04">
+							<modifiers>
+								<modifier type="set"
+								          value="(+3)"
+								          field="83ed-7b82-bf1f-e558">
+									<conditions>
+										<condition type="instanceOf"
+										           value="1"
+										           field="selections"
+										           scope="ancestor"
+										           childId="a4cc-15c9-cfae-1b3b"
+										           shared="true"/>
+									</conditions>
+								</modifier>
+								<modifier type="set"
+								          value="(+1)"
+								          field="ab43-8b61-83e7-d090">
+									<conditions>
+										<condition type="instanceOf"
+										           value="1"
+										           field="selections"
+										           scope="ancestor"
+										           childId="a4cc-15c9-cfae-1b3b"
+										           shared="true"/>
+									</conditions>
+								</modifier>
+							</modifiers>
+							</infoLink>
 						<infoLink name="Base (30x60)"
 						          hidden="false"
 						          type="profile"
 						          id="2afc6cdc-f1706e6"
 						          targetId="3a8b-1dd5-77fb-fdc3"/>
+						<infoLink name="Indomitable"
+						          hidden="false"
+						          id="f16b9422-b3689d6c"
+						          type="profile"
+						          targetId="78b6-d212-caa2-cef1">
+							<modifiers>
+								<modifier type="append"
+								          value="(1)"
+								          field="name"/>
+							</modifiers>
+						</infoLink>
+						<infoLink name="Move Through Cover"
+						          hidden="false"
+						          id="29983f33-afc266e1"
+						          type="profile"
+						          targetId="e83e-f127-1904-3858"/>
+						<infoLink name="Aquatic"
+						          hidden="false"
+						          id="34d0ea34-d50db13e"
+						          type="profile"
+						          targetId="1f39-2789-f136-7645"/>
+						<infoLink name="Necromantic Undead"
+						          hidden="false"
+						          id="6f66003e-63c79588"
+						          type="profile"
+						          targetId="a6ee-a62b-1579-2c37"/>
+						<infoLink name="Open Order"
+						          hidden="false"
+						          id="e455a62c-421e8576"
+						          type="profile"
+						          targetId="5b67-8535-146c-7cea"/>
+						<infoLink name="Regeneration"
+						          hidden="false"
+						          id="111433fb-37aa189"
+						          type="profile"
+						          targetId="2eb0-1ec8-8e04-72d4">
+							<modifiers>
+								<modifier type="append"
+								          value="(6+)"
+								          field="name"/>
+							</modifiers>
+						</infoLink>
+						<infoLink name="Stomp Attacks"
+						          hidden="false"
+						          id="50931576-8c23e440"
+						          type="profile"
+						          targetId="72db-24bb-7493-d753">
+							<modifiers>
+								<modifier type="append"
+								          value="(1)"
+								          field="name"/>
+							</modifiers>
+						</infoLink>
 					</infoLinks>
 					<costs>
 						<cost name="pts"
 						      typeId="points"
-						      value="14"/>
+						      value="36"/>
 					</costs>
-					<entryLinks>
-						<entryLink name="Hand Weapon"
-						           id="bea7e9c7-a5c37415"
-						           hidden="false"
-						           type="selectionEntry"
-						           targetId="721d-36e3-388a-c0d6"
-						           sortIndex="1">
-							<constraints>
-								<constraint type="min"
-								            value="1"
-								            scope="parent"
-								            shared="false"
-								            field="selections"
-								            id="a3533274-2bbb77e"/>
-							</constraints>
-						</entryLink>
-						<entryLink name="Barding"
-						           id="8036fe41-c6c9f797"
-						           hidden="false"
-						           type="selectionEntry"
-						           targetId="718d-9fe8-f8ad-ad3c"
-						           sortIndex="2"
-						           import="true">
-							<constraints>
-								<constraint type="min"
-								            value="1"
-								            field="selections"
-								            scope="parent"
-								            shared="false"
-								            id="7710299e-71a17068"/>
-							</constraints>
-						</entryLink>
-					</entryLinks>
 					<constraints>
 						<constraint type="max"
 						            value="1"
@@ -10873,52 +11085,16 @@ Resurrected models are added to the front rank until it reaches the minimum requ
 					<infoGroups>
 						<infoGroup name="Special Rules"
 						           hidden="false"
-						           id="2b0a181e-d557eae8">
-							<infoLinks>
-								<infoLink name="First Charge"
-								          hidden="false"
-								          id="ae63678b-353e359"
-								          type="profile"
-								          targetId="785a-2886-af42-dce9"/>
-								<infoLink name="Necromantic Undead"
-								          hidden="false"
-								          id="dc8af7c9-1fda779f"
-								          type="profile"
-								          targetId="a6ee-a62b-1579-2c37"/>
-								<infoLink name="Swiftstride"
-								          hidden="false"
-								          id="4e0dedaf-c096bebd"
-								          type="profile"
-								          targetId="dc91-48b3-3696-217"/>
-							</infoLinks>
-						</infoGroup>
+						           id="be8b75af-70e806bd">
+				</infoGroup>
 					</infoGroups>
-					<modifiers>
-						<modifier type="set"
-						          value="false"
-						          field="hidden">
-							<conditionGroups>
-								<conditionGroup type="or">
-									<conditions>
-										<condition type="instanceOf"
-										           value="1"
-										           field="selections"
-										           scope="ancestor"
-										           childId="9124461f-fd01a4ad"
-										           shared="true"/>
-										<condition type="instanceOf"
-										           value="1"
-										           field="selections"
-										           scope="ancestor"
-										           childId="7374098c-2efc79d6"
-										           shared="true"/>
-									</conditions>
-								</conditionGroup>
-							</conditionGroups>
-						</modifier>
-					</modifiers>
+					<costs>
+						<cost name="pts"
+						      typeId="points"
+						      value="36"/>
+					</costs>
 					<categoryLinks>
-						<categoryLink name="Heavy Cavalry"
+						<categoryLink name="Monstrous Cavalry"
 						              hidden="false"
 						              id="d8a7-c520-b0f6-62a9"
 						              targetId="5165-d052-cfc2-5887"

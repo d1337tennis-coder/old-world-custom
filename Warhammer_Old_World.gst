@@ -5,6 +5,7 @@
     <categoryEntry name="Characters" hidden="false" id="a4cc-15c9-cfae-1b3b"/>
     <categoryEntry id="f0e3-2e32-8866-ea32" name="Core"/>
     <categoryEntry name="Special" hidden="false" id="633f-f67a-1b6a-d203"/>
+    <categoryEntry name="Global" hidden="false" id="2bfe-5863-46fe-d283"/>
     <categoryEntry name="Rare" hidden="false" id="2bfe-5863-46fe-d284"/>
     <categoryEntry name="Mercenaries" hidden="false" id="5b84-2c3c-869d-3522"/>
     <categoryEntry name="CHAMPION" hidden="true" id="83a1-945c-564c-84af"/>
@@ -201,6 +202,31 @@
             </modifier>
           </modifiers>
         </categoryLink>
+        <categoryLink name="Global" hidden="false" id="e603-b373-46b1-4236" targetId="2bfe-5863-46fe-d283">
+          <constraints>
+            <constraint type="max" value="25" field="limit::points" scope="force" shared="true" id="f0f7-32b6-d076-214b" percentValue="true" includeChildSelections="true"/>
+          </constraints>
+          <modifiers>
+            <modifier type="set" value="33" field="f0f7-32b6-d076-214a">
+              <conditionGroups>
+                <conditionGroup type="or">
+                  <conditions>
+                    <condition type="instanceOf" value="1" field="selections" scope="primary-catalogue" childId="c637-f6be-935d-faae" shared="true"/>
+                    <condition type="instanceOf" value="1" field="selections" scope="primary-catalogue" childId="7318-4de6-f164-6575" shared="true"/>
+                    <condition type="instanceOf" value="1" field="selections" scope="primary-catalogue" childId="bb5-4152-4695-83a5" shared="true"/>
+                    <condition type="instanceOf" value="1" field="selections" scope="primary-catalogue" childId="a339-984f-3777-c73f" shared="true"/>
+                    <condition type="instanceOf" value="1" field="selections" scope="primary-catalogue" childId="09eb-a3a1-87f4-7fef" shared="true"/>
+                    <condition type="instanceOf" value="1" field="selections" scope="primary-catalogue" childId="142f-feb2-1509-865b" shared="true"/>
+                    <condition type="instanceOf" value="1" field="selections" scope="primary-catalogue" childId="6dc7-f698-014b-63e1" shared="true"/>
+                    <condition type="instanceOf" value="1" field="selections" scope="primary-catalogue" childId="9fe3-70dd-d556-b9bb" shared="true"/>
+                    <condition type="instanceOf" value="1" field="selections" scope="primary-catalogue" childId="86da-6653-7618-1f76" shared="true"/>
+                    <condition type="instanceOf" value="1" field="selections" scope="primary-catalogue" childId="a9dd-e192-9fec-b81e" shared="true"/>
+                  </conditions>
+                </conditionGroup>
+              </conditionGroups>
+            </modifier>
+          </modifiers>
+        </categoryLink>
         <categoryLink name="Mercenaries" hidden="false" id="6032-af52-ae71-e755" targetId="5b84-2c3c-869d-3522">
           <constraints>
             <constraint type="max" value="20" field="limit::points" scope="force" shared="true" id="4bbb-90a8-3513-cbec" percentValue="true" includeChildSelections="true"/>
@@ -280,6 +306,31 @@
               </modifiers>
             </categoryLink>
             <categoryLink name="Rare" hidden="false" id="5b63-5e5e-a32c-f5e3" targetId="2bfe-5863-46fe-d284">
+              <constraints>
+                <constraint type="max" value="6.25" field="limit::points" scope="force" shared="true" id="8ba0-768c-298f-9056" percentValue="true" includeChildSelections="true"/>
+              </constraints>
+              <modifiers>
+                <modifier type="set" value="8.25" field="8ba0-768c-298f-9056">
+                  <conditionGroups>
+                    <conditionGroup type="or">
+                      <conditions>
+                        <condition type="instanceOf" value="1" field="selections" scope="primary-catalogue" childId="c637-f6be-935d-faae" shared="true"/>
+                        <condition type="instanceOf" value="1" field="selections" scope="primary-catalogue" childId="7318-4de6-f164-6575" shared="true"/>
+                        <condition type="instanceOf" value="1" field="selections" scope="primary-catalogue" childId="bb5-4152-4695-83a5" shared="true"/>
+                        <condition type="instanceOf" value="1" field="selections" scope="primary-catalogue" childId="a339-984f-3777-c73f" shared="true"/>
+                        <condition type="instanceOf" value="1" field="selections" scope="primary-catalogue" childId="09eb-a3a1-87f4-7fef" shared="true"/>
+                        <condition type="instanceOf" value="1" field="selections" scope="primary-catalogue" childId="142f-feb2-1509-865b" shared="true"/>
+                        <condition type="instanceOf" value="1" field="selections" scope="primary-catalogue" childId="6dc7-f698-014b-63e1" shared="true"/>
+                        <condition type="instanceOf" value="1" field="selections" scope="primary-catalogue" childId="9fe3-70dd-d556-b9bb" shared="true"/>
+                        <condition type="instanceOf" value="1" field="selections" scope="primary-catalogue" childId="86da-6653-7618-1f76" shared="true"/>
+                        <condition type="instanceOf" value="1" field="selections" scope="primary-catalogue" childId="a9dd-e192-9fec-b81e" shared="true"/>
+                      </conditions>
+                    </conditionGroup>
+                  </conditionGroups>
+                </modifier>
+              </modifiers>
+            </categoryLink>
+            <categoryLink name="Global" hidden="false" id="5b63-5e5e-a32c-f5e2" targetId="2bfe-5863-46fe-d283">
               <constraints>
                 <constraint type="max" value="6.25" field="limit::points" scope="force" shared="true" id="8ba0-768c-298f-9056" percentValue="true" includeChildSelections="true"/>
               </constraints>
@@ -1109,6 +1160,16 @@ Note that this special rule is not cumulative. If two or more models in a unit h
         <characteristic name="Description" typeId="9f84-4221-785a-db50">A unit with this special rule may be held in reserve rather than be deployed at the start of the game. From the beginning of round two onwards, roll a D6 during each of your Start of Turn sub-phases for each unit of Ambushers in your army that is held in reserve.
 
  On a roll of 1-3, the unit is delayed until your next turn at least.  On a roll of 4+, the unit arrives, entering the battle as reinforcements during the Compulsory Moves sub-phase. The unit may be placed on any edge of the battlefield, chosen by its controlling player, but cannot be placed within 8&quot; of an enemy model. If any Ambushers are still held in reserve by the start of round five, they arrive automatically.</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Zombie Riding Pair" hidden="false" id="8c0b-6fe6-dc06-511" typeId="c1ac-c1c8-f9d5-9673" typeName="Special Rule" page="166" publicationId="768b-3da1-a182-a1d8">
+      <characteristics>
+        <characteristic name="Description" typeId="9f84-4221-785a-db50">A pair of zombies that hold on and ride. Only are able to add shooting with guns.</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Deck Droppers" hidden="false" id="8c0b-6fe6-dc06-513" typeId="c14f-740-8107-d34b" typeName="Special Rule">
+      <characteristics>
+        <characteristic name="Description" typeId="adcd-c649-e6fc-a9f6">Armour Value 6+</characteristic>
       </characteristics>
     </profile>
     <profile name="Vanguard" hidden="false" id="691e-10ec-4f7c-a2c4" typeId="c1ac-c1c8-f9d5-9673" typeName="Special Rule" page="180" publicationId="768b-3da1-a182-a1d8">
@@ -7475,7 +7536,8 @@ Related: Lance Formation</characteristic>
     </profile>
     <profile name="Lay In Wait" typeId="c1ac-c1c8-f9d5-9673" typeName="Special Rule" hidden="false" id="f850-2a38-a101-8b15">
       <characteristics>
-        <characteristic name="Description" id="5877-5b13-83bf-fa92" hidden="false" typeId="9f84-4221-785a-db50">0-1 unit of Skeleton Skirmishers per 1,000 points may have the  Ambushers  special rule for free.</characteristic>
+        <characteristic name="Description" id="5877-5b13-83bf-fa92" hidden="false" typeId="9f84-4221-785a-db50">0-1 unit of Skeleton Skirmishers per 1,000 points may have the  
+		s  special rule for free.</characteristic>
       </characteristics>
       <comment>imported</comment>
     </profile>
@@ -14028,7 +14090,7 @@ Any war machine that has its Toughness reduced in this way also loses the Move o
     </selectionEntry>
     <selectionEntry type="upgrade" import="true" name="Renegades (Square Based)" hidden="false" id="974c-3bf3-af4b-701d">
       <constraints>
-        <constraint type="max" value="0" field="selections" scope="parent" shared="true" id="f31e-4067-047f-fba9">
+        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="f31e-4067-047f-fba9">
           <comment>Renegades</comment>
         </constraint>
       </constraints>
