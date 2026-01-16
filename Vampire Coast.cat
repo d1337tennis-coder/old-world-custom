@@ -1157,6 +1157,17 @@ Resurrected models are added to the front rank until it reaches the minimum requ
 				                typeId="772a-a7ff-f6b3-df71"/>
 			</characteristics>
 		</profile>
+		<profile name="Gun Arm" hidden="false" id="8ef5-8512-e1c2-647t" typeId="a378-c633-912d-11ce" typeName="Weapon" page="226" publicationId="768b-3da1-a182-a1d8">
+      <characteristics>
+        <characteristic name="R" typeId="2360-c777-5e07-ed58">48&quot;</characteristic>
+        <characteristic name="S" typeId="ac19-f99c-72e9-a1a7">8</characteristic>
+        <characteristic name="AP" typeId="9429-ffe7-2ce5-e9a5">-2</characteristic>
+        <characteristic name="Special Rules" typeId="5f83-3633-336b-93b4">Armour Bane (2), Cannon Fire, Cumbersome, Move or Shoot, Multiple Wounds (D3)</characteristic>
+        <characteristic name="Notes" typeId="772a-a7ff-f6b3-df71">Cannon (of any type) do not use their crew’s Ballistic Skill. Instead, they shoot using the ‘Cannon Fire’ special rule. The Necrofex Colossus is equipped with a Carronade (see the Carronade unit entry). If a
+‘Misfire’ is rolled on the Artillery dice, this model loses a single Wound (instead of rolling on a
+Misfire table).</characteristic>
+</characteristics>
+    </profile>
 		<profile name="Giant Claws"
 		         typeId="a378-c633-912d-11ce"
 		         typeName="Weapon"
@@ -8767,7 +8778,7 @@ Resurrected models are added to the front rank until it reaches the minimum requ
 								          id="9282351e-fe271fe8"
 								          hidden="false"
 								          type="profile"
-								          targetId="78b6-d212-caa2-cef4"/>
+								          targetId="8ef5-8512-e1c2-647t"/>
 							</infoLinks>
 							<constraints>
 								<constraint type="max"
