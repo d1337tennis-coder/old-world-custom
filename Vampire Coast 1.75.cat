@@ -1271,7 +1271,7 @@ Misfire table).</characteristic>
 		         id="ad5c-2cde-2bda-4289">
 			<characteristics>
 				<characteristic name="M"
-				                typeId="cd3b-a5a4-e185-5a9d">4</characteristic>
+				                typeId="cd3b-a5a4-e185-5a9d">6</characteristic>
 				<characteristic name="WS"
 				                typeId="b007-7d58-4f14-1e01">3</characteristic>
 				<characteristic name="BS"
@@ -1281,7 +1281,7 @@ Misfire table).</characteristic>
 				<characteristic name="T"
 				                typeId="ab43-8b61-83e7-d090">6</characteristic>
 				<characteristic name="W"
-				                typeId="83ed-7b82-bf1f-e558">5</characteristic>
+				                typeId="83ed-7b82-bf1f-e558">7</characteristic>
 				<characteristic name="I"
 				                typeId="73b1-abe5-72f8-41e2">1</characteristic>
 				<characteristic name="A"
@@ -1599,13 +1599,13 @@ Misfire table).</characteristic>
 		</selectionEntry>
 		<selectionEntry type="upgrade"
 		                import="true"
-		                name="Massive Limbs"
+		                name="Giant Claws"
 		                hidden="false"
 		                id="6b9f81f0-b84cd1bb">
 			<infoLinks>
-				<infoLink name="Massive Limbs"
+				<infoLink name="Giant Claws"
 				          hidden="false"
-				          id="bffcd781-d51706d7"
+				          id="bffcd781-d51706d8"
 				          type="profile"
 				          targetId="a952-5825-e8b9-bd45"/>
 			</infoLinks>
@@ -8563,20 +8563,20 @@ Misfire table).</characteristic>
 						          hidden="false"
 						          type="profile"
 						          id="8f2b49f2-b4008ebd"
-						          targetId="108d-f743-d0f9-b8f0"/>
-						<infoLink name="Base (50x50)"
+						          targetId="ad5c-2cde-2bda-4289"/>
+						<infoLink name="Base (60x100)"
 						          hidden="false"
 						          type="profile"
-						          id="c8da9a02-b6c0ebcc"
-						          targetId="7813-4d15-143d-1bf1"/>
+						          id="46ec-2ecc-fbd3-a402"
+						          targetId="5125-89a4-916a-eabd"/>
 					</infoLinks>
 					<costs>
 						<cost name="pts"
 						      typeId="points"
-						      value="200"/>
+						      value="215"/>
 					</costs>
 					<entryLinks>
-						<entryLink name="Wicked Claws"
+						<entryLink name="Giant Claws"
 						           id="706e3cc1-7a534217"
 						           hidden="false"
 						           type="selectionEntry"
@@ -8592,11 +8592,11 @@ Misfire table).</characteristic>
 								            id="c11cd01e-f514e2e8"/>
 							</constraints>
 						</entryLink>
-						<entryLink name="Ships Hull"
+						<entryLink name="Hardened Shell"
 						           id="5b533e52-688d839c"
 						           hidden="false"
 						           type="selectionEntry"
-						           targetId="c56e-8d1b-bb4-de99"
+						           targetId="5e28-a07e-24ed-aed0"
 						           sortIndex="2">
 							<constraints>
 								<constraint type="min"
@@ -8640,36 +8640,16 @@ Misfire table).</characteristic>
 				           hidden="false"
 				           id="fd92d9e7-ef4403b5">
 					<infoLinks>
-						<infoLink name="Bestial Fury"
+						<infoLink name="Black Powder Weapons"
 						          hidden="false"
-						          id="ee8395e8-8dc26592"
+						          id="ee8395e8-8dc26593"
 						          type="profile"
-						          targetId="9015-2214-a000-7398"/>
+						          targetId="238e-4e22-63f-9042"/>
 						<infoLink name="Close Order"
 						          hidden="false"
 						          id="c398deb0-ae15487a"
 						          type="profile"
 						          targetId="883e-e1b1-4fe9-5912"/>
-						<infoLink name="Counter Charge"
-						          hidden="false"
-						          id="de9e494-94b3f39e"
-						          type="profile"
-						          targetId="5186-798d-69d-6545"/>
-						<infoLink name="Dark Vitality"
-						          hidden="false"
-						          id="7331af3a-30c38e24"
-						          type="profile"
-						          targetId="4190-a061-b7dc-3712"/>
-						<infoLink name="Flammable"
-						          hidden="false"
-						          id="e52fefc3-c8f79cf1"
-						          type="profile"
-						          targetId="8f64-6d4c-466b-1b94"/>
-						<infoLink name="Frenzy"
-						          hidden="false"
-						          id="7af275d2-3676ff1c"
-						          type="profile"
-						          targetId="3b0c-a477-8823-3a25"/>
 						<infoLink name="Indomitable"
 						          hidden="false"
 						          id="162b28a2-98878dec"
@@ -8677,10 +8657,22 @@ Misfire table).</characteristic>
 						          targetId="78b6-d212-caa2-cef1">
 							<modifiers>
 								<modifier type="append"
-								          value="(1)"
+								          value="(2)"
 								          field="name"/>
 							</modifiers>
 						</infoLink>
+						<infoLink name="Howdah" hidden="false" id="502dcc8d-1090dcc3" type="profile" targetId="b8f6-1cbc-b19-c7b7"/>		  
+						<infoLink name="Large Target" hidden="false" id="8ec37de-5dab0ca8" type="profile" targetId="c822-7ad0-f24a-e4af"/>
+						<infoLink name="Move Through Cover"
+						          hidden="false"
+						          id="29983f33-afc266e1"
+						          type="profile"
+						          targetId="e83e-f127-1904-3858"/>
+						<infoLink name="Aquatic"
+						          hidden="false"
+						          id="34d0ea34-d50db13e"
+						          type="profile"
+						          targetId="1f39-2789-f136-7645"/>
 						<infoLink name="Necromantic Undead"
 						          hidden="false"
 						          id="798d9196-327ac060"
@@ -8702,6 +8694,11 @@ Misfire table).</characteristic>
 						          id="6132b07a-12328564"
 						          type="profile"
 						          targetId="dc91-48b3-3696-217"/>
+						<infoLink name="Stomp Attacks" hidden="false" id="4da02a5d-c28eee13" type="profile" targetId="72db-24bb-7493-d753">
+						  <modifiers>
+							<modifier type="append" value="(D3)" field="name"/>
+						  </modifiers>
+						</infoLink>
 						<infoLink name="Terror"
 						          hidden="false"
 						          id="c76581e6-5b8fa8f0"
@@ -10194,7 +10191,7 @@ Misfire table).</characteristic>
 				              id="e057-242a-9753-ad39"
 				              targetId="2bfe-5863-46fe-d284"
 				              primary="true"/>
-				<categoryLink name="0-1 Necr Colossus per 1,000 points"
+				<categoryLink name="0-1 Necro Colossus per 1,000 points"
 				              hidden="false"
 				              id="bccc-55f-c3e2-2a68"
 				              targetId="d41b-d3fa-a08b-a754"
