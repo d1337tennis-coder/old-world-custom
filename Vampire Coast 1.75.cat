@@ -192,7 +192,7 @@
 				                typeId="c435-6b14-f77e-3c72">6</characteristic>
 			</characteristics>
 		</profile>
-		<profile name="Depth Guard"
+		<profile name="Depth Guard (unfixed)"
 		         typeId="b070-143a-73f-2772"
 		         typeName="Model"
 		         hidden="false"
@@ -241,7 +241,7 @@
 				<characteristic name="A"
 				                typeId="dddc-9fbd-b0fd-a480">1</characteristic>
 				<characteristic name="Ld"
-				                typeId="c435-6b14-f77e-3c72">5</characteristic>
+				                typeId="c435-6b14-f77e-3c72">4</characteristic>
 			</characteristics>
 		</profile>
 		<profile name="Skeleton Champion"
@@ -281,7 +281,7 @@
 				<characteristic name="WS"
 				                typeId="b007-7d58-4f14-1e01">2</characteristic>
 				<characteristic name="BS"
-				                typeId="59f9-ccf5-1155-fb05">1</characteristic>
+				                typeId="59f9-ccf5-1155-fb05">2</characteristic>
 				<characteristic name="S"
 				                typeId="5b6b-1427-2a45-dd0c">3</characteristic>
 				<characteristic name="T"
@@ -292,6 +292,58 @@
 				                typeId="73b1-abe5-72f8-41e2">1</characteristic>
 				<characteristic name="A"
 				                typeId="dddc-9fbd-b0fd-a480">1</characteristic>
+				<characteristic name="Ld"
+				                typeId="c435-6b14-f77e-3c72">2</characteristic>
+			</characteristics>
+		</profile>
+		<profile name="Zombie Crew"
+		         typeId="b070-143a-73f-2772"
+		         typeName="Model"
+		         hidden="false"
+		         id="8cc9-bd5d-e6e4-4137">
+			<characteristics>
+				<characteristic name="M"
+				                typeId="cd3b-a5a4-e185-5a9d">-</characteristic>
+				<characteristic name="WS"
+				                typeId="b007-7d58-4f14-1e01">2</characteristic>
+				<characteristic name="BS"
+				                typeId="59f9-ccf5-1155-fb05">2</characteristic>
+				<characteristic name="S"
+				                typeId="5b6b-1427-2a45-dd0c">3</characteristic>
+				<characteristic name="T"
+				                typeId="ab43-8b61-83e7-d090">-</characteristic>
+				<characteristic name="W"
+				                typeId="83ed-7b82-bf1f-e558">-</characteristic>
+				<characteristic name="I"
+				                typeId="73b1-abe5-72f8-41e2">1</characteristic>
+				<characteristic name="A"
+				                typeId="dddc-9fbd-b0fd-a480">1</characteristic>
+				<characteristic name="Ld"
+				                typeId="c435-6b14-f77e-3c72">-</characteristic>
+			</characteristics>
+		</profile>
+		<profile name="Zombie Crew Pair"
+		         typeId="b070-143a-73f-2772"
+		         typeName="Model"
+		         hidden="false"
+		         id="8cc9-bd5d-e6e4-5137">
+			<characteristics>
+				<characteristic name="M"
+				                typeId="cd3b-a5a4-e185-5a9d">-</characteristic>
+				<characteristic name="WS"
+				                typeId="b007-7d58-4f14-1e01">2</characteristic>
+				<characteristic name="BS"
+				                typeId="59f9-ccf5-1155-fb05">2</characteristic>
+				<characteristic name="S"
+				                typeId="5b6b-1427-2a45-dd0c">3</characteristic>
+				<characteristic name="T"
+				                typeId="ab43-8b61-83e7-d090">-</characteristic>
+				<characteristic name="W"
+				                typeId="83ed-7b82-bf1f-e558">-</characteristic>
+				<characteristic name="I"
+				                typeId="73b1-abe5-72f8-41e2">1</characteristic>
+				<characteristic name="A"
+				                typeId="dddc-9fbd-b0fd-a480">2</characteristic>
 				<characteristic name="Ld"
 				                typeId="c435-6b14-f77e-3c72">2</characteristic>
 			</characteristics>
@@ -374,7 +426,7 @@
 				                typeId="c435-6b14-f77e-3c72">3</characteristic>
 			</characteristics>
 		</profile>
-		<profile name="Corpse Cart"
+		<profile name="Corpse Cart (unfixed)"
 		         typeId="b070-143a-73f-2772"
 		         typeName="Model"
 		         hidden="false"
@@ -400,6 +452,15 @@
 				                typeId="c435-6b14-f77e-3c72">-</characteristic>
 			</characteristics>
 		</profile>
+    <profile name="Hellfire Cannon" typeId="a378-c633-912d-11ce" typeName="Weapon" hidden="false" id="215-8dd8-83e9-ead7">
+      <characteristics>
+        <characteristic name="R" typeId="2360-c777-5e07-ed58">12-72&quot;</characteristic>
+        <characteristic name="S" typeId="ac19-f99c-72e9-a1a7">4 (10)</characteristic>
+        <characteristic name="AP" typeId="9429-ffe7-2ce5-e9a5">-2 (-3)</characteristic>
+        <characteristic name="Special Rules" typeId="5f83-3633-336b-93b4">Armour Bane (2), Bombardment, Cumbersome, Move or Shoot, Multiple Wounds (D6+1)</characteristic>
+        <characteristic name="Notes" typeId="772a-a7ff-f6b3-df71">-</characteristic>
+      </characteristics>
+    </profile>
 		<profile name="Corpsemaster (x1)"
 		         typeId="b070-143a-73f-2772"
 		         typeName="Model"
@@ -576,6 +637,26 @@
 				                typeId="9f84-4221-785a-db50">A hand weapon carried by a model with this special rule has the Magical Attacks special rule and an Armour Piercing characteristic of -1.</characteristic>
 			</characteristics>
 		</profile>
+		<profile name="Black Powder Weapon"
+		         typeId="c1ac-c1c8-f9d5-9673"
+		         typeName="Special Rule"
+		         hidden="false"
+		         id="238e-4e22-63f-9043">
+			<characteristics>
+				<characteristic name="Description"
+				                typeId="9f84-4221-785a-db50">Zombies are not normally known for their ability to shoot straight (or at all). However, Harkon has long ago woven an enchantment that allows them to do just that. Models with this special rule never apply any modifiers to their rolls To Hit when shooting a black powder weapon, regardless of the source of the modifier. However, any rolls of 1 will result in the gun misfiring - resolve the hit against the firing unit instead of the target. Additionally, all black powder weapons equipped by models with this special rule have the Cumbersome special rule. </characteristic>
+			</characteristics>
+		</profile>
+		<profile name="Gunnery Mob"
+		         typeId="c1ac-c1c8-f9d5-9673"
+		         typeName="Special Rule"
+		         hidden="false"
+		         id="238e-4e22-63f-9f43">
+			<characteristics>
+				<characteristic name="Description"
+				                typeId="9f84-4221-785a-db50">A stampede of crab-like monsters is a the scarier when accompanied by the hisses and cracks of gunpowder weapons. Rotting Promethean models with this special rule carry two Zombie Gunner Crew riders who may fire in a 360 degree angle like the crew of a chariot. Additionally, models with this special rule count as 'monstrous cavalry' instead of 'monstrous creatures'. </characteristic>
+			</characteristics>
+		</profile>
 		<profile name="Slavering Charge"
 		         typeId="c1ac-c1c8-f9d5-9673"
 		         typeName="Special Rule"
@@ -623,9 +704,11 @@ engaged in combat. To do so, the Deck Droppers unit must
 move (by flying) over the unit it wishes to attack during the
 Remaining Moves sub-phase. Once this unit’s movement is
 complete, roll a D6 for each Fell Bat in the Deck Droppers
-unit. For each result of a 4+, the target unit suffers a single
-Strength 4 hit with an AP of -1. For each result of a 1, the
-Deck Droppers unit suffers the hit instead.</characteristic>
+unit. 
+1: The Deck Droppers unit suffers Strength 4 hit with an AP of -1 instead
+2-3: Complete miss
+4-5: Scatter(1d6) 1 3" template starting centered over a model flown over. Risks hit of Strength 4 with an AP of -1
+6: Scatter 2 instead</characteristic>
 			</characteristics>
 		</profile>
 		<profile name="Bestial Fury"
@@ -869,17 +952,17 @@ Resurrected models are added to the front rank until it reaches the minimum requ
 				<characteristic name="BS"
 				                typeId="59f9-ccf5-1155-fb05">0</characteristic>
 				<characteristic name="S"
-				                typeId="5b6b-1427-2a45-dd0c">4</characteristic>
+				                typeId="5b6b-1427-2a45-dd0c">5</characteristic>
 				<characteristic name="T"
-				                typeId="ab43-8b61-83e7-d090">5</characteristic>
+				                typeId="ab43-8b61-83e7-d090">4</characteristic>
 				<characteristic name="W"
 				                typeId="83ed-7b82-bf1f-e558">3</characteristic>
 				<characteristic name="I"
-				                typeId="73b1-abe5-72f8-41e2">2</characteristic>
+				                typeId="73b1-abe5-72f8-41e2">1</characteristic>
 				<characteristic name="A"
 				                typeId="dddc-9fbd-b0fd-a480">3</characteristic>
 				<characteristic name="Ld"
-				                typeId="c435-6b14-f77e-3c72">5</characteristic>
+				                typeId="c435-6b14-f77e-3c72">2</characteristic>
 			</characteristics>
 		</profile>
 		<profile name="Prime Hulk"
@@ -895,17 +978,17 @@ Resurrected models are added to the front rank until it reaches the minimum requ
 				<characteristic name="BS"
 				                typeId="59f9-ccf5-1155-fb05">0</characteristic>
 				<characteristic name="S"
-				                typeId="5b6b-1427-2a45-dd0c">4</characteristic>
+				                typeId="5b6b-1427-2a45-dd0c">5</characteristic>
 				<characteristic name="T"
-				                typeId="ab43-8b61-83e7-d090">5</characteristic>
+				                typeId="ab43-8b61-83e7-d090">4</characteristic>
 				<characteristic name="W"
 				                typeId="83ed-7b82-bf1f-e558">3</characteristic>
 				<characteristic name="I"
-				                typeId="73b1-abe5-72f8-41e2">2</characteristic>
+				                typeId="73b1-abe5-72f8-41e2">1</characteristic>
 				<characteristic name="A"
 				                typeId="dddc-9fbd-b0fd-a480">4</characteristic>
 				<characteristic name="Ld"
-				                typeId="c435-6b14-f77e-3c72">5</characteristic>
+				                typeId="c435-6b14-f77e-3c72">3</characteristic>
 			</characteristics>
 		</profile>
 		<profile name="Bat Swarm"
@@ -933,7 +1016,33 @@ Resurrected models are added to the front rank until it reaches the minimum requ
 				<characteristic name="Ld"
 				                typeId="c435-6b14-f77e-3c72">3</characteristic>
 			</characteristics>
-		</profile>
+    </profile>
+    <profile name="Queen Bess" typeId="b070-143a-73f-2772" typeName="Model" hidden="false" id="6d11-8ff6-f93-df08" page="71" publicationId="8b8d-8fc4-559e-87b1">
+      <characteristics>
+        <characteristic name="M" typeId="cd3b-a5a4-e185-5a9d">-</characteristic>
+        <characteristic name="WS" typeId="b007-7d58-4f14-1e01">-</characteristic>
+        <characteristic name="BS" typeId="59f9-ccf5-1155-fb05">-</characteristic>
+        <characteristic name="S" typeId="5b6b-1427-2a45-dd0c">-</characteristic>
+        <characteristic name="T" typeId="ab43-8b61-83e7-d090">7</characteristic>
+        <characteristic name="W" typeId="83ed-7b82-bf1f-e558">5</characteristic>
+        <characteristic name="I" typeId="73b1-abe5-72f8-41e2">-</characteristic>
+        <characteristic name="A" typeId="dddc-9fbd-b0fd-a480">-</characteristic>
+        <characteristic name="Ld" typeId="c435-6b14-f77e-3c72">-</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Queen Bess Gun Crew (5 represented)" hidden="false" id="cdf3-ddd0-7ac-d190" typeId="b070-143a-73f-2772" typeName="Model">
+      <characteristics>
+        <characteristic name="M" typeId="cd3b-a5a4-e185-5a9d">4</characteristic>
+        <characteristic name="WS" typeId="b007-7d58-4f14-1e01">2</characteristic>
+        <characteristic name="BS" typeId="59f9-ccf5-1155-fb05">1</characteristic>
+        <characteristic name="S" typeId="5b6b-1427-2a45-dd0c">3</characteristic>
+        <characteristic name="T" typeId="ab43-8b61-83e7-d090">3</characteristic>
+        <characteristic name="W" typeId="83ed-7b82-bf1f-e558">5</characteristic>
+        <characteristic name="I" typeId="73b1-abe5-72f8-41e2">1</characteristic>
+        <characteristic name="A" typeId="dddc-9fbd-b0fd-a480">5</characteristic>
+        <characteristic name="Ld" typeId="c435-6b14-f77e-3c72">3</characteristic>
+      </characteristics>
+    </profile>
 		<profile name="Rat Swarm"
 		         typeId="b070-143a-73f-2772"
 		         typeName="Model"
@@ -1009,7 +1118,7 @@ Resurrected models are added to the front rank until it reaches the minimum requ
 				<characteristic name="A"
 				                typeId="dddc-9fbd-b0fd-a480">4</characteristic>
 				<characteristic name="Ld"
-				                typeId="c435-6b14-f77e-3c72">4</characteristic>
+				                typeId="c435-6b14-f77e-3c72">3</characteristic>
 			</characteristics>
 		</profile>
 		<profile name="Infested"
@@ -1069,11 +1178,11 @@ Resurrected models are added to the front rank until it reaches the minimum requ
 				<characteristic name="S"
 				                typeId="ac19-f99c-72e9-a1a7">S</characteristic>
 				<characteristic name="AP"
-				                typeId="9429-ffe7-2ce5-e9a5">-2</characteristic>
+				                typeId="9429-ffe7-2ce5-e9a5">0</characteristic>
 				<characteristic name="Special Rules"
-				                typeId="5f83-3633-336b-93b4">Armour Bane (1), Multiple Wounds (2)</characteristic>
+				                typeId="5f83-3633-336b-93b4">Armour Bane (2)</characteristic>
 				<characteristic name="Notes"
-				                typeId="772a-a7ff-f6b3-df71">In combat, this model must make one of its attacks each turn with this weapon.</characteristic>
+				                typeId="772a-a7ff-f6b3-df71"></characteristic>
 			</characteristics>
 		</profile>
 		<profile name="Claws"
@@ -1153,6 +1262,42 @@ Resurrected models are added to the front rank until it reaches the minimum requ
 				                typeId="9429-ffe7-2ce5-e9a5">-1</characteristic>
 				<characteristic name="Special Rules"
 				                typeId="5f83-3633-336b-93b4">Killing Blow</characteristic>
+				<characteristic name="Notes"
+				                typeId="772a-a7ff-f6b3-df71"/>
+			</characteristics>
+		</profile>
+		<profile name="Mounted Swivel Gun"
+		         typeId="a378-c633-912d-11ce"
+		         typeName="Weapon"
+		         hidden="false"
+		         id="a9f2-5f25-e8b9-bd44">
+			<characteristics>
+				<characteristic name="R"
+				                typeId="2360-c777-5e07-ed58">32"</characteristic>
+				<characteristic name="S"
+				                typeId="ac19-f99c-72e9-a1a7">6</characteristic>
+				<characteristic name="AP"
+				                typeId="9429-ffe7-2ce5-e9a5">-2</characteristic>
+				<characteristic name="Special Rules"
+				                typeId="5f83-3633-336b-93b4"></characteristic>
+				<characteristic name="Notes"
+				                typeId="772a-a7ff-f6b3-df71"/>
+			</characteristics>
+		</profile>
+		<profile name="Swivel Gun"
+		         typeId="a378-c633-912d-11ce"
+		         typeName="Weapon"
+		         hidden="false"
+		         id="a9f2-5f25-e4b9-bd44">
+			<characteristics>
+				<characteristic name="R"
+				                typeId="2360-c777-5e07-ed58">32"</characteristic>
+				<characteristic name="S"
+				                typeId="ac19-f99c-72e9-a1a7">6</characteristic>
+				<characteristic name="AP"
+				                typeId="9429-ffe7-2ce5-e9a5">-2</characteristic>
+				<characteristic name="Special Rules"
+				                typeId="5f83-3633-336b-93b4">Cumbersome, Move or Shoot</characteristic>
 				<characteristic name="Notes"
 				                typeId="772a-a7ff-f6b3-df71"/>
 			</characteristics>
@@ -1290,32 +1435,6 @@ Misfire table).</characteristic>
 				                typeId="c435-6b14-f77e-3c72">5</characteristic>
 			</characteristics>
 		</profile>
-		<profile name="Zombie Crew"
-		         typeId="b070-143a-73f-2772"
-		         typeName="Model"
-		         hidden="false"
-		         id="4628-f380-f88e-7c03">
-			<characteristics>
-				<characteristic name="M"
-				                typeId="cd3b-a5a4-e185-5a9d">-</characteristic>
-				<characteristic name="WS"
-				                typeId="b007-7d58-4f14-1e01">2</characteristic>
-				<characteristic name="BS"
-				                typeId="59f9-ccf5-1155-fb05">1</characteristic>
-				<characteristic name="S"
-				                typeId="5b6b-1427-2a45-dd0c">3</characteristic>
-				<characteristic name="T"
-				                typeId="ab43-8b61-83e7-d090">-</characteristic>
-				<characteristic name="W"
-				                typeId="83ed-7b82-bf1f-e558">-</characteristic>
-				<characteristic name="I"
-				                typeId="73b1-abe5-72f8-41e2">1</characteristic>
-				<characteristic name="A"
-				                typeId="dddc-9fbd-b0fd-a480">1</characteristic>
-				<characteristic name="Ld"
-				                typeId="c435-6b14-f77e-3c72">-</characteristic>
-			</characteristics>
-		</profile>
 		<profile name="Rotting Promethian"
 		         typeId="b070-143a-73f-2772"
 		         typeName="Model"
@@ -1323,13 +1442,13 @@ Misfire table).</characteristic>
 		         id="4628-f380-f88e-7c04">
 			<characteristics>
 				<characteristic name="M"
-				                typeId="cd3b-a5a4-e185-5a9d">4</characteristic>
+				                typeId="cd3b-a5a4-e185-5a9d">6</characteristic>
 				<characteristic name="WS"
 				                typeId="b007-7d58-4f14-1e01">3</characteristic>
 				<characteristic name="BS"
 				                typeId="59f9-ccf5-1155-fb05">-</characteristic>
 				<characteristic name="S"
-				                typeId="5b6b-1427-2a45-dd0c">4</characteristic>
+				                typeId="5b6b-1427-2a45-dd0c">5</characteristic>
 				<characteristic name="T"
 				                typeId="ab43-8b61-83e7-d090">5</characteristic>
 				<characteristic name="W"
@@ -1337,9 +1456,9 @@ Misfire table).</characteristic>
 				<characteristic name="I"
 				                typeId="73b1-abe5-72f8-41e2">1</characteristic>
 				<characteristic name="A"
-				                typeId="dddc-9fbd-b0fd-a480">2</characteristic>
+				                typeId="dddc-9fbd-b0fd-a480">3</characteristic>
 				<characteristic name="Ld"
-				                typeId="c435-6b14-f77e-3c72">3</characteristic>
+				                typeId="c435-6b14-f77e-3c72">2</characteristic>
 			</characteristics>
 		</profile>
 		<profile name="Curse of the Revenant"
@@ -4500,14 +4619,96 @@ Misfire table).</characteristic>
 				</modifier>
 			</modifiers>
 		</selectionEntry>
+    <selectionEntry type="unit" import="true" name="Queen Bess" hidden="false" id="da5-c1f4-df97-75a8">
+      <profiles>
+        <profile name="Queen Bess" typeId="2878-9a1f-dd74-48e3" typeName="Unit" hidden="false" id="4c54-fb6-1f86-c0dd">
+          <characteristics>
+            <characteristic name="Troop Type" typeId="5d94-6b94-bd89-1944">War Machine</characteristic>
+            <characteristic name="Unit Size" typeId="80a1-bb6f-66e4-4a5b">1</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <selectionEntries>
+        <selectionEntry type="model" import="true" name="Queen Bess" hidden="false" id="12cf-8fdc-cf6-815e" sortIndex="1">
+          <constraints>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="219c-cf77-16d5-1bb1"/>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="7764-af05-6d2d-f289"/>
+          </constraints>
+          <infoLinks>
+            <infoLink name="Base (50x75)" hidden="false" type="profile" id="292d-f1e-afae-2f8a" targetId="2b6f-489f-3c3c-bf7c"/>
+            <infoLink name="Queen Bess" hidden="false" type="profile" id="c126-f9f-65ea-44ec" targetId="6d11-8ff6-f93-df08"/>
+          </infoLinks>
+          <costs>
+            <cost name="pts" typeId="points" value="200"/>
+          </costs>
+          <entryLinks>
+            <entryLink import="true" name="Hellfire Cannon" hidden="false" type="selectionEntry" id="3a9b-5232-d954-25" targetId="bf51-aaa8-ee12-ad8b" sortIndex="2">
+              <constraints>
+                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="5175-85f-a169-3faa"/>
+              </constraints>
+            </entryLink>
+            <entryLink import="true" name="Queen Bess Gun Crew" hidden="false" id="59d7-2f6-5f81-fd72" type="selectionEntry" targetId="140f-ddd-d99-7060" sortIndex="1">
+              <constraints>
+                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="1d37-7fe-11e7-8f97-min"/>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="1d37-7fe-11e7-8f97-max"/>
+              </constraints>
+            </entryLink>
+          </entryLinks>
+          <categoryLinks>
+            <categoryLink name="War Machine" hidden="false" id="86c0-8f0d-c00-82d9" targetId="9fcf-19ad-fe84-9c61" primary="false"/>
+          </categoryLinks>
+        </selectionEntry>
+      </selectionEntries>
+      <infoGroups>
+        <infoGroup name="Special Rules" hidden="false" id="8f42-c19-79-a7a2">
+          <infoLinks>
+            <infoLink name="Skirmishers" hidden="false" type="profile" id="bda1-c4f3-f9b8-e54" targetId="59a5-7eca-ee35-96ac"/>
+						<infoLink name="Necromantic Undead"
+						          hidden="false"
+						          id="f154f715-1b433d0b"
+						          type="profile"
+						          targetId="a6ee-a62b-1579-2c37"/>
+						<infoLink name="Regeneration"
+						          hidden="false"
+						          id="637e39ca-5b970cf4"
+						          type="profile"
+						          targetId="2eb0-1ec8-8e04-72d4">
+							<modifiers>
+								<modifier type="append"
+								          value="(6+)"
+								          field="name"/>
+							</modifiers>
+						</infoLink>
+						<infoLink name="Dragged Along"
+						          hidden="false"
+						          id="4d0826e2-9a0a9a2c"
+						          type="profile"
+						          targetId="a042-c2f5-ebcb-2bab"/>
+						<infoLink name="Large Target" hidden="false" id="8ec37de-5dab0ca8" type="profile" targetId="c822-7ad0-f24a-e4af"/>
+						<infoLink name="Aquatic"
+						          hidden="false"
+						          id="34d0ea34-d50db13e"
+						          type="profile"
+						          targetId="1f39-2789-f136-7645"/>
+          </infoLinks>
+        </infoGroup>
+      </infoGroups>
+      <categoryLinks>
+        <categoryLink name="Faction: Vampire Counts"
+				              hidden="false"
+				              id="9852-bf61-9e1f-4c28"
+				              primary="false"
+				              targetId="7345-d692-6f6a-d6f6"/>
+      </categoryLinks>
+    </selectionEntry>
 		<selectionEntry type="unit"
 		                import="true"
-		                name="Depth Guard"
+		                name="Depth Guard (unfixed)"
 		                hidden="false"
 		                id="2c65c970-45a4dd3a"
 		                collective="false">
 			<profiles>
-				<profile name="Depth Guard"
+				<profile name="Depth Guard (unfixed)"
 				         typeId="2878-9a1f-dd74-48e3"
 				         typeName="Unit"
 				         hidden="false"
@@ -4522,13 +4723,13 @@ Misfire table).</characteristic>
 			</profiles>
 			<selectionEntries>
 				<selectionEntry type="model"
-				                name="Depth Guard"
+				                name="Depth Guard (unfixed)"
 				                id="d2a99e2c-6e12bd76"
 				                hidden="false"
 				                collective="true"
 				                sortIndex="1">
 					<infoLinks>
-						<infoLink name="Depth Guard"
+						<infoLink name="Depth Guard (unfixed)"
 						          hidden="false"
 						          type="profile"
 						          id="fd0a774a-6fd55e74"
@@ -4731,7 +4932,7 @@ Misfire table).</characteristic>
 						                collective="true"
 						                sortIndex="1">
 							<infoLinks>
-								<infoLink name="Depth Guard"
+								<infoLink name="Depth Guard (unfixed)"
 								          hidden="false"
 								          type="profile"
 								          id="4eca396a-6fd54614"
@@ -4995,6 +5196,14 @@ Misfire table).</characteristic>
 				</modifier>
 			</modifiers>
 		</selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Hellfire Cannon" hidden="false" id="bf51-aaa8-ee12-ad8b" collective="true">
+      <infoLinks>
+        <infoLink name="Hellfire Cannon" hidden="false" type="profile" id="1fcd-d9dc-c256-a03a" targetId="215-8dd8-83e9-ead7"/>
+      </infoLinks>
+      <constraints>
+        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="da38-1ace-46fb-c2b"/>
+      </constraints>
+    </selectionEntry>
 		<selectionEntry type="unit"
 		                import="true"
 		                name="Skeleton Crew"
@@ -5441,6 +5650,11 @@ Misfire table).</characteristic>
 								          field="name"/>
 							</modifiers>
 						</infoLink>
+						<infoLink name="Aquatic"
+						          hidden="false"
+						          id="34d0ea34-d50db13e"
+						          type="profile"
+						          targetId="1f39-2789-f136-7645"/>
 					</infoLinks>
 				</infoGroup>
 			</infoGroups>
@@ -5463,7 +5677,7 @@ Misfire table).</characteristic>
 				         typeId="2878-9a1f-dd74-48e3"
 				         typeName="Unit"
 				         hidden="false"
-				         id="5ee6639f-34c6d62d">
+				         id="5eef639f-34c6d62d">
 					<characteristics>
 						<characteristic name="Troop Type"
 						                typeId="5d94-6b94-bd89-1944">Regular infantry</characteristic>
@@ -5824,6 +6038,376 @@ Misfire table).</characteristic>
 		</selectionEntry>
 		<selectionEntry type="unit"
 		                import="true"
+		                name="Zombies 2"
+		                hidden="false"
+		                id="51cfffd9-4042bd2f"
+		                collective="false">
+			<profiles>
+				<profile name="Zombies 2"
+				         typeId="2878-9a1f-dd74-48e3"
+				         typeName="Unit"
+				         hidden="false"
+				         id="5ee6639f-34c6d62d">
+					<characteristics>
+						<characteristic name="Troop Type"
+						                typeId="5d94-6b94-bd89-1944">Regular infantry</characteristic>
+						<characteristic name="Unit Size"
+						                typeId="80a1-bb6f-66e4-4a5b">20-40</characteristic>
+					</characteristics>
+				</profile>
+			</profiles>
+			<selectionEntries>
+				<selectionEntry type="model"
+				                name="Zombie 2"
+				                id="2cf94a97-957f86e5"
+				                hidden="false"
+				                sortIndex="1">
+					<infoLinks>
+						<infoLink name="Zombie 2"
+						          hidden="false"
+						          type="profile"
+						          id="8cd7c1ed-2f2fafa3"
+						          targetId="8cc9-bd5d-e6e4-4126"/>
+						<infoLink name="Base (25x25)"
+						          hidden="false"
+						          type="profile"
+						          id="efe1337-e35cba05"
+						          targetId="193c-4d0d-de6b-bbb1"/>
+					</infoLinks>
+					<costs>
+						<cost name="pts"
+						      typeId="points"
+						      value="3"/>
+					</costs>
+					<entryLinks>
+						<entryLink name="Hand Weapon"
+						           id="cb2f2e63-9119e891"
+						           hidden="false"
+						           type="selectionEntry"
+						           targetId="721d-36e3-388a-c0d6"
+						           import="true">
+							<constraints>
+								<constraint type="min"
+								            value="1"
+								            field="selections"
+								            scope="parent"
+								            shared="false"
+								            id="71eab158-1fc298c2"/>
+							</constraints>
+						</entryLink>
+					</entryLinks>
+					<constraints>
+						<constraint type="min"
+						            value="20"
+						            field="selections"
+						            scope="parent"
+						            shared="true"
+						            id="45c1590e-82503118"/>
+						<constraint type="max"
+						            value="40"
+						            field="selections"
+						            scope="parent"
+						            shared="true"
+						            id="37ac284c-64fda296"/>
+					</constraints>
+					<categoryLinks>
+						<categoryLink name="Regular Infantry"
+						              hidden="false"
+						              id="dd7-9ed1-1b20-241d"
+						              targetId="f3f7-ca43-674e-115f"
+						              primary="false"/>
+					</categoryLinks>
+				</selectionEntry>
+			</selectionEntries>
+			<selectionEntryGroups>
+				<selectionEntryGroup name="Command"
+				                     hidden="false"
+				                     id="fe6deb10-558d425a"
+				                     sortIndex="2">
+					<selectionEntries>
+						<selectionEntry type="model"
+						                subType="crew"
+						                name="Bloaty"
+						                id="96069a4-9d90d2ee"
+						                hidden="false"
+						                sortIndex="1">
+							<infoLinks>
+								<infoLink name="Bloaty 2"
+								          hidden="false"
+								          type="profile"
+								          id="d159a842-4c55980c"
+								          targetId="8cc9-bd5d-e6e4-4126">
+									<modifiers>
+										<modifier type="set"
+										          value="Bloaty"
+										          field="name"/>
+										<modifier type="increment"
+										          value="1"
+										          field="dddc-9fbd-b0fd-a480"/>
+									</modifiers>
+								</infoLink>
+								<infoLink name="Champion"
+								          hidden="false"
+								          type="profile"
+								          id="eb368a95-c67f348b"
+								          targetId="5f1c-fd04-b0d5-d5e"/>
+								<infoLink name="Bloaty"
+								          hidden="false"
+								          type="profile"
+								          id="eb368a95-c6fc348b"
+								          targetId="a6ee-a62b-1579-2c38"/>
+							</infoLinks>
+							<costs>
+								<cost name="pts"
+								      typeId="points"
+								      value="15"/>
+							</costs>
+							<constraints>
+								<constraint type="max"
+								            value="1"
+								            field="selections"
+								            scope="parent"
+								            shared="false"
+								            id="d7674efd-ce0f3233"
+								            includeChildSelections="false"/>
+							</constraints>
+							<comment>upgrades: 2cf94a97-957186e5</comment>
+							<categoryLinks>
+								<categoryLink name="Regular Infantry"
+								              hidden="false"
+								              id="f163-5ef1-ffa3-4393"
+								              targetId="f3f7-ca43-674e-115f"
+								              primary="false"/>
+							</categoryLinks>
+						</selectionEntry>
+						<selectionEntry name="Standard Bearer"
+						                id="b2672a79-dd3fc3cf"
+						                type="model"
+						                import="true"
+						                hidden="false"
+						                subType="crew"
+						                sortIndex="1">
+							<costs>
+								<cost name="pts"
+								      typeId="points"
+								      value="5"/>
+							</costs>
+							<infoLinks>
+								<infoLink name="Standard Bearer"
+								          hidden="false"
+								          type="profile"
+								          id="8c50741b-788f9a9"
+								          targetId="bcf8-d942-102e-b155"/>
+							</infoLinks>
+							<comment>upgrades: 2cf94a97-957186e5</comment>
+							<constraints>
+								<constraint type="max"
+								            value="1"
+								            field="selections"
+								            scope="parent"
+								            shared="false"
+								            id="468b36e4-8e7f362e"
+								            includeChildSelections="false"/>
+							</constraints>
+							<categoryLinks>
+								<categoryLink name="Regular Infantry"
+								              hidden="false"
+								              id="e1e7-e780-d9bf-e098"
+								              targetId="f3f7-ca43-674e-115f"
+								              primary="false"/>
+							</categoryLinks>
+						</selectionEntry>
+						<selectionEntry name="Musician"
+						                id="bb098e5c-f6af1c66"
+						                type="model"
+						                import="true"
+						                hidden="false"
+						                subType="crew"
+						                sortIndex="2">
+							<costs>
+								<cost name="pts"
+								      typeId="points"
+								      value="5"/>
+							</costs>
+							<infoLinks>
+								<infoLink name="Musician"
+								          hidden="false"
+								          type="profile"
+								          id="65ffdd2e-3de8fe38"
+								          targetId="40f2-dd77-f0ca-3663"/>
+							</infoLinks>
+							<comment>upgrades: 2cf94a97-957186e5</comment>
+							<constraints>
+								<constraint type="max"
+								            value="1"
+								            field="selections"
+								            scope="parent"
+								            shared="false"
+								            id="b34389fd-bf2f9533"
+								            includeChildSelections="false"/>
+							</constraints>
+							<categoryLinks>
+								<categoryLink name="Regular Infantry"
+								              hidden="false"
+								              id="bf9f-ba-bbf0-7c73"
+								              targetId="f3f7-ca43-674e-115f"
+								              primary="false"/>
+							</categoryLinks>
+						</selectionEntry>
+					</selectionEntries>
+				</selectionEntryGroup>
+				<selectionEntryGroup name="Ranged Weapon"
+				                     id="14f0-9b46-d80c-ef50"
+				                     hidden="false">
+					<modifiers>
+						<modifier type="set"
+						          value="false"
+						          field="hidden">
+							<conditions>
+								<condition type="atLeast"
+								           value="1"
+								           field="selections"
+								           scope="ancestor"
+								           childId="ed3f-1102-3044-59f5"
+								           shared="true"/>
+							</conditions>
+						</modifier>
+					</modifiers>
+					<selectionEntries>
+						<selectionEntry import="true"
+						                name="Pistol"
+						                hidden="false"
+						                id="58f9-0e15-1e82-5f88"
+						                type="selectionEntry"
+						                targetId="d3c7-5222-61e8-9920"
+						                sortIndex="1">
+							<costs>
+								<cost name="pts"
+								      typeId="points"
+								      value=".5"/>
+							</costs>
+						</selectionEntry>
+						<selectionEntry import="true"
+						                name="Handgun"
+						                hidden="false"
+						                id="f595-4652-53c8-7fd1"
+						                type="selectionEntry"
+						                targetId="e2ed-a3fd-dee5-3e9f"
+						                sortIndex="2">
+							<costs>
+								<cost name="pts"
+								      typeId="points"
+								      value="1"/>
+							</costs>
+						</selectionEntry>
+						<selectionEntry import="true"
+						                name="Blunderbuss"
+						                hidden="false"
+						                id="914c-69ea-8e2c-2f95"
+						                type="selectionEntry"
+						                targetId="4035-287b-e117-6b9d"
+						                sortIndex="3">
+							<costs>
+								<cost name="pts"
+								      typeId="points"
+								      value="2"/>
+							</costs>
+						</selectionEntry>
+					</selectionEntries>
+				</selectionEntryGroup>
+			</selectionEntryGroups>
+			<infoGroups>
+				<infoGroup name="Special Rules"
+				           hidden="false"
+				           id="c602c60d-f20a43">
+					<infoLinks>
+						<infoLink name="Close Order"
+						          hidden="false"
+						          id="86248f2-558795bc"
+						          type="profile"
+						          targetId="883e-e1b1-4fe9-5912"/>
+						<infoLink name="Horde"
+						          hidden="false"
+						          id="83b76e74-e61e137e"
+						          type="profile"
+						          targetId="9cba-89a5-1796-5fe4"/>
+						<infoLink name="Necromantic Undead"
+						          hidden="false"
+						          id="cebc01c-5e71c026"
+						          type="profile"
+						          targetId="a6ee-a62b-1579-2c37"/>
+						<infoLink name="Regeneration"
+						          hidden="false"
+						          id="80150331-66945a07"
+						          type="profile"
+						          targetId="2eb0-1ec8-8e04-72d4">
+							<modifiers>
+								<modifier type="append"
+								          value="(6+)"
+								          field="name"/>
+							</modifiers>
+						</infoLink>
+						<infoLink name="The Newly Dead"
+						          hidden="false"
+						          id="3ba5e2f6-913445c0"
+						          type="profile"
+						          targetId="4176-fb21-2d35-b9c9"/>
+						<infoLink name="Regimental Unit"
+						          id="e4e5-8c65-69f6-ce7b"
+						          hidden="false"
+						          type="profile"
+						          targetId="7424-ec43-7581-965a">
+							<modifiers>
+								<modifier type="set"
+								          value="false"
+								          field="hidden">
+									<conditions>
+										<condition type="atLeast"
+										           value="1"
+										           field="selections"
+										           scope="force"
+										           childId="974c-3bf3-af4b-701d"
+										           shared="true"
+										           includeChildSelections="true">
+											<comment>Renegades</comment>
+										</condition>
+									</conditions>
+									<comment>Renegades</comment>
+								</modifier>
+							</modifiers>
+						</infoLink>
+					</infoLinks>
+				</infoGroup>
+			</infoGroups>
+			<entryLinks>
+				<entryLink import="true"
+				           name="Scurvy Dogs"
+				           hidden="false"
+				           id="4c8f-9a50-7b96-6ef5"
+				           type="selectionEntry"
+				           targetId="85ad2a06-6189d990"
+				           sortIndex="3">
+					<constraints>
+						<constraint type="max"
+						            value="1"
+						            field="selections"
+						            scope="parent"
+						            shared="false"
+						            id="54c81fbf-2f720dcd"
+						            includeChildSelections="false"/>
+					</constraints>
+				</entryLink>
+			</entryLinks>
+			<categoryLinks>
+				<categoryLink name="Faction: Vampire Counts"
+				              hidden="false"
+				              id="1e41-ead8-ba2-8be4"
+				              primary="false"
+				              targetId="7345-d692-6f6a-d6f6"/>
+			</categoryLinks>
+		</selectionEntry>
+		<selectionEntry type="unit"
+		                import="true"
 		                name="Animated Hulks"
 		                hidden="false"
 		                id="475a2b9f-6b5c5e2d"
@@ -5863,7 +6447,7 @@ Misfire table).</characteristic>
 					<costs>
 						<cost name="pts"
 						      typeId="points"
-						      value="46"/>
+						      value="38"/>
 					</costs>
 					<entryLinks>
 						<entryLink name="Amalgamated Arms"
@@ -5978,11 +6562,11 @@ Misfire table).</characteristic>
 								          field="name"/>
 							</modifiers>
 						</infoLink>
-						<infoLink name="Move Through Cover"
+						<infoLink name="Aquatic"
 						          hidden="false"
-						          id="29983f33-afc266e1"
+						          id="34d0ea34-d50db13e"
 						          type="profile"
-						          targetId="e83e-f127-1904-3858"/>
+						          targetId="1f39-2789-f136-7645"/>
 						<infoLink name="Necromantic Undead"
 						          hidden="false"
 						          id="6f66003e-63c79588"
@@ -6004,23 +6588,12 @@ Misfire table).</characteristic>
 								          field="name"/>
 							</modifiers>
 						</infoLink>
-						<infoLink name="Stomp Attacks"
-						          hidden="false"
-						          id="50931576-8c23e440"
-						          type="profile"
-						          targetId="72db-24bb-7493-d753">
-							<modifiers>
-								<modifier type="append"
-								          value="(1)"
-								          field="name"/>
-							</modifiers>
-						</infoLink>
 					</infoLinks>
 				</infoGroup>
 			</infoGroups>
 			<categoryLinks>
 				<categoryLink name="Faction: Vampire Counts"
-				              hidden="false"
+				              hidden="false" 
 				              id="a927-4963-ef8a-d4f2"
 				              primary="false"
 				              targetId="7345-d692-6f6a-d6f6"/>
@@ -6070,7 +6643,7 @@ Misfire table).</characteristic>
 				                hidden="false"
 				                sortIndex="1">
 					<infoLinks>
-						<infoLink name="Prime Promethian"
+						<infoLink name="Promethian"
 						          hidden="false"
 						          type="profile"
 						          id="f0c8b42d-3e870fe4"
@@ -6092,7 +6665,7 @@ Misfire table).</characteristic>
 					<costs>
 						<cost name="pts"
 							  typeId="points"
-							  value="36"/>
+							  value="50"/>
 					</costs>
 					<categoryLinks>
 						<categoryLink name="Monstrous Infantry"
@@ -6101,86 +6674,106 @@ Misfire table).</characteristic>
 						              targetId="5c55-f9d6-b181-92f8"
 						              primary="false"/>
 					</categoryLinks>
-				</selectionEntry>
-				<selectionEntry type="upgrade"
-								import="true"
-								name="Zombie Riding Pair"
-								hidden="false"
-								id="8723b2df-d01fab6d"
-								sortIndex="2"
-								collective="true">
-					<costs>
-						<cost name="pts"
-							  typeId="points"
-							  value="4"/>
-					</costs>
-					<infoLinks>
-						<infoLink name="Zombie Riding Pair"
-								  hidden="false"
-								  type="profile"
-								  id="a6e4-d88d-78b9-f71e"
-								  targetId="8c0b-6fe6-dc06-511"/>
-					</infoLinks>
-				</selectionEntry>
-				<selectionEntry type="upgrade"
-								import="true"
-								name="Pistol"
-								hidden="false"
-								id="8723b2df-d01fab6d"
-								sortIndex="5"
-								collective="true">
-					<costs>
-						<cost name="pts"
-							  typeId="points"
-							  value=".5"/>
-					</costs>
-					<infoLinks>
-						<infoLink name="Pistol"
-								  hidden="false"
-								  type="profile"
-								  id="a6e4-d88d-78b9-f71e"
-								  targetId="d3c7-5222-61e8-9920"/>
-					</infoLinks>
-				</selectionEntry>
-				<selectionEntry type="upgrade"
-								import="true"
-								name="Handgun"
-								hidden="false"
-								id="8723b2df-d01fab6d"
-								sortIndex="6"
-								collective="true">
-					<costs>
-						<cost name="pts"
-							  typeId="points"
-							  value="1"/>
-					</costs>
-					<infoLinks>
-						<infoLink name="Handgun"
-								  hidden="false"
-								  type="profile"
-								  id="a6e4-d88d-78b9-f71e"
-								  targetId="7f58-91d4-ee6c-3cb7"/>
-					</infoLinks>
-				</selectionEntry>
-				<selectionEntry type="upgrade"
-								import="true"
-								name="Blunderbuss"
-								hidden="false"
-								id="8723b2df-d01fab6d"
-								sortIndex="7"
-								collective="true">
-					<costs>
-						<cost name="pts"
-							  typeId="points"
-							  value="2"/>
-					</costs>
-					<infoLinks>
-						<infoLink name="Blunderbuss"
-								  hidden="false"
-								  type="profile"
-								  id="a6e4-d88d-78b9-f71e"
-								  targetId="4035-287b-e117-6b9d"/>
-					</infoLinks>
+					<selectionEntries>
+        <selectionEntry type="model" subType="crew" name="Zombie Crew Pair" id="ba1c-df9a-4aaf-3fcd" hidden="false" sortIndex="3">
+          <infoLinks>
+            <infoLink name="Zombie Crew Pair" hidden="false" type="profile" id="c26a-36f8-860e-2f62" targetId="8cc9-bd5d-e6e4-5137"/>
+          </infoLinks>
+          <costs>
+            <cost name="pts" typeId="points" value="8"/>
+          </costs>
+          <entryLinks>
+            <entryLink name="Hand Weapon" id="b146-e049-a020-f2f" hidden="false" type="selectionEntry" targetId="721d-36e3-388a-c0d6" sortIndex="1" import="true">
+              <constraints>
+                <constraint type="min" value="1" field="selections" scope="parent" shared="false" id="12a-4f57-fc1-d483"/>
+              </constraints>
+            </entryLink>
+          </entryLinks>
+          			<selectionEntryGroups>
+          						<selectionEntryGroup name="Ranged Weapon"
+						                     id="14f0-9b46-d80c-e850"
+						                     hidden="false"
+						                     defaultSelectionEntryId="58f9-0e15-1e82-5588">
+							<constraints>
+								<constraint type="min"
+								            value="1"
+								            field="selections"
+								            scope="parent"
+								            shared="true"
+								            id="67b7-a596-c441-9a57"/>
+								<constraint type="max"
+								            value="1"
+								            field="selections"
+								            scope="parent"
+								            shared="true"
+								            id="9249-f92d-89fe-8d12"/>
+							</constraints>
+							<entryLinks>
+								<entryLink import="true"
+								           name="Pistol"
+								           hidden="false"
+								           id="58f9-0e15-1e82-5588"
+								           type="selectionEntry"
+								           targetId="d3c7-5222-61e8-9920"
+								           sortIndex="1">
+									<costs>
+										<cost name="pts"
+										      typeId="points"
+										      value="0"/>
+									</costs>
+								</entryLink>
+								<entryLink import="true"
+								           name="Brace of Pistols"
+								           hidden="false"
+								           id="58f9-0e15-1e82-5589"
+								           type="selectionEntry"
+								           targetId="d8bb-85b0-3575-6029"
+								           sortIndex="2">
+									<costs>
+										<cost name="pts"
+										      typeId="points"
+										      value="2"/>
+									</costs>
+								</entryLink>
+								<entryLink import="true"
+								           name="Blunderbuss"
+								           hidden="false"
+								           id="f595-4652-53c8-7bd1"
+								           type="selectionEntry"
+								           targetId="4035-287b-e117-6b9d"
+								           sortIndex="3">
+									<costs>
+										<cost name="pts"
+										      typeId="points"
+										      value="4"/>
+									</costs>
+								</entryLink>
+								<entryLink import="true"
+								           name="Handgun"
+								           hidden="false"
+								           id="f995-4672-53c8-7bd1"
+								           type="selectionEntry"
+								           targetId="e2ed-a3fd-dee5-3e9f"
+								           sortIndex="3">
+									<costs>
+										<cost name="pts"
+										      typeId="points"
+										      value="2"/>
+									</costs>
+								</entryLink>
+							</entryLinks>
+						</selectionEntryGroup>
+					</selectionEntryGroups>
+          <constraints>
+            <constraint type="min" value="0" field="selections" scope="parent" shared="false" id="9c6b-c93a-d0a3-a8f"/>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="false" id="fd5f-573d-42d-f952" includeChildSelections="false"/>
+          </constraints>
+          <categoryLinks>
+            <categoryLink name="CHARIOT CREW" hidden="false" id="44cd-d5a5-94ff-fa94" targetId="4cf7-bf85-308d-c29a" primary="false"/>
+            <categoryLink name="MAY_HAVE_SHIELD" hidden="false" id="b763-80fd-9e2d-4b69" targetId="may-have-shield"/>
+          </categoryLinks>
+        </selectionEntry>				
+			</selectionEntries>
 				</selectionEntry>
 			</selectionEntries>
 			<infoGroups>
@@ -6195,7 +6788,7 @@ Misfire table).</characteristic>
 						          targetId="5450-cbf1-3e74-254a">
 							<modifiers>
 								<modifier type="append"
-								          value="(4)"
+								          value="(3)"
 								          field="name"/>
 							</modifiers>
 						</infoLink>
@@ -6210,6 +6803,11 @@ Misfire table).</characteristic>
 								          field="name"/>
 							</modifiers>
 						</infoLink>
+						<infoLink name="Black Powder Weapons"
+						          hidden="false"
+						          id="ee8395e8-8dc26593"
+						          type="profile"
+						          targetId="238e-4e22-63f-9043"/>
 						<infoLink name="Move Through Cover"
 						          hidden="false"
 						          id="29983f33-afc266e1"
@@ -6230,6 +6828,11 @@ Misfire table).</characteristic>
 						          id="bfbb3a93-c0839d41"
 						          type="profile"
 						          targetId="6359-4018-5cd4-3720"/>
+						<infoLink name="Gunnery Mob"
+						          hidden="false"
+						          id="e455a62c-421e8576"
+						          type="profile"
+						          targetId="238e-4e22-63f-9f43"/>
 						<infoLink name="Open Order"
 						          hidden="false"
 						          id="e455a62c-421e8576"
@@ -6243,6 +6846,17 @@ Misfire table).</characteristic>
 							<modifiers>
 								<modifier type="append"
 								          value="(6+)"
+								          field="name"/>
+							</modifiers>
+						</infoLink>
+						<infoLink name="Impact Hits"
+						          id="55421ab7-5c448585"
+						          hidden="false"
+						          type="profile"
+						          targetId="5c2-e9dd-2715-a0c0">
+							<modifiers>
+								<modifier type="append"
+								          value="(D3)"
 								          field="name"/>
 							</modifiers>
 						</infoLink>
@@ -6432,7 +7046,7 @@ Misfire table).</characteristic>
 					<costs>
 						<cost name="pts"
 						      typeId="points"
-						      value="36"/>
+						      value="38"/>
 					</costs>
 					<entryLinks>
 						<entryLink name="Hand Weapon"
@@ -6489,16 +7103,17 @@ Misfire table).</characteristic>
 								          field="name"/>
 							</modifiers>
 						</infoLink>
-						<infoLink name="Vanguard"
+						<infoLink name="Aquatic"
 						          hidden="false"
-						          id="eaa54dcd-86c25404"
+						          id="34d0ea34-d50db13e"
 						          type="profile"
-						          targetId="691e-10ec-4f7c-a2c4"/>
+						          targetId="1f39-2789-f136-7645"/>
 						<infoLink name="Skirmishers"
 						          hidden="false"
 						          id="ff80fe71-f2467b47"
 						          type="profile"
 						          targetId="59a5-7eca-ee35-96ac"/>
+                          <infoLink name="Loner" hidden="false" id="488f8707-77042755" type="profile" targetId="2ecd-c6b3-bd8b-864b"/>
 					</infoLinks>
 				</infoGroup>
 			</infoGroups>
@@ -6804,6 +7419,11 @@ Misfire table).</characteristic>
 						          type="profile"
 						          targetId="1f10-d7d-be19-7e8f"/>
 					</infoLinks>
+						<infoLink name="Aquatic"
+						          hidden="false"
+						          id="34d0ea34-d50db13e"
+						          type="profile"
+						          targetId="1f39-2789-f136-7645"/>
 				</infoGroup>
 			</infoGroups>
 			<categoryLinks>
@@ -7397,6 +8017,22 @@ Misfire table).</characteristic>
 				              targetId="7345-d692-6f6a-d6f6"/>
 			</categoryLinks>
 		</selectionEntry>
+		<selectionEntry type="model" import="true" name="Big Bess Gun Crew" hidden="false" id="140f-ddd-d99-7060" collective="true" sortIndex="2" subType="crew">
+      <infoLinks>
+        <infoLink name="Big Bess Gun Crew" hidden="false" type="profile" id="75cf-22de-8cbf-f38" targetId="cdf3-ddd0-7ac-d190"/>
+        <infoLink name="Base (25x25)" hidden="false" type="profile" id="4ccb-5dd2-db00-3f4d" targetId="193c-4d0d-de6d-bbb1"/>
+      </infoLinks>
+      <entryLinks>
+        <entryLink import="true" name="Hand Weapon" hidden="false" type="selectionEntry" id="eb53-2cd3-6d2-6dd8" targetId="721d-36e3-388a-c0d6" sortIndex="2">
+          <constraints>
+            <constraint type="min" value="1" scope="parent" field="selections" shared="true" id="c6d1-ecdc-7da-597e"/>
+          </constraints>
+        </entryLink>
+      </entryLinks>
+      <categoryLinks>
+        <categoryLink name="CHARIOT CREW" hidden="false" id="7b7-f0d8-2d38-8d92" targetId="4cf7-bf85-308d-c29a" primary="false"/>
+      </categoryLinks>
+    </selectionEntry>
 		<selectionEntry type="unit"
 		                import="true"
 		                name="Black Knights"
@@ -8449,12 +9085,12 @@ Misfire table).</characteristic>
 		</selectionEntry>
 		<selectionEntry type="unit"
 		                import="true"
-		                name="Corpse Cart"
+		                name="Corpse Cart (unfixed)"
 		                hidden="false"
 		                id="cdd546b2-95f4a57c"
 		                collective="false">
 			<profiles>
-				<profile name="Corpse Cart"
+				<profile name="Corpse Cart (unfixed)"
 				         typeId="2878-9a1f-dd74-48e3"
 				         typeName="Unit"
 				         hidden="false"
@@ -8476,7 +9112,7 @@ Misfire table).</characteristic>
 			</categoryLinks>
 			<entryLinks>
 				<entryLink import="true"
-				           name="Corpse Cart"
+				           name="Corpse Cart (unfixed)"
 				           hidden="false"
 				           id="8219-cac4-fcd4-8d28"
 				           type="selectionEntry"
@@ -8577,7 +9213,7 @@ Misfire table).</characteristic>
 					</costs>
 					<entryLinks>
 						<entryLink name="Giant Claws"
-						           id="706e3cc1-7a534217"
+						           id="706e3cc1-7a534218"
 						           hidden="false"
 						           type="selectionEntry"
 						           targetId="6b9f81f0-b84cd1bb"
@@ -8592,19 +9228,20 @@ Misfire table).</characteristic>
 								            id="c11cd01e-f514e2e8"/>
 							</constraints>
 						</entryLink>
-						<entryLink name="Hardened Shell"
-						           id="5b533e52-688d839c"
+						<entryLink name="shell"
+						           id="706e3cc1-7a534219"
 						           hidden="false"
 						           type="selectionEntry"
-						           targetId="5e28-a07e-24ed-aed0"
-						           sortIndex="2">
+						           targetId="2505-873d-1655-3b0b"
+						           sortIndex="1"
+						           import="true">
 							<constraints>
 								<constraint type="min"
 								            value="1"
+								            field="selections"
 								            scope="parent"
 								            shared="false"
-								            field="selections"
-								            id="571dff61-4bc19f37"/>
+								            id="c11cd01e-f514e2e9"/>
 							</constraints>
 						</entryLink>
 					</entryLinks>
@@ -8634,6 +9271,109 @@ Misfire table).</characteristic>
 						              targetId="may-have-armour"/>
 					</categoryLinks>
 				</selectionEntry>
+        <selectionEntry type="model" subType="crew" name="Zombie Crew" id="ba1c-df9a-4aaf-3fcd" hidden="false" sortIndex="3">
+          <infoLinks>
+            <infoLink name="Zombie Crew" hidden="false" type="profile" id="c26a-36f8-860e-2f62" targetId="8cc9-bd5d-e6e4-4137"/>
+          </infoLinks>
+          <costs>
+            <cost name="pts" typeId="points" value="0"/>
+          </costs>
+          <entryLinks>
+            <entryLink name="Hand Weapon" id="b146-e049-a020-f2f" hidden="false" type="selectionEntry" targetId="721d-36e3-388a-c0d6" sortIndex="1" import="true">
+              <constraints>
+                <constraint type="min" value="1" field="selections" scope="parent" shared="false" id="12a-4f57-fc1-d483"/>
+              </constraints>
+            </entryLink>
+            <entryLink name="Cavalry Spear" id="99b2-5613-b488-fdf1" hidden="false" type="selectionEntry" targetId="a2d0-40e9-83ad-23dc" sortIndex="2" import="true">
+              <constraints>
+                <constraint type="min" value="1" field="selections" scope="parent" shared="false" id="c137-775d-f39d-d5fb"/>
+              </constraints>
+            </entryLink>
+          </entryLinks>
+          			<selectionEntryGroups>
+          						<selectionEntryGroup name="Ranged Weapon"
+						                     id="14f0-9b46-d80c-e850"
+						                     hidden="false"
+						                     defaultSelectionEntryId="58f9-0e15-1e82-5588">
+							<constraints>
+								<constraint type="min"
+								            value="1"
+								            field="selections"
+								            scope="parent"
+								            shared="true"
+								            id="67b7-a596-c441-9a57"/>
+								<constraint type="max"
+								            value="1"
+								            field="selections"
+								            scope="parent"
+								            shared="true"
+								            id="9249-f92d-89fe-8d12"/>
+							</constraints>
+							<entryLinks>
+								<entryLink import="true"
+								           name="Handgun"
+								           hidden="false"
+								           id="58f9-0e15-1e82-5588"
+								           type="selectionEntry"
+								           targetId="e2ed-a3fd-dee5-3e9f"
+								           sortIndex="1">
+									<costs>
+										<cost name="pts"
+										      typeId="points"
+										      value="0"/>
+									</costs>
+								</entryLink>
+								<entryLink import="true"
+								           name="Brace of Pistols"
+								           hidden="false"
+								           id="58f9-0e15-1e82-5589"
+								           type="selectionEntry"
+								           targetId="d8bb-85b0-3575-6029"
+								           sortIndex="2">
+									<costs>
+										<cost name="pts"
+										      typeId="points"
+										      value="0"/>
+									</costs>
+								</entryLink>
+								<entryLink import="true"
+								           name="Blunderbuss"
+								           hidden="false"
+								           id="f595-4652-53c8-7bd1"
+								           type="selectionEntry"
+								           targetId="4035-287b-e117-6b9d"
+								           sortIndex="3">
+									<costs>
+										<cost name="pts"
+										      typeId="points"
+										      value="8"/>
+									</costs>
+								</entryLink>
+								<entryLink import="true"
+								           name="Mounted Swivel Gun"
+								           hidden="false"
+								           id="f995-4672-53c8-7bd1"
+								           type="selectionEntry"
+								           targetId="4035-297b-e117-6b9d"
+								           sortIndex="3">
+									<costs>
+										<cost name="pts"
+										      typeId="points"
+										      value="12"/>
+									</costs>
+								</entryLink>
+							</entryLinks>
+						</selectionEntryGroup>
+					</selectionEntryGroups>
+          <constraints>
+            <constraint type="min" value="4" field="selections" scope="parent" shared="false" id="9c6b-c93a-d0a3-a8f"/>
+            <constraint type="max" value="4" field="selections" scope="parent" shared="false" id="fd5f-573d-42d-f952" includeChildSelections="false"/>
+          </constraints>
+          <categoryLinks>
+            <categoryLink name="CHARIOT CREW" hidden="false" id="44cd-d5a5-94ff-fa94" targetId="4cf7-bf85-308d-c29a" primary="false"/>
+            <categoryLink name="MAY_HAVE_SHIELD" hidden="false" id="b763-80fd-9e2d-4b69" targetId="may-have-shield"/>
+          </categoryLinks>
+        </selectionEntry>
 			</selectionEntries>
 			<infoGroups>
 				<infoGroup name="Special Rules"
@@ -8644,7 +9384,7 @@ Misfire table).</characteristic>
 						          hidden="false"
 						          id="ee8395e8-8dc26593"
 						          type="profile"
-						          targetId="238e-4e22-63f-9042"/>
+						          targetId="238e-4e22-63f-9043"/>
 						<infoLink name="Close Order"
 						          hidden="false"
 						          id="c398deb0-ae15487a"
@@ -9242,11 +9982,11 @@ Misfire table).</characteristic>
 		</selectionEntry>
 		<selectionEntry type="model"
 		                import="true"
-		                name="Corpse Cart"
+		                name="Corpse Cart (unfixed)"
 		                hidden="false"
 		                id="05b0-55c3-c6b1-72ee">
 			<infoLinks>
-				<infoLink name="Corpse Cart"
+				<infoLink name="Corpse Cart (unfixed)"
 				          id="e83f-ac2b-0036-be8f"
 				          hidden="false"
 				          type="profile"
@@ -9847,18 +10587,18 @@ Misfire table).</characteristic>
 			</categoryLinks>
 		</entryLink>
 		<entryLink import="true"
-		           name="Depth Guard"
+		           name="Depth Guard (unfixed)"
 		           hidden="false"
 		           id="f0c93292-b031d5dc"
 		           type="selectionEntry"
 		           targetId="2c65c970-45a4dd3a">
 			<categoryLinks>
-				<categoryLink name="Special"
+				<categoryLink name="Rare"
 				              hidden="false"
-				              id="2dad-11a6-e759-8e85"
-				              targetId="633f-f67a-1b6a-d203"
+				              id="9b97-6e2c-b34f-daa5"
+				              targetId="2bfe-5863-46fe-d284"
 				              primary="true"/>
-				<categoryLink name="0-1 Depth Guard or Black Knight per 1,000 points"
+				<categoryLink name="0-1 Depth Guard (unfixed) or Black Knight per 1,000 points"
 				              hidden="false"
 				              id="163d-b232-5823-64ea"
 				              targetId="9836-1bed-24-6e3f"
@@ -9924,13 +10664,32 @@ Misfire table).</characteristic>
 			</constraints>
 		</entryLink>
 		<entryLink import="true"
+		           name="Zombies 2"
+		           hidden="false"
+		           id="3bbbaff-f16fcf0d"
+		           type="selectionEntry"
+		           targetId="51cfffd9-4042bd2f">
+			<categoryLinks>
+				<categoryLink name="Core"
+				              hidden="false"
+				              id="5e1a-2fcf-8f64-fea7"
+				              targetId="f0e3-2e32-8866-ea32"
+				              primary="true"/>
+				<categoryLink name="Units (not including units whose troop type is &apos;swarms&apos;, &apos;war beasts&apos; or &apos;war machines&apos;)"
+				              hidden="false"
+				              id="747f-9bd0-0f54-efa8"
+				              primary="false"
+				              targetId="fec1-537a-bbeb-7926"/>
+			</categoryLinks>
+		</entryLink>
+		<entryLink import="true"
 		           name="Animated Hulks"
 		           hidden="false"
 		           id="9dc5b9fd-60204533"
 		           type="selectionEntry"
 		           targetId="475a2b9f-6b5c5e2d">
 			<categoryLinks>
-				<categoryLink name="0-1 Animated Hulks or Depth Guard per 1,000 points"
+				<categoryLink name="0-1 Animated Hulks or Depth Guard (unfixed) per 1,000 points"
 				              hidden="false"
 				              id="68d2-e08-63b-14a6"
 				              targetId="85c8-1fba-1d5e-bb7c"
@@ -10107,7 +10866,7 @@ Misfire table).</characteristic>
 			</categoryLinks>
 		</entryLink>
 		<entryLink import="true"
-		           name="Corpse Cart"
+		           name="Corpse Cart (unfixed)"
 		           hidden="false"
 		           id="2d22ab3c-44ab1dc6"
 		           type="selectionEntry"
@@ -10204,6 +10963,15 @@ Misfire table).</characteristic>
 			</categoryLinks>
 			<comment>Rare</comment>
 		</entryLink>
+    <entryLink targetId="da5-c1f4-df97-75a8" id="ae19-5fdf-3f0-d15" type="selectionEntry" name="Queen Bess" hidden="false">
+      <categoryLinks>
+				<categoryLink name="Rare"
+				              hidden="false"
+				              id="e057-242a-9f53-af39"
+				              targetId="2bfe-5863-46fe-d284"
+				              primary="true"/>
+      </categoryLinks>
+    </entryLink>
 		<entryLink import="true"
 		           name="Renegades (Square Based)"
 		           hidden="false"
@@ -10539,7 +11307,7 @@ Misfire table).</characteristic>
 				</modifier>
 			</modifiers>
 		</categoryEntry>
-		<categoryEntry name="0-1 Animated Hulks or Depth Guard per 1,000 points"
+		<categoryEntry name="0-1 Animated Hulks or Depth Guard (unfixed) per 1,000 points"
 		               hidden="true"
 		               id="85c8-1fba-1d5e-bb7c">
 			<constraints>
@@ -10950,7 +11718,7 @@ Misfire table).</characteristic>
 					<costs>
 						<cost name="pts"
 						      typeId="points"
-						      value="200"/>
+						      value="215"/>
 					</costs>
 					<constraints>
 						<constraint type="max"
@@ -10982,7 +11750,7 @@ Misfire table).</characteristic>
 						          targetId="5450-cbf1-3e74-254a">
 							<modifiers>
 								<modifier type="append"
-								          value="(4)"
+								          value="(3)"
 								          field="name"/>
 							</modifiers>
 						</infoLink>
