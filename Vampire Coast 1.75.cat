@@ -140,16 +140,16 @@
 				                typeId="c435-6b14-f77e-3c72">6</characteristic>
 			</characteristics>
 		</profile>
-		<profile name="Depth Guard (unfixed)"
+		<profile name="Depth Guard"
 		         typeId="b070-143a-73f-2772"
 		         typeName="Model"
 		         hidden="false"
 		         id="3877-8b67-1cd9-17d0">
 			<characteristics>
 				<characteristic name="M"
-				                typeId="cd3b-a5a4-e185-5a9d">4</characteristic>
+				                typeId="cd3b-a5a4-e185-5a9d">6</characteristic>
 				<characteristic name="WS"
-				                typeId="b007-7d58-4f14-1e01">3</characteristic>
+				                typeId="b007-7d58-4f14-1e01">5</characteristic>
 				<characteristic name="BS"
 				                typeId="59f9-ccf5-1155-fb05">3</characteristic>
 				<characteristic name="S"
@@ -159,9 +159,9 @@
 				<characteristic name="W"
 				                typeId="83ed-7b82-bf1f-e558">1</characteristic>
 				<characteristic name="I"
-				                typeId="73b1-abe5-72f8-41e2">3</characteristic>
+				                typeId="73b1-abe5-72f8-41e2">4</characteristic>
 				<characteristic name="A"
-				                typeId="dddc-9fbd-b0fd-a480">1</characteristic>
+				                typeId="dddc-9fbd-b0fd-a480">2</characteristic>
 				<characteristic name="Ld"
 				                typeId="c435-6b14-f77e-3c72">7</characteristic>
 			</characteristics>
@@ -192,6 +192,13 @@
 				                typeId="c435-6b14-f77e-3c72">4</characteristic>
 			</characteristics>
 		</profile>
+    <profile name="Cleaving Blow" typeId="c1ac-c1c8-f9d5-9673" typeName="Special Rule" hidden="false" id="1947-af53-7f07-815f">
+      <characteristics>
+        <characteristic name="Description" typeId="9f84-4221-785a-db50">If a model with this special rule rolls a natural 6 when making a roll To Wound for an attack made in combat, it has struck a ‘Cleaving Blow’. Enemy models whose troop type is ‘regular infantry’, ‘heavy infantry’, ‘light cavalry’, ‘heavy cavalry’ or ‘war beasts’ are not permitted an armour or Regeneration save against a Cleaving Blow (Ward saves can be attempted as normal).
+
+Note that if an attack wounds automatically, this special rule cannot be used.</characteristic>
+      </characteristics>
+    </profile>
 		<profile name="Skeleton Champion"
 		         typeId="b070-143a-73f-2772"
 		         typeName="Model"
@@ -706,15 +713,33 @@ unit.
 Note that this special rule is not cumulative. If two or more models in a unit have this special rule, use the highest value for the entire unit. For example, if a character with Indomitable (2) joins a unit with Indomitable (1), the whole unit uses the character’s Indomitable (2) special rule.</characteristic>
 			</characteristics>
 		</profile>
-		<profile name="Impale"
+		<profile name="*Necrofex Colossus Attacks"
 		         typeId="c1ac-c1c8-f9d5-9673"
 		         typeName="Special Rule"
 		         hidden="false"
 		         id="78b6-d212-caa2-cef2">
 			<characteristics>
 				<characteristic name="Description"
-				                typeId="9f84-4221-785a-db50">If the Necrofex Colossus rolls a natural 1 or 2 for the number of Random Attacks, the attacks
-gain the Monster Slayer special rule.</characteristic>
+				                typeId="9f84-4221-785a-db50">Instead of attacking normally during the Combat phase, a Necrofex Colossus may choose
+to make a ‘Necrofex Attack’. To make a Necrofex Attack, nominate an enemy unit that the
+Necrofex Colossus is engaged in combat with to be the target of the attack and roll on the
+Necrofex Attacks table below to determine what the Necrofex Colossus does:
+
+1-2: Batter and Slash: The Necrofex flails and smashes at its enemies with its massive
+limbs. The Necrofex Colossus fights using the Random Attacks (D6+1) special
+rule.
+
+3-4: Impale: The Necrofex Colossus impales the foe with its misshapen claw and tries
+to strip their soul from their body. Select one model in base contact; that model,
+and all models in the same file, must pass an Initiative test or suffer a Strength 7
+Hit with the Monster Slayer special rule.
+
+5-6: Screams of the Damned: Roll 2D6 and add the number of Wounds the Necrofex
+Colossus has left. For each point by which the result exceeds the target unit's
+Leadership, the target unit suffers 1 Wound with no armour saves allowed.
+Wounds suffered from it are distributed as from shooting.
+
+</characteristic>
 			</characteristics>
 		</profile>
 		<profile name="Vortex of Death"
@@ -725,7 +750,7 @@ gain the Monster Slayer special rule.</characteristic>
 			<characteristics>
 				<characteristic name="Description"
 				                typeId="9f84-4221-785a-db50">Whilst within 12" of a Necrofex Colossus, any model (friend or foe) attempting to cast a spell
-from the Lore of Necromancy may apply a +1 modifier to any Casting roll they make. In
+from the Lore of Necromancy, Lore of Death, or Lore of the deep may apply a +1 modifier to any Casting roll they make. In
 addition, a Wizard mounted on a Necrofex Colossus increases their Dispel range by 3"</characteristic>
 			</characteristics>
 		</profile>
@@ -1246,7 +1271,7 @@ Misfire table).</characteristic>
 				<characteristic name="AP"
 				                typeId="9429-ffe7-2ce5-e9a5">-1</characteristic>
 				<characteristic name="Special Rules"
-				                typeId="5f83-3633-336b-93b4">Killing Blow</characteristic>
+				                typeId="5f83-3633-336b-93b4">Killing Blow*</characteristic>
 				<characteristic name="Notes"
 				                typeId="772a-a7ff-f6b3-df71"/>
 			</characteristics>
@@ -1493,33 +1518,6 @@ Misfire table).</characteristic>
 				<characteristic name="Description"
 				                typeId="9f84-4221-785a-db50">Models whose troop type is ‘infantry’ only. This Vampire gains the Fly (10) rule, but cannot join a unit.</characteristic>
 			</characteristics>
-		</profile>
-		<profile name="Dark Acolyte"
-		         typeId="c1ac-c1c8-f9d5-9673"
-		         typeName="Special Rule"
-		         hidden="false"
-		         id="9349-c828-b9e4-8499"
-		         page="23"
-		         publicationId="1c5e-3047-5732-f4">
-			<characteristics>
-				<characteristic name="Description"
-				                typeId="9f84-4221-785a-db50">This Vampire gains the Invocation of Nehek special rule. For the purposes of using this special rule, this model counts as a Level 1 Wizard.</characteristic>
-			</characteristics>
-			<modifiers>
-				<modifier type="set"
-				          value="This Vampire gains the Invocation of Nehek special rule.If this model is not already a wizard, for the purposes of using this special rule this model counts as a Level 1 Wizard."
-				          field="9f84-4221-785a-db50">
-					<conditions>
-						<condition type="atLeast"
-						           value="1"
-						           field="selections"
-						           scope="force"
-						           childId="974c-3bf3-af4b-701d"
-						           shared="true"
-						           includeChildSelections="true"/>
-					</conditions>
-				</modifier>
-			</modifiers>
 		</profile>
 		<profile name="Master Of The Black Arts"
 		         typeId="c1ac-c1c8-f9d5-9673"
@@ -4007,12 +4005,12 @@ Misfire table).</characteristic>
     </selectionEntry>
 		<selectionEntry type="unit"
 		                import="true"
-		                name="Depth Guard (unfixed)"
+		                name="Depth Guard"
 		                hidden="false"
 		                id="2c65c970-45a4dd3a"
 		                collective="false">
 			<profiles>
-				<profile name="Depth Guard (unfixed)"
+				<profile name="Depth Guard"
 				         typeId="2878-9a1f-dd74-48e3"
 				         typeName="Unit"
 				         hidden="false"
@@ -4021,19 +4019,19 @@ Misfire table).</characteristic>
 						<characteristic name="Troop Type"
 						                typeId="5d94-6b94-bd89-1944">Heavy infantry</characteristic>
 						<characteristic name="Unit Size"
-						                typeId="80a1-bb6f-66e4-4a5b">10+</characteristic>
+						                typeId="80a1-bb6f-66e4-4a5b">5+</characteristic>
 					</characteristics>
 				</profile>
 			</profiles>
 			<selectionEntries>
 				<selectionEntry type="model"
-				                name="Depth Guard (unfixed)"
+				                name="Depth Guard"
 				                id="d2a99e2c-6e12bd76"
 				                hidden="false"
 				                collective="true"
 				                sortIndex="1">
 					<infoLinks>
-						<infoLink name="Depth Guard (unfixed)"
+						<infoLink name="Depth Guard"
 						          hidden="false"
 						          type="profile"
 						          id="fd0a774a-6fd55e74"
@@ -4047,7 +4045,7 @@ Misfire table).</characteristic>
 					<costs>
 						<cost name="pts"
 						      typeId="points"
-						      value="11"/>
+						      value="20"/>
 					</costs>
 					<entryLinks>
 						<entryLink name="Hand Weapon"
@@ -4066,24 +4064,22 @@ Misfire table).</characteristic>
 								            id="96c8c631-ab920507"/>
 							</constraints>
 						</entryLink>
-						<entryLink name="Heavy Armour"
-						           id="3e463f87-4411bd5"
-						           hidden="false"
-						           type="selectionEntry"
-						           targetId="62fb-f89d-afc-1cf1"
-						           sortIndex="2"
-						           import="true">
-							<constraints>
-								<constraint type="min"
-								            value="1"
-								            field="selections"
-								            scope="parent"
-								            shared="false"
-								            id="ded57cb4-4159afbe"/>
-							</constraints>
-						</entryLink>
 					</entryLinks>
 					<selectionEntryGroups>
+            <selectionEntryGroup name="Armour" hidden="false" id="18a96d12-3e3c3c5c" collective="true" defaultSelectionEntryId="e211292e-d70f6a38" sortIndex="4" flatten="true">
+              <entryLinks>
+                <entryLink name="Heavy Armour" id="e211292e-d70f6a38" hidden="false" type="selectionEntry" targetId="62fb-f89d-afc-1cf1" collective="true" sortIndex="1" import="true"/>
+                <entryLink name="Full Plate Armour" id="b81f8f32-36a8a9fc" hidden="false" type="selectionEntry" targetId="2505-873d-1655-3b0b" collective="true" sortIndex="2">
+                  <costs>
+                    <cost name="pts" typeId="points" value="4"/>
+                  </costs>
+                </entryLink>
+              </entryLinks>
+              <constraints>
+                <constraint type="min" value="1" field="selections" scope="parent" shared="false" id="cfaa4e81-f5a0c5d7"/>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="false" id="c1bf532f-2490f83d" includeChildSelections="false"/>
+              </constraints>
+            </selectionEntryGroup>
 						<selectionEntryGroup name="Equipment"
 						                     hidden="false"
 						                     id="92d34975-6ccdfe6b"
@@ -4097,16 +4093,18 @@ Misfire table).</characteristic>
 								           hidden="false"
 								           type="selectionEntry"
 								           targetId="6192-f9f1-5d53-2042"
-								           collective="true"
 								           sortIndex="1"
-								           import="true"/>
-								<entryLink name="Great Weapon"
-								           id="db99aab9-3e51420f"
-								           hidden="false"
-								           type="selectionEntry"
-								           targetId="2283-26e9-76c3-6048"
-								           collective="true"
-								           sortIndex="2">
+								           import="true">
+								    <costs>
+                    <cost name="pts" typeId="points" value="1"/>
+                  </costs>
+                </entryLink>
+                <entryLink import="true" name="Additional Hand Weapon" hidden="false" type="selectionEntry" id="99e2-e5b2-6434-607f" targetId="8943-3e16-db2a-b7f3" sortIndex="2">
+                  <costs>
+                    <cost name="pts" typeId="points" value="1"/>
+                  </costs>
+                </entryLink>
+                <entryLink import="true" name="Halberd" hidden="false" type="selectionEntry" id="83b7-5713-4c83-2b19" targetId="f0a5-1b2e-3d2b-d540" sortIndex="3">
 									<costs>
 										<cost name="pts"
 										      typeId="points"
@@ -4115,12 +4113,6 @@ Misfire table).</characteristic>
 								</entryLink>
 							</entryLinks>
 							<constraints>
-								<constraint type="min"
-								            value="1"
-								            field="selections"
-								            scope="parent"
-								            shared="false"
-								            id="58c7269a-5811284"/>
 								<constraint type="max"
 								            value="1"
 								            field="selections"
@@ -4165,41 +4157,12 @@ Misfire table).</characteristic>
 										            includeChildSelections="false"/>
 									</constraints>
 								</selectionEntry>
-								<selectionEntry type="upgrade"
-								                import="true"
-								                name="Implacable Defence"
-								                hidden="false"
-								                id="6b713127-4af5a0f5"
-								                sortIndex="2"
-								                collective="true">
-									<costs>
-										<cost name="pts"
-										      typeId="points"
-										      value="1"/>
-									</costs>
-									<infoLinks>
-										<infoLink name="Implacable Defence"
-										          id="45061a50-8569f79a"
-										          hidden="false"
-										          type="profile"
-										          targetId="ff84-45da-7f12-8829"/>
-									</infoLinks>
-									<constraints>
-										<constraint type="max"
-										            value="1"
-										            field="selections"
-										            scope="parent"
-										            shared="false"
-										            id="376667e8-4fea792"
-										            includeChildSelections="false"/>
-									</constraints>
-								</selectionEntry>
 							</selectionEntries>
 						</selectionEntryGroup>
 					</selectionEntryGroups>
 					<constraints>
 						<constraint type="min"
-						            value="10"
+						            value="5"
 						            field="selections"
 						            scope="parent"
 						            shared="true"
@@ -4230,20 +4193,20 @@ Misfire table).</characteristic>
 					<selectionEntries>
 						<selectionEntry type="model"
 						                subType="crew"
-						                name="Seneschal"
+						                name="Warden"
 						                id="65cca5cc-472e3416"
 						                hidden="false"
 						                collective="true"
 						                sortIndex="1">
 							<infoLinks>
-								<infoLink name="Depth Guard (unfixed)"
+								<infoLink name="Depth Guard"
 								          hidden="false"
 								          type="profile"
 								          id="4eca396a-6fd54614"
 								          targetId="3877-8b67-1cd9-17d0">
 									<modifiers>
 										<modifier type="set"
-										          value="Seneschal"
+										          value="Warden"
 										          field="name"/>
 										<modifier type="increment"
 										          value="1"
@@ -4264,7 +4227,7 @@ Misfire table).</characteristic>
 							<costs>
 								<cost name="pts"
 								      typeId="points"
-								      value="6"/>
+								      value="7"/>
 							</costs>
 							<entryLinks>
 								<entryLink import="true"
@@ -4319,7 +4282,7 @@ Misfire table).</characteristic>
 							<costs>
 								<cost name="pts"
 								      typeId="points"
-								      value="6"/>
+								      value="7"/>
 							</costs>
 							<infoLinks>
 								<infoLink name="Standard Bearer"
@@ -4381,7 +4344,7 @@ Misfire table).</characteristic>
 							<costs>
 								<cost name="pts"
 								      typeId="points"
-								      value="6"/>
+								      value="7"/>
 							</costs>
 							<infoLinks>
 								<infoLink name="Musician"
@@ -4445,6 +4408,14 @@ Misfire table).</characteristic>
 								          field="name"/>
 							</modifiers>
 						</infoLink>
+						<infoLink name="Aquatic"
+						          hidden="false"
+						          id="34d0ea34-d50db13e"
+						          type="profile"
+						          targetId="1f39-2789-f136-7645"/>
+            <infoLink name="Accursed Weapons" hidden="false" id="c83e90a2-ebfb5ec" type="profile" targetId="238e-4e22-63f-9042"/>
+            <infoLink name="Dark Vitality" hidden="false" id="5fec2b0f-1d260f9d" type="profile" targetId="4190-a061-b7dc-3712"/>
+            <infoLink name="Flammable" hidden="false" id="dc1ec6d6-da584ba0" type="profile" targetId="8f64-6d4c-466b-1b94"/>
 						<infoLink name="Necromantic Undead"
 						          hidden="false"
 						          id="a55f78cb-2d656a99"
@@ -7498,7 +7469,12 @@ Misfire table).</characteristic>
 		<selectionEntry type="model" import="true" name="Big Bess Gun Crew" hidden="false" id="140f-ddd-d99-7060" collective="true" sortIndex="2" subType="crew">
       <infoLinks>
         <infoLink name="Big Bess Gun Crew" hidden="false" type="profile" id="75cf-22de-8cbf-f38" targetId="cdf3-ddd0-7ac-d190"/>
-        <infoLink name="Base (25x25)" hidden="false" type="profile" id="4ccb-5dd2-db00-3f4d" targetId="193c-4d0d-de6d-bbb1"/>
+
+						<infoLink name="Base (60x100)"
+						          hidden="false"
+						          type="profile"
+						          id="46ec-2ecc-fbd3-a402"
+						          targetId="5125-89a4-916a-eabd"/>
       </infoLinks>
       <entryLinks>
         <entryLink import="true" name="Hand Weapon" hidden="false" type="selectionEntry" id="eb53-2cd3-6d2-6dd8" targetId="721d-36e3-388a-c0d6" sortIndex="2">
@@ -9500,7 +9476,7 @@ Misfire table).</characteristic>
 			</categoryLinks>
 		</entryLink>
 		<entryLink import="true"
-		           name="Depth Guard (unfixed)"
+		           name="Depth Guard"
 		           hidden="false"
 		           id="f0c93292-b031d5dc"
 		           type="selectionEntry"
@@ -9511,7 +9487,7 @@ Misfire table).</characteristic>
 				              id="9b97-6e2c-b34f-daa5"
 				              targetId="2bfe-5863-46fe-d284"
 				              primary="true"/>
-				<categoryLink name="0-1 Depth Guard (unfixed) or Black Knight per 1,000 points"
+				<categoryLink name="0-1 Depth Guard or Black Knight per 1,000 points"
 				              hidden="false"
 				              id="163d-b232-5823-64ea"
 				              targetId="9836-1bed-24-6e3f"
@@ -9621,7 +9597,7 @@ Misfire table).</characteristic>
 		           type="selectionEntry"
 		           targetId="475a2b9f-6b5c5e2d">
 			<categoryLinks>
-				<categoryLink name="0-1 Animated Hulks or Depth Guard (unfixed) per 1,000 points"
+				<categoryLink name="0-1 Animated Hulks or Depth Guard per 1,000 points"
 				              hidden="false"
 				              id="68d2-e08-63b-14a6"
 				              targetId="85c8-1fba-1d5e-bb7c"
@@ -10216,7 +10192,7 @@ Misfire table).</characteristic>
 				</modifier>
 			</modifiers>
 		</categoryEntry>
-		<categoryEntry name="0-1 Animated Hulks or Depth Guard (unfixed) per 1,000 points"
+		<categoryEntry name="0-1 Animated Hulks or Depth Guard per 1,000 points"
 		               hidden="true"
 		               id="85c8-1fba-1d5e-bb7c">
 			<constraints>
@@ -10893,40 +10869,6 @@ Misfire table).</characteristic>
 						          id="38f7-b5db-efd7-6c3e"
 						          type="profile"
 						          targetId="c153-1324-145f-96dc"/>
-					</infoLinks>
-				</selectionEntry>
-				<selectionEntry type="upgrade"
-				                import="true"
-				                name="Dark Acolyte"
-				                hidden="false"
-				                id="b84f-b21a-a601-3aff"
-				                sortIndex="3">
-					<constraints>
-						<constraint type="max"
-						            value="1"
-						            field="selections"
-						            scope="parent"
-						            shared="true"
-						            id="22fa-3191-5d61-232a"/>
-						<constraint type="max"
-						            value="1"
-						            field="selections"
-						            scope="force"
-						            shared="true"
-						            id="e1d7-baa9-f47c-9e7c"
-						            includeChildSelections="true"/>
-					</constraints>
-					<costs>
-						<cost name="pts"
-						      typeId="points"
-						      value="30"/>
-					</costs>
-					<infoLinks>
-						<infoLink name="Dark Acolyte"
-						          hidden="false"
-						          id="610f-5f65-1afa-f214"
-						          type="profile"
-						          targetId="9349-c828-b9e4-8499"/>
 					</infoLinks>
 				</selectionEntry>
 				<selectionEntry type="upgrade"
