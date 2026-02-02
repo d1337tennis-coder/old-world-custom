@@ -954,12 +954,12 @@ However, if this model casts the Light of Death Bound spell, this Bound spell wi
           <characteristics>
             <characteristic name="Number" typeId="8a2b-690b-e552-6aa0">1</characteristic>
             <characteristic name="Type" typeId="c2ca-5fd1-5e9d-bc90">Magical Vortex</characteristic>
-            <characteristic name="Casting Value" typeId="d84d-3b8b-654a-9e1a">7+/9+</characteristic>
+            <characteristic name="Casting Value" typeId="d84d-3b8b-654a-9e1a">6+/8+</characteristic>
             <characteristic name="Range" typeId="1043-a0ad-2909-dd28">15</characteristic>
             <characteristic name="Effect" typeId="64ba-31-acf0-5a">If this spell is cast with a casting result of 8 or more, the target friendly unit gains a +D3 modifier to one of the following characteristics (to a maximum of 10). If this spell is cast with a casting result of 12 or more, the target friendly unit gains a +D3 modifier to two of the following characteristics (to a maximum of 10). This spell lasts until your next Start of Turn sub-phase.Remains in Play. If this spell is cast with a casting
 result of 7 or more, place a small (3") blast template so that
 its central hole is within 15" of the caster. If this spell is cast
-with a casting result of 9 or more, place a large (5") blast
+with a casting result of 8 or more, place a large (5") blast
 template so that its central hole is within 15" of the caster.
 Whilst in play, the template does not move and is treated
 as a water terrain feature. Enemy units treat the water

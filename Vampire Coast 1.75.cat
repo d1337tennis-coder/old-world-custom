@@ -62,58 +62,6 @@
 				                typeId="c435-6b14-f77e-3c72">7</characteristic>
 			</characteristics>
 		</profile>
-		<profile name="Master Necromancer"
-		         typeId="b070-143a-73f-2772"
-		         typeName="Model"
-		         hidden="false"
-		         id="817f-1133-4937-8d09">
-			<characteristics>
-				<characteristic name="M"
-				                typeId="cd3b-a5a4-e185-5a9d">4</characteristic>
-				<characteristic name="WS"
-				                typeId="b007-7d58-4f14-1e01">3</characteristic>
-				<characteristic name="BS"
-				                typeId="59f9-ccf5-1155-fb05">3</characteristic>
-				<characteristic name="S"
-				                typeId="5b6b-1427-2a45-dd0c">3</characteristic>
-				<characteristic name="T"
-				                typeId="ab43-8b61-83e7-d090">4</characteristic>
-				<characteristic name="W"
-				                typeId="83ed-7b82-bf1f-e558">3</characteristic>
-				<characteristic name="I"
-				                typeId="73b1-abe5-72f8-41e2">3</characteristic>
-				<characteristic name="A"
-				                typeId="dddc-9fbd-b0fd-a480">2</characteristic>
-				<characteristic name="Ld"
-				                typeId="c435-6b14-f77e-3c72">8</characteristic>
-			</characteristics>
-		</profile>
-		<profile name="Necromantic Acolyte"
-		         typeId="b070-143a-73f-2772"
-		         typeName="Model"
-		         hidden="false"
-		         id="7aba-10e6-daa8-f3fb">
-			<characteristics>
-				<characteristic name="M"
-				                typeId="cd3b-a5a4-e185-5a9d">4</characteristic>
-				<characteristic name="WS"
-				                typeId="b007-7d58-4f14-1e01">3</characteristic>
-				<characteristic name="BS"
-				                typeId="59f9-ccf5-1155-fb05">3</characteristic>
-				<characteristic name="S"
-				                typeId="5b6b-1427-2a45-dd0c">3</characteristic>
-				<characteristic name="T"
-				                typeId="ab43-8b61-83e7-d090">3</characteristic>
-				<characteristic name="W"
-				                typeId="83ed-7b82-bf1f-e558">2</characteristic>
-				<characteristic name="I"
-				                typeId="73b1-abe5-72f8-41e2">3</characteristic>
-				<characteristic name="A"
-				                typeId="dddc-9fbd-b0fd-a480">1</characteristic>
-				<characteristic name="Ld"
-				                typeId="c435-6b14-f77e-3c72">7</characteristic>
-			</characteristics>
-		</profile>
 		<profile name="Quartermaster Wight"
 		         typeId="b070-143a-73f-2772"
 		         typeName="Model"
@@ -199,9 +147,9 @@
 		         id="3877-8b67-1cd9-17d0">
 			<characteristics>
 				<characteristic name="M"
-				                typeId="cd3b-a5a4-e185-5a9d">4</characteristic>
+				                typeId="cd3b-a5a4-e185-5a9d">6</characteristic>
 				<characteristic name="WS"
-				                typeId="b007-7d58-4f14-1e01">3</characteristic>
+				                typeId="b007-7d58-4f14-1e01">5</characteristic>
 				<characteristic name="BS"
 				                typeId="59f9-ccf5-1155-fb05">3</characteristic>
 				<characteristic name="S"
@@ -211,9 +159,9 @@
 				<characteristic name="W"
 				                typeId="83ed-7b82-bf1f-e558">1</characteristic>
 				<characteristic name="I"
-				                typeId="73b1-abe5-72f8-41e2">3</characteristic>
+				                typeId="73b1-abe5-72f8-41e2">4</characteristic>
 				<characteristic name="A"
-				                typeId="dddc-9fbd-b0fd-a480">1</characteristic>
+				                typeId="dddc-9fbd-b0fd-a480">2</characteristic>
 				<characteristic name="Ld"
 				                typeId="c435-6b14-f77e-3c72">7</characteristic>
 			</characteristics>
@@ -241,9 +189,16 @@
 				<characteristic name="A"
 				                typeId="dddc-9fbd-b0fd-a480">1</characteristic>
 				<characteristic name="Ld"
-				                typeId="c435-6b14-f77e-3c72">5</characteristic>
+				                typeId="c435-6b14-f77e-3c72">4</characteristic>
 			</characteristics>
 		</profile>
+    <profile name="Cleaving Blow" typeId="c1ac-c1c8-f9d5-9673" typeName="Special Rule" hidden="false" id="1947-af53-7f07-815f">
+      <characteristics>
+        <characteristic name="Description" typeId="9f84-4221-785a-db50">If a model with this special rule rolls a natural 6 when making a roll To Wound for an attack made in combat, it has struck a ‘Cleaving Blow’. Enemy models whose troop type is ‘regular infantry’, ‘heavy infantry’, ‘light cavalry’, ‘heavy cavalry’ or ‘war beasts’ are not permitted an armour or Regeneration save against a Cleaving Blow (Ward saves can be attempted as normal).
+
+Note that if an attack wounds automatically, this special rule cannot be used.</characteristic>
+      </characteristics>
+    </profile>
 		<profile name="Skeleton Champion"
 		         typeId="b070-143a-73f-2772"
 		         typeName="Model"
@@ -281,7 +236,7 @@
 				<characteristic name="WS"
 				                typeId="b007-7d58-4f14-1e01">2</characteristic>
 				<characteristic name="BS"
-				                typeId="59f9-ccf5-1155-fb05">1</characteristic>
+				                typeId="59f9-ccf5-1155-fb05">2</characteristic>
 				<characteristic name="S"
 				                typeId="5b6b-1427-2a45-dd0c">3</characteristic>
 				<characteristic name="T"
@@ -292,6 +247,84 @@
 				                typeId="73b1-abe5-72f8-41e2">1</characteristic>
 				<characteristic name="A"
 				                typeId="dddc-9fbd-b0fd-a480">1</characteristic>
+				<characteristic name="Ld"
+				                typeId="c435-6b14-f77e-3c72">2</characteristic>
+			</characteristics>
+		</profile>
+		<profile name="Zombie Deck Gunner"
+		         typeId="b070-143a-73f-2772"
+		         typeName="Model"
+		         hidden="false"
+		         id="8cc9-ff5d-e6d-4a26">
+			<characteristics>
+				<characteristic name="M"
+				                typeId="cd3b-a5a4-e185-5a9d">4</characteristic>
+				<characteristic name="WS"
+				                typeId="b007-7d58-4f14-1e01">2</characteristic>
+				<characteristic name="BS"
+				                typeId="59f9-ccf5-1155-fb05">2</characteristic>
+				<characteristic name="S"
+				                typeId="5b6b-1427-2a45-dd0c">3</characteristic>
+				<characteristic name="T"
+				                typeId="ab43-8b61-83e7-d090">3</characteristic>
+				<characteristic name="W"
+				                typeId="83ed-7b82-bf1f-e558">2</characteristic>
+				<characteristic name="I"
+				                typeId="73b1-abe5-72f8-41e2">1</characteristic>
+				<characteristic name="A"
+				                typeId="dddc-9fbd-b0fd-a480">1</characteristic>
+				<characteristic name="Ld"
+				                typeId="c435-6b14-f77e-3c72">2</characteristic>
+			</characteristics>
+		</profile>
+		<profile name="Zombie Crew"
+		         typeId="b070-143a-73f-2772"
+		         typeName="Model"
+		         hidden="false"
+		         id="8cc9-bd5d-e6e4-4137">
+			<characteristics>
+				<characteristic name="M"
+				                typeId="cd3b-a5a4-e185-5a9d">-</characteristic>
+				<characteristic name="WS"
+				                typeId="b007-7d58-4f14-1e01">2</characteristic>
+				<characteristic name="BS"
+				                typeId="59f9-ccf5-1155-fb05">2</characteristic>
+				<characteristic name="S"
+				                typeId="5b6b-1427-2a45-dd0c">3</characteristic>
+				<characteristic name="T"
+				                typeId="ab43-8b61-83e7-d090">-</characteristic>
+				<characteristic name="W"
+				                typeId="83ed-7b82-bf1f-e558">-</characteristic>
+				<characteristic name="I"
+				                typeId="73b1-abe5-72f8-41e2">1</characteristic>
+				<characteristic name="A"
+				                typeId="dddc-9fbd-b0fd-a480">1</characteristic>
+				<characteristic name="Ld"
+				                typeId="c435-6b14-f77e-3c72">-</characteristic>
+			</characteristics>
+		</profile>
+		<profile name="Zombie Crew Pair"
+		         typeId="b070-143a-73f-2772"
+		         typeName="Model"
+		         hidden="false"
+		         id="8cc9-bd5d-e6e4-5137">
+			<characteristics>
+				<characteristic name="M"
+				                typeId="cd3b-a5a4-e185-5a9d">-</characteristic>
+				<characteristic name="WS"
+				                typeId="b007-7d58-4f14-1e01">2</characteristic>
+				<characteristic name="BS"
+				                typeId="59f9-ccf5-1155-fb05">2</characteristic>
+				<characteristic name="S"
+				                typeId="5b6b-1427-2a45-dd0c">3</characteristic>
+				<characteristic name="T"
+				                typeId="ab43-8b61-83e7-d090">-</characteristic>
+				<characteristic name="W"
+				                typeId="83ed-7b82-bf1f-e558">-</characteristic>
+				<characteristic name="I"
+				                typeId="73b1-abe5-72f8-41e2">1</characteristic>
+				<characteristic name="A"
+				                typeId="dddc-9fbd-b0fd-a480">2</characteristic>
 				<characteristic name="Ld"
 				                typeId="c435-6b14-f77e-3c72">2</characteristic>
 			</characteristics>
@@ -374,32 +407,15 @@
 				                typeId="c435-6b14-f77e-3c72">3</characteristic>
 			</characteristics>
 		</profile>
-		<profile name="Corpse Cart"
-		         typeId="b070-143a-73f-2772"
-		         typeName="Model"
-		         hidden="false"
-		         id="51ce-2fe3-100d-160e">
-			<characteristics>
-				<characteristic name="M"
-				                typeId="cd3b-a5a4-e185-5a9d">-</characteristic>
-				<characteristic name="WS"
-				                typeId="b007-7d58-4f14-1e01">-</characteristic>
-				<characteristic name="BS"
-				                typeId="59f9-ccf5-1155-fb05">-</characteristic>
-				<characteristic name="S"
-				                typeId="5b6b-1427-2a45-dd0c">4</characteristic>
-				<characteristic name="T"
-				                typeId="ab43-8b61-83e7-d090">4</characteristic>
-				<characteristic name="W"
-				                typeId="83ed-7b82-bf1f-e558">4</characteristic>
-				<characteristic name="I"
-				                typeId="73b1-abe5-72f8-41e2">-</characteristic>
-				<characteristic name="A"
-				                typeId="dddc-9fbd-b0fd-a480">-</characteristic>
-				<characteristic name="Ld"
-				                typeId="c435-6b14-f77e-3c72">-</characteristic>
-			</characteristics>
-		</profile>
+    <profile name="Hellfire Cannon" typeId="a378-c633-912d-11ce" typeName="Weapon" hidden="false" id="215-8dd8-83e9-ead7">
+      <characteristics>
+        <characteristic name="R" typeId="2360-c777-5e07-ed58">12-72&quot;</characteristic>
+        <characteristic name="S" typeId="ac19-f99c-72e9-a1a7">4 (10)</characteristic>
+        <characteristic name="AP" typeId="9429-ffe7-2ce5-e9a5">-2 (-3)</characteristic>
+        <characteristic name="Special Rules" typeId="5f83-3633-336b-93b4">Armour Bane (2), Bombardment, Cumbersome, Move or Shoot, Multiple Wounds (D6+1)</characteristic>
+        <characteristic name="Notes" typeId="772a-a7ff-f6b3-df71">-</characteristic>
+      </characteristics>
+    </profile>
 		<profile name="Corpsemaster (x1)"
 		         typeId="b070-143a-73f-2772"
 		         typeName="Model"
@@ -576,6 +592,26 @@
 				                typeId="9f84-4221-785a-db50">A hand weapon carried by a model with this special rule has the Magical Attacks special rule and an Armour Piercing characteristic of -1.</characteristic>
 			</characteristics>
 		</profile>
+		<profile name="Black Powder Weapon"
+		         typeId="c1ac-c1c8-f9d5-9673"
+		         typeName="Special Rule"
+		         hidden="false"
+		         id="238e-4e22-63f-9043">
+			<characteristics>
+				<characteristic name="Description"
+				                typeId="9f84-4221-785a-db50">Zombies are not normally known for their ability to shoot straight (or at all). However, Harkon has long ago woven an enchantment that allows them to do just that. Models with this special rule never apply any modifiers to their rolls To Hit when shooting a black powder weapon, regardless of the source of the modifier. However, any rolls of 1 will result in the gun misfiring - resolve the hit against the firing unit instead of the target. Additionally, all black powder weapons equipped by models with this special rule have the Cumbersome special rule. </characteristic>
+			</characteristics>
+		</profile>
+		<profile name="Gunnery Mob"
+		         typeId="c1ac-c1c8-f9d5-9673"
+		         typeName="Special Rule"
+		         hidden="false"
+		         id="238e-4e22-63f-9f43">
+			<characteristics>
+				<characteristic name="Description"
+				                typeId="9f84-4221-785a-db50">A stampede of crab-like monsters is a the scarier when accompanied by the hisses and cracks of gunpowder weapons. Rotting Promethean models with this special rule carry two Zombie Gunner Crew riders who may fire in a 360 degree angle like the crew of a chariot. Additionally, models with this special rule count as 'monstrous cavalry' instead of 'monstrous creatures'. </characteristic>
+			</characteristics>
+		</profile>
 		<profile name="Slavering Charge"
 		         typeId="c1ac-c1c8-f9d5-9673"
 		         typeName="Special Rule"
@@ -623,9 +659,11 @@ engaged in combat. To do so, the Deck Droppers unit must
 move (by flying) over the unit it wishes to attack during the
 Remaining Moves sub-phase. Once this unit’s movement is
 complete, roll a D6 for each Fell Bat in the Deck Droppers
-unit. For each result of a 4+, the target unit suffers a single
-Strength 4 hit with an AP of -1. For each result of a 1, the
-Deck Droppers unit suffers the hit instead.</characteristic>
+unit. 
+1: The Deck Droppers unit suffers Strength 4 hit with an AP of -1 instead
+2-3: Complete miss
+4-5: Scatter(1d6) 1 3" template starting centered over a model flown over. Risks hit of Strength 4 with an AP of -1
+6: Scatter 2 instead</characteristic>
 			</characteristics>
 		</profile>
 		<profile name="Bestial Fury"
@@ -675,15 +713,33 @@ Deck Droppers unit suffers the hit instead.</characteristic>
 Note that this special rule is not cumulative. If two or more models in a unit have this special rule, use the highest value for the entire unit. For example, if a character with Indomitable (2) joins a unit with Indomitable (1), the whole unit uses the character’s Indomitable (2) special rule.</characteristic>
 			</characteristics>
 		</profile>
-		<profile name="Impale"
+		<profile name="*Necrofex Colossus Attacks"
 		         typeId="c1ac-c1c8-f9d5-9673"
 		         typeName="Special Rule"
 		         hidden="false"
 		         id="78b6-d212-caa2-cef2">
 			<characteristics>
 				<characteristic name="Description"
-				                typeId="9f84-4221-785a-db50">If the Necrofex Colossus rolls a natural 1 or 2 for the number of Random Attacks, the attacks
-gain the Monster Slayer special rule.</characteristic>
+				                typeId="9f84-4221-785a-db50">Instead of attacking normally during the Combat phase, a Necrofex Colossus may choose
+to make a ‘Necrofex Attack’. To make a Necrofex Attack, nominate an enemy unit that the
+Necrofex Colossus is engaged in combat with to be the target of the attack and roll on the
+Necrofex Attacks table below to determine what the Necrofex Colossus does:
+
+1-2: Batter and Slash: The Necrofex flails and smashes at its enemies with its massive
+limbs. The Necrofex Colossus fights using the Random Attacks (D6+1) special
+rule.
+
+3-4: Impale: The Necrofex Colossus impales the foe with its misshapen claw and tries
+to strip their soul from their body. Select one model in base contact; that model,
+and all models in the same file, must pass an Initiative test or suffer a Strength 7
+Hit with the Monster Slayer special rule.
+
+5-6: Screams of the Damned: Roll 2D6 and add the number of Wounds the Necrofex
+Colossus has left. For each point by which the result exceeds the target unit's
+Leadership, the target unit suffers 1 Wound with no armour saves allowed.
+Wounds suffered from it are distributed as from shooting.
+
+</characteristic>
 			</characteristics>
 		</profile>
 		<profile name="Vortex of Death"
@@ -694,7 +750,7 @@ gain the Monster Slayer special rule.</characteristic>
 			<characteristics>
 				<characteristic name="Description"
 				                typeId="9f84-4221-785a-db50">Whilst within 12" of a Necrofex Colossus, any model (friend or foe) attempting to cast a spell
-from the Lore of Necromancy may apply a +1 modifier to any Casting roll they make. In
+from the Lore of Necromancy, Lore of Death, or Lore of the deep may apply a +1 modifier to any Casting roll they make. In
 addition, a Wizard mounted on a Necrofex Colossus increases their Dispel range by 3"</characteristic>
 			</characteristics>
 		</profile>
@@ -868,17 +924,17 @@ Resurrected models are added to the front rank until it reaches the minimum requ
 				<characteristic name="BS"
 				                typeId="59f9-ccf5-1155-fb05">0</characteristic>
 				<characteristic name="S"
-				                typeId="5b6b-1427-2a45-dd0c">4</characteristic>
+				                typeId="5b6b-1427-2a45-dd0c">5</characteristic>
 				<characteristic name="T"
-				                typeId="ab43-8b61-83e7-d090">5</characteristic>
+				                typeId="ab43-8b61-83e7-d090">4</characteristic>
 				<characteristic name="W"
 				                typeId="83ed-7b82-bf1f-e558">3</characteristic>
 				<characteristic name="I"
-				                typeId="73b1-abe5-72f8-41e2">2</characteristic>
+				                typeId="73b1-abe5-72f8-41e2">1</characteristic>
 				<characteristic name="A"
 				                typeId="dddc-9fbd-b0fd-a480">3</characteristic>
 				<characteristic name="Ld"
-				                typeId="c435-6b14-f77e-3c72">5</characteristic>
+				                typeId="c435-6b14-f77e-3c72">2</characteristic>
 			</characteristics>
 		</profile>
 		<profile name="Prime Hulk"
@@ -894,17 +950,17 @@ Resurrected models are added to the front rank until it reaches the minimum requ
 				<characteristic name="BS"
 				                typeId="59f9-ccf5-1155-fb05">0</characteristic>
 				<characteristic name="S"
-				                typeId="5b6b-1427-2a45-dd0c">4</characteristic>
+				                typeId="5b6b-1427-2a45-dd0c">5</characteristic>
 				<characteristic name="T"
-				                typeId="ab43-8b61-83e7-d090">5</characteristic>
+				                typeId="ab43-8b61-83e7-d090">4</characteristic>
 				<characteristic name="W"
 				                typeId="83ed-7b82-bf1f-e558">3</characteristic>
 				<characteristic name="I"
-				                typeId="73b1-abe5-72f8-41e2">2</characteristic>
+				                typeId="73b1-abe5-72f8-41e2">1</characteristic>
 				<characteristic name="A"
 				                typeId="dddc-9fbd-b0fd-a480">4</characteristic>
 				<characteristic name="Ld"
-				                typeId="c435-6b14-f77e-3c72">5</characteristic>
+				                typeId="c435-6b14-f77e-3c72">3</characteristic>
 			</characteristics>
 		</profile>
 		<profile name="Bat Swarm"
@@ -932,7 +988,70 @@ Resurrected models are added to the front rank until it reaches the minimum requ
 				<characteristic name="Ld"
 				                typeId="c435-6b14-f77e-3c72">3</characteristic>
 			</characteristics>
-		</profile>
+    </profile>
+        <profile name="Carronade" hidden="false" id="bf51-36a8-e12-ad8b" typeId="a378-c633-912d-11ce" typeName="Weapon" page="226" publicationId="768b-3da1-a182-a1d8">
+      <characteristics>
+        <characteristic name="R" typeId="2360-c777-5e07-ed58">40&quot;</characteristic>
+        <characteristic name="S" typeId="ac19-f99c-72e9-a1a7">7</characteristic>
+        <characteristic name="AP" typeId="9429-ffe7-2ce5-e9a5">-2</characteristic>
+        <characteristic name="Special Rules" typeId="5f83-3633-336b-93b4">Armour Bane (1), Cannon Fire, Cumbersome, Move or Shoot, Multiple Wounds (D3)</characteristic>
+        <characteristic name="Notes" typeId="772a-a7ff-f6b3-df71">Cannon (of any type) do not use their crew’s Ballistic Skill. Instead, they shoot using the ‘Cannon Fire’ special rule. The Necrofex Colossus is equipped with a Carronade (see the Carronade unit entry). If a
+‘Misfire’ is rolled on the Artillery dice, this model loses a single Wound (instead of rolling on a
+Misfire table).</characteristic>
+</characteristics>
+    </profile>
+    <profile name="Carronade" typeId="b070-143a-73f-2772" typeName="Model" hidden="false" id="10d4-ffd4-12e-557e" publicationId="8b8d-8fc4-559e-87b1" page="71">
+      <characteristics>
+        <characteristic name="M" typeId="cd3b-a5a4-e185-5a9d">-</characteristic>
+        <characteristic name="WS" typeId="b007-7d58-4f14-1e01">-</characteristic>
+        <characteristic name="BS" typeId="59f9-ccf5-1155-fb05">-</characteristic>
+        <characteristic name="S" typeId="5b6b-1427-2a45-dd0c">-</characteristic>
+        <characteristic name="T" typeId="ab43-8b61-83e7-d090">6</characteristic>
+        <characteristic name="W" typeId="83ed-7b82-bf1f-e558">3</characteristic>
+        <characteristic name="I" typeId="73b1-abe5-72f8-41e2">-</characteristic>
+        <characteristic name="A" typeId="dddc-9fbd-b0fd-a480">-</characteristic>
+        <characteristic name="Ld" typeId="c435-6b14-f77e-3c72">-</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Carronade Gun Crew (3 represented)" hidden="false" id="cdf3-fd0-72c-d10" typeId="b070-143a-73f-2772" typeName="Model">
+      <characteristics>
+        <characteristic name="M" typeId="cd3b-a5a4-e185-5a9d">4</characteristic>
+        <characteristic name="WS" typeId="b007-7d58-4f14-1e01">2</characteristic>
+        <characteristic name="BS" typeId="59f9-ccf5-1155-fb05">1</characteristic>
+        <characteristic name="S" typeId="5b6b-1427-2a45-dd0c">3</characteristic>
+        <characteristic name="T" typeId="ab43-8b61-83e7-d090">3</characteristic>
+        <characteristic name="W" typeId="83ed-7b82-bf1f-e558">3</characteristic>
+        <characteristic name="I" typeId="73b1-abe5-72f8-41e2">1</characteristic>
+        <characteristic name="A" typeId="dddc-9fbd-b0fd-a480">3</characteristic>
+        <characteristic name="Ld" typeId="c435-6b14-f77e-3c72">3</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Queen Bess" typeId="b070-143a-73f-2772" typeName="Model" hidden="false" id="6d11-8ff6-f93-df08" page="71" publicationId="8b8d-8fc4-559e-87b1">
+      <characteristics>
+        <characteristic name="M" typeId="cd3b-a5a4-e185-5a9d">-</characteristic>
+        <characteristic name="WS" typeId="b007-7d58-4f14-1e01">-</characteristic>
+        <characteristic name="BS" typeId="59f9-ccf5-1155-fb05">-</characteristic>
+        <characteristic name="S" typeId="5b6b-1427-2a45-dd0c">-</characteristic>
+        <characteristic name="T" typeId="ab43-8b61-83e7-d090">7</characteristic>
+        <characteristic name="W" typeId="83ed-7b82-bf1f-e558">5</characteristic>
+        <characteristic name="I" typeId="73b1-abe5-72f8-41e2">-</characteristic>
+        <characteristic name="A" typeId="dddc-9fbd-b0fd-a480">-</characteristic>
+        <characteristic name="Ld" typeId="c435-6b14-f77e-3c72">-</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Queen Bess Gun Crew (5 represented)" hidden="false" id="cdf3-ddd0-7ac-d190" typeId="b070-143a-73f-2772" typeName="Model">
+      <characteristics>
+        <characteristic name="M" typeId="cd3b-a5a4-e185-5a9d">4</characteristic>
+        <characteristic name="WS" typeId="b007-7d58-4f14-1e01">2</characteristic>
+        <characteristic name="BS" typeId="59f9-ccf5-1155-fb05">1</characteristic>
+        <characteristic name="S" typeId="5b6b-1427-2a45-dd0c">3</characteristic>
+        <characteristic name="T" typeId="ab43-8b61-83e7-d090">3</characteristic>
+        <characteristic name="W" typeId="83ed-7b82-bf1f-e558">5</characteristic>
+        <characteristic name="I" typeId="73b1-abe5-72f8-41e2">1</characteristic>
+        <characteristic name="A" typeId="dddc-9fbd-b0fd-a480">5</characteristic>
+        <characteristic name="Ld" typeId="c435-6b14-f77e-3c72">3</characteristic>
+      </characteristics>
+    </profile>
 		<profile name="Rat Swarm"
 		         typeId="b070-143a-73f-2772"
 		         typeName="Model"
@@ -1008,7 +1127,7 @@ Resurrected models are added to the front rank until it reaches the minimum requ
 				<characteristic name="A"
 				                typeId="dddc-9fbd-b0fd-a480">4</characteristic>
 				<characteristic name="Ld"
-				                typeId="c435-6b14-f77e-3c72">4</characteristic>
+				                typeId="c435-6b14-f77e-3c72">3</characteristic>
 			</characteristics>
 		</profile>
 		<profile name="Infested"
@@ -1068,11 +1187,11 @@ Resurrected models are added to the front rank until it reaches the minimum requ
 				<characteristic name="S"
 				                typeId="ac19-f99c-72e9-a1a7">S</characteristic>
 				<characteristic name="AP"
-				                typeId="9429-ffe7-2ce5-e9a5">-2</characteristic>
+				                typeId="9429-ffe7-2ce5-e9a5">0</characteristic>
 				<characteristic name="Special Rules"
-				                typeId="5f83-3633-336b-93b4">Armour Bane (1), Multiple Wounds (2)</characteristic>
+				                typeId="5f83-3633-336b-93b4">Armour Bane (2)</characteristic>
 				<characteristic name="Notes"
-				                typeId="772a-a7ff-f6b3-df71">In combat, this model must make one of its attacks each turn with this weapon.</characteristic>
+				                typeId="772a-a7ff-f6b3-df71"></characteristic>
 			</characteristics>
 		</profile>
 		<profile name="Claws"
@@ -1151,7 +1270,43 @@ Resurrected models are added to the front rank until it reaches the minimum requ
 				<characteristic name="AP"
 				                typeId="9429-ffe7-2ce5-e9a5">-1</characteristic>
 				<characteristic name="Special Rules"
-				                typeId="5f83-3633-336b-93b4">Killing Blow</characteristic>
+				                typeId="5f83-3633-336b-93b4">Killing Blow*</characteristic>
+				<characteristic name="Notes"
+				                typeId="772a-a7ff-f6b3-df71"/>
+			</characteristics>
+		</profile>
+		<profile name="Mounted Swivel Gun"
+		         typeId="a378-c633-912d-11ce"
+		         typeName="Weapon"
+		         hidden="false"
+		         id="a9f2-5f25-e8b9-bd44">
+			<characteristics>
+				<characteristic name="R"
+				                typeId="2360-c777-5e07-ed58">32"</characteristic>
+				<characteristic name="S"
+				                typeId="ac19-f99c-72e9-a1a7">6</characteristic>
+				<characteristic name="AP"
+				                typeId="9429-ffe7-2ce5-e9a5">-2</characteristic>
+				<characteristic name="Special Rules"
+				                typeId="5f83-3633-336b-93b4"></characteristic>
+				<characteristic name="Notes"
+				                typeId="772a-a7ff-f6b3-df71"/>
+			</characteristics>
+		</profile>
+		<profile name="Swivel Gun"
+		         typeId="a378-c633-912d-11ce"
+		         typeName="Weapon"
+		         hidden="false"
+		         id="a9f2-5f25-e4b9-bd44">
+			<characteristics>
+				<characteristic name="R"
+				                typeId="2360-c777-5e07-ed58">32"</characteristic>
+				<characteristic name="S"
+				                typeId="ac19-f99c-72e9-a1a7">6</characteristic>
+				<characteristic name="AP"
+				                typeId="9429-ffe7-2ce5-e9a5">-2</characteristic>
+				<characteristic name="Special Rules"
+				                typeId="5f83-3633-336b-93b4">Cumbersome, Move or Shoot</characteristic>
 				<characteristic name="Notes"
 				                typeId="772a-a7ff-f6b3-df71"/>
 			</characteristics>
@@ -1270,7 +1425,7 @@ Misfire table).</characteristic>
 		         id="ad5c-2cde-2bda-4289">
 			<characteristics>
 				<characteristic name="M"
-				                typeId="cd3b-a5a4-e185-5a9d">4</characteristic>
+				                typeId="cd3b-a5a4-e185-5a9d">6</characteristic>
 				<characteristic name="WS"
 				                typeId="b007-7d58-4f14-1e01">3</characteristic>
 				<characteristic name="BS"
@@ -1280,39 +1435,13 @@ Misfire table).</characteristic>
 				<characteristic name="T"
 				                typeId="ab43-8b61-83e7-d090">6</characteristic>
 				<characteristic name="W"
-				                typeId="83ed-7b82-bf1f-e558">5</characteristic>
+				                typeId="83ed-7b82-bf1f-e558">7</characteristic>
 				<characteristic name="I"
 				                typeId="73b1-abe5-72f8-41e2">1</characteristic>
 				<characteristic name="A"
 				                typeId="dddc-9fbd-b0fd-a480">5</characteristic>
 				<characteristic name="Ld"
 				                typeId="c435-6b14-f77e-3c72">5</characteristic>
-			</characteristics>
-		</profile>
-		<profile name="Zombie Crew"
-		         typeId="b070-143a-73f-2772"
-		         typeName="Model"
-		         hidden="false"
-		         id="4628-f380-f88e-7c03">
-			<characteristics>
-				<characteristic name="M"
-				                typeId="cd3b-a5a4-e185-5a9d">-</characteristic>
-				<characteristic name="WS"
-				                typeId="b007-7d58-4f14-1e01">2</characteristic>
-				<characteristic name="BS"
-				                typeId="59f9-ccf5-1155-fb05">1</characteristic>
-				<characteristic name="S"
-				                typeId="5b6b-1427-2a45-dd0c">3</characteristic>
-				<characteristic name="T"
-				                typeId="ab43-8b61-83e7-d090">-</characteristic>
-				<characteristic name="W"
-				                typeId="83ed-7b82-bf1f-e558">-</characteristic>
-				<characteristic name="I"
-				                typeId="73b1-abe5-72f8-41e2">1</characteristic>
-				<characteristic name="A"
-				                typeId="dddc-9fbd-b0fd-a480">1</characteristic>
-				<characteristic name="Ld"
-				                typeId="c435-6b14-f77e-3c72">-</characteristic>
 			</characteristics>
 		</profile>
 		<profile name="Rotting Promethian"
@@ -1322,13 +1451,13 @@ Misfire table).</characteristic>
 		         id="4628-f380-f88e-7c04">
 			<characteristics>
 				<characteristic name="M"
-				                typeId="cd3b-a5a4-e185-5a9d">4</characteristic>
+				                typeId="cd3b-a5a4-e185-5a9d">6</characteristic>
 				<characteristic name="WS"
 				                typeId="b007-7d58-4f14-1e01">3</characteristic>
 				<characteristic name="BS"
 				                typeId="59f9-ccf5-1155-fb05">-</characteristic>
 				<characteristic name="S"
-				                typeId="5b6b-1427-2a45-dd0c">4</characteristic>
+				                typeId="5b6b-1427-2a45-dd0c">5</characteristic>
 				<characteristic name="T"
 				                typeId="ab43-8b61-83e7-d090">5</characteristic>
 				<characteristic name="W"
@@ -1336,9 +1465,9 @@ Misfire table).</characteristic>
 				<characteristic name="I"
 				                typeId="73b1-abe5-72f8-41e2">1</characteristic>
 				<characteristic name="A"
-				                typeId="dddc-9fbd-b0fd-a480">2</characteristic>
+				                typeId="dddc-9fbd-b0fd-a480">3</characteristic>
 				<characteristic name="Ld"
-				                typeId="c435-6b14-f77e-3c72">3</characteristic>
+				                typeId="c435-6b14-f77e-3c72">2</characteristic>
 			</characteristics>
 		</profile>
 		<profile name="Curse of the Revenant"
@@ -1388,33 +1517,6 @@ Misfire table).</characteristic>
 				<characteristic name="Description"
 				                typeId="9f84-4221-785a-db50">Models whose troop type is ‘infantry’ only. This Vampire gains the Fly (10) rule, but cannot join a unit.</characteristic>
 			</characteristics>
-		</profile>
-		<profile name="Dark Acolyte"
-		         typeId="c1ac-c1c8-f9d5-9673"
-		         typeName="Special Rule"
-		         hidden="false"
-		         id="9349-c828-b9e4-8499"
-		         page="23"
-		         publicationId="1c5e-3047-5732-f4">
-			<characteristics>
-				<characteristic name="Description"
-				                typeId="9f84-4221-785a-db50">This Vampire gains the Invocation of Nehek special rule. For the purposes of using this special rule, this model counts as a Level 1 Wizard.</characteristic>
-			</characteristics>
-			<modifiers>
-				<modifier type="set"
-				          value="This Vampire gains the Invocation of Nehek special rule.If this model is not already a wizard, for the purposes of using this special rule this model counts as a Level 1 Wizard."
-				          field="9f84-4221-785a-db50">
-					<conditions>
-						<condition type="atLeast"
-						           value="1"
-						           field="selections"
-						           scope="force"
-						           childId="974c-3bf3-af4b-701d"
-						           shared="true"
-						           includeChildSelections="true"/>
-					</conditions>
-				</modifier>
-			</modifiers>
 		</profile>
 		<profile name="Master Of The Black Arts"
 		         typeId="c1ac-c1c8-f9d5-9673"
@@ -1596,15 +1698,23 @@ Misfire table).</characteristic>
 				            id="c1ed-e1c4-c43a-0227"/>
 			</constraints>
 		</selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Swivel Gun" hidden="false" id="721d-ae3-3ba-c0d6" collective="true">
+      <infoLinks>
+        <infoLink name="Swivel Gun" hidden="false" type="profile" id="c4b6287-4ab1-bb65" targetId="a9f2-5f25-e8b9-bd44"/>
+      </infoLinks>
+      <constraints>
+        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="ca7e-a9b-d258-ef9d"/>
+      </constraints>
+    </selectionEntry>
 		<selectionEntry type="upgrade"
 		                import="true"
-		                name="Massive Limbs"
+		                name="Giant Claws"
 		                hidden="false"
 		                id="6b9f81f0-b84cd1bb">
 			<infoLinks>
-				<infoLink name="Massive Limbs"
+				<infoLink name="Giant Claws"
 				          hidden="false"
-				          id="bffcd781-d51706d7"
+				          id="bffcd781-d51706d8"
 				          type="profile"
 				          targetId="a952-5825-e8b9-bd45"/>
 			</infoLinks>
@@ -1764,6 +1874,11 @@ Misfire table).</characteristic>
 								          id="c5b17728-e7f73cd2"
 								          type="profile"
 								          targetId="4190-a061-b7dc-3712"/>
+						<infoLink name="Invocation Of Nehek"
+						          hidden="false"
+						          id="8c2188ed-b0f33edd"
+						          type="profile"
+						          targetId="9219-4a13-f83c-5ae1"/>
 								<infoLink name="Flammable"
 								          hidden="false"
 								          id="f1cdaf15-2236350b"
@@ -2387,6 +2502,11 @@ Misfire table).</characteristic>
 								          id="6e3ab470-c37a703a"
 								          type="profile"
 								          targetId="4190-a061-b7dc-3712"/>
+						<infoLink name="Invocation Of Nehek"
+						          hidden="false"
+						          id="8c2188ed-b0f33eff"
+						          type="profile"
+						          targetId="9219-4a13-f83c-5ae1"/>
 								<infoLink name="Flammable"
 								          hidden="false"
 								          id="e775a02d-606c9be3"
@@ -2890,705 +3010,6 @@ Misfire table).</characteristic>
 				<categoryLink name="Faction: Vampire Counts"
 				              hidden="false"
 				              id="762c-33a8-4645-12ce"
-				              primary="false"
-				              targetId="7345-d692-6f6a-d6f6"/>
-			</categoryLinks>
-		</selectionEntry>
-		<selectionEntry type="unit"
-		                import="true"
-		                name="Master Necromancer"
-		                hidden="false"
-		                id="1ed21202-f13ca3cc"
-		                collective="false">
-			<profiles>
-				<profile name="Master Necromancer"
-				         typeId="2878-9a1f-dd74-48e3"
-				         typeName="Unit"
-				         hidden="false"
-				         id="e0184177-e3b37645">
-					<characteristics>
-						<characteristic name="Troop Type"
-						                typeId="5d94-6b94-bd89-1944">Regular infantry (character)</characteristic>
-						<characteristic name="Unit Size"
-						                typeId="80a1-bb6f-66e4-4a5b">1</characteristic>
-					</characteristics>
-				</profile>
-			</profiles>
-			<selectionEntries>
-				<selectionEntry type="model"
-				                name="Master Necromancer"
-				                id="4080555f-708339ed"
-				                hidden="false">
-					<infoLinks>
-						<infoLink name="Master Necromancer"
-						          hidden="false"
-						          type="profile"
-						          id="221a1d55-762d314b"
-						          targetId="817f-1133-4937-8d09"/>
-						<infoLink name="Base (25x25)"
-						          hidden="false"
-						          type="profile"
-						          id="ffb3993-38cba441"
-						          targetId="193c-4d0d-de6b-bbb1"/>
-						<infoLink name="Lore Of The Deep"
-						          hidden="false"
-						          id="d64c-803e-f0b1-ddae"
-						          type="infoGroup"
-						          targetId="5b5f-acf0-7c9-33b6"/>
-					</infoLinks>
-					<costs>
-						<cost name="pts"
-						      typeId="points"
-						      value="130"/>
-					</costs>
-					<entryLinks>
-						<entryLink name="Hand Weapon"
-						           id="dbadd9d6-c6d6c6a0"
-						           hidden="false"
-						           type="selectionEntry"
-						           targetId="721d-36e3-388a-c0d6"
-						           sortIndex="1"
-						           import="true">
-							<constraints>
-								<constraint type="min"
-								            value="1"
-								            field="selections"
-								            scope="parent"
-								            shared="false"
-								            id="43480e93-f909d141"/>
-							</constraints>
-						</entryLink>
-						<entryLink import="true"
-						           name="Mount"
-						           hidden="false"
-						           id="76b7b818-da716982"
-						           type="selectionEntryGroup"
-						           targetId="1d0e-4804-8b2d-bf85"
-						           sortIndex="3"
-						           collapsible="true"/>
-						<entryLink import="true"
-						           name="Magic Items"
-						           hidden="false"
-						           id="eb917439-c13ebf8f"
-						           type="selectionEntryGroup"
-						           targetId="1539-fd78-88f-badd"
-						           sortIndex="6">
-							<constraints>
-								<constraint type="max"
-								            value="100"
-								            field="points"
-								            scope="parent"
-								            shared="false"
-								            id="43d3864-4f912bae"/>
-							</constraints>
-						</entryLink>
-					</entryLinks>
-					<selectionEntryGroups>
-						<selectionEntryGroup name="Command"
-						                     hidden="false"
-						                     id="bd3eacc9-2b48849f"
-						                     sortIndex="2">
-							<entryLinks>
-								<entryLink import="true"
-								           name="General"
-								           hidden="false"
-								           id="8cc885c6-276c5750"
-								           type="selectionEntry"
-								           targetId="7d76-b1a1-1535-a04c"/>
-							</entryLinks>
-						</selectionEntryGroup>
-						<selectionEntryGroup name="Wizard Level"
-						                     hidden="false"
-						                     id="3fd389cb-9b0f399"
-						                     defaultSelectionEntryId="c4534566-aff35070"
-						                     sortIndex="4">
-							<entryLinks>
-								<entryLink import="true"
-								           name="Wizard Level 3"
-								           hidden="false"
-								           id="c4534566-aff35070"
-								           type="selectionEntry"
-								           targetId="59f1-ac46-8123-3f8d"
-								           sortIndex="1"/>
-								<entryLink import="true"
-								           name="Wizard Level 4"
-								           hidden="false"
-								           id="c7534a1f-619888ad"
-								           type="selectionEntry"
-								           targetId="50bd-b918-574a-60c3"
-								           sortIndex="2">
-									<costs>
-										<cost name="pts"
-										      typeId="points"
-										      value="30"/>
-									</costs>
-								</entryLink>
-							</entryLinks>
-							<constraints>
-								<constraint type="min"
-								            value="1"
-								            field="selections"
-								            scope="parent"
-								            shared="false"
-								            id="28710de-99a71da8"/>
-								<constraint type="max"
-								            value="1"
-								            field="selections"
-								            scope="parent"
-								            shared="false"
-								            id="1472127c-25c54b06"
-								            includeChildSelections="false"/>
-							</constraints>
-						</selectionEntryGroup>
-						<selectionEntryGroup name="Lores of Magic"
-						                     hidden="false"
-						                     id="2bf2f7b7-34867a85"
-						                     sortIndex="5">
-							<entryLinks>
-								<entryLink import="true"
-								           name="Dark Magic"
-								           hidden="false"
-								           id="e8e86ee5-3a03fdb"
-								           type="selectionEntry"
-								           targetId="e9f-f0fb-d874-4151"
-								           sortIndex="1"/>
-								<entryLink import="true"
-								           name="Illusion"
-								           hidden="false"
-								           id="38c46e19-ab99b26f"
-								           type="selectionEntry"
-								           targetId="af66-671f-5a42-a118"
-								           sortIndex="2"/>
-								<entryLink import="true"
-								           name="Necromancy"
-								           hidden="false"
-								           id="a7c59ab5-9323c5ab"
-								           type="selectionEntry"
-								           targetId="3d31-fd64-e074-700a"
-								           sortIndex="3"/>
-							</entryLinks>
-							<constraints>
-								<constraint type="min"
-								            value="1"
-								            field="selections"
-								            scope="parent"
-								            shared="false"
-								            id="e0f620a4-84c0d1ee"/>
-								<constraint type="max"
-								            value="1"
-								            field="selections"
-								            scope="parent"
-								            shared="false"
-								            id="ef09be66-772e0170"
-								            includeChildSelections="false"/>
-							</constraints>
-							<modifiers>
-								<modifier type="set"
-								          value="true"
-								          field="hidden">
-									<comment>Hide if not a wizard</comment>
-									<conditions>
-										<condition type="equalTo"
-										           value="0"
-										           field="selections"
-										           scope="parent"
-										           childId="7d84-39e9-a5f-947e"
-										           shared="true"/>
-										<condition type="equalTo"
-										           value="0"
-										           field="selections"
-										           scope="parent"
-										           childId="8e47-73e8-f7f9-808"
-										           shared="true"/>
-										<condition type="equalTo"
-										           value="0"
-										           field="selections"
-										           scope="parent"
-										           childId="59f1-ac46-8123-3f8d"
-										           shared="true"/>
-										<condition type="equalTo"
-										           value="0"
-										           field="selections"
-										           scope="parent"
-										           childId="50bd-b918-574a-60c3"
-										           shared="true"/>
-									</conditions>
-								</modifier>
-							</modifiers>
-						</selectionEntryGroup>
-					</selectionEntryGroups>
-					<constraints>
-						<constraint type="min"
-						            value="1"
-						            field="selections"
-						            scope="parent"
-						            shared="true"
-						            id="1a8a005a-c8df1e44"/>
-						<constraint type="max"
-						            value="1"
-						            field="selections"
-						            scope="parent"
-						            shared="true"
-						            id="49d6570-73f993a"/>
-					</constraints>
-					<categoryLinks>
-						<categoryLink name="NECROMANCER"
-						              hidden="false"
-						              id="bd67-b3c8-78b3-5fc3"
-						              targetId="bd9e-eec8-c99c-db01"
-						              primary="false"/>
-						<categoryLink name="Regular Infantry"
-						              hidden="false"
-						              id="f59f-fbd1-39d7-6e44"
-						              targetId="f3f7-ca43-674e-115f"
-						              primary="false"/>
-						<categoryLink name="Wizard"
-						              hidden="false"
-						              id="6ac6-650-5b2e-1622"
-						              targetId="f954-b4c0-b835-a048"
-						              primary="false"/>
-					</categoryLinks>
-					<modifiers>
-						<modifier type="remove"
-						          value="f3f7-ca43-674e-115f"
-						          field="category"
-						          id="a49c-f486-79af-3971">
-							<comment>if mounted</comment>
-							<conditionGroups>
-								<conditionGroup type="or">
-									<conditions>
-										<condition type="atLeast"
-										           value="1"
-										           field="selections"
-										           scope="self"
-										           childId="c96a-608-5de4-b943"
-										           includeChildSelections="true"
-										           shared="true"/>
-										<condition type="atLeast"
-										           value="1"
-										           field="selections"
-										           scope="self"
-										           childId="mount"
-										           includeChildSelections="true"
-										           shared="true"/>
-									</conditions>
-								</conditionGroup>
-							</conditionGroups>
-						</modifier>
-					</modifiers>
-				</selectionEntry>
-			</selectionEntries>
-			<infoGroups>
-				<infoGroup name="Special Rules"
-				           hidden="false"
-				           id="baff9d22-96145e6c/Master Necromancer">
-					<infoLinks>
-						<infoLink name="Dark Vitality"
-						          hidden="false"
-						          id="ff21d381-9b3422d7/Master Necromancer"
-						          type="profile"
-						          targetId="4190-a061-b7dc-3712"/>
-						<infoLink name="Indomitable"
-						          hidden="false"
-						          id="b676af2b-91c3f179/Master Necromancer"
-						          type="profile"
-						          targetId="78b6-d212-caa2-cef1">
-							<modifiers>
-								<modifier type="append"
-								          value="(1)"
-								          field="name"/>
-							</modifiers>
-						</infoLink>
-						<infoLink name="Invocation Of Nehek"
-						          hidden="false"
-						          id="8c2188ed-b0f33ea3/Master Necromancer"
-						          type="profile"
-						          targetId="9219-4a13-f83c-5ae1"/>
-						<infoLink name="Lore Of The Deep"
-						          hidden="false"
-						          id="29062d23-dcc2f151/Master Necromancer"
-						          type="profile"
-						          targetId="790b-ac72-a11e-cdbf"/>
-						<infoLink name="Necromantic Undead"
-						          hidden="false"
-						          id="549fbf75-6086c46b/Master Necromancer"
-						          type="profile"
-						          targetId="a6ee-a62b-1579-2c37"/>
-						<infoLink name="Regeneration"
-						          hidden="false"
-						          id="fb2c5f03-ab169231/Master Necromancer"
-						          type="profile"
-						          targetId="2eb0-1ec8-8e04-72d4">
-							<modifiers>
-								<modifier type="append"
-								          value="(5+)"
-								          field="name"/>
-							</modifiers>
-						</infoLink>
-					</infoLinks>
-				</infoGroup>
-			</infoGroups>
-			<categoryLinks>
-				<categoryLink name="Faction: Vampire Counts"
-				              hidden="false"
-				              id="e8c3-3162-8047-82d9"
-				              primary="false"
-				              targetId="7345-d692-6f6a-d6f6"/>
-			</categoryLinks>
-		</selectionEntry>
-		<selectionEntry type="unit"
-		                import="true"
-		                name="Necromantic Acolyte"
-		                hidden="false"
-		                id="824d1325-da3dc21b"
-		                collective="false">
-			<profiles>
-				<profile name="Necromantic Acolyte"
-				         typeId="2878-9a1f-dd74-48e3"
-				         typeName="Unit"
-				         hidden="false"
-				         id="f2758872-aa04d93c">
-					<characteristics>
-						<characteristic name="Troop Type"
-						                typeId="5d94-6b94-bd89-1944">Regular infantry (character)</characteristic>
-						<characteristic name="Unit Size"
-						                typeId="80a1-bb6f-66e4-4a5b">1</characteristic>
-					</characteristics>
-				</profile>
-			</profiles>
-			<selectionEntries>
-				<selectionEntry type="model"
-				                name="Necromantic Acolyte"
-				                id="378e26ce-9dc890d8"
-				                hidden="false">
-					<infoLinks>
-						<infoLink name="Necromantic Acolyte"
-						          hidden="false"
-						          type="profile"
-						          id="f9fb215c-137c1766"
-						          targetId="7aba-10e6-daa8-f3fb"/>
-						<infoLink name="Base (25x25)"
-						          hidden="false"
-						          type="profile"
-						          id="a94d4ec-f16e3e36"
-						          targetId="193c-4d0d-de6b-bbb1"/>
-					</infoLinks>
-					<costs>
-						<cost name="pts"
-						      typeId="points"
-						      value="60"/>
-					</costs>
-					<entryLinks>
-						<entryLink name="Hand Weapon"
-						           id="3323e5b7-6ebff885"
-						           hidden="false"
-						           type="selectionEntry"
-						           targetId="721d-36e3-388a-c0d6"
-						           sortIndex="1"
-						           import="true">
-							<constraints>
-								<constraint type="min"
-								            value="1"
-								            field="selections"
-								            scope="parent"
-								            shared="false"
-								            id="abb09be4-8d4d732e"/>
-							</constraints>
-						</entryLink>
-						<entryLink import="true"
-						           name="Magic Items"
-						           hidden="false"
-						           id="d855b4e4-9201c42e"
-						           type="selectionEntryGroup"
-						           targetId="1539-fd78-88f-badd"
-						           sortIndex="6">
-							<constraints>
-								<constraint type="max"
-								            value="50"
-								            field="points"
-								            scope="parent"
-								            shared="false"
-								            id="10d18895-3b4f428b"/>
-							</constraints>
-						</entryLink>
-						<entryLink import="true"
-						           name="Mount"
-						           hidden="false"
-						           id="8c86-1ade-4c9a-bf89"
-						           type="selectionEntryGroup"
-						           targetId="1d0e-4804-8b2d-bf85"
-						           sortIndex="3"
-						           collapsible="true"/>
-					</entryLinks>
-					<selectionEntryGroups>
-						<selectionEntryGroup name="Wizard Level"
-						                     hidden="false"
-						                     id="dc4ed700-45844a"
-						                     defaultSelectionEntryId="4e1b6483-c7616bb1"
-						                     sortIndex="4">
-							<entryLinks>
-								<entryLink import="true"
-								           name="Wizard Level 1"
-								           hidden="false"
-								           id="4e1b6483-c7616bb1"
-								           type="selectionEntry"
-								           targetId="7d84-39e9-a5f-947e"
-								           sortIndex="1"/>
-								<entryLink import="true"
-								           name="Wizard Level 2"
-								           hidden="false"
-								           id="4f1b6616-4ff5f0e0"
-								           type="selectionEntry"
-								           targetId="8e47-73e8-f7f9-808"
-								           sortIndex="2">
-									<costs>
-										<cost name="pts"
-										      typeId="points"
-										      value="30"/>
-									</costs>
-								</entryLink>
-							</entryLinks>
-							<constraints>
-								<constraint type="min"
-								            value="1"
-								            field="selections"
-								            scope="parent"
-								            shared="false"
-								            id="8b58f65b-8bbaa9e9"/>
-								<constraint type="max"
-								            value="1"
-								            field="selections"
-								            scope="parent"
-								            shared="false"
-								            id="81455ee5-9195afdb"
-								            includeChildSelections="false"/>
-							</constraints>
-						</selectionEntryGroup>
-						<selectionEntryGroup name="Lores of Magic"
-						                     hidden="false"
-						                     id="524a4548-48899f2"
-						                     sortIndex="5">
-							<entryLinks>
-								<entryLink import="true"
-								           name="Dark Magic"
-								           hidden="false"
-								           id="fb0cfdee-c20698f8"
-								           type="selectionEntry"
-								           targetId="e9f-f0fb-d874-4151"
-								           sortIndex="1"/>
-								<entryLink import="true"
-								           name="Illusion"
-								           hidden="false"
-								           id="215e8412-12909b5c"
-								           type="selectionEntry"
-								           targetId="af66-671f-5a42-a118"
-								           sortIndex="2"/>
-								<entryLink import="true"
-								           name="Necromancy"
-								           hidden="false"
-								           id="8a458d2a-1757fbd4"
-								           type="selectionEntry"
-								           targetId="3d31-fd64-e074-700a"
-								           sortIndex="3"/>
-							</entryLinks>
-							<constraints>
-								<constraint type="min"
-								            value="1"
-								            field="selections"
-								            scope="parent"
-								            shared="false"
-								            id="b6d29c77-c3c2f945"/>
-								<constraint type="max"
-								            value="1"
-								            field="selections"
-								            scope="parent"
-								            shared="false"
-								            id="c4e63a39-adbd558f"
-								            includeChildSelections="false"/>
-							</constraints>
-							<modifiers>
-								<modifier type="set"
-								          value="true"
-								          field="hidden">
-									<comment>Hide if not a wizard</comment>
-									<conditions>
-										<condition type="equalTo"
-										           value="0"
-										           field="selections"
-										           scope="parent"
-										           childId="7d84-39e9-a5f-947e"
-										           shared="true"/>
-										<condition type="equalTo"
-										           value="0"
-										           field="selections"
-										           scope="parent"
-										           childId="8e47-73e8-f7f9-808"
-										           shared="true"/>
-										<condition type="equalTo"
-										           value="0"
-										           field="selections"
-										           scope="parent"
-										           childId="59f1-ac46-8123-3f8d"
-										           shared="true"/>
-										<condition type="equalTo"
-										           value="0"
-										           field="selections"
-										           scope="parent"
-										           childId="50bd-b918-574a-60c3"
-										           shared="true"/>
-									</conditions>
-								</modifier>
-							</modifiers>
-						</selectionEntryGroup>
-						<selectionEntryGroup name="Command"
-						                     hidden="false"
-						                     id="5682-187e-798d-bacd"
-						                     sortIndex="2">
-							<entryLinks>
-								<entryLink import="true"
-								           name="General"
-								           hidden="false"
-								           id="bb62-decd-cfe5-fd05"
-								           type="selectionEntry"
-								           targetId="7d76-b1a1-1535-a04c"/>
-							</entryLinks>
-						</selectionEntryGroup>
-					</selectionEntryGroups>
-					<constraints>
-						<constraint type="min"
-						            value="1"
-						            field="selections"
-						            scope="parent"
-						            shared="true"
-						            id="7a4b-81cc-9e4e-9669-min"/>
-						<constraint type="max"
-						            value="1"
-						            field="selections"
-						            scope="parent"
-						            shared="true"
-						            id="7a4b-81cc-9e4e-9669-max"/>
-					</constraints>
-					<categoryLinks>
-						<categoryLink name="NECROMANCER"
-						              hidden="false"
-						              id="733-f2c2-5593-936e"
-						              targetId="bd9e-eec8-c99c-db01"
-						              primary="false"/>
-						<categoryLink name="Regular Infantry"
-						              hidden="false"
-						              id="8cfc-5b68-a9c6-493c"
-						              targetId="f3f7-ca43-674e-115f"
-						              primary="false"/>
-						<categoryLink name="Wizard"
-						              hidden="false"
-						              id="e8b9-9525-7cda-fb01"
-						              targetId="f954-b4c0-b835-a048"
-						              primary="false"/>
-					</categoryLinks>
-					<modifiers>
-						<modifier type="remove"
-						          value="f3f7-ca43-674e-115f"
-						          field="category">
-							<conditions>
-								<condition type="atLeast"
-								           value="1"
-								           field="selections"
-								           scope="parent"
-								           childId="1d0e-4804-8b2d-bf85"
-								           shared="true"
-								           includeChildSelections="true"/>
-							</conditions>
-						</modifier>
-						<modifier type="remove"
-						          value="f3f7-ca43-674e-115f"
-						          field="category"
-						          id="a8f8-6b85-3600-562d">
-							<comment>if mounted</comment>
-							<conditionGroups>
-								<conditionGroup type="or">
-									<conditions>
-										<condition type="atLeast"
-										           value="1"
-										           field="selections"
-										           scope="self"
-										           childId="c96a-608-5de4-b943"
-										           includeChildSelections="true"
-										           shared="true"/>
-										<condition type="atLeast"
-										           value="1"
-										           field="selections"
-										           scope="self"
-										           childId="mount"
-										           includeChildSelections="true"
-										           shared="true"/>
-									</conditions>
-								</conditionGroup>
-							</conditionGroups>
-						</modifier>
-					</modifiers>
-				</selectionEntry>
-			</selectionEntries>
-			<infoGroups>
-				<infoGroup name="Special Rules"
-				           hidden="false"
-				           id="baff9d22-96145e6c/Necromantic Acolyte">
-					<infoLinks>
-						<infoLink name="Dark Vitality"
-						          hidden="false"
-						          id="ff21d381-9b3422d7/Necromantic Acolyte"
-						          type="profile"
-						          targetId="4190-a061-b7dc-3712"/>
-						<infoLink name="Indomitable"
-						          hidden="false"
-						          id="b676af2b-91c3f179/Necromantic Acolyte"
-						          type="profile"
-						          targetId="78b6-d212-caa2-cef1">
-							<modifiers>
-								<modifier type="append"
-								          value="(1)"
-								          field="name"/>
-							</modifiers>
-						</infoLink>
-						<infoLink name="Invocation Of Nehek"
-						          hidden="false"
-						          id="8c2188ed-b0f33ea3/Necromantic Acolyte"
-						          type="profile"
-						          targetId="9219-4a13-f83c-5ae1"/>
-						<infoLink name="Lore Of The Deep"
-						          hidden="false"
-						          id="29062d23-dcc2f151/Necromantic Acolyte"
-						          type="profile"
-						          targetId="790b-ac72-a11e-cdbf"/>
-						<infoLink name="Necromantic Undead"
-						          hidden="false"
-						          id="549fbf75-6086c46b/Necromantic Acolyte"
-						          type="profile"
-						          targetId="a6ee-a62b-1579-2c37"/>
-						<infoLink name="Regeneration"
-						          hidden="false"
-						          id="fb2c5f03-ab169231/Necromantic Acolyte"
-						          type="profile"
-						          targetId="2eb0-1ec8-8e04-72d4">
-							<modifiers>
-								<modifier type="append"
-								          value="(5+)"
-								          field="name"/>
-							</modifiers>
-						</infoLink>
-					</infoLinks>
-				</infoGroup>
-			</infoGroups>
-			<infoLinks>
-				<infoLink name="Lore Of The Deep"
-				          hidden="false"
-				          id="7908-54b3-712c-591b"
-				          type="infoGroup"
-				          targetId="5b5f-acf0-7c9-33b6"/>
-			</infoLinks>
-			<categoryLinks>
-				<categoryLink name="Faction: Vampire Counts"
-				              hidden="false"
-				              id="ea87-bd47-f8d3-70a6"
 				              primary="false"
 				              targetId="7345-d692-6f6a-d6f6"/>
 			</categoryLinks>
@@ -4499,6 +3920,88 @@ Misfire table).</characteristic>
 				</modifier>
 			</modifiers>
 		</selectionEntry>
+    <selectionEntry type="unit" import="true" name="Queen Bess" hidden="false" id="da5-c1f4-df97-75a8">
+      <profiles>
+        <profile name="Queen Bess" typeId="2878-9a1f-dd74-48e3" typeName="Unit" hidden="false" id="4c54-fb6-1f86-c0dd">
+          <characteristics>
+            <characteristic name="Troop Type" typeId="5d94-6b94-bd89-1944">War Machine</characteristic>
+            <characteristic name="Unit Size" typeId="80a1-bb6f-66e4-4a5b">1</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <selectionEntries>
+        <selectionEntry type="model" import="true" name="Queen Bess" hidden="false" id="12cf-8fdc-cf6-815e" sortIndex="1">
+          <constraints>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="219c-cf77-16d5-1bb1"/>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="7764-af05-6d2d-f289"/>
+          </constraints>
+          <infoLinks>
+            <infoLink name="Base (50x75)" hidden="false" type="profile" id="292d-f1e-afae-2f8a" targetId="2b6f-489f-3c3c-bf7c"/>
+            <infoLink name="Queen Bess" hidden="false" type="profile" id="c126-f9f-65ea-44ec" targetId="6d11-8ff6-f93-df08"/>
+          </infoLinks>
+          <costs>
+            <cost name="pts" typeId="points" value="200"/>
+          </costs>
+          <entryLinks>
+            <entryLink import="true" name="Hellfire Cannon" hidden="false" type="selectionEntry" id="3a9b-5232-d954-25" targetId="bf51-aaa8-ee12-ad8b" sortIndex="2">
+              <constraints>
+                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="5175-85f-a169-3faa"/>
+              </constraints>
+            </entryLink>
+            <entryLink import="true" name="Queen Bess Gun Crew" hidden="false" id="59d7-2f6-5f81-fd72" type="selectionEntry" targetId="140f-ddd-d99-7060" sortIndex="1">
+              <constraints>
+                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="1d37-7fe-11e7-8f97-min"/>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="1d37-7fe-11e7-8f97-max"/>
+              </constraints>
+            </entryLink>
+          </entryLinks>
+          <categoryLinks>
+            <categoryLink name="War Machine" hidden="false" id="86c0-8f0d-c00-82d9" targetId="9fcf-19ad-fe84-9c61" primary="false"/>
+          </categoryLinks>
+        </selectionEntry>
+      </selectionEntries>
+      <infoGroups>
+        <infoGroup name="Special Rules" hidden="false" id="8f42-c19-79-a7a2">
+          <infoLinks>
+            <infoLink name="Skirmishers" hidden="false" type="profile" id="bda1-c4f3-f9b8-e54" targetId="59a5-7eca-ee35-96ac"/>
+						<infoLink name="Necromantic Undead"
+						          hidden="false"
+						          id="f154f715-1b433d0b"
+						          type="profile"
+						          targetId="a6ee-a62b-1579-2c37"/>
+						<infoLink name="Regeneration"
+						          hidden="false"
+						          id="637e39ca-5b970cf4"
+						          type="profile"
+						          targetId="2eb0-1ec8-8e04-72d4">
+							<modifiers>
+								<modifier type="append"
+								          value="(6+)"
+								          field="name"/>
+							</modifiers>
+						</infoLink>
+						<infoLink name="Dragged Along"
+						          hidden="false"
+						          id="4d0826e2-9a0a9a2c"
+						          type="profile"
+						          targetId="a042-c2f5-ebcb-2bab"/>
+						<infoLink name="Large Target" hidden="false" id="8ec37de-5dab0ca8" type="profile" targetId="c822-7ad0-f24a-e4af"/>
+						<infoLink name="Aquatic"
+						          hidden="false"
+						          id="34d0ea34-d50db13e"
+						          type="profile"
+						          targetId="1f39-2789-f136-7645"/>
+          </infoLinks>
+        </infoGroup>
+      </infoGroups>
+      <categoryLinks>
+        <categoryLink name="Faction: Vampire Counts"
+				              hidden="false"
+				              id="9852-bf61-9e1f-4c28"
+				              primary="false"
+				              targetId="7345-d692-6f6a-d6f6"/>
+      </categoryLinks>
+    </selectionEntry>
 		<selectionEntry type="unit"
 		                import="true"
 		                name="Depth Guard"
@@ -4515,7 +4018,7 @@ Misfire table).</characteristic>
 						<characteristic name="Troop Type"
 						                typeId="5d94-6b94-bd89-1944">Heavy infantry</characteristic>
 						<characteristic name="Unit Size"
-						                typeId="80a1-bb6f-66e4-4a5b">10+</characteristic>
+						                typeId="80a1-bb6f-66e4-4a5b">5+</characteristic>
 					</characteristics>
 				</profile>
 			</profiles>
@@ -4541,7 +4044,7 @@ Misfire table).</characteristic>
 					<costs>
 						<cost name="pts"
 						      typeId="points"
-						      value="11"/>
+						      value="20"/>
 					</costs>
 					<entryLinks>
 						<entryLink name="Hand Weapon"
@@ -4560,24 +4063,22 @@ Misfire table).</characteristic>
 								            id="96c8c631-ab920507"/>
 							</constraints>
 						</entryLink>
-						<entryLink name="Heavy Armour"
-						           id="3e463f87-4411bd5"
-						           hidden="false"
-						           type="selectionEntry"
-						           targetId="62fb-f89d-afc-1cf1"
-						           sortIndex="2"
-						           import="true">
-							<constraints>
-								<constraint type="min"
-								            value="1"
-								            field="selections"
-								            scope="parent"
-								            shared="false"
-								            id="ded57cb4-4159afbe"/>
-							</constraints>
-						</entryLink>
 					</entryLinks>
 					<selectionEntryGroups>
+            <selectionEntryGroup name="Armour" hidden="false" id="18a96d12-3e3c3c5c" collective="true" defaultSelectionEntryId="e211292e-d70f6a38" sortIndex="4" flatten="true">
+              <entryLinks>
+                <entryLink name="Heavy Armour" id="e211292e-d70f6a38" hidden="false" type="selectionEntry" targetId="62fb-f89d-afc-1cf1" collective="true" sortIndex="1" import="true"/>
+                <entryLink name="Full Plate Armour" id="b81f8f32-36a8a9fc" hidden="false" type="selectionEntry" targetId="2505-873d-1655-3b0b" collective="true" sortIndex="2">
+                  <costs>
+                    <cost name="pts" typeId="points" value="4"/>
+                  </costs>
+                </entryLink>
+              </entryLinks>
+              <constraints>
+                <constraint type="min" value="1" field="selections" scope="parent" shared="false" id="cfaa4e81-f5a0c5d7"/>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="false" id="c1bf532f-2490f83d" includeChildSelections="false"/>
+              </constraints>
+            </selectionEntryGroup>
 						<selectionEntryGroup name="Equipment"
 						                     hidden="false"
 						                     id="92d34975-6ccdfe6b"
@@ -4591,16 +4092,18 @@ Misfire table).</characteristic>
 								           hidden="false"
 								           type="selectionEntry"
 								           targetId="6192-f9f1-5d53-2042"
-								           collective="true"
 								           sortIndex="1"
-								           import="true"/>
-								<entryLink name="Great Weapon"
-								           id="db99aab9-3e51420f"
-								           hidden="false"
-								           type="selectionEntry"
-								           targetId="2283-26e9-76c3-6048"
-								           collective="true"
-								           sortIndex="2">
+								           import="true">
+								    <costs>
+                    <cost name="pts" typeId="points" value="1"/>
+                  </costs>
+                </entryLink>
+                <entryLink import="true" name="Additional Hand Weapon" hidden="false" type="selectionEntry" id="99e2-e5b2-6434-607f" targetId="8943-3e16-db2a-b7f3" sortIndex="2">
+                  <costs>
+                    <cost name="pts" typeId="points" value="1"/>
+                  </costs>
+                </entryLink>
+                <entryLink import="true" name="Halberd" hidden="false" type="selectionEntry" id="83b7-5713-4c83-2b19" targetId="f0a5-1b2e-3d2b-d540" sortIndex="3">
 									<costs>
 										<cost name="pts"
 										      typeId="points"
@@ -4609,12 +4112,6 @@ Misfire table).</characteristic>
 								</entryLink>
 							</entryLinks>
 							<constraints>
-								<constraint type="min"
-								            value="1"
-								            field="selections"
-								            scope="parent"
-								            shared="false"
-								            id="58c7269a-5811284"/>
 								<constraint type="max"
 								            value="1"
 								            field="selections"
@@ -4659,41 +4156,12 @@ Misfire table).</characteristic>
 										            includeChildSelections="false"/>
 									</constraints>
 								</selectionEntry>
-								<selectionEntry type="upgrade"
-								                import="true"
-								                name="Implacable Defence"
-								                hidden="false"
-								                id="6b713127-4af5a0f5"
-								                sortIndex="2"
-								                collective="true">
-									<costs>
-										<cost name="pts"
-										      typeId="points"
-										      value="1"/>
-									</costs>
-									<infoLinks>
-										<infoLink name="Implacable Defence"
-										          id="45061a50-8569f79a"
-										          hidden="false"
-										          type="profile"
-										          targetId="ff84-45da-7f12-8829"/>
-									</infoLinks>
-									<constraints>
-										<constraint type="max"
-										            value="1"
-										            field="selections"
-										            scope="parent"
-										            shared="false"
-										            id="376667e8-4fea792"
-										            includeChildSelections="false"/>
-									</constraints>
-								</selectionEntry>
 							</selectionEntries>
 						</selectionEntryGroup>
 					</selectionEntryGroups>
 					<constraints>
 						<constraint type="min"
-						            value="10"
+						            value="5"
 						            field="selections"
 						            scope="parent"
 						            shared="true"
@@ -4724,7 +4192,7 @@ Misfire table).</characteristic>
 					<selectionEntries>
 						<selectionEntry type="model"
 						                subType="crew"
-						                name="Seneschal"
+						                name="Warden"
 						                id="65cca5cc-472e3416"
 						                hidden="false"
 						                collective="true"
@@ -4737,7 +4205,7 @@ Misfire table).</characteristic>
 								          targetId="3877-8b67-1cd9-17d0">
 									<modifiers>
 										<modifier type="set"
-										          value="Seneschal"
+										          value="Warden"
 										          field="name"/>
 										<modifier type="increment"
 										          value="1"
@@ -4758,7 +4226,7 @@ Misfire table).</characteristic>
 							<costs>
 								<cost name="pts"
 								      typeId="points"
-								      value="6"/>
+								      value="7"/>
 							</costs>
 							<entryLinks>
 								<entryLink import="true"
@@ -4813,7 +4281,7 @@ Misfire table).</characteristic>
 							<costs>
 								<cost name="pts"
 								      typeId="points"
-								      value="6"/>
+								      value="7"/>
 							</costs>
 							<infoLinks>
 								<infoLink name="Standard Bearer"
@@ -4875,7 +4343,7 @@ Misfire table).</characteristic>
 							<costs>
 								<cost name="pts"
 								      typeId="points"
-								      value="6"/>
+								      value="7"/>
 							</costs>
 							<infoLinks>
 								<infoLink name="Musician"
@@ -4939,6 +4407,14 @@ Misfire table).</characteristic>
 								          field="name"/>
 							</modifiers>
 						</infoLink>
+						<infoLink name="Aquatic"
+						          hidden="false"
+						          id="34d0ea34-d50db13e"
+						          type="profile"
+						          targetId="1f39-2789-f136-7645"/>
+            <infoLink name="Accursed Weapons" hidden="false" id="c83e90a2-ebfb5ec" type="profile" targetId="238e-4e22-63f-9042"/>
+            <infoLink name="Dark Vitality" hidden="false" id="5fec2b0f-1d260f9d" type="profile" targetId="4190-a061-b7dc-3712"/>
+            <infoLink name="Flammable" hidden="false" id="dc1ec6d6-da584ba0" type="profile" targetId="8f64-6d4c-466b-1b94"/>
 						<infoLink name="Necromantic Undead"
 						          hidden="false"
 						          id="a55f78cb-2d656a99"
@@ -4994,6 +4470,22 @@ Misfire table).</characteristic>
 				</modifier>
 			</modifiers>
 		</selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Hellfire Cannon" hidden="false" id="bf51-aaa8-ee12-ad8b" collective="true">
+      <infoLinks>
+        <infoLink name="Hellfire Cannon" hidden="false" type="profile" id="1fcd-d9dc-c256-a03a" targetId="215-8dd8-83e9-ead7"/>
+      </infoLinks>
+      <constraints>
+        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="da38-1ace-46fb-c2b"/>
+      </constraints>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Carronade" hidden="false" id="bf51-aba8-e12-ad8b" collective="true">
+      <infoLinks>
+        <infoLink name="Carronade" hidden="false" type="profile" id="1fcd-d9dc-c56-a03a" targetId="bf51-36a8-e12-ad8b"/>
+      </infoLinks>
+      <constraints>
+        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="db38-1ace-46fb-c2b"/>
+      </constraints>
+    </selectionEntry>
 		<selectionEntry type="unit"
 		                import="true"
 		                name="Skeleton Crew"
@@ -5440,6 +4932,11 @@ Misfire table).</characteristic>
 								          field="name"/>
 							</modifiers>
 						</infoLink>
+						<infoLink name="Aquatic"
+						          hidden="false"
+						          id="34d0ea34-d50db13e"
+						          type="profile"
+						          targetId="1f39-2789-f136-7645"/>
 					</infoLinks>
 				</infoGroup>
 			</infoGroups>
@@ -5451,6 +4948,98 @@ Misfire table).</characteristic>
 				              targetId="7345-d692-6f6a-d6f6"/>
 			</categoryLinks>
 		</selectionEntry>
+		<selectionEntry type="unit" import="true" name="Carronade" hidden="false" id="1a5c-f6d4-86a-a64d">
+      <profiles>
+        <profile name="Carronade" typeId="2878-9a1f-dd74-48e3" typeName="Unit" hidden="false" id="1ae2-67d2-9dfb-e3b">
+          <characteristics>
+            <characteristic name="Troop Type" typeId="5d94-6b94-bd89-1944">War Machine</characteristic>
+            <characteristic name="Unit Size" typeId="80a1-bb6f-66e4-4a5b">1</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <selectionEntries>
+        <selectionEntry type="model" import="true" name="Carronade" hidden="false" id="b76-bb94-a3d9-a37d" sortIndex="1">
+        <constraints>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="a4a0-96d9-fc2-7920"/>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="9aa0-9d5-5234-6b5c"/>
+          </constraints>
+          <infoLinks>
+            <infoLink name="Base (50x75)" hidden="false" type="profile" id="923e-dd3-1ce3-2739" targetId="2b6f-489f-3c3c-bf7c"/>
+            <infoLink name="Carronade" hidden="false" type="profile" id="f203-d5dd-60dd-dadf" targetId="10d4-ffd4-12e-557e"/>
+          </infoLinks>
+          <costs>
+            <cost name="pts" typeId="points" value="85"/>
+          </costs>
+          <entryLinks>
+            <entryLink import="true" name="Carronade" hidden="false" type="selectionEntry" id="b423-55d2-a85c-cb3" targetId="bf51-aba8-e12-ad8b" sortIndex="2">
+              <constraints>
+                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="a338-15de-f3e0-2507"/>
+              </constraints>
+            </entryLink>
+            <entryLink import="true" name="Carronade Gun Crew" hidden="false" id="dd5c-dfd3-cf7-6e12" type="selectionEntry" targetId="140f-5db-d96-760" sortIndex="1">
+              <constraints>
+                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="e5b4-ecd4-6750-fd8-min"/>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="e5b4-ecd4-6750-f58-max"/>
+              </constraints>
+            </entryLink>
+          </entryLinks>
+          <categoryLinks>
+            <categoryLink name="War Machine" hidden="false" id="2e11-ede-32e-7d5e" targetId="9fcf-19ad-fe84-9c61" primary="false"/>
+          </categoryLinks>
+        </selectionEntry>
+      </selectionEntries>
+      <infoGroups>
+        <infoGroup name="Special Rules" hidden="false" id="132f-99de-47d-d9bc">
+          <infoLinks>
+            <infoLink name="Skirmishers" hidden="false" type="profile" id="5cf0-2bd0-9162-e129" targetId="59a5-7eca-ee35-96ac"/>
+						<infoLink name="Necromantic Undead"
+						          hidden="false"
+						          id="f154f715-1b433d0b"
+						          type="profile"
+						          targetId="a6ee-a62b-1579-2c37"/>
+						<infoLink name="Regeneration"
+						          hidden="false"
+						          id="637e39ca-5b970cf4"
+						          type="profile"
+						          targetId="2eb0-1ec8-8e04-72d4">
+							<modifiers>
+								<modifier type="append"
+								          value="(6+)"
+								          field="name"/>
+							</modifiers>
+						</infoLink>
+						<infoLink name="Aquatic"
+						          hidden="false"
+						          id="34d0ea34-d50db13e"
+						          type="profile"
+						          targetId="1f39-2789-f136-7645"/>
+          </infoLinks>
+        </infoGroup>
+      </infoGroups>
+      <categoryLinks>
+				<categoryLink name="Faction: Vampire Counts"
+				              hidden="false"
+				              id="d589-cd35-3bdb-44ae"
+				              primary="false"
+				              targetId="7345-d692-6f6a-d6f6"/>
+      </categoryLinks>
+    </selectionEntry>
+    <selectionEntry type="model" import="true" name="Carronade Gun Crew" hidden="false" id="140f-5db-d96-760" collective="true" sortIndex="2" subType="crew">
+      <infoLinks>
+        <infoLink name="Carronade Gun Crew" hidden="false" type="profile" id="75cf-22de-8cbf-f38" targetId="cdf3-fd0-72c-d10"/>
+        <infoLink name="Base (25x25)" hidden="false" type="profile" id="4ccb-5dd2-db00-3f4d" targetId="193c-4d0d-de6b-bbb1"/>
+      </infoLinks>
+      <entryLinks>
+        <entryLink import="true" name="Hand Weapon" hidden="false" type="selectionEntry" id="eb53-2cd3-6e2-6dd8" targetId="721d-36e3-388a-c0d6" sortIndex="2">
+          <constraints>
+            <constraint type="min" value="1" scope="parent" field="selections" shared="true" id="c6d1-ecdc-74a-597e"/>
+          </constraints>
+        </entryLink>
+      </entryLinks>
+      <categoryLinks>
+        <categoryLink name="CHARIOT CREW" hidden="false" id="7b7-f0d8-2638-8dd2" targetId="4cf7-bf85-308d-c29a" primary="false"/>
+      </categoryLinks>
+    </selectionEntry>
 		<selectionEntry type="unit"
 		                import="true"
 		                name="Zombies"
@@ -5462,7 +5051,7 @@ Misfire table).</characteristic>
 				         typeId="2878-9a1f-dd74-48e3"
 				         typeName="Unit"
 				         hidden="false"
-				         id="5ee6639f-34c6d62d">
+				         id="5eef639f-34c6d62d">
 					<characteristics>
 						<characteristic name="Troop Type"
 						                typeId="5d94-6b94-bd89-1944">Regular infantry</characteristic>
@@ -5823,6 +5412,376 @@ Misfire table).</characteristic>
 		</selectionEntry>
 		<selectionEntry type="unit"
 		                import="true"
+		                name="Zombies 2"
+		                hidden="false"
+		                id="51cfffd9-4042bd2f"
+		                collective="false">
+			<profiles>
+				<profile name="Zombies 2"
+				         typeId="2878-9a1f-dd74-48e3"
+				         typeName="Unit"
+				         hidden="false"
+				         id="5ee6639f-34c6d62d">
+					<characteristics>
+						<characteristic name="Troop Type"
+						                typeId="5d94-6b94-bd89-1944">Regular infantry</characteristic>
+						<characteristic name="Unit Size"
+						                typeId="80a1-bb6f-66e4-4a5b">20-40</characteristic>
+					</characteristics>
+				</profile>
+			</profiles>
+			<selectionEntries>
+				<selectionEntry type="model"
+				                name="Zombie 2"
+				                id="2cf94a97-957f86e5"
+				                hidden="false"
+				                sortIndex="1">
+					<infoLinks>
+						<infoLink name="Zombie 2"
+						          hidden="false"
+						          type="profile"
+						          id="8cd7c1ed-2f2fafa3"
+						          targetId="8cc9-bd5d-e6e4-4126"/>
+						<infoLink name="Base (25x25)"
+						          hidden="false"
+						          type="profile"
+						          id="efe1337-e35cba05"
+						          targetId="193c-4d0d-de6b-bbb1"/>
+					</infoLinks>
+					<costs>
+						<cost name="pts"
+						      typeId="points"
+						      value="3"/>
+					</costs>
+					<entryLinks>
+						<entryLink name="Hand Weapon"
+						           id="cb2f2e63-9119e891"
+						           hidden="false"
+						           type="selectionEntry"
+						           targetId="721d-36e3-388a-c0d6"
+						           import="true">
+							<constraints>
+								<constraint type="min"
+								            value="1"
+								            field="selections"
+								            scope="parent"
+								            shared="false"
+								            id="71eab158-1fc298c2"/>
+							</constraints>
+						</entryLink>
+					</entryLinks>
+					<constraints>
+						<constraint type="min"
+						            value="20"
+						            field="selections"
+						            scope="parent"
+						            shared="true"
+						            id="45c1590e-82503118"/>
+						<constraint type="max"
+						            value="40"
+						            field="selections"
+						            scope="parent"
+						            shared="true"
+						            id="37ac284c-64fda296"/>
+					</constraints>
+					<categoryLinks>
+						<categoryLink name="Regular Infantry"
+						              hidden="false"
+						              id="dd7-9ed1-1b20-241d"
+						              targetId="f3f7-ca43-674e-115f"
+						              primary="false"/>
+					</categoryLinks>
+				</selectionEntry>
+			</selectionEntries>
+			<selectionEntryGroups>
+				<selectionEntryGroup name="Command"
+				                     hidden="false"
+				                     id="fe6deb10-558d425a"
+				                     sortIndex="2">
+					<selectionEntries>
+						<selectionEntry type="model"
+						                subType="crew"
+						                name="Bloaty"
+						                id="96069a4-9d90d2ee"
+						                hidden="false"
+						                sortIndex="1">
+							<infoLinks>
+								<infoLink name="Bloaty 2"
+								          hidden="false"
+								          type="profile"
+								          id="d159a842-4c55980c"
+								          targetId="8cc9-bd5d-e6e4-4126">
+									<modifiers>
+										<modifier type="set"
+										          value="Bloaty"
+										          field="name"/>
+										<modifier type="increment"
+										          value="1"
+										          field="dddc-9fbd-b0fd-a480"/>
+									</modifiers>
+								</infoLink>
+								<infoLink name="Champion"
+								          hidden="false"
+								          type="profile"
+								          id="eb368a95-c67f348b"
+								          targetId="5f1c-fd04-b0d5-d5e"/>
+								<infoLink name="Bloaty"
+								          hidden="false"
+								          type="profile"
+								          id="eb368a95-c6fc348b"
+								          targetId="a6ee-a62b-1579-2c38"/>
+							</infoLinks>
+							<costs>
+								<cost name="pts"
+								      typeId="points"
+								      value="15"/>
+							</costs>
+							<constraints>
+								<constraint type="max"
+								            value="1"
+								            field="selections"
+								            scope="parent"
+								            shared="false"
+								            id="d7674efd-ce0f3233"
+								            includeChildSelections="false"/>
+							</constraints>
+							<comment>upgrades: 2cf94a97-957186e5</comment>
+							<categoryLinks>
+								<categoryLink name="Regular Infantry"
+								              hidden="false"
+								              id="f163-5ef1-ffa3-4393"
+								              targetId="f3f7-ca43-674e-115f"
+								              primary="false"/>
+							</categoryLinks>
+						</selectionEntry>
+						<selectionEntry name="Standard Bearer"
+						                id="b2672a79-dd3fc3cf"
+						                type="model"
+						                import="true"
+						                hidden="false"
+						                subType="crew"
+						                sortIndex="1">
+							<costs>
+								<cost name="pts"
+								      typeId="points"
+								      value="5"/>
+							</costs>
+							<infoLinks>
+								<infoLink name="Standard Bearer"
+								          hidden="false"
+								          type="profile"
+								          id="8c50741b-788f9a9"
+								          targetId="bcf8-d942-102e-b155"/>
+							</infoLinks>
+							<comment>upgrades: 2cf94a97-957186e5</comment>
+							<constraints>
+								<constraint type="max"
+								            value="1"
+								            field="selections"
+								            scope="parent"
+								            shared="false"
+								            id="468b36e4-8e7f362e"
+								            includeChildSelections="false"/>
+							</constraints>
+							<categoryLinks>
+								<categoryLink name="Regular Infantry"
+								              hidden="false"
+								              id="e1e7-e780-d9bf-e098"
+								              targetId="f3f7-ca43-674e-115f"
+								              primary="false"/>
+							</categoryLinks>
+						</selectionEntry>
+						<selectionEntry name="Musician"
+						                id="bb098e5c-f6af1c66"
+						                type="model"
+						                import="true"
+						                hidden="false"
+						                subType="crew"
+						                sortIndex="2">
+							<costs>
+								<cost name="pts"
+								      typeId="points"
+								      value="5"/>
+							</costs>
+							<infoLinks>
+								<infoLink name="Musician"
+								          hidden="false"
+								          type="profile"
+								          id="65ffdd2e-3de8fe38"
+								          targetId="40f2-dd77-f0ca-3663"/>
+							</infoLinks>
+							<comment>upgrades: 2cf94a97-957186e5</comment>
+							<constraints>
+								<constraint type="max"
+								            value="1"
+								            field="selections"
+								            scope="parent"
+								            shared="false"
+								            id="b34389fd-bf2f9533"
+								            includeChildSelections="false"/>
+							</constraints>
+							<categoryLinks>
+								<categoryLink name="Regular Infantry"
+								              hidden="false"
+								              id="bf9f-ba-bbf0-7c73"
+								              targetId="f3f7-ca43-674e-115f"
+								              primary="false"/>
+							</categoryLinks>
+						</selectionEntry>
+					</selectionEntries>
+				</selectionEntryGroup>
+				<selectionEntryGroup name="Ranged Weapon"
+				                     id="14f0-9b46-d80c-ef50"
+				                     hidden="false">
+					<modifiers>
+						<modifier type="set"
+						          value="false"
+						          field="hidden">
+							<conditions>
+								<condition type="atLeast"
+								           value="1"
+								           field="selections"
+								           scope="ancestor"
+								           childId="ed3f-1102-3044-59f5"
+								           shared="true"/>
+							</conditions>
+						</modifier>
+					</modifiers>
+					<selectionEntries>
+						<selectionEntry import="true"
+						                name="Pistol"
+						                hidden="false"
+						                id="58f9-0e15-1e82-5f88"
+						                type="selectionEntry"
+						                targetId="d3c7-5222-61e8-9920"
+						                sortIndex="1">
+							<costs>
+								<cost name="pts"
+								      typeId="points"
+								      value=".5"/>
+							</costs>
+						</selectionEntry>
+						<selectionEntry import="true"
+						                name="Handgun"
+						                hidden="false"
+						                id="f595-4652-53c8-7fd1"
+						                type="selectionEntry"
+						                targetId="e2ed-a3fd-dee5-3e9f"
+						                sortIndex="2">
+							<costs>
+								<cost name="pts"
+								      typeId="points"
+								      value="1"/>
+							</costs>
+						</selectionEntry>
+						<selectionEntry import="true"
+						                name="Blunderbuss"
+						                hidden="false"
+						                id="914c-69ea-8e2c-2f95"
+						                type="selectionEntry"
+						                targetId="4035-287b-e117-6b9d"
+						                sortIndex="3">
+							<costs>
+								<cost name="pts"
+								      typeId="points"
+								      value="2"/>
+							</costs>
+						</selectionEntry>
+					</selectionEntries>
+				</selectionEntryGroup>
+			</selectionEntryGroups>
+			<infoGroups>
+				<infoGroup name="Special Rules"
+				           hidden="false"
+				           id="c602c60d-f20a43">
+					<infoLinks>
+						<infoLink name="Close Order"
+						          hidden="false"
+						          id="86248f2-558795bc"
+						          type="profile"
+						          targetId="883e-e1b1-4fe9-5912"/>
+						<infoLink name="Horde"
+						          hidden="false"
+						          id="83b76e74-e61e137e"
+						          type="profile"
+						          targetId="9cba-89a5-1796-5fe4"/>
+						<infoLink name="Necromantic Undead"
+						          hidden="false"
+						          id="cebc01c-5e71c026"
+						          type="profile"
+						          targetId="a6ee-a62b-1579-2c37"/>
+						<infoLink name="Regeneration"
+						          hidden="false"
+						          id="80150331-66945a07"
+						          type="profile"
+						          targetId="2eb0-1ec8-8e04-72d4">
+							<modifiers>
+								<modifier type="append"
+								          value="(6+)"
+								          field="name"/>
+							</modifiers>
+						</infoLink>
+						<infoLink name="The Newly Dead"
+						          hidden="false"
+						          id="3ba5e2f6-913445c0"
+						          type="profile"
+						          targetId="4176-fb21-2d35-b9c9"/>
+						<infoLink name="Regimental Unit"
+						          id="e4e5-8c65-69f6-ce7b"
+						          hidden="false"
+						          type="profile"
+						          targetId="7424-ec43-7581-965a">
+							<modifiers>
+								<modifier type="set"
+								          value="false"
+								          field="hidden">
+									<conditions>
+										<condition type="atLeast"
+										           value="1"
+										           field="selections"
+										           scope="force"
+										           childId="974c-3bf3-af4b-701d"
+										           shared="true"
+										           includeChildSelections="true">
+											<comment>Renegades</comment>
+										</condition>
+									</conditions>
+									<comment>Renegades</comment>
+								</modifier>
+							</modifiers>
+						</infoLink>
+					</infoLinks>
+				</infoGroup>
+			</infoGroups>
+			<entryLinks>
+				<entryLink import="true"
+				           name="Scurvy Dogs"
+				           hidden="false"
+				           id="4c8f-9a50-7b96-6ef5"
+				           type="selectionEntry"
+				           targetId="85ad2a06-6189d990"
+				           sortIndex="3">
+					<constraints>
+						<constraint type="max"
+						            value="1"
+						            field="selections"
+						            scope="parent"
+						            shared="false"
+						            id="54c81fbf-2f720dcd"
+						            includeChildSelections="false"/>
+					</constraints>
+				</entryLink>
+			</entryLinks>
+			<categoryLinks>
+				<categoryLink name="Faction: Vampire Counts"
+				              hidden="false"
+				              id="1e41-ead8-ba2-8be4"
+				              primary="false"
+				              targetId="7345-d692-6f6a-d6f6"/>
+			</categoryLinks>
+		</selectionEntry>
+		<selectionEntry type="unit"
+		                import="true"
 		                name="Animated Hulks"
 		                hidden="false"
 		                id="475a2b9f-6b5c5e2d"
@@ -5862,7 +5821,7 @@ Misfire table).</characteristic>
 					<costs>
 						<cost name="pts"
 						      typeId="points"
-						      value="46"/>
+						      value="38"/>
 					</costs>
 					<entryLinks>
 						<entryLink name="Amalgamated Arms"
@@ -5977,11 +5936,11 @@ Misfire table).</characteristic>
 								          field="name"/>
 							</modifiers>
 						</infoLink>
-						<infoLink name="Move Through Cover"
+						<infoLink name="Aquatic"
 						          hidden="false"
-						          id="29983f33-afc266e1"
+						          id="34d0ea34-d50db13e"
 						          type="profile"
-						          targetId="e83e-f127-1904-3858"/>
+						          targetId="1f39-2789-f136-7645"/>
 						<infoLink name="Necromantic Undead"
 						          hidden="false"
 						          id="6f66003e-63c79588"
@@ -6003,23 +5962,12 @@ Misfire table).</characteristic>
 								          field="name"/>
 							</modifiers>
 						</infoLink>
-						<infoLink name="Stomp Attacks"
-						          hidden="false"
-						          id="50931576-8c23e440"
-						          type="profile"
-						          targetId="72db-24bb-7493-d753">
-							<modifiers>
-								<modifier type="append"
-								          value="(1)"
-								          field="name"/>
-							</modifiers>
-						</infoLink>
 					</infoLinks>
 				</infoGroup>
 			</infoGroups>
 			<categoryLinks>
 				<categoryLink name="Faction: Vampire Counts"
-				              hidden="false"
+				              hidden="false" 
 				              id="a927-4963-ef8a-d4f2"
 				              primary="false"
 				              targetId="7345-d692-6f6a-d6f6"/>
@@ -6069,7 +6017,7 @@ Misfire table).</characteristic>
 				                hidden="false"
 				                sortIndex="1">
 					<infoLinks>
-						<infoLink name="Prime Promethian"
+						<infoLink name="Promethian"
 						          hidden="false"
 						          type="profile"
 						          id="f0c8b42d-3e870fe4"
@@ -6091,7 +6039,7 @@ Misfire table).</characteristic>
 					<costs>
 						<cost name="pts"
 							  typeId="points"
-							  value="36"/>
+							  value="50"/>
 					</costs>
 					<categoryLinks>
 						<categoryLink name="Monstrous Infantry"
@@ -6100,86 +6048,106 @@ Misfire table).</characteristic>
 						              targetId="5c55-f9d6-b181-92f8"
 						              primary="false"/>
 					</categoryLinks>
-				</selectionEntry>
-				<selectionEntry type="upgrade"
-								import="true"
-								name="Zombie Riding Pair"
-								hidden="false"
-								id="8723b2df-d01fab6d"
-								sortIndex="2"
-								collective="true">
-					<costs>
-						<cost name="pts"
-							  typeId="points"
-							  value="4"/>
-					</costs>
-					<infoLinks>
-						<infoLink name="Zombie Riding Pair"
-								  hidden="false"
-								  type="profile"
-								  id="a6e4-d88d-78b9-f71e"
-								  targetId="8c0b-6fe6-dc06-511"/>
-					</infoLinks>
-				</selectionEntry>
-				<selectionEntry type="upgrade"
-								import="true"
-								name="Pistol"
-								hidden="false"
-								id="8723b2df-d01fab6d"
-								sortIndex="5"
-								collective="true">
-					<costs>
-						<cost name="pts"
-							  typeId="points"
-							  value=".5"/>
-					</costs>
-					<infoLinks>
-						<infoLink name="Pistol"
-								  hidden="false"
-								  type="profile"
-								  id="a6e4-d88d-78b9-f71e"
-								  targetId="d3c7-5222-61e8-9920"/>
-					</infoLinks>
-				</selectionEntry>
-				<selectionEntry type="upgrade"
-								import="true"
-								name="Handgun"
-								hidden="false"
-								id="8723b2df-d01fab6d"
-								sortIndex="6"
-								collective="true">
-					<costs>
-						<cost name="pts"
-							  typeId="points"
-							  value="1"/>
-					</costs>
-					<infoLinks>
-						<infoLink name="Handgun"
-								  hidden="false"
-								  type="profile"
-								  id="a6e4-d88d-78b9-f71e"
-								  targetId="7f58-91d4-ee6c-3cb7"/>
-					</infoLinks>
-				</selectionEntry>
-				<selectionEntry type="upgrade"
-								import="true"
-								name="Blunderbuss"
-								hidden="false"
-								id="8723b2df-d01fab6d"
-								sortIndex="7"
-								collective="true">
-					<costs>
-						<cost name="pts"
-							  typeId="points"
-							  value="2"/>
-					</costs>
-					<infoLinks>
-						<infoLink name="Blunderbuss"
-								  hidden="false"
-								  type="profile"
-								  id="a6e4-d88d-78b9-f71e"
-								  targetId="4035-287b-e117-6b9d"/>
-					</infoLinks>
+					<selectionEntries>
+        <selectionEntry type="model" subType="crew" name="Zombie Crew Pair" id="ba1c-df9a-4aaf-3fcd" hidden="false" sortIndex="3">
+          <infoLinks>
+            <infoLink name="Zombie Crew Pair" hidden="false" type="profile" id="c26a-36f8-860e-2f62" targetId="8cc9-bd5d-e6e4-5137"/>
+          </infoLinks>
+          <costs>
+            <cost name="pts" typeId="points" value="8"/>
+          </costs>
+          <entryLinks>
+            <entryLink name="Hand Weapon" id="b146-e049-a020-f2f" hidden="false" type="selectionEntry" targetId="721d-36e3-388a-c0d6" sortIndex="1" import="true">
+              <constraints>
+                <constraint type="min" value="1" field="selections" scope="parent" shared="false" id="12a-4f57-fc1-d483"/>
+              </constraints>
+            </entryLink>
+          </entryLinks>
+          			<selectionEntryGroups>
+          						<selectionEntryGroup name="Ranged Weapon"
+						                     id="14f0-9b46-d80c-e850"
+						                     hidden="false"
+						                     defaultSelectionEntryId="58f9-0e15-1e82-5588">
+							<constraints>
+								<constraint type="min"
+								            value="1"
+								            field="selections"
+								            scope="parent"
+								            shared="true"
+								            id="67b7-a596-c441-9a57"/>
+								<constraint type="max"
+								            value="1"
+								            field="selections"
+								            scope="parent"
+								            shared="true"
+								            id="9249-f92d-89fe-8d12"/>
+							</constraints>
+							<entryLinks>
+								<entryLink import="true"
+								           name="Pistol"
+								           hidden="false"
+								           id="58f9-0e15-1e82-5588"
+								           type="selectionEntry"
+								           targetId="d3c7-5222-61e8-9920"
+								           sortIndex="1">
+									<costs>
+										<cost name="pts"
+										      typeId="points"
+										      value="0"/>
+									</costs>
+								</entryLink>
+								<entryLink import="true"
+								           name="Brace of Pistols"
+								           hidden="false"
+								           id="58f9-0e15-1e82-5589"
+								           type="selectionEntry"
+								           targetId="d8bb-85b0-3575-6029"
+								           sortIndex="2">
+									<costs>
+										<cost name="pts"
+										      typeId="points"
+										      value="2"/>
+									</costs>
+								</entryLink>
+								<entryLink import="true"
+								           name="Blunderbuss"
+								           hidden="false"
+								           id="f595-4652-53c8-7bd1"
+								           type="selectionEntry"
+								           targetId="4035-287b-e117-6b9d"
+								           sortIndex="3">
+									<costs>
+										<cost name="pts"
+										      typeId="points"
+										      value="4"/>
+									</costs>
+								</entryLink>
+								<entryLink import="true"
+								           name="Handgun"
+								           hidden="false"
+								           id="f995-4672-53c8-7bd1"
+								           type="selectionEntry"
+								           targetId="e2ed-a3fd-dee5-3e9f"
+								           sortIndex="3">
+									<costs>
+										<cost name="pts"
+										      typeId="points"
+										      value="2"/>
+									</costs>
+								</entryLink>
+							</entryLinks>
+						</selectionEntryGroup>
+					</selectionEntryGroups>
+          <constraints>
+            <constraint type="min" value="0" field="selections" scope="parent" shared="false" id="9c6b-c93a-d0a3-a8f"/>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="false" id="fd5f-573d-42d-f952" includeChildSelections="false"/>
+          </constraints>
+          <categoryLinks>
+            <categoryLink name="CHARIOT CREW" hidden="false" id="44cd-d5a5-94ff-fa94" targetId="4cf7-bf85-308d-c29a" primary="false"/>
+            <categoryLink name="MAY_HAVE_SHIELD" hidden="false" id="b763-80fd-9e2d-4b69" targetId="may-have-shield"/>
+          </categoryLinks>
+        </selectionEntry>				
+			</selectionEntries>
 				</selectionEntry>
 			</selectionEntries>
 			<infoGroups>
@@ -6194,7 +6162,7 @@ Misfire table).</characteristic>
 						          targetId="5450-cbf1-3e74-254a">
 							<modifiers>
 								<modifier type="append"
-								          value="(4)"
+								          value="(3)"
 								          field="name"/>
 							</modifiers>
 						</infoLink>
@@ -6209,6 +6177,11 @@ Misfire table).</characteristic>
 								          field="name"/>
 							</modifiers>
 						</infoLink>
+						<infoLink name="Black Powder Weapons"
+						          hidden="false"
+						          id="ee8395e8-8dc26593"
+						          type="profile"
+						          targetId="238e-4e22-63f-9043"/>
 						<infoLink name="Move Through Cover"
 						          hidden="false"
 						          id="29983f33-afc266e1"
@@ -6229,6 +6202,11 @@ Misfire table).</characteristic>
 						          id="bfbb3a93-c0839d41"
 						          type="profile"
 						          targetId="6359-4018-5cd4-3720"/>
+						<infoLink name="Gunnery Mob"
+						          hidden="false"
+						          id="e455a62c-421e8576"
+						          type="profile"
+						          targetId="238e-4e22-63f-9f43"/>
 						<infoLink name="Open Order"
 						          hidden="false"
 						          id="e455a62c-421e8576"
@@ -6242,6 +6220,17 @@ Misfire table).</characteristic>
 							<modifiers>
 								<modifier type="append"
 								          value="(6+)"
+								          field="name"/>
+							</modifiers>
+						</infoLink>
+						<infoLink name="Impact Hits"
+						          id="55421ab7-5c448585"
+						          hidden="false"
+						          type="profile"
+						          targetId="5c2-e9dd-2715-a0c0">
+							<modifiers>
+								<modifier type="append"
+								          value="(D3)"
 								          field="name"/>
 							</modifiers>
 						</infoLink>
@@ -6431,7 +6420,7 @@ Misfire table).</characteristic>
 					<costs>
 						<cost name="pts"
 						      typeId="points"
-						      value="36"/>
+						      value="38"/>
 					</costs>
 					<entryLinks>
 						<entryLink name="Hand Weapon"
@@ -6488,16 +6477,17 @@ Misfire table).</characteristic>
 								          field="name"/>
 							</modifiers>
 						</infoLink>
-						<infoLink name="Vanguard"
+						<infoLink name="Aquatic"
 						          hidden="false"
-						          id="eaa54dcd-86c25404"
+						          id="34d0ea34-d50db13e"
 						          type="profile"
-						          targetId="691e-10ec-4f7c-a2c4"/>
+						          targetId="1f39-2789-f136-7645"/>
 						<infoLink name="Skirmishers"
 						          hidden="false"
 						          id="ff80fe71-f2467b47"
 						          type="profile"
 						          targetId="59a5-7eca-ee35-96ac"/>
+                          <infoLink name="Loner" hidden="false" id="488f8707-77042755" type="profile" targetId="2ecd-c6b3-bd8b-864b"/>
 					</infoLinks>
 				</infoGroup>
 			</infoGroups>
@@ -6509,6 +6499,80 @@ Misfire table).</characteristic>
 				              targetId="7345-d692-6f6a-d6f6"/>
 			</categoryLinks>
 		</selectionEntry>
+    <selectionEntry type="unit" import="true" name="Zombie Deck Gunners" hidden="false" id="51cdded9-4042bd2f" collective="false">
+      <profiles>
+        <profile name="Zombie Deck Gunners" typeId="2878-9a1f-dd74-48e3" typeName="Unit" hidden="false" id="5ee39f-3cbb62d">
+          <characteristics>
+            <characteristic name="Troop Type" typeId="5d94-6b94-bd89-1944">Regular infantry</characteristic>
+            <characteristic name="Unit Size" typeId="80a1-bb6f-66e4-4a5b">20-40</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <selectionEntries>
+        <selectionEntry type="model" name="Zombie Deck Gunner" id="2cfdda97-956e5" hidden="false" sortIndex="1">
+          <infoLinks>
+            <infoLink name="Zombie Deck Gunner" hidden="false" type="profile" id="8cd1ed-202hafa3" targetId="8cc9-ff5d-e6d-4a26"/>
+            <infoLink name="Base (25x25)" hidden="false" type="profile" id="efedd37-e35a05" targetId="193c-4d0d-de6b-bbb1"/>
+          </infoLinks>
+          <costs>
+            <cost name="pts" typeId="points" value="15"/>
+          </costs>
+          <entryLinks>
+            <entryLink name="Hand Weapon" id="cb2ad3-9119891" hidden="false" type="selectionEntry" targetId="721d-36e3-388a-c0d6" import="true">
+              <constraints>
+                <constraint type="min" value="1" field="selections" scope="parent" shared="false" id="71ed158-1fc298c2"/>
+              </constraints>
+            </entryLink>
+            <entryLink name="Swivel Gun" id="cbaaa3-919e891" hidden="false" type="selectionEntry" targetId="721d-ae3-3ba-c0d6" import="true">
+              <constraints>
+                <constraint type="min" value="1" field="selections" scope="parent" shared="false" id="7aa1a8-1fc8c2"/>
+              </constraints>
+            </entryLink>
+          </entryLinks>
+					<constraints>
+						<constraint type="min"
+						            value="3"
+						            field="selections"
+						            scope="parent"
+						            shared="true"
+						            id="24288-890da32"/>
+					</constraints>
+          <categoryLinks>
+            <categoryLink name="Regular Infantry" hidden="false" id="dd7-9ed1-10-241d" targetId="f3f7-ca43-674e-115f" primary="false"/>
+          </categoryLinks>
+        </selectionEntry>
+      </selectionEntries>
+      <infoGroups>
+        <infoGroup name="Special Rules" hidden="false" id="c60d0d-f20a43">
+          <infoLinks>
+						<infoLink name="Open Order"
+						          hidden="false"
+						          id="9ff5b4d-63dff3"
+						          type="profile"
+						          targetId="5b67-8535-146c-7cea"/>
+						<infoLink name="Aquatic"
+						          hidden="false"
+						          id="34d0ea34-d50d3e"
+						          type="profile"
+						          targetId="1f39-2789-f136-7645"/>
+						<infoLink name="Black Powder Weapons"
+						          hidden="false"
+						          id="ee8395e8-8dc293"
+						          type="profile"
+						          targetId="238e-4e22-63f-9043"/>
+            <infoLink name="Necromantic Undead" hidden="false" id="cedd01c-5e7126" type="profile" targetId="a6ee-a62b-1579-2c37"/>
+            <infoLink name="Regeneration" hidden="false" id="801dd331-669407" type="profile" targetId="2eb0-1ec8-8e04-72d4">
+              <modifiers>
+                <modifier type="append" value="(6+)" field="name"/>
+              </modifiers>
+            </infoLink>
+</infoLinks>
+        </infoGroup>
+      </infoGroups>
+      <categoryLinks>
+        <categoryLink name="Faction: Vampire Counts" hidden="false" id="1e41-ead8-dd2-8e4" primary="false" targetId="7345-d692-6f6a-d6f6"/>
+      </categoryLinks>
+    </selectionEntry>
 		<selectionEntry type="unit"
 		                import="true"
 		                name="Fell Bats"
@@ -6803,6 +6867,11 @@ Misfire table).</characteristic>
 						          type="profile"
 						          targetId="1f10-d7d-be19-7e8f"/>
 					</infoLinks>
+						<infoLink name="Aquatic"
+						          hidden="false"
+						          id="34d0ea34-d50db13e"
+						          type="profile"
+						          targetId="1f39-2789-f136-7645"/>
 				</infoGroup>
 			</infoGroups>
 			<categoryLinks>
@@ -7396,6 +7465,27 @@ Misfire table).</characteristic>
 				              targetId="7345-d692-6f6a-d6f6"/>
 			</categoryLinks>
 		</selectionEntry>
+		<selectionEntry type="model" import="true" name="Big Bess Gun Crew" hidden="false" id="140f-ddd-d99-7060" collective="true" sortIndex="2" subType="crew">
+      <infoLinks>
+        <infoLink name="Big Bess Gun Crew" hidden="false" type="profile" id="75cf-22de-8cbf-f38" targetId="cdf3-ddd0-7ac-d190"/>
+
+						<infoLink name="Base (60x100)"
+						          hidden="false"
+						          type="profile"
+						          id="46ec-2ecc-fbd3-a402"
+						          targetId="5125-89a4-916a-eabd"/>
+      </infoLinks>
+      <entryLinks>
+        <entryLink import="true" name="Hand Weapon" hidden="false" type="selectionEntry" id="eb53-2cd3-6d2-6dd8" targetId="721d-36e3-388a-c0d6" sortIndex="2">
+          <constraints>
+            <constraint type="min" value="1" scope="parent" field="selections" shared="true" id="c6d1-ecdc-7da-597e"/>
+          </constraints>
+        </entryLink>
+      </entryLinks>
+      <categoryLinks>
+        <categoryLink name="CHARIOT CREW" hidden="false" id="7b7-f0d8-2d38-8d92" targetId="4cf7-bf85-308d-c29a" primary="false"/>
+      </categoryLinks>
+    </selectionEntry>
 		<selectionEntry type="unit"
 		                import="true"
 		                name="Black Knights"
@@ -8448,42 +8538,6 @@ Misfire table).</characteristic>
 		</selectionEntry>
 		<selectionEntry type="unit"
 		                import="true"
-		                name="Corpse Cart"
-		                hidden="false"
-		                id="cdd546b2-95f4a57c"
-		                collective="false">
-			<profiles>
-				<profile name="Corpse Cart"
-				         typeId="2878-9a1f-dd74-48e3"
-				         typeName="Unit"
-				         hidden="false"
-				         id="1c044f58-c01f46c2">
-					<characteristics>
-						<characteristic name="Troop Type"
-						                typeId="5d94-6b94-bd89-1944">Heavy chariot</characteristic>
-						<characteristic name="Unit Size"
-						                typeId="80a1-bb6f-66e4-4a5b">1</characteristic>
-					</characteristics>
-				</profile>
-			</profiles>
-			<categoryLinks>
-				<categoryLink name="Faction: Vampire Counts"
-				              hidden="false"
-				              id="8d9d-6976-4b96-98c6"
-				              primary="false"
-				              targetId="7345-d692-6f6a-d6f6"/>
-			</categoryLinks>
-			<entryLinks>
-				<entryLink import="true"
-				           name="Corpse Cart"
-				           hidden="false"
-				           id="8219-cac4-fcd4-8d28"
-				           type="selectionEntry"
-				           targetId="05b0-55c3-c6b1-72ee"/>
-			</entryLinks>
-		</selectionEntry>
-		<selectionEntry type="unit"
-		                import="true"
 		                name="Terrorgheist"
 		                hidden="false"
 		                id="fb8a7c6-7dcb6950"
@@ -8562,21 +8616,21 @@ Misfire table).</characteristic>
 						          hidden="false"
 						          type="profile"
 						          id="8f2b49f2-b4008ebd"
-						          targetId="108d-f743-d0f9-b8f0"/>
-						<infoLink name="Base (50x50)"
+						          targetId="ad5c-2cde-2bda-4289"/>
+						<infoLink name="Base (60x100)"
 						          hidden="false"
 						          type="profile"
-						          id="c8da9a02-b6c0ebcc"
-						          targetId="7813-4d15-143d-1bf1"/>
+						          id="46ec-2ecc-fbd3-a402"
+						          targetId="5125-89a4-916a-eabd"/>
 					</infoLinks>
 					<costs>
 						<cost name="pts"
 						      typeId="points"
-						      value="200"/>
+						      value="215"/>
 					</costs>
 					<entryLinks>
-						<entryLink name="Wicked Claws"
-						           id="706e3cc1-7a534217"
+						<entryLink name="Giant Claws"
+						           id="706e3cc1-7a534218"
 						           hidden="false"
 						           type="selectionEntry"
 						           targetId="6b9f81f0-b84cd1bb"
@@ -8591,19 +8645,20 @@ Misfire table).</characteristic>
 								            id="c11cd01e-f514e2e8"/>
 							</constraints>
 						</entryLink>
-						<entryLink name="Ships Hull"
-						           id="5b533e52-688d839c"
+						<entryLink name="shell"
+						           id="706e3cc1-7a534219"
 						           hidden="false"
 						           type="selectionEntry"
-						           targetId="c56e-8d1b-bb4-de99"
-						           sortIndex="2">
+						           targetId="2505-873d-1655-3b0b"
+						           sortIndex="1"
+						           import="true">
 							<constraints>
 								<constraint type="min"
 								            value="1"
+								            field="selections"
 								            scope="parent"
 								            shared="false"
-								            field="selections"
-								            id="571dff61-4bc19f37"/>
+								            id="c11cd01e-f514e2e9"/>
 							</constraints>
 						</entryLink>
 					</entryLinks>
@@ -8633,42 +8688,125 @@ Misfire table).</characteristic>
 						              targetId="may-have-armour"/>
 					</categoryLinks>
 				</selectionEntry>
+        <selectionEntry type="model" subType="crew" name="Zombie Crew" id="ba1c-df9a-4aaf-3fcd" hidden="false" sortIndex="3">
+          <infoLinks>
+            <infoLink name="Zombie Crew" hidden="false" type="profile" id="c26a-36f8-860e-2f62" targetId="8cc9-bd5d-e6e4-4137"/>
+          </infoLinks>
+          <costs>
+            <cost name="pts" typeId="points" value="0"/>
+          </costs>
+          <entryLinks>
+            <entryLink name="Hand Weapon" id="b146-e049-a020-f2f" hidden="false" type="selectionEntry" targetId="721d-36e3-388a-c0d6" sortIndex="1" import="true">
+              <constraints>
+                <constraint type="min" value="1" field="selections" scope="parent" shared="false" id="12a-4f57-fc1-d483"/>
+              </constraints>
+            </entryLink>
+            <entryLink name="Cavalry Spear" id="99b2-5613-b488-fdf1" hidden="false" type="selectionEntry" targetId="a2d0-40e9-83ad-23dc" sortIndex="2" import="true">
+              <constraints>
+                <constraint type="min" value="1" field="selections" scope="parent" shared="false" id="c137-775d-f39d-d5fb"/>
+              </constraints>
+            </entryLink>
+          </entryLinks>
+          			<selectionEntryGroups>
+          						<selectionEntryGroup name="Ranged Weapon"
+						                     id="14f0-9b46-d80c-e850"
+						                     hidden="false"
+						                     defaultSelectionEntryId="58f9-0e15-1e82-5588">
+							<constraints>
+								<constraint type="min"
+								            value="1"
+								            field="selections"
+								            scope="parent"
+								            shared="true"
+								            id="67b7-a596-c441-9a57"/>
+								<constraint type="max"
+								            value="1"
+								            field="selections"
+								            scope="parent"
+								            shared="true"
+								            id="9249-f92d-89fe-8d12"/>
+							</constraints>
+							<entryLinks>
+								<entryLink import="true"
+								           name="Handgun"
+								           hidden="false"
+								           id="58f9-0e15-1e82-5588"
+								           type="selectionEntry"
+								           targetId="e2ed-a3fd-dee5-3e9f"
+								           sortIndex="1">
+									<costs>
+										<cost name="pts"
+										      typeId="points"
+										      value="0"/>
+									</costs>
+								</entryLink>
+								<entryLink import="true"
+								           name="Brace of Pistols"
+								           hidden="false"
+								           id="58f9-0e15-1e82-5589"
+								           type="selectionEntry"
+								           targetId="d8bb-85b0-3575-6029"
+								           sortIndex="2">
+									<costs>
+										<cost name="pts"
+										      typeId="points"
+										      value="0"/>
+									</costs>
+								</entryLink>
+								<entryLink import="true"
+								           name="Blunderbuss"
+								           hidden="false"
+								           id="f595-4652-53c8-7bd1"
+								           type="selectionEntry"
+								           targetId="4035-287b-e117-6b9d"
+								           sortIndex="3">
+									<costs>
+										<cost name="pts"
+										      typeId="points"
+										      value="8"/>
+									</costs>
+								</entryLink>
+								<entryLink import="true"
+								           name="Mounted Swivel Gun"
+								           hidden="false"
+								           id="f995-4672-53c8-7bd1"
+								           type="selectionEntry"
+								           targetId="4035-297b-e117-6b9d"
+								           sortIndex="3">
+									<costs>
+										<cost name="pts"
+										      typeId="points"
+										      value="12"/>
+									</costs>
+								</entryLink>
+							</entryLinks>
+						</selectionEntryGroup>
+					</selectionEntryGroups>
+          <constraints>
+            <constraint type="min" value="4" field="selections" scope="parent" shared="false" id="9c6b-c93a-d0a3-a8f"/>
+            <constraint type="max" value="4" field="selections" scope="parent" shared="false" id="fd5f-573d-42d-f952" includeChildSelections="false"/>
+          </constraints>
+          <categoryLinks>
+            <categoryLink name="CHARIOT CREW" hidden="false" id="44cd-d5a5-94ff-fa94" targetId="4cf7-bf85-308d-c29a" primary="false"/>
+            <categoryLink name="MAY_HAVE_SHIELD" hidden="false" id="b763-80fd-9e2d-4b69" targetId="may-have-shield"/>
+          </categoryLinks>
+        </selectionEntry>
 			</selectionEntries>
 			<infoGroups>
 				<infoGroup name="Special Rules"
 				           hidden="false"
 				           id="fd92d9e7-ef4403b5">
 					<infoLinks>
-						<infoLink name="Bestial Fury"
+						<infoLink name="Black Powder Weapons"
 						          hidden="false"
-						          id="ee8395e8-8dc26592"
+						          id="ee8395e8-8dc26593"
 						          type="profile"
-						          targetId="9015-2214-a000-7398"/>
+						          targetId="238e-4e22-63f-9043"/>
 						<infoLink name="Close Order"
 						          hidden="false"
 						          id="c398deb0-ae15487a"
 						          type="profile"
 						          targetId="883e-e1b1-4fe9-5912"/>
-						<infoLink name="Counter Charge"
-						          hidden="false"
-						          id="de9e494-94b3f39e"
-						          type="profile"
-						          targetId="5186-798d-69d-6545"/>
-						<infoLink name="Dark Vitality"
-						          hidden="false"
-						          id="7331af3a-30c38e24"
-						          type="profile"
-						          targetId="4190-a061-b7dc-3712"/>
-						<infoLink name="Flammable"
-						          hidden="false"
-						          id="e52fefc3-c8f79cf1"
-						          type="profile"
-						          targetId="8f64-6d4c-466b-1b94"/>
-						<infoLink name="Frenzy"
-						          hidden="false"
-						          id="7af275d2-3676ff1c"
-						          type="profile"
-						          targetId="3b0c-a477-8823-3a25"/>
 						<infoLink name="Indomitable"
 						          hidden="false"
 						          id="162b28a2-98878dec"
@@ -8676,10 +8814,22 @@ Misfire table).</characteristic>
 						          targetId="78b6-d212-caa2-cef1">
 							<modifiers>
 								<modifier type="append"
-								          value="(1)"
+								          value="(2)"
 								          field="name"/>
 							</modifiers>
 						</infoLink>
+						<infoLink name="Howdah" hidden="false" id="502dcc8d-1090dcc3" type="profile" targetId="b8f6-1cbc-b19-c7b7"/>		  
+						<infoLink name="Large Target" hidden="false" id="8ec37de-5dab0ca8" type="profile" targetId="c822-7ad0-f24a-e4af"/>
+						<infoLink name="Move Through Cover"
+						          hidden="false"
+						          id="29983f33-afc266e1"
+						          type="profile"
+						          targetId="e83e-f127-1904-3858"/>
+						<infoLink name="Aquatic"
+						          hidden="false"
+						          id="34d0ea34-d50db13e"
+						          type="profile"
+						          targetId="1f39-2789-f136-7645"/>
 						<infoLink name="Necromantic Undead"
 						          hidden="false"
 						          id="798d9196-327ac060"
@@ -8701,6 +8851,11 @@ Misfire table).</characteristic>
 						          id="6132b07a-12328564"
 						          type="profile"
 						          targetId="dc91-48b3-3696-217"/>
+						<infoLink name="Stomp Attacks" hidden="false" id="4da02a5d-c28eee13" type="profile" targetId="72db-24bb-7493-d753">
+						  <modifiers>
+							<modifier type="append" value="(D3)" field="name"/>
+						  </modifiers>
+						</infoLink>
 						<infoLink name="Terror"
 						          hidden="false"
 						          id="c76581e6-5b8fa8f0"
@@ -9242,493 +9397,6 @@ Misfire table).</characteristic>
 				</entryLink>
 			</entryLinks>
 		</selectionEntry>
-		<selectionEntry type="model"
-		                import="true"
-		                name="Corpse Cart"
-		                hidden="false"
-		                id="05b0-55c3-c6b1-72ee">
-			<infoLinks>
-				<infoLink name="Corpse Cart"
-				          id="e83f-ac2b-0036-be8f"
-				          hidden="false"
-				          type="profile"
-				          targetId="51ce-2fe3-100d-160e"/>
-				<infoLink name="Base (50x100)"
-				          id="6ea9-5fc3-a058-2f41"
-				          hidden="false"
-				          type="profile"
-				          targetId="d456-e30e-f85d-14d"/>
-				<infoLink name="Lore Of The Deep"
-				          id="f370-9f2a-205e-81aa"
-				          hidden="false"
-				          type="infoGroup"
-				          targetId="5b5f-acf0-7c9-33b6"/>
-			</infoLinks>
-			<costs>
-				<cost name="pts"
-				      typeId="points"
-				      value="115"/>
-			</costs>
-			<selectionEntryGroups>
-				<selectionEntryGroup name="Special Rules"
-				                     id="ce35-9193-d424-f082"
-				                     hidden="false"
-				                     sortIndex="1"
-				                     flatten="true">
-					<selectionEntries>
-						<selectionEntry type="upgrade"
-						                import="true"
-						                name="Balefire Brazier"
-						                hidden="false"
-						                id="4e8f-ce3d-ff54-de92"
-						                sortIndex="1"
-						                collective="true">
-							<costs>
-								<cost name="pts"
-								      typeId="points"
-								      value="10"/>
-							</costs>
-							<infoLinks>
-								<infoLink name="Balefire Brazier"
-								          id="ebd3-c38f-0c03-4174"
-								          hidden="false"
-								          type="profile"
-								          targetId="1e33-db54-cb98-d68b"/>
-							</infoLinks>
-							<constraints>
-								<constraint type="max"
-								            value="1"
-								            field="selections"
-								            scope="parent"
-								            shared="false"
-								            id="60e0-a15d-4a98-548d"
-								            includeChildSelections="false"/>
-							</constraints>
-						</selectionEntry>
-						<selectionEntry type="upgrade"
-						                import="true"
-						                name="Warped Tintinnabulation"
-						                hidden="false"
-						                id="6dd7-ffdc-56a8-045d"
-						                sortIndex="2"
-						                collective="true">
-							<costs>
-								<cost name="pts"
-								      typeId="points"
-								      value="15"/>
-							</costs>
-							<infoLinks>
-								<infoLink name="Warped Tintinnabulation"
-								          id="a13d-5c06-35df-24f5"
-								          hidden="false"
-								          type="profile"
-								          targetId="fa4e-5cd0-9a0d-adc1"/>
-							</infoLinks>
-							<constraints>
-								<constraint type="max"
-								            value="1"
-								            field="selections"
-								            scope="parent"
-								            shared="false"
-								            id="3284-ee59-33e3-0ab7"
-								            includeChildSelections="false"/>
-							</constraints>
-						</selectionEntry>
-					</selectionEntries>
-					<constraints>
-						<constraint type="min"
-						            value="1"
-						            field="selections"
-						            scope="parent"
-						            shared="true"
-						            id="8dfa-ee3b-9bef-dacd"/>
-						<constraint type="max"
-						            value="1"
-						            field="selections"
-						            scope="parent"
-						            shared="true"
-						            id="efbe-1b65-358c-1b8b"/>
-					</constraints>
-				</selectionEntryGroup>
-			</selectionEntryGroups>
-			<constraints>
-				<constraint type="min"
-				            value="1"
-				            field="selections"
-				            scope="parent"
-				            shared="true"
-				            id="829b-5e58-0e91-9904"/>
-				<constraint type="max"
-				            value="1"
-				            field="selections"
-				            scope="parent"
-				            shared="true"
-				            id="5a36-e197-d915-27a9"/>
-			</constraints>
-			<categoryLinks>
-				<categoryLink name="Heavy Chariot"
-				              hidden="false"
-				              id="2ff3-7230-942c-e1c2"
-				              targetId="d768-7cf0-de0a-c249"
-				              primary="false"/>
-			</categoryLinks>
-			<selectionEntries>
-				<selectionEntry type="model"
-				                import="true"
-				                name="Corpsemaster"
-				                hidden="false"
-				                id="daa3-e222-3efb-0a79"
-				                sortIndex="2"
-				                subType="crew">
-					<infoLinks>
-						<infoLink name="Corpsemaster"
-						          id="05a1-c540-fbe9-cbf6"
-						          hidden="false"
-						          type="profile"
-						          targetId="e88b-7b12-4d41-b653"/>
-					</infoLinks>
-					<costs>
-						<cost name="pts"
-						      typeId="points"
-						      value="0"/>
-					</costs>
-					<entryLinks>
-						<entryLink import="true"
-						           name="Hand Weapon"
-						           hidden="false"
-						           id="23ea-ba52-db4b-3d62"
-						           type="selectionEntry"
-						           targetId="721d-36e3-388a-c0d6"
-						           sortIndex="1">
-							<constraints>
-								<constraint type="min"
-								            value="1"
-								            field="selections"
-								            scope="parent"
-								            shared="false"
-								            id="7e1a-edbf-f4da-68a9"/>
-								<constraint type="max"
-								            value="1"
-								            field="selections"
-								            scope="parent"
-								            shared="false"
-								            id="156f-2ae6-a53f-9aa8"/>
-							</constraints>
-						</entryLink>
-					</entryLinks>
-					<selectionEntryGroups>
-						<selectionEntryGroup name="Wizard Level"
-						                     id="d3ce-0d9b-1673-2b46"
-						                     hidden="false"
-						                     defaultSelectionEntryId="4d1ecd2d-6d6460e3"
-						                     sortIndex="3">
-							<entryLinks>
-								<entryLink import="true"
-								           name="Wizard Level 1"
-								           hidden="false"
-								           id="fe00-07d7-91f6-3c5f"
-								           type="selectionEntry"
-								           targetId="7d84-39e9-a5f-947e"/>
-							</entryLinks>
-							<constraints>
-								<constraint type="min"
-								            value="1"
-								            field="selections"
-								            scope="parent"
-								            shared="false"
-								            id="ad42-bc9d-e5ab-7575"/>
-								<constraint type="max"
-								            value="1"
-								            field="selections"
-								            scope="parent"
-								            shared="false"
-								            id="c97b-94b6-1863-ba0a"
-								            includeChildSelections="false"/>
-							</constraints>
-						</selectionEntryGroup>
-						<selectionEntryGroup name="Weapons"
-						                     id="cf9b-22d7-9802-15f8"
-						                     hidden="false"
-						                     sortIndex="2"
-						                     collapsible="false"
-						                     flatten="true">
-							<entryLinks>
-								<entryLink import="true"
-								           name="Whip"
-								           hidden="false"
-								           id="0319-660b-c166-6ba8"
-								           type="selectionEntry"
-								           targetId="4619-3a0d-3a3c-27af"
-								           sortIndex="1">
-									<costs>
-										<cost name="pts"
-										      typeId="points"
-										      value="3"/>
-									</costs>
-								</entryLink>
-								<entryLink import="true"
-								           name="Cavalry Spear"
-								           hidden="false"
-								           id="aaf7-87c3-5a9a-8aec"
-								           type="selectionEntry"
-								           targetId="a2d0-40e9-83ad-23dc"
-								           sortIndex="2">
-									<costs>
-										<cost name="pts"
-										      typeId="points"
-										      value="3"/>
-									</costs>
-								</entryLink>
-							</entryLinks>
-							<constraints>
-								<constraint type="min"
-								            value="0"
-								            field="selections"
-								            scope="parent"
-								            shared="false"
-								            id="87f4-a3f9-5d5e-33d6"/>
-								<constraint type="max"
-								            value="1"
-								            field="selections"
-								            scope="parent"
-								            shared="false"
-								            id="096f-5414-524b-b0da"
-								            includeChildSelections="false"/>
-							</constraints>
-						</selectionEntryGroup>
-						<selectionEntryGroup name="Lores of Magic"
-						                     id="6b12-e6cc-f647-c47a"
-						                     hidden="false"
-						                     sortIndex="4">
-							<entryLinks>
-								<entryLink import="true"
-								           name="Necromancy"
-								           hidden="false"
-								           id="0283-1641-9ddc-ee52"
-								           type="selectionEntry"
-								           targetId="3d31-fd64-e074-700a"/>
-							</entryLinks>
-							<constraints>
-								<constraint type="min"
-								            value="1"
-								            field="selections"
-								            scope="parent"
-								            shared="false"
-								            id="1c76-6693-d99a-354b"/>
-								<constraint type="max"
-								            value="1"
-								            field="selections"
-								            scope="parent"
-								            shared="false"
-								            id="e16e-f001-c611-25ef"
-								            includeChildSelections="false"/>
-							</constraints>
-							<modifiers>
-								<modifier type="set"
-								          value="true"
-								          field="hidden">
-									<comment>Hide if not a wizard</comment>
-									<conditions>
-										<condition type="equalTo"
-										           value="0"
-										           field="selections"
-										           scope="parent"
-										           childId="7d84-39e9-a5f-947e"
-										           shared="true"/>
-										<condition type="equalTo"
-										           value="0"
-										           field="selections"
-										           scope="parent"
-										           childId="8e47-73e8-f7f9-808"
-										           shared="true"/>
-										<condition type="equalTo"
-										           value="0"
-										           field="selections"
-										           scope="parent"
-										           childId="59f1-ac46-8123-3f8d"
-										           shared="true"/>
-										<condition type="equalTo"
-										           value="0"
-										           field="selections"
-										           scope="parent"
-										           childId="50bd-b918-574a-60c3"
-										           shared="true"/>
-									</conditions>
-								</modifier>
-							</modifiers>
-						</selectionEntryGroup>
-					</selectionEntryGroups>
-					<constraints>
-						<constraint type="min"
-						            value="1"
-						            field="selections"
-						            scope="parent"
-						            shared="false"
-						            id="b914-9e70-98ff-12a3"/>
-						<constraint type="max"
-						            value="1"
-						            field="selections"
-						            scope="parent"
-						            shared="false"
-						            id="fe9f-b138-12a6-480c"
-						            includeChildSelections="false"/>
-					</constraints>
-					<categoryLinks>
-						<categoryLink name="CHARIOT CREW"
-						              hidden="false"
-						              id="721c-5d33-f0f6-b642"
-						              targetId="4cf7-bf85-308d-c29a"
-						              primary="false"/>
-					</categoryLinks>
-				</selectionEntry>
-				<selectionEntry type="model"
-				                import="true"
-				                name="The Restless Dead"
-				                hidden="false"
-				                id="82c1-710e-3d68-d773"
-				                sortIndex="3"
-				                subType="crew">
-					<infoLinks>
-						<infoLink name="The Restless Dead"
-						          id="1adf-8428-cc48-5777"
-						          hidden="false"
-						          type="profile"
-						          targetId="6091-e1f5-3ada-6ea5"/>
-					</infoLinks>
-					<costs>
-						<cost name="pts"
-						      typeId="points"
-						      value="0"/>
-					</costs>
-					<entryLinks>
-						<entryLink import="true"
-						           name="Hand Weapon"
-						           hidden="false"
-						           id="fb39-8467-196a-9eb8"
-						           type="selectionEntry"
-						           targetId="721d-36e3-388a-c0d6">
-							<constraints>
-								<constraint type="min"
-								            value="1"
-								            field="selections"
-								            scope="parent"
-								            shared="false"
-								            id="3b95-19ca-c679-ebd2"/>
-							</constraints>
-						</entryLink>
-					</entryLinks>
-					<categoryLinks>
-						<categoryLink name="CHARIOT CREW"
-						              hidden="false"
-						              id="18f4-34a1-6be8-c41b"
-						              targetId="4cf7-bf85-308d-c29a"
-						              primary="false"/>
-					</categoryLinks>
-					<constraints>
-						<constraint type="min"
-						            value="1"
-						            field="selections"
-						            scope="parent"
-						            shared="true"
-						            id="6624-b346-9b15-b126"/>
-						<constraint type="max"
-						            value="1"
-						            field="selections"
-						            scope="parent"
-						            shared="true"
-						            id="9a82-c7a0-8ec1-b0a5"/>
-					</constraints>
-				</selectionEntry>
-			</selectionEntries>
-			<infoGroups>
-				<infoGroup name="Special Rules"
-				           id="b05c3966-ec14a470"
-				           hidden="false">
-					<infoLinks>
-						<infoLink name="Close Order"
-						          id="e7f2248b-7884b859"
-						          hidden="false"
-						          type="profile"
-						          targetId="883e-e1b1-4fe9-5912"/>
-						<infoLink name="Dark Vitality"
-						          id="625f087f-498bb08d"
-						          hidden="false"
-						          type="profile"
-						          targetId="4190-a061-b7dc-3712"/>
-						<infoLink name="First Charge"
-						          id="cb5ec95-ccf0868b"
-						          hidden="false"
-						          type="profile"
-						          targetId="785a-2886-af42-dce9"/>
-						<infoLink name="Impact Hits"
-						          id="55421ab7-5c448585"
-						          hidden="false"
-						          type="profile"
-						          targetId="5c2-e9dd-2715-a0c0">
-							<modifiers>
-								<modifier type="append"
-								          value="(D3+1)"
-								          field="name"/>
-							</modifiers>
-						</infoLink>
-						<infoLink name="Indomitable"
-						          id="bf42cc6f-d5aea77d"
-						          hidden="false"
-						          type="profile"
-						          targetId="78b6-d212-caa2-cef1">
-							<modifiers>
-								<modifier type="append"
-								          value="(1)"
-								          field="name"/>
-							</modifiers>
-						</infoLink>
-						<infoLink name="Lore Of The Deep"
-						          id="68e5a80f-106ba49d"
-						          hidden="false"
-						          type="profile"
-						          targetId="790b-ac72-a11e-cdbf"/>
-						<infoLink name="Necromantic Undead"
-						          id="c0468991-2d1052e7"
-						          hidden="false"
-						          type="profile"
-						          targetId="a6ee-a62b-1579-2c37"/>
-						<infoLink name="Random Attacks"
-						          id="b2464946-dfdffed0"
-						          hidden="false"
-						          type="profile"
-						          targetId="1b08-4621-6379-ff1f">
-							<modifiers>
-								<modifier type="append"
-								          value="(The Restless Dead only)"
-								          field="name"/>
-							</modifiers>
-						</infoLink>
-						<infoLink name="Regeneration"
-						          id="f05d40e-2f98d418"
-						          hidden="false"
-						          type="profile"
-						          targetId="2eb0-1ec8-8e04-72d4">
-							<modifiers>
-								<modifier type="append"
-								          value="(6+)"
-								          field="name"/>
-							</modifiers>
-						</infoLink>
-						<infoLink name="Armour Value"
-						          id="df476d59-c58ab7af"
-						          hidden="false"
-						          type="profile"
-						          targetId="e099-1ebb-9e85-34c8">
-							<modifiers>
-								<modifier type="append"
-								          value=":  4+"
-								          field="name"/>
-							</modifiers>
-						</infoLink>
-					</infoLinks>
-				</infoGroup>
-			</infoGroups>
-		</selectionEntry>
 	</sharedSelectionEntries>
 	<entryLinks>
 		<entryLink import="true"
@@ -9757,48 +9425,6 @@ Misfire table).</characteristic>
 				              id="9261-f3ce-184f-e668"
 				              targetId="a4cc-15c9-cfae-1b3b"
 				              primary="true"/>
-			</categoryLinks>
-		</entryLink>
-		<entryLink import="true"
-		           name="Master Necromancer"
-		           hidden="false"
-		           id="1ff9c7b7-31d6ca85"
-		           type="selectionEntry"
-		           targetId="1ed21202-f13ca3cc">
-			<categoryLinks>
-				<categoryLink name="Characters"
-				              hidden="false"
-				              id="4c04-e39d-c061-bf26"
-				              targetId="a4cc-15c9-cfae-1b3b"
-				              primary="true"/>
-			</categoryLinks>
-			<constraints>
-				<constraint type="max"
-				            value="1"
-				            field="selections"
-				            scope="parent"
-				            shared="false"
-				            id="a7dac92d-ba607ce3"
-				            includeChildSelections="false"/>
-			</constraints>
-		</entryLink>
-		<entryLink import="true"
-		           name="Necromantic Acolyte"
-		           hidden="false"
-		           id="758c1ce6-75a96bf0"
-		           type="selectionEntry"
-		           targetId="824d1325-da3dc21b">
-			<categoryLinks>
-				<categoryLink name="Characters"
-				              hidden="false"
-				              id="8eb1-67e8-715e-35c4"
-				              targetId="a4cc-15c9-cfae-1b3b"
-				              primary="true"/>
-				<categoryLink name="0-1 Quartermaster Wight or Necromantic Acolyte per 1,000 points"
-				              hidden="false"
-				              id="658c-e6c7-296a-fd41"
-				              targetId="87c7-fde5-4261-9b19"
-				              primary="false"/>
 			</categoryLinks>
 		</entryLink>
 		<entryLink import="true"
@@ -9855,10 +9481,10 @@ Misfire table).</characteristic>
 		           type="selectionEntry"
 		           targetId="2c65c970-45a4dd3a">
 			<categoryLinks>
-				<categoryLink name="Special"
+				<categoryLink name="Rare"
 				              hidden="false"
-				              id="2dad-11a6-e759-8e85"
-				              targetId="633f-f67a-1b6a-d203"
+				              id="9b97-6e2c-b34f-daa5"
+				              targetId="2bfe-5863-46fe-d284"
 				              primary="true"/>
 				<categoryLink name="0-1 Depth Guard or Black Knight per 1,000 points"
 				              hidden="false"
@@ -9924,6 +9550,44 @@ Misfire table).</characteristic>
 				            id="4591-a3bb-aa44-914d"
 				            includeChildSelections="true"/>
 			</constraints>
+		</entryLink>
+		<entryLink import="true"
+		           name="Zombies 2"
+		           hidden="false"
+		           id="3bbbaff-f16fcf0d"
+		           type="selectionEntry"
+		           targetId="51cfffd9-4042bd2f">
+			<categoryLinks>
+				<categoryLink name="Core"
+				              hidden="false"
+				              id="5e1a-2fcf-8f64-fea7"
+				              targetId="f0e3-2e32-8866-ea32"
+				              primary="true"/>
+				<categoryLink name="Units (not including units whose troop type is &apos;swarms&apos;, &apos;war beasts&apos; or &apos;war machines&apos;)"
+				              hidden="false"
+				              id="747f-9bd0-0f54-efa8"
+				              primary="false"
+				              targetId="fec1-537a-bbeb-7926"/>
+			</categoryLinks>
+		</entryLink>
+		<entryLink import="true"
+		           name="Zombie Deck Gunner"
+		           hidden="false"
+		           id="3bbbaff-f16fcf0d"
+		           type="selectionEntry"
+		           targetId="51cdded9-4042bd2f">
+			<categoryLinks>
+				<categoryLink name="Core"
+				              hidden="false"
+				              id="5e1a-2fcf-8f64-fea7"
+				              targetId="f0e3-2e32-8866-ea32"
+				              primary="true"/>
+				<categoryLink name="Units (not including units whose troop type is &apos;swarms&apos;, &apos;war beasts&apos; or &apos;war machines&apos;)"
+				              hidden="false"
+				              id="747f-9bd0-0f54-efa8"
+				              primary="false"
+				              targetId="fec1-537a-bbeb-7926"/>
+			</categoryLinks>
 		</entryLink>
 		<entryLink import="true"
 		           name="Animated Hulks"
@@ -10109,34 +9773,6 @@ Misfire table).</characteristic>
 			</categoryLinks>
 		</entryLink>
 		<entryLink import="true"
-		           name="Corpse Cart"
-		           hidden="false"
-		           id="2d22ab3c-44ab1dc6"
-		           type="selectionEntry"
-		           targetId="cdd546b2-95f4a57c">
-			<categoryLinks>
-				<categoryLink name="Special"
-				              hidden="false"
-				              id="3acd-deac-3e32-a85c"
-				              targetId="633f-f67a-1b6a-d203"
-				              primary="true"/>
-				<categoryLink name="Units (not including units whose troop type is &apos;swarms&apos;, &apos;war beasts&apos; or &apos;war machines&apos;)"
-				              hidden="false"
-				              id="a956-5c75-81bd-5369"
-				              primary="false"
-				              targetId="fec1-537a-bbeb-7926"/>
-			</categoryLinks>
-			<constraints>
-				<constraint type="max"
-				            value="3"
-				            field="selections"
-				            scope="force"
-				            shared="true"
-				            id="4591-a3bb-aa44-914d"
-				            includeChildSelections="true"/>
-			</constraints>
-		</entryLink>
-		<entryLink import="true"
 		           name="Terrorgheist"
 		           hidden="false"
 		           id="edf779b0-a2a70b7a"
@@ -10193,7 +9829,7 @@ Misfire table).</characteristic>
 				              id="e057-242a-9753-ad39"
 				              targetId="2bfe-5863-46fe-d284"
 				              primary="true"/>
-				<categoryLink name="0-1 Necr Colossus per 1,000 points"
+				<categoryLink name="0-1 Necro Colossus per 1,000 points"
 				              hidden="false"
 				              id="bccc-55f-c3e2-2a68"
 				              targetId="d41b-d3fa-a08b-a754"
@@ -10206,6 +9842,20 @@ Misfire table).</characteristic>
 			</categoryLinks>
 			<comment>Rare</comment>
 		</entryLink>
+    <entryLink targetId="da5-c1f4-df97-75a8" id="ae19-5fdf-3f0-d15" type="selectionEntry" name="Queen Bess" hidden="false">
+      <categoryLinks>
+				<categoryLink name="Rare"
+				              hidden="false"
+				              id="e057-242a-9f53-af39"
+				              targetId="2bfe-5863-46fe-d284"
+				              primary="true"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Carronade" hidden="false" type="selectionEntry" id="5fd1-c8d1-bb5-b909" targetId="1a5c-f6d4-86a-a64d">
+      <categoryLinks>
+        <categoryLink name="Special" hidden="false" id="393e-a8d1-efee-e226" targetId="633f-f67a-1b6a-d203" primary="true"/>
+      </categoryLinks>
+    </entryLink>
 		<entryLink import="true"
 		           name="Renegades (Square Based)"
 		           hidden="false"
@@ -10952,7 +10602,7 @@ Misfire table).</characteristic>
 					<costs>
 						<cost name="pts"
 						      typeId="points"
-						      value="200"/>
+						      value="215"/>
 					</costs>
 					<constraints>
 						<constraint type="max"
@@ -10984,7 +10634,7 @@ Misfire table).</characteristic>
 						          targetId="5450-cbf1-3e74-254a">
 							<modifiers>
 								<modifier type="append"
-								          value="(4)"
+								          value="(3)"
 								          field="name"/>
 							</modifiers>
 						</infoLink>
@@ -11218,40 +10868,6 @@ Misfire table).</characteristic>
 						          id="38f7-b5db-efd7-6c3e"
 						          type="profile"
 						          targetId="c153-1324-145f-96dc"/>
-					</infoLinks>
-				</selectionEntry>
-				<selectionEntry type="upgrade"
-				                import="true"
-				                name="Dark Acolyte"
-				                hidden="false"
-				                id="b84f-b21a-a601-3aff"
-				                sortIndex="3">
-					<constraints>
-						<constraint type="max"
-						            value="1"
-						            field="selections"
-						            scope="parent"
-						            shared="true"
-						            id="22fa-3191-5d61-232a"/>
-						<constraint type="max"
-						            value="1"
-						            field="selections"
-						            scope="force"
-						            shared="true"
-						            id="e1d7-baa9-f47c-9e7c"
-						            includeChildSelections="true"/>
-					</constraints>
-					<costs>
-						<cost name="pts"
-						      typeId="points"
-						      value="30"/>
-					</costs>
-					<infoLinks>
-						<infoLink name="Dark Acolyte"
-						          hidden="false"
-						          id="610f-5f65-1afa-f214"
-						          type="profile"
-						          targetId="9349-c828-b9e4-8499"/>
 					</infoLinks>
 				</selectionEntry>
 				<selectionEntry type="upgrade"

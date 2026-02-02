@@ -13719,6 +13719,14 @@ Any war machine that has its Toughness reduced in this way also loses the Move o
         <infoLink name="Blunderbuss" hidden="false" type="profile" id="8882-976e-6ce2-17a0" targetId="4c62-cdd4-4e0c-4266"/>
       </infoLinks>
     </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Mounted Swivel Gun" hidden="false" id="4035-297b-e117-6b9d" collective="true">
+      <constraints>
+        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="618f-5e83-63ef-f591-max"/>
+      </constraints>
+      <infoLinks>
+        <infoLink name="Mounted Swivel Gun" hidden="false" type="profile" id="8892-976e-6ce2-17a0" targetId="a9f2-5f25-e8b9-bd44"/>
+      </infoLinks>
+    </selectionEntry>
     <selectionEntry type="upgrade" import="true" name="Brace of Pistols" hidden="false" id="d8bb-85b0-3575-6029">
       <infoLinks>
         <infoLink name="Brace of Pistols" hidden="false" type="profile" id="da9a-ae92-f6bf-6372" targetId="3f0e-1dc6-b425-bf59"/>
