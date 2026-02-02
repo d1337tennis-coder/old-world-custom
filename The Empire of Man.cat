@@ -181,6 +181,18 @@
 This weapon does not have a 360° line of sight, it can only shoot into the Steam Tank’s front arc.</characteristic>
       </characteristics>
     </profile>
+    <profile name="Carronade" hidden="false" id="b3c6-a5d6-2c6d-73a7" typeId="a378-c633-912d-11ce" typeName="Weapon" page="69" publicationId="8b8d-8fc4-559e-87b1">
+      <characteristics>
+        <characteristic name="R" typeId="2360-c777-5e07-ed58">24&quot;</characteristic>
+        <characteristic name="S" typeId="ac19-f99c-72e9-a1a7">7</characteristic>
+        <characteristic name="AP" typeId="9429-ffe7-2ce5-e9a5">-2</characteristic>
+        <characteristic name="Special Rules" typeId="5f83-3633-336b-93b4">Armour Bane (2), Cannon Fire, Cumbersome, Multiple Wounds (D3)</characteristic>
+        <characteristic name="Notes" typeId="772a-a7ff-f6b3-df71">This weapon shoots like a cannon, using the ‘Cannon Fire’ special rule. If a ‘Misfire’ is rolled on the Artillery dice during step 2, this model loses a single Wound (instead of rolling on a Misfire table).
+
+
+This weapon does not have a 360° line of sight, it can only shoot into the Marienburg Land Ship’s front arc.</characteristic>
+      </characteristics>
+    </profile>
     <profile name="Witch Bane" hidden="false" id="2285-171-265b-d62a" typeId="c1ac-c1c8-f9d5-9673" typeName="Special Rule" page="67" publicationId="8b8d-8fc4-559e-87b1">
       <characteristics>
         <characteristic name="Description" typeId="9f84-4221-785a-db50">All Wizards within this model’s Command range (friend or foe) suffer a -2 modifier to their Casting rolls.</characteristic>
@@ -188,31 +200,31 @@ This weapon does not have a 360° line of sight, it can only shoot into the Stea
     </profile>
     <profile name="Grinding Wheels" hidden="false" id="77c2-c713-163c-883b" typeId="c1ac-c1c8-f9d5-9673" typeName="Special Rule" page="68" publicationId="8b8d-8fc4-559e-87b1">
       <characteristics>
-        <characteristic name="Description" typeId="9f84-4221-785a-db50">Stomp Attacks made by a Steam Tank have an Armour Piercing characteristic of -2. However, this rule cannot be used against models whose troop type is ‘behemoth’ – they are simply too large to be caught beneath a Steam Tank’s wheels.
+        <characteristic name="Description" typeId="9f84-4221-785a-db50">Stomp Attacks made by a Steam Tank / Marienburg Land Ship have an Armour Piercing characteristic of -2. However, this rule cannot be used against models whose troop type is ‘behemoth’ – they are simply too large to be caught beneath a Steam Tank’s / Marienburg Land Ship's wheels.
 
  In addition, and unlike other chariots, this model treats low linear obstacles as open terrain rather than as impassable terrain.</characteristic>
       </characteristics>
     </profile>
     <profile name="Steam Power" hidden="false" id="1a22-9799-5f09-36ac" typeId="c1ac-c1c8-f9d5-9673" typeName="Special Rule" page="68" publicationId="8b8d-8fc4-559e-87b1">
       <characteristics>
-        <characteristic name="Description" typeId="9f84-4221-785a-db50">A Steam Tank cannot march.
+        <characteristic name="Description" typeId="9f84-4221-785a-db50">A Steam Tank / Marienburg Land Ship cannot march.
 
  Instead, you may make a ‘Steam Power’ roll and add the result to the model’s Movement characteristic. To make a Steam Power roll, roll two D6 and discard the lowest result. The highest result is the result of the Steam Power roll. If both dice roll the same result, discard either.</characteristic>
       </characteristics>
     </profile>
     <profile name="Temperamental" hidden="false" id="1cb7-aebd-815f-6439" typeId="c1ac-c1c8-f9d5-9673" typeName="Special Rule">
       <characteristics>
-        <characteristic name="Description" typeId="9f84-4221-785a-db50">If a natural 1 is rolled on either of the dice when the Steam Tank makes a Steam Power roll orn a Charge roll, the pressure has reached dangerous levels and, if not quickly released, will cause irreparable damage. Choose one of the following:
+        <characteristic name="Description" typeId="9f84-4221-785a-db50">If a natural 1 is rolled on either of the dice when the Steam Tank / Marienburg Land Ship makes a Steam Power roll orn a Charge roll, the pressure has reached dangerous levels and, if not quickly released, will cause irreparable damage. Choose one of the following:
 
  
  - Bang! The crew ignores the building pressure which, inevitably, finds its own release.
 
- The Steam tank loses a single Wound.
+ The Steam tank / Marienburg Land Ship loses a single Wound.
 
- - Phweee! Amidst bellowing clouds of steam and with an ear splitting whistle, the pressure is released, rendering the Steam Tank immobile. The Steam Tank halts immediately and cannot move again for the reminder of this turn.
+ - Phweee! Amidst bellowing clouds of steam and with an ear splitting whistle, the pressure is released, rendering the Steam Tank / Marienburg Land Ship immobile. The Steam Tank / Marienburg Land Ship halts immediately and cannot move again for the reminder of this turn.
 
  
- However, if a natural 1 is rolled on both of the dice, the pressure is too great to be release safely. The Steam Tank loses a single Wound and halts immediately. It cannot move ahain for the reminder of this turn.</characteristic>
+ However, if a natural 1 is rolled on both of the dice, the pressure is too great to be release safely. The Steam Tank / Marienburg Land Ship loses a single Wound and halts immediately. It cannot move ahain for the reminder of this turn.</characteristic>
       </characteristics>
     </profile>
     <profile name="Inner Circle" hidden="false" id="99b-d788-7989-4048" typeId="c1ac-c1c8-f9d5-9673" typeName="Special Rule" page="65" publicationId="8b8d-8fc4-559e-87b1">
@@ -603,6 +615,19 @@ This weapon does not have a 360° line of sight, it can only shoot into the Stea
         <characteristic name="Ld" typeId="c435-6b14-f77e-3c72">-</characteristic>
       </characteristics>
     </profile>
+    <profile name="Marienburg Land Ship" hidden="false" id="9da8-add2-d00e-b164" typeId="b070-143a-73f-2772" typeName="Model">
+      <characteristics>
+        <characteristic name="M" typeId="cd3b-a5a4-e185-5a9d">6</characteristic>
+        <characteristic name="WS" typeId="b007-7d58-4f14-1e01">-</characteristic>
+        <characteristic name="BS" typeId="59f9-ccf5-1155-fb05">-</characteristic>
+        <characteristic name="S" typeId="5b6b-1427-2a45-dd0c">6</characteristic>
+        <characteristic name="T" typeId="ab43-8b61-83e7-d090">7</characteristic>
+        <characteristic name="W" typeId="83ed-7b82-bf1f-e558">12</characteristic>
+        <characteristic name="I" typeId="73b1-abe5-72f8-41e2">-</characteristic>
+        <characteristic name="A" typeId="dddc-9fbd-b0fd-a480">-</characteristic>
+        <characteristic name="Ld" typeId="c435-6b14-f77e-3c72">-</characteristic>
+      </characteristics>
+    </profile>
     <profile name="Engineer Commander" hidden="false" id="901f-b97c-228a-a3de" typeId="b070-143a-73f-2772" typeName="Model">
       <characteristics>
         <characteristic name="M" typeId="cd3b-a5a4-e185-5a9d">-</characteristic>
@@ -741,6 +766,24 @@ This weapon does not have a 360° line of sight, it can only shoot into the Stea
         <characteristic name="Notes" typeId="772a-a7ff-f6b3-df71">No armour saves is permitted against wounds caused by this weapon (Ward and Regeneration saves can be attempted as normal)</characteristic>
       </characteristics>
     </profile>
+    <profile name="Including The Kitchen Sink" typeId="a378-c633-912d-11ce" typeName="Weapon" hidden="false" id="8235-c4da-66ae-60c6">
+      <characteristics>
+        <characteristic name="R" typeId="2360-c777-5e07-ed58">N/A</characteristic>
+        <characteristic name="S" typeId="ac19-f99c-72e9-a1a7">2</characteristic>
+        <characteristic name="AP" typeId="9429-ffe7-2ce5-e9a5">-</characteristic>
+        <characteristic name="Special Rules" typeId="5f83-3633-336b-93b4">Breath Weapon</characteristic>
+        <characteristic name="Notes" typeId="772a-a7ff-f6b3-df71">No armour saves is permitted against wounds caused by this weapon (Ward and Regeneration saves can be attempted as normal)</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Fusillade" typeId="a378-c633-912d-11ce" typeName="Weapon" hidden="false" id="8235-c4ba-66ab-60c6">
+      <characteristics>
+        <characteristic name="R" typeId="2360-c777-5e07-ed58">18"</characteristic>
+        <characteristic name="S" typeId="ac19-f99c-72e9-a1a7">4</characteristic>
+        <characteristic name="AP" typeId="9429-ffe7-2ce5-e9a5">-1</characteristic>
+        <characteristic name="Special Rules" typeId="5f83-3633-336b-93b4">Multiple Shots (1d6)</characteristic>
+        <characteristic name="Notes" typeId="772a-a7ff-f6b3-df71">Does not suffer hit penalty for Multiple Shots</characteristic>
+      </characteristics>
+    </profile>
     <profile name="Road Warden" typeId="b070-143a-73f-2772" typeName="Model" hidden="false" id="d75c-c95b-5d61-b56b">
       <characteristics>
         <characteristic name="M" typeId="cd3b-a5a4-e185-5a9d">-</characteristic>
@@ -778,6 +821,19 @@ This weapon does not have a 360° line of sight, it can only shoot into the Stea
         <characteristic name="I" typeId="73b1-abe5-72f8-41e2">3</characteristic>
         <characteristic name="A" typeId="dddc-9fbd-b0fd-a480">1</characteristic>
         <characteristic name="Ld" typeId="c435-6b14-f77e-3c72">8</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Land Ship Crew" typeId="b070-143a-73f-2772" typeName="Model" hidden="false" id="3508-3cde-aa3b-bdc3">
+      <characteristics>
+        <characteristic name="M" typeId="cd3b-a5a4-e185-5a9d">-</characteristic>
+        <characteristic name="WS" typeId="b007-7d58-4f14-1e01">3</characteristic>
+        <characteristic name="BS" typeId="59f9-ccf5-1155-fb05">3</characteristic>
+        <characteristic name="S" typeId="5b6b-1427-2a45-dd0c">3</characteristic>
+        <characteristic name="T" typeId="ab43-8b61-83e7-d090">-</characteristic>
+        <characteristic name="W" typeId="83ed-7b82-bf1f-e558">-</characteristic>
+        <characteristic name="I" typeId="73b1-abe5-72f8-41e2">3</characteristic>
+        <characteristic name="A" typeId="dddc-9fbd-b0fd-a480">1d6</characteristic>
+        <characteristic name="Ld" typeId="c435-6b14-f77e-3c72">7</characteristic>
       </characteristics>
     </profile>
     <profile name="Crushing Weight" typeId="c1ac-c1c8-f9d5-9673" typeName="Special Rule" hidden="false" id="fe13-1e5a-cdba-36c9">
@@ -1236,9 +1292,24 @@ Note that any special rules granted by these upgrades do not apply to the models
         <infoLink name="Steam Gun" hidden="false" type="profile" id="7c2d-edfc-4ce1-e913" targetId="8235-c44a-66ae-60c6"/>
       </infoLinks>
     </selectionEntry>
-    <selectionEntry type="upgrade" import="true" name="Steam Cannon" hidden="false" id="a5ed-573e-b9e6-8d0d" collective="false">
+    <selectionEntry type="upgrade" import="true" name="Including The Kitchen Sink" hidden="false" id="583f-1bdf-b164-df99" collective="false">
       <infoLinks>
-        <infoLink name="Steam cannon" hidden="false" type="profile" id="44b2-9e6b-153d-8887" targetId="b3c6-a5b6-2c6d-73a7"/>
+        <infoLink name="Including The Kitchen Sink" hidden="false" type="profile" id="7c2d-eddc-4ce1-e913" targetId="8235-c4da-66ae-60c6"/>
+      </infoLinks>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Fusillade" hidden="false" id="a5ed-573e-bdb6-8d0d" collective="false">
+      <infoLinks>
+        <infoLink name="Fusillade" hidden="false" type="profile" id="7c2d-edbc-4ce1-e953" targetId="8235-c4ba-66ab-60c6"/>
+      </infoLinks>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Steam Cannon" hidden="false" id="a5ed-573e-bde6-8d0d" collective="false">
+      <infoLinks>
+        <infoLink name="Steam cannon" hidden="false" type="profile" id="44b2-9e6b-153d-8887" targetId="8235-c4ba-66be-60c6"/>
+      </infoLinks>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Carronade" hidden="false" id="a5ed-57de-b9e6-8d0d" collective="false">
+      <infoLinks>
+        <infoLink name="Carronade" hidden="false" type="profile" id="44b2-9edb-153d-8887" targetId="b3c6-a5d6-2c6d-73a7"/>
       </infoLinks>
     </selectionEntry>
     <selectionEntry type="unit" import="true" name="Grand Master" hidden="false" id="2422-c6c6-cc12-481">
@@ -5151,6 +5222,138 @@ Note that any special rules granted by these upgrades do not apply to the models
         <categoryLink name="Faction: The Empire of Man" hidden="false" id="7829-1f3b-c05d-4480" primary="false" targetId="e5f1-f9ee-d533-b2dc"/>
       </categoryLinks>
     </selectionEntry>
+    <selectionEntry type="unit" import="true" name="Marienburg Land Ship" hidden="false" id="dde5-7ad8-fd82-a49">
+      <profiles>
+        <profile name="Marienburg Land Ship" typeId="2878-9a1f-dd74-48e3" typeName="Unit" hidden="false" id="c12a-53d8-adf1-bda7">
+          <characteristics>
+            <characteristic name="Troop Type" typeId="5d94-6b94-bd89-1944">Heavy chariot</characteristic>
+            <characteristic name="Unit Size" typeId="80a1-bb6f-66e4-4a5b">1</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <selectionEntries>
+        <selectionEntry type="model" import="true" name="Marienburg Land Ship" hidden="false" id="5c37-ebdd-157a-cb0e">
+          <constraints>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="a25f-dfd4-1446-5e99"/>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="4b47-78de-7750-1923"/>
+          </constraints>
+          <entryLinks>
+            <entryLink import="true" name="Including The Kitchen Sink" hidden="false" type="selectionEntry" id="9ccb-aad2-ee89-86f6" targetId="583f-1bdf-b164-df99" sortIndex="3">
+              <constraints>
+                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="ac5d-86d9-9061-5dcf-min"/>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="ac5d-86d9-9061-5dcf-max"/>
+              </constraints>
+            </entryLink>
+            <entryLink import="true" name="Carronade" hidden="false" type="selectionEntry" id="5e2c-5da-67ed-6d2a" targetId="a5ed-57de-b9e6-8d0d" sortIndex="2">
+              <constraints>
+                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="fee6-f3db-a9b5-140d-min"/>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="fee6-f3db-a9b5-140d-max"/>
+              </constraints>
+            </entryLink>
+            <entryLink import="true" name="Fusillade" hidden="false" type="selectionEntry" id="9ccb-aad2-eed9-86f6" targetId="a5ed-573e-bdb6-8d0d" sortIndex="4">
+              <constraints>
+                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="ac5d-86d9-90d1-5dcf-min"/>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="ac5d-86d9-90d1-5dcf-max"/>
+              </constraints>
+            </entryLink>
+          </entryLinks>
+          <infoLinks>
+            <infoLink name="Marienburg Land Ship" hidden="false" type="profile" id="261b-4fdf-80a6-60be" targetId="9da8-add2-d00e-b164"/>
+            <infoLink name="Base (60x100)" hidden="false" type="profile" id="2b94-ce14-4789-1a01" targetId="5125-89a4-916a-eabd"/>
+          </infoLinks>
+          <costs>
+            <cost name="pts" typeId="points" value="285"/>
+          </costs>
+          <selectionEntries>
+            <selectionEntry type="model" import="true" name="Engineer Commander" hidden="false" id="ac25-3ad2-ba71-8c07" sortIndex="1" subType="crew">
+              <infoLinks>
+                <infoLink name="Engineer Commander" hidden="false" type="profile" id="8160-4dd7-f169-d4a3" targetId="901f-b97c-228a-a3de"/>
+              </infoLinks>
+              <entryLinks>
+                <entryLink import="true" name="Hochland Long Rifle" hidden="false" type="selectionEntry" id="9064-6ad3-7d41-cf56" targetId="451f-4f26-82e2-7f07" sortIndex="2" collective="true">
+                  <costs>
+                    <cost name="pts" typeId="points" value="10"/>
+                  </costs>
+                </entryLink>
+                <entryLink import="true" name="Pigeon Bombs" hidden="false" type="selectionEntry" id="976d-c8d6-31c5-63ee" targetId="156a-8315-3003-3e8c" sortIndex="3" collective="true">
+                  <costs>
+                    <cost name="pts" typeId="points" value="20"/>
+                  </costs>
+                </entryLink>
+                <entryLink import="true" name="Repeater Pistol" hidden="false" type="selectionEntry" id="1f2e-4dd6-5972-77ce" targetId="6d12-5625-aef5-e25d" sortIndex="1">
+                  <costs>
+                    <cost name="pts" typeId="points" value="8"/>
+                  </costs>
+                </entryLink>
+              </entryLinks>
+              <constraints>
+                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="6e56-1fdd-baa3-c569-min"/>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="6e56-1fdd-baa3-c569-max"/>
+              </constraints>
+              <categoryLinks>
+                <categoryLink targetId="4cf7-bf85-308d-c29a" id="5697-a3d8-a0f0-bb92" primary="false" name="CHARIOT CREW"/>
+              </categoryLinks>
+            </selectionEntry>
+        <selectionEntry type="model" import="true" name="Land Ship Crew" hidden="false" id="64fe-1acb-3c2c-1176" sortIndex="1" collective="true" subType="crew">
+          <infoLinks>
+            <infoLink name="Land Ship Crew" id="2833-1524-e7da-5b22" hidden="false" type="profile" targetId="3508-3cde-aa3b-bdc3"/>
+          </infoLinks>
+          <entryLinks>
+            <entryLink import="true" name="Hand Weapon" hidden="false" id="5360-21de-d557-0f22" type="selectionEntry" targetId="721d-36e3-388a-c0d6" sortIndex="2">
+              <constraints>
+                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="88ee-0ad7-8339-0961"/>
+              </constraints>
+            </entryLink>
+          </entryLinks>
+          <constraints>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="9b07-48da-cf3f-ceba-min"/>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="9b07-48da-cf3f-ceba-max"/>
+          </constraints>
+          <categoryLinks>
+            <categoryLink targetId="4cf7-bf85-308d-c29a" id="a9ed-dbfa-f065-46d5" primary="false" name="CHARIOT CREW"/>
+          </categoryLinks>
+        </selectionEntry>
+          </selectionEntries>
+          <categoryLinks>
+            <categoryLink name="Heavy Chariot" hidden="false" id="f6f1-10d7-ca-a73b" targetId="d768-7cf0-de0a-c249" primary="false"/>
+          </categoryLinks>
+          <infoGroups>
+            <infoGroup name="Special Rules" id="ec80-4bd2-378e-8ab" hidden="false">
+              <infoLinks>
+                <infoLink name="Close Order" id="660c-e5d4-2956-5b5e" hidden="false" type="profile" targetId="883e-e1b1-4fe9-5912"/>
+                <infoLink name="Grinding Wheels" id="959a-14d8-1e14-1f50" hidden="false" type="profile" targetId="77c2-c713-163c-883b"/>
+                <infoLink name="Immune To Psychology" id="eeca-36d7-c411-c2ff" hidden="false" type="profile" targetId="93d9-c75b-f655-30ac"/>
+                <infoLink name="Impact Hits" id="b7ff-1ddb-d7ec-e054" hidden="false" type="profile" targetId="5c2-e9dd-2715-a0c0">
+                  <modifiers>
+                    <modifier type="append" value="(D6+1)" field="name"/>
+                  </modifiers>
+                </infoLink>
+                <infoLink name="Large Target" id="c866-6fdb-d9fa-cc5f" hidden="false" type="profile" targetId="c822-7ad0-f24a-e4af"/>
+                <infoLink name="Temperamental" id="a927-3dde-fc16-f738" hidden="false" type="profile" targetId="1cb7-aedd-815f-6439"/>
+                <infoLink name="Steam Power" id="8481-64db-7416-ac5b" hidden="false" type="profile" targetId="1a22-9799-5f09-36ac"/>
+                <infoLink name="Stomp Attacks" id="302-96dd-6838-ebdb" hidden="false" type="profile" targetId="72db-24bb-7493-d753">
+                  <modifiers>
+                    <modifier type="append" value="(D3+1)" field="name"/>
+                  </modifiers>
+                </infoLink>
+                <infoLink name="Terror" id="4dc-66da-d627-e82" hidden="false" type="profile" targetId="c7a2-35bf-4313-f4f0"/>
+                <infoLink name="Unbreakable" id="1c23-97d9-7648-22d3" hidden="false" type="profile" targetId="d3eb-1fa0-bb19-f390"/>
+                <infoLink name="Armour Value" id="e562-f1d2-21f8-34b7" hidden="false" type="profile" targetId="e099-1ebb-9e85-34c8">
+                  <modifiers>
+                    <modifier type="append" value=": 3+" field="name"/>
+                  </modifiers>
+                </infoLink>
+              </infoLinks>
+            </infoGroup>
+          </infoGroups>
+        </selectionEntry>
+      </selectionEntries>
+      <categoryLinks>
+        <categoryLink name="Faction: The Empire of Man" hidden="false" id="7829-1ffb-c05d-4480" primary="false" targetId="e5f1-f9ee-d533-b2dc"/>
+      </categoryLinks>
+    </selectionEntry>
+    
+    
     <selectionEntry type="model" import="true" name="Griffon" hidden="false" id="c138-e0dc-903c-64ce" subType="mount">
       <costs>
         <cost name="pts" typeId="points" value="130"/>
@@ -8142,6 +8345,22 @@ Note that any special rules granted by these upgrades do not apply to the models
       <categoryLinks>
         <categoryLink name="Rare" hidden="false" id="d674-af69-c7a3-ad83" targetId="2bfe-5863-46fe-d284" primary="true"/>
         <categoryLink name="Units (not including units whose troop type is &apos;swarms&apos;, &apos;war beasts&apos; or &apos;war machines&apos;)" hidden="false" id="6897-57f0-12d7-ffb5" primary="false" targetId="fec1-537a-bbeb-7926"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Marienburg Land Ship" hidden="false" type="selectionEntry" id="d27f-fddc-55af-ad77" targetId="dde5-7ad8-fd82-a49">
+      <constraints>
+        <constraint type="max" value="0" field="selections" scope="roster" shared="true" id="8dda-1d7-95da-b804" includeChildSelections="true"/>
+      </constraints>
+      <modifiers>
+        <modifier type="increment" value="1" field="8dda-1d7-95da-b804">
+          <repeats>
+            <repeat value="1000" repeats="1" field="limit::points" scope="roster" childId="any" shared="true" roundUp="false" id="df4d-61d2-7d89-5236"/>
+          </repeats>
+        </modifier>
+      </modifiers>
+      <categoryLinks>
+        <categoryLink name="Rare" hidden="false" id="d674-ad69-c7a3-ad83" targetId="2bfe-5863-46fe-d284" primary="true"/>
+        <categoryLink name="Units (not including units whose troop type is &apos;swarms&apos;, &apos;war beasts&apos; or &apos;war machines&apos;)" hidden="false" id="68d7-57f0-12d7-ffb5" primary="false" targetId="fec1-537a-bbeb-7926"/>
       </categoryLinks>
     </entryLink>
     <entryLink import="true" name="Great Cannon" hidden="false" type="selectionEntry" id="5f61-c8c1-b8b5-b909" targetId="1a5c-f654-806a-a64d">

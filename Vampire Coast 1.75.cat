@@ -770,8 +770,7 @@ automatic Wounds instead.</characteristic>
 			<characteristics>
 				<characteristic name="Description"
 				                typeId="9f84-4221-785a-db50">Any units of Zombies or Deck Gunners within the Command
-range of one or more Wights gains a +1 modifier to their
-Ballistic Skill characteristic.</characteristic>
+range of one or more Wights can reactive fire with non ponderous or move and shoot weapons.</characteristic>
 			</characteristics>
 		</profile>
 		<profile name="The Newly Dead"
@@ -11397,3 +11396,19 @@ Misfire table).</characteristic>
 		             id="1c5e-3047-5732-f4"/>
 	</publications>
 </catalogue>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

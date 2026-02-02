@@ -5599,3 +5599,36 @@ Resurrected models are added to the front rank until it reaches the minimum requ
     <publication name="Vampire Counts Legacy Book" hidden="false" id="1c5e-3047-5732-f4"/>
   </publications>
 </catalogue>
+
+
+
+
+
+
+
+
+		<profile name="Fire!!!"
+		         typeId="c1ac-c1c8-f9d5-9673"
+		         typeName="Special Rule"
+		         hidden="false"
+		         id="a6ee-a62b-1579-2c39">
+			<characteristics>
+				<characteristic name="Description"
+				                typeId="9f84-4221-785a-db50">Any units of Zombies or Deck Gunners within the Command
+range of one or more Wights can reactive fire with non ponderous or move and shoot weapons.</characteristic>
+			</characteristics>
+		</profile>
+		
+		
+		
+		
+		
+		
+		
+		
+		
+
+
+
+
+
