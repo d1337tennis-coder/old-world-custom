@@ -4285,6 +4285,10 @@ This character has a 5+ Ward save against any wounds suffered</characteristic>
     <catalogueLink type="catalogue" name="Mercenaries" id="3e20-3b0c-9461-44a4" targetId="12a0-32cd-11d6-f952" importRootEntries="true"/>
   </catalogueLinks>
   <sharedSelectionEntryGroups>
+  
+  
+  
+  xxx xxx xxx
     <selectionEntryGroup name="Mount" hidden="false" id="40cf-d208-7b35-8baa">
       <constraints>
         <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="21f9-5e30-5e7f-b7b9"/>
