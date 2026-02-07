@@ -1,7 +1,7 @@
 <?xml version="1.0" encodine="yes"?>
 <catalogue library="false"
            id="4545-8340-9988-9ea1"
-           name="Vampire Coast 1.75"
+           name="Vampire Coast 1.85"
            gameSystemId="sys-31d1-bf57-53ea-ad55"
            gameSystemRevision="49"
            revision="61"
@@ -9565,6 +9565,61 @@ Misfire table).</characteristic>
 				              primary="false"
 				              targetId="fec1-537a-bbeb-7926"/>
 			</categoryLinks>
+						<constraints>
+				<constraint type="max"
+				            value="0"
+				            field="selections"
+				            scope="force"
+				            shared="true"
+				            id="c8a4-fb77-2a8d-bd12"
+				            includeChildSelections="true"/>
+			</constraints>
+			<modifiers>
+				<modifier type="increment"
+				          value="1"
+				          field="c8a4-fb77-2a8d-bd12">
+					<repeats>
+						<repeat value="1"
+						        repeats="1"
+						        field="selections"
+						        scope="force"
+						        childId="51cffed9-4042bd2f"
+						        shared="true"
+						        roundUp="false"
+						        id="fc03-bb9d-43b2-c71b"
+						        includeChildSelections="true"/>
+						<repeat value="1"
+						        repeats="1"
+						        field="selections"
+						        scope="force"
+						        childId="51cfffd9-4042bd2f"
+						        shared="true"
+						        roundUp="false"
+						        id="29d1-eb30-7bb7-c6cf"
+						        includeChildSelections="true"/>
+					</repeats>
+				</modifier>
+				<modifier type="add"
+				          value="1 {this} per xxx taken"
+				          field="error">
+					<conditions>
+						<condition type="lessThan"
+						           value="1"
+						           field="selections"
+						           scope="force"
+						           childId="51cffed9-4042bd2f"
+						           shared="true"
+						           includeChildSelections="true"/>
+						<condition type="lessThan"
+						           value="1"
+						           field="selections"
+						           scope="force"
+						           childId="51cfffd9-4042bd2f"
+						           shared="true"
+						           includeChildSelections="true"/>
+					</conditions>
+				</modifier>
+				</modifiers>
 		</entryLink>
 		<entryLink import="true"
 		           name="Animated Hulks"
@@ -9635,11 +9690,6 @@ Misfire table).</characteristic>
 				              id="d903-db7c-7b18-bcc8"
 				              targetId="f0e3-2e32-8866-ea32"
 				              primary="true"/>
-				<categoryLink name="Units (not including units whose troop type is &apos;swarms&apos;, &apos;war beasts&apos; or &apos;war machines&apos;)"
-				              hidden="false"
-				              id="cb44-c844-50c6-8cf3"
-				              primary="false"
-				              targetId="fec1-537a-bbeb-7926"/>
 			</categoryLinks>
 		</entryLink>
 		<entryLink import="true"
@@ -9654,11 +9704,6 @@ Misfire table).</characteristic>
 				              id="d903-db7c-7b18-bcc8"
 				              targetId="f0e3-2e32-8866-ea32"
 				              primary="true"/>
-				<categoryLink name="Units (not including units whose troop type is &apos;swarms&apos;, &apos;war beasts&apos; or &apos;war machines&apos;)"
-				              hidden="false"
-				              id="cb44-c844-50c6-8cf3"
-				              primary="false"
-				              targetId="fec1-537a-bbeb-7926"/>
 			</categoryLinks>
 		</entryLink>
 		<entryLink import="true"
@@ -9692,7 +9737,7 @@ Misfire table).</characteristic>
 						        repeats="1"
 						        field="selections"
 						        scope="force"
-						        childId="27225e11-e1698367"
+						        childId="43e40e59-363a50af"
 						        shared="true"
 						        roundUp="false"
 						        id="fc03-b49d-4342-c71b"
@@ -9716,7 +9761,7 @@ Misfire table).</characteristic>
 						           value="1"
 						           field="selections"
 						           scope="force"
-						           childId="27225e11-e1698367"
+						           childId="43e40e59-363a50af"
 						           shared="true"
 						           includeChildSelections="true"/>
 						<condition type="lessThan"
@@ -9821,6 +9866,11 @@ Misfire table).</characteristic>
 				              id="e057-242a-9f53-af39"
 				              targetId="2bfe-5863-46fe-d284"
 				              primary="true"/>
+				<categoryLink name="Units (not including units whose troop type is &apos;swarms&apos;, &apos;war beasts&apos; or &apos;war machines&apos;)"
+				              hidden="false"
+				              id="747f-9bd0-0f54-efa8"
+				              primary="false"
+				              targetId="fec1-537a-bbeb-7926"/>
       </categoryLinks>
                     <constraints>
                 <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="1d37-7fe-11e7-8f97-max"/>
@@ -9829,6 +9879,16 @@ Misfire table).</characteristic>
     <entryLink import="true" name="Carronade" hidden="false" type="selectionEntry" id="5fd1-c8d1-bb5-b909" targetId="1a5c-f6d4-86a-a64d">
       <categoryLinks>
         <categoryLink name="Special" hidden="false" id="393e-a8d1-efee-e226" targetId="633f-f67a-1b6a-d203" primary="true"/>
+				<categoryLink name="Units (not including units whose troop type is &apos;swarms&apos;, &apos;war beasts&apos; or &apos;war machines&apos;)"
+				              hidden="false"
+				              id="747f-9bd0-0f54-efa8"
+				              primary="false"
+				              targetId="fec1-537a-bbeb-7926"/>
+				<categoryLink name="0-1 Carronade per 1,000 points"
+				              hidden="false"
+				              id="c8ef-c477-8d53-6dbc"
+				              targetId="87c7-fde5-4b61-9b19"
+				              primary="false"/>
       </categoryLinks>
     </entryLink>
 		<entryLink import="true"
@@ -10005,6 +10065,68 @@ Misfire table).</characteristic>
 						        shared="true"
 						        roundUp="false"
 						        id="3078-ce5e-f54c-c06e"/>
+					</repeats>
+					<conditions>
+						<condition type="instanceOf"
+						           value="1"
+						           field="selections"
+						           scope="force"
+						           childId="8214-cf48-b1cd-5f5e"
+						           shared="true"
+						           includeChildSelections="true"/>
+					</conditions>
+				</modifier>
+				<modifier type="increment"
+				          value="1"
+				          field="6766-4bf7-283f-dcae">
+					<repeats>
+						<repeat value="1000"
+						        repeats="1"
+						        field="points"
+						        scope="force"
+						        childId="any"
+						        shared="true"
+						        roundUp="false"
+						        id="bcea-c46c-5fa2-7dd3"
+						        includeChildSelections="true"/>
+					</repeats>
+					<conditions>
+						<condition type="notInstanceOf"
+						           value="1"
+						           field="selections"
+						           scope="force"
+						           childId="8214-cf48-b1cd-5f5e"
+						           shared="true"
+						           includeChildSelections="true"/>
+					</conditions>
+				</modifier>
+			</modifiers>
+		</categoryEntry>
+		<categoryEntry name="0-1 Carronade per 1,000 points"
+		               hidden="true"
+		               id="87c7-fde5-4b61-9b19">
+			<constraints>
+				<constraint type="max"
+				            value="0"
+				            field="selections"
+				            scope="force"
+				            shared="true"
+				            id="6766-4bf7-2b3f-dbae"
+				            includeChildSelections="true"/>
+			</constraints>
+			<modifiers>
+				<modifier type="increment"
+				          value="1"
+				          field="6766-4bf7-2b3f-dbae">
+					<repeats>
+						<repeat value="1000"
+						        repeats="1"
+						        field="limit::points"
+						        scope="roster"
+						        childId="any"
+						        shared="true"
+						        roundUp="false"
+						        id="3078-ce5e-f5bc-c06e"/>
 					</repeats>
 					<conditions>
 						<condition type="instanceOf"
@@ -11144,6 +11266,16 @@ Misfire table).</characteristic>
 						          field="hidden">
 							<conditionGroups>
 								<conditionGroup type="or">
+									<conditions>
+										<condition type="atLeast"
+										           value="1"
+										           field="selections"
+										           scope="root-entry"
+										           childId="91272088-d249b32"
+										           shared="true"
+										           includeChildSelections="true">
+											<comment>Vampire Count</comment>
+										</condition>
 									<conditions>
 										<condition type="atLeast"
 										           value="1"
