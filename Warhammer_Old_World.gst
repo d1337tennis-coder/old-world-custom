@@ -1,11 +1,10 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<gameSystem xmlns="http://www.battlescribe.net/schema/gameSystemSchema" id="sys-31d1-bf57-53ea-ad55" name="Warhammer The Old World Custom" battleScribeVersion="2.03" revision="151" type="gameSystem" library="true" authorName="Flammy" authorContact="Discord: vflam" authorUrl="www.newrecruit.eu" publicationId="768b-3da1-a182-a1d8">
+<gameSystem xmlns="http://www.battlescribe.net/schema/gameSystemSchema" id="sys-31d1-bf57-53ea-ad55" name="Warhammer The Old World Custom" battleScribeVersion="2.03" revision="160" type="gameSystem" library="true" authorName="Flammy" authorContact="Discord: vflam" authorUrl="www.newrecruit.eu" publicationId="768b-3da1-a182-a1d8">
   <categoryEntries>
     <categoryEntry name="Named Characters" hidden="false" id="3ba8-a41e-b6ae-d4ba"/>
     <categoryEntry name="Characters" hidden="false" id="a4cc-15c9-cfae-1b3b"/>
     <categoryEntry id="f0e3-2e32-8866-ea32" name="Core"/>
     <categoryEntry name="Special" hidden="false" id="633f-f67a-1b6a-d203"/>
-    <categoryEntry name="Global" hidden="false" id="2bfe-5863-46fe-d283"/>
     <categoryEntry name="Rare" hidden="false" id="2bfe-5863-46fe-d284"/>
     <categoryEntry name="Mercenaries" hidden="false" id="5b84-2c3c-869d-3522"/>
     <categoryEntry name="CHAMPION" hidden="true" id="83a1-945c-564c-84af"/>
@@ -131,6 +130,8 @@
     <categoryEntry name="Faction: Beastmen Brayherds - Minotaur Blood Herd" id="f8bd-9647-bbde-fb7e" hidden="true"/>
     <categoryEntry name="Faction: Beastmen Brayherds - Wild Herd" id="50f7-6ee0-7369-ea5e" hidden="true"/>
     <categoryEntry name="Faction: Grand Cathay" id="d820-f6f0-6f91-6f18" hidden="true"/>
+    <categoryEntry name="Faction: Grand Cathay - Jade Fleet" id="1a9f-079c-ca75-02f1" hidden="true"/>
+    <categoryEntry name="WIGHT" id="9d1b-6add-67b9-fd3a" hidden="true"/>
   </categoryEntries>
   <forceEntries>
     <forceEntry id="8214-cf48-b1cd-5f5e" name="Main Force">
@@ -163,6 +164,15 @@
                 </conditionGroup>
               </conditionGroups>
             </modifier>
+            <modifier type="set" value="20" field="563-332d-aa18-dad">
+              <conditionGroups>
+                <conditionGroup type="or">
+                  <conditions>
+                    <condition type="instanceOf" value="1" field="selections" scope="primary-catalogue" childId="a6d0-e072-75ec-45d8" shared="true"/>
+                  </conditions>
+                </conditionGroup>
+              </conditionGroups>
+            </modifier>
           </modifiers>
         </categoryLink>
         <categoryLink name="Special" hidden="false" id="c64f-52a4-9d57-2c86" targetId="633f-f67a-1b6a-d203">
@@ -180,31 +190,6 @@
         <categoryLink name="Rare" hidden="false" id="e603-b373-46b1-4237" targetId="2bfe-5863-46fe-d284">
           <constraints>
             <constraint type="max" value="25" field="limit::points" scope="force" shared="true" id="f0f7-32b6-d076-214a" percentValue="true" includeChildSelections="true"/>
-          </constraints>
-          <modifiers>
-            <modifier type="set" value="33" field="f0f7-32b6-d076-214a">
-              <conditionGroups>
-                <conditionGroup type="or">
-                  <conditions>
-                    <condition type="instanceOf" value="1" field="selections" scope="primary-catalogue" childId="c637-f6be-935d-faae" shared="true"/>
-                    <condition type="instanceOf" value="1" field="selections" scope="primary-catalogue" childId="7318-4de6-f164-6575" shared="true"/>
-                    <condition type="instanceOf" value="1" field="selections" scope="primary-catalogue" childId="bb5-4152-4695-83a5" shared="true"/>
-                    <condition type="instanceOf" value="1" field="selections" scope="primary-catalogue" childId="a339-984f-3777-c73f" shared="true"/>
-                    <condition type="instanceOf" value="1" field="selections" scope="primary-catalogue" childId="09eb-a3a1-87f4-7fef" shared="true"/>
-                    <condition type="instanceOf" value="1" field="selections" scope="primary-catalogue" childId="142f-feb2-1509-865b" shared="true"/>
-                    <condition type="instanceOf" value="1" field="selections" scope="primary-catalogue" childId="6dc7-f698-014b-63e1" shared="true"/>
-                    <condition type="instanceOf" value="1" field="selections" scope="primary-catalogue" childId="9fe3-70dd-d556-b9bb" shared="true"/>
-                    <condition type="instanceOf" value="1" field="selections" scope="primary-catalogue" childId="86da-6653-7618-1f76" shared="true"/>
-                    <condition type="instanceOf" value="1" field="selections" scope="primary-catalogue" childId="a9dd-e192-9fec-b81e" shared="true"/>
-                  </conditions>
-                </conditionGroup>
-              </conditionGroups>
-            </modifier>
-          </modifiers>
-        </categoryLink>
-        <categoryLink name="Global" hidden="false" id="e603-b373-46b1-4236" targetId="2bfe-5863-46fe-d283">
-          <constraints>
-            <constraint type="max" value="25" field="limit::points" scope="force" shared="true" id="f0f7-32b6-d076-214b" percentValue="true" includeChildSelections="true"/>
           </constraints>
           <modifiers>
             <modifier type="set" value="33" field="f0f7-32b6-d076-214a">
@@ -252,6 +237,16 @@
                   <conditions>
                     <condition type="instanceOf" value="1" field="selections" scope="primary-catalogue" childId="142f-feb2-1509-865b" shared="true"/>
                     <condition type="instanceOf" value="1" field="selections" scope="primary-catalogue" childId="6dc7-f698-014b-63e1" shared="true"/>
+                  </conditions>
+                </conditionGroup>
+              </conditionGroups>
+            </modifier>
+            <modifier type="set" value="33" field="4bbb-90a8-3513-cbec">
+              <conditionGroups>
+                <conditionGroup type="or">
+                  <conditions>
+                    <condition type="instanceOf" value="1" field="selections" scope="primary-catalogue" childId="9eed-de6c-1c66-e490" shared="true"/>
+                    <condition type="instanceOf" value="1" field="selections" scope="primary-catalogue" childId="f59c-fbc6-8d1c-8877" shared="true"/>
                   </conditions>
                 </conditionGroup>
               </conditionGroups>
@@ -306,31 +301,6 @@
               </modifiers>
             </categoryLink>
             <categoryLink name="Rare" hidden="false" id="5b63-5e5e-a32c-f5e3" targetId="2bfe-5863-46fe-d284">
-              <constraints>
-                <constraint type="max" value="6.25" field="limit::points" scope="force" shared="true" id="8ba0-768c-298f-9056" percentValue="true" includeChildSelections="true"/>
-              </constraints>
-              <modifiers>
-                <modifier type="set" value="8.25" field="8ba0-768c-298f-9056">
-                  <conditionGroups>
-                    <conditionGroup type="or">
-                      <conditions>
-                        <condition type="instanceOf" value="1" field="selections" scope="primary-catalogue" childId="c637-f6be-935d-faae" shared="true"/>
-                        <condition type="instanceOf" value="1" field="selections" scope="primary-catalogue" childId="7318-4de6-f164-6575" shared="true"/>
-                        <condition type="instanceOf" value="1" field="selections" scope="primary-catalogue" childId="bb5-4152-4695-83a5" shared="true"/>
-                        <condition type="instanceOf" value="1" field="selections" scope="primary-catalogue" childId="a339-984f-3777-c73f" shared="true"/>
-                        <condition type="instanceOf" value="1" field="selections" scope="primary-catalogue" childId="09eb-a3a1-87f4-7fef" shared="true"/>
-                        <condition type="instanceOf" value="1" field="selections" scope="primary-catalogue" childId="142f-feb2-1509-865b" shared="true"/>
-                        <condition type="instanceOf" value="1" field="selections" scope="primary-catalogue" childId="6dc7-f698-014b-63e1" shared="true"/>
-                        <condition type="instanceOf" value="1" field="selections" scope="primary-catalogue" childId="9fe3-70dd-d556-b9bb" shared="true"/>
-                        <condition type="instanceOf" value="1" field="selections" scope="primary-catalogue" childId="86da-6653-7618-1f76" shared="true"/>
-                        <condition type="instanceOf" value="1" field="selections" scope="primary-catalogue" childId="a9dd-e192-9fec-b81e" shared="true"/>
-                      </conditions>
-                    </conditionGroup>
-                  </conditionGroups>
-                </modifier>
-              </modifiers>
-            </categoryLink>
-            <categoryLink name="Global" hidden="false" id="5b63-5e5e-a32c-f5e2" targetId="2bfe-5863-46fe-d283">
               <constraints>
                 <constraint type="max" value="6.25" field="limit::points" scope="force" shared="true" id="8ba0-768c-298f-9056" percentValue="true" includeChildSelections="true"/>
               </constraints>
@@ -473,6 +443,7 @@
                             <condition type="instanceOf" value="1" field="selections" scope="primary-catalogue" childId="7bbf-73df-eb6d-d411" shared="true"/>
                             <condition type="instanceOf" value="1" field="selections" scope="primary-catalogue" childId="a339-984f-3777-c73f" shared="true"/>
                             <condition type="instanceOf" value="1" field="selections" scope="primary-catalogue" childId="90ea-cdfe-fbbc-00de" shared="true"/>
+                            <condition type="instanceOf" value="1" field="selections" scope="primary-catalogue" childId="a6d0-e072-75ec-45d8" shared="true"/>
                           </conditions>
                         </conditionGroup>
                       </conditionGroups>
@@ -594,20 +565,6 @@
                         </conditionGroup>
                       </conditionGroups>
                     </conditionGroup>
-					
-					<conditionGroup type="and">
-                      <conditions>
-                        <condition type="instanceOf" value="1" field="selections" scope="parent" childId="4545-8340-9988-9ea1" shared="true"/>
-                      </conditions>
-                      <conditionGroups>
-                        <conditionGroup type="or">
-                          <conditions>
-                            <condition type="instanceOf" value="1" field="selections" scope="primary-catalogue" childId="be27-8084-f552-1f4" shared="true"/>
-                          </conditions>
-                        </conditionGroup>
-                      </conditionGroups>
-                    </conditionGroup>
-					
                     <conditionGroup type="and">
                       <conditions>
                         <condition type="instanceOf" value="1" field="selections" scope="parent" childId="d9b0-fa44-a251-bfea" shared="true"/>
@@ -922,7 +879,7 @@
         <characteristicType id="80a1-bb6f-66e4-4a5b" name="Unit Size"/>
       </characteristicTypes>
     </profileType>
-    <profileType name="Model" hidden="false" id="b070-143a-73f-2772" sortIndex="1">
+    <profileType name="Model" hidden="false" id="b070-143a-73f-2772" sortIndex="1" kind="model">
       <characteristicTypes>
         <characteristicType id="cd3b-a5a4-e185-5a9d" name="M"/>
         <characteristicType id="b007-7d58-4f14-1e01" name="WS"/>
@@ -940,7 +897,7 @@
         <characteristicType id="1adf-d238-57ca-2226" name="Base Size"/>
       </characteristicTypes>
     </profileType>
-    <profileType name="Special Rule" hidden="false" id="c1ac-c1c8-f9d5-9673" sortIndex="25">
+    <profileType name="Special Rule" hidden="false" id="c1ac-c1c8-f9d5-9673" sortIndex="25" kind="rule">
       <characteristicTypes>
         <characteristicType id="9f84-4221-785a-db50" name="Description"/>
       </characteristicTypes>
@@ -950,12 +907,12 @@
         <characteristicType id="adcd-c649-e6fc-a9f6" name="Description"/>
       </characteristicTypes>
     </profileType>
-    <profileType name="Command" hidden="false" id="52d4-d959-fe4d-90fa" sortIndex="9">
+    <profileType name="Command" hidden="false" id="52d4-d959-fe4d-90fa" sortIndex="9" kind="rule">
       <characteristicTypes>
         <characteristicType id="441a-ef3a-c07e-95f" name="Description"/>
       </characteristicTypes>
     </profileType>
-    <profileType name="Spell" hidden="false" id="8232-ae14-b1f6-b4df" sortIndex="8">
+    <profileType name="Spell" hidden="false" id="8232-ae14-b1f6-b4df" sortIndex="8" kind="spell">
       <characteristicTypes>
         <characteristicType id="8a2b-690b-e552-6aa0" name="Number"/>
         <characteristicType id="c2ca-5fd1-5e9d-bc90" name="Type"/>
@@ -964,7 +921,7 @@
         <characteristicType id="64ba-31-acf0-5a" name="Effect"/>
       </characteristicTypes>
     </profileType>
-    <profileType name="Weapon" hidden="false" id="a378-c633-912d-11ce" sortIndex="3">
+    <profileType name="Weapon" hidden="false" id="a378-c633-912d-11ce" sortIndex="3" kind="weapon">
       <characteristicTypes>
         <characteristicType id="2360-c777-5e07-ed58" name="R"/>
         <characteristicType id="ac19-f99c-72e9-a1a7" name="S"/>
@@ -1188,7 +1145,7 @@ Note that unless a character also has this special rule, their Leadership cannot
     </profile>
     <profile name="Frenzy" hidden="false" id="3b0c-a477-8823-3a25" typeId="c1ac-c1c8-f9d5-9673" typeName="Special Rule" page="170" publicationId="768b-3da1-a182-a1d8">
       <characteristics>
-        <characteristic name="Description" typeId="9f84-4221-785a-db50">During a turn in which it made a charge move, or during the turn after it made a follow up move, a Frenzied model has a +1 modifier to its Attacks characteristic. However, a Frenzied rider does not confer this modifier to their mount, and vice versa.
+        <characteristic name="Description" typeId="9f84-4221-785a-db50">During a turn in which it made a charge move, or during the turn after it made a follow up move, a Frenzied model has a +1 modifier to its Attacks characteristic. This modifier does not apply to the model’s mount (in the case of a cavalry model), to the beasts that draw it (in the case of a chariot), or to its rider (in the case of a monster).
 
 In addition:
 - If the majority of the models in a unit are Frenzied, the unit automatically passes any Fear, Panic or Terror tests it is required to make.
@@ -1466,7 +1423,7 @@ In combat, each handler adds its attacks to those of the monster. If the monster
     </profile>
     <profile name="Poisoned Attacks" hidden="false" id="81f5-4895-4abc-fc39" typeId="c1ac-c1c8-f9d5-9673" typeName="Special Rule" page="175" publicationId="768b-3da1-a182-a1d8">
       <characteristics>
-        <characteristic name="Description" typeId="9f84-4221-785a-db50">For each roll To Hit of a natural 6 a model with Poisoned Attacks makes, they may apply a +2 modifier to one of their rolls To Wound. Unless otherwise stated, a model with this special rule may use it when making both shooting and combat attacks. Any spells cast by the model are unaffected, as are any attacks made with magic weapons. Note that if an attack needs a To Hit roll of 7+, or hits automatically, this special rule cannot be used.</characteristic>
+        <characteristic name="Description" typeId="9f84-4221-785a-db50">If a model with Poisoned Attacks rolls a natural 6 when making a roll To Hit, it may apply a +2 modifier to that hit’s roll To Wound. Unless otherwise stated, a model with this special rule may use it when making both shooting and combat attacks. Any spells cast by the model are unaffected, as are any attacks made with magic weapons. Note that if an attack needs a To Hit roll of 7+, or hits automatically, this special rule cannot be used.</characteristic>
       </characteristics>
     </profile>
     <profile name="Random Attacks" hidden="false" id="1b08-4621-6379-ff1f" typeId="c1ac-c1c8-f9d5-9673" typeName="Special Rule" page="176" publicationId="768b-3da1-a182-a1d8">
@@ -1542,8 +1499,8 @@ Any detachment that is able to make a Supporting Action may declare that it will
     </profile>
     <profile name="Stupidity" hidden="false" id="f7af-e016-1f9c-54c0" typeId="c1ac-c1c8-f9d5-9673" typeName="Special Rule" page="178" publicationId="768b-3da1-a182-a1d8">
       <characteristics>
-        <characteristic name="Description" typeId="9f84-4221-785a-db50">Unless it is fleeing or engaged in combat, a unit with this special rule must make a Stupidity test by testing against its Leadership during the Start of Turn sub-phase of each of its turns. If this test is failed, the unit succumbs to Stupidity until its next Start of Turn sub-phase. A unit that has succumbed to Stupidity:
-- Cannot move.
+        <characteristic name="Description" typeId="9f84-4221-785a-db50">Unless it is fleeing or engaged in combat, a unit with this special rule must test for Stupidity by making a Leadership test during the Start of Turn sub-phase of each of its turns. If this test is failed, the unit succumbs to Stupidity until its next Start of Turn sub-phase. A unit that has succumbed to Stupidity:
+- Cannot move (except to flee).
 - Cannot shoot or cast spells.
 - Cannot attempt a Wizardly dispel.
 - Must &quot;Hold&quot; if charged by an enemy.
@@ -1591,9 +1548,9 @@ Models with the Fear special rule Fear models that cause Terror. Models that cau
     </profile>
     <profile name="Unstable" hidden="false" id="a10e-13b7-e959-ab5" typeId="c1ac-c1c8-f9d5-9673" typeName="Special Rule" page="180" publicationId="768b-3da1-a182-a1d8">
       <characteristics>
-        <characteristic name="Description" typeId="9f84-4221-785a-db50">If a unit with this special rule loses a round of combat, it loses one additional Wound for every combat result point by which it lost. These Wounds are lost after combat results have been calculated but before Break tests are made.
+        <characteristic name="Description" typeId="9f84-4221-785a-db50">If a unit with this special rule loses a round of combat, it loses one additional Wound for every combat result point by which it lost. These Wounds are lost after combat results have been calculated but before Break tests are made. These Wounds cannot be recovered by a Regeneration save.
 
- If an Unstable unit contains any Unstable characters, allocate wounds to the unit until each model has been allocated one wound. Any remaining wounds are divided as equally as possible between the character(s) and the unit.</characteristic>
+If an Unstable unit contains any Unstable characters, allocate wounds to the unit until each model has been allocated one wound. Any remaining wounds are divided as equally as possible between the character(s) and the unit.</characteristic>
       </characteristics>
     </profile>
     <profile name="Standard Bearer" hidden="false" id="bcf8-d942-102e-b155" typeId="52d4-d959-fe4d-90fa" typeName="Command">
@@ -2303,7 +2260,7 @@ Related: Hills</characteristic>
     </profile>
     <profile name="Woodland Boundaries" typeId="c1ac-c1c8-f9d5-9673" typeName="Special Rule" hidden="false" id="5c45-9bcf-4490-83e1">
       <characteristics>
-        <characteristic name="Description" id="c1f4-274e-5d10-a313" hidden="false" typeId="9f84-4221-785a-db50">A woodland terrain feature must have a clearly defined edge. This allows individual trees to be removed and replaced to facilitate the movement of models. Regardless of the position of any individual trees within the terrain feature, any model or unit counts as being behind partial cover as long as up to half of the model, or up to half of the models within the unit, is within the woods (i.e., within the terrain feature&apos;s clearly defined edge).</characteristic>
+        <characteristic name="Description" typeId="9f84-4221-785a-db50">A woodland terrain feature must have a clearly defined edge. This allows individual trees to be removed and replaced to facilitate the movement of models. Regardless of the position of any individual trees within the terrain feature, any model or unit counts as being behind partial cover as long as over half of the model, or over half of the models within the unit, is within the woods (i.e., within the terrain feature’s clearly defined edge).</characteristic>
       </characteristics>
       <comment>imported</comment>
     </profile>
@@ -3594,9 +3551,7 @@ Related: Spell Categories</characteristic>
         <characteristic name="Description" typeId="9f84-4221-785a-db50">To dispel a spell, you must make a &apos;Dispel&apos; roll. To make a Dispel roll, roll 2D6. This represents either the efforts of a Wizard to counter enemy magic, or the twists of fate that can see the Winds of Magic suddenly dissipate.
 If you are attempting a Wizardly dispel, the Dispel roll is modified by adding the Wizard’s Level of Wizardry divided by 2 (rounding fractions up) to give a &quot;dispel result&quot;.
 - If the dispel result exceeds the casting result, the spell is successfully dispelled and immediately ends.
-- If the dispel result is equal to or less than the casting result, the dispel attempt has failed. The spell is not dispelled.*
-
-* Admin Note: This has been flagged by the community as conflicting with the &quot; Dispelling A Spell&quot; section of the Quick Reference . Current consensus is this version of the rule is the intended way to play.</characteristic>
+- If the dispel result is equal to or less than the casting result, the dispel attempt has failed. The spell is not dispelled.</characteristic>
       </characteristics>
       <comment>imported</comment>
     </profile>
@@ -7508,8 +7463,7 @@ Related: Lance Formation</characteristic>
     </profile>
     <profile name="Lay In Wait" typeId="c1ac-c1c8-f9d5-9673" typeName="Special Rule" hidden="false" id="f850-2a38-a101-8b15">
       <characteristics>
-        <characteristic name="Description" id="5877-5b13-83bf-fa92" hidden="false" typeId="9f84-4221-785a-db50">0-1 unit of Skeleton Skirmishers per 1,000 points may have the  
-		ambushers special rule for free.</characteristic>
+        <characteristic name="Description" id="5877-5b13-83bf-fa92" hidden="false" typeId="9f84-4221-785a-db50">0-1 unit of Skeleton Skirmishers per 1,000 points may have the  Ambushers  special rule for free.</characteristic>
       </characteristics>
       <comment>imported</comment>
     </profile>
@@ -13441,7 +13395,7 @@ An Ironfist cannot be used alongside a magic weapon to gain an extra attack, or 
         <characteristic name="S" typeId="ac19-f99c-72e9-a1a7">2 (6)</characteristic>
         <characteristic name="AP" typeId="9429-ffe7-2ce5-e9a5">-2 (-3)</characteristic>
         <characteristic name="Special Rules" typeId="5f83-3633-336b-93b4">Armour Bane (1), Bombardment, Cumbersome, Move or Shoot, Multiple Wounds (D3)</characteristic>
-        <characteristic name="Notes" typeId="772a-a7ff-f6b3-df71">-</characteristic>
+        <characteristic name="Notes" typeId="772a-a7ff-f6b3-df71">This weapon does not use its crew’s Ballistic Skill. Instead, it shoots like a stone thrower, using the Bombardment special rule. This weapon uses a 5&quot; blast template and the Black Powder Misfire table. The Multiple Wounds (D3) special rule applies only to a single model whose base lies underneath the central hole of the blast template.</characteristic>
       </characteristics>
     </profile>
     <profile name="Stone Thrower" typeId="a378-c633-912d-11ce" typeName="Weapon" hidden="false" id="bfbc-c435-2046-4691">
@@ -13583,12 +13537,9 @@ Any war machine that has its Toughness reduced in this way also loses the Move o
               <conditions>
                 <condition type="instanceOf" value="1" field="selections" scope="ancestor" childId="5165-d052-cfc2-5887" shared="true" includeChildSelections="false"/>
                 <condition type="atLeast" value="1" field="selections" scope="ancestor" childId="c96a-608-5de4-b943" shared="true" includeChildSelections="false"/>
-                <condition type="atLeast" value="1" field="selections" scope="ancestor" childId="4cf7-bf85-308d-c29a" shared="true" includeChildSelections="false"/>
                 <condition type="atLeast" value="1" field="selections" scope="ancestor" childId="mount" shared="true" includeChildSelections="false"/>
-                <condition type="instanceOf" value="1" field="selections" scope="ancestor" childId="7dce-b0f0-2217-2820" shared="true" includeChildSelections="false"/>
                 <condition type="instanceOf" value="1" field="selections" scope="ancestor" childId="600c-7d08-5be1-fe0c" shared="true" includeChildSelections="false"/>
                 <condition type="instanceOf" value="1" field="selections" scope="ancestor" childId="2c85-5f2b-9288-1257" shared="true" includeChildSelections="false"/>
-                <condition type="instanceOf" value="1" field="selections" scope="ancestor" childId="d768-7cf0-de0a-c249" shared="true" includeChildSelections="false"/>
               </conditions>
             </conditionGroup>
           </conditionGroups>
@@ -14054,7 +14005,10 @@ Any war machine that has its Toughness reduced in this way also loses the Move o
     </selectionEntry>
     <selectionEntry type="upgrade" import="true" name="Renegades (Square Based)" hidden="false" id="974c-3bf3-af4b-701d">
       <constraints>
-        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="f31e-4067-047f-fba9">
+        <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="f31e-4067-047f-fba9">
+          <comment>Renegades</comment>
+        </constraint>
+        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="f31e-40d7-047f-fba9">
           <comment>Renegades</comment>
         </constraint>
       </constraints>

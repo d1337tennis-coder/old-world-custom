@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue xmlns="http://www.battlescribe.net/schema/catalogueSchema" library="false" id="13b1-ec94-d107-d711" name="Wood Elf Realms" gameSystemId="sys-31d1-bf57-53ea-ad55" gameSystemRevision="22" revision="93" authorUrl="www.newrecruit.eu" authorContact="Discord: vflam" authorName="Flammy" battleScribeVersion="2.03" type="catalogue">
+<catalogue xmlns="http://www.battlescribe.net/schema/catalogueSchema" library="false" id="13b1-ec94-d107-d711" name="Wood Elf Realms" gameSystemId="sys-31d1-bf57-53ea-ad55" gameSystemRevision="22" revision="98" authorUrl="www.newrecruit.eu" authorContact="Discord: vflam" authorName="Flammy" battleScribeVersion="2.03" type="catalogue">
   <sharedProfiles>
     <profile name="Elven Reflexes" hidden="false" id="a8c1-1eef-eaba-d157" typeId="c1ac-c1c8-f9d5-9673" typeName="Special Rule">
       <characteristics>
@@ -135,7 +135,7 @@ Note that a Shadowdancer that joins this unit is considered to have this special
     </profile>
     <profile name="Dryads" hidden="false" id="af43-46d0-45d2-aff0" typeId="b070-143a-73f-2772" typeName="Model">
       <characteristics>
-        <characteristic name="M" typeId="cd3b-a5a4-e185-5a9d">5</characteristic>
+        <characteristic name="M" typeId="cd3b-a5a4-e185-5a9d">6</characteristic>
         <characteristic name="WS" typeId="b007-7d58-4f14-1e01">4</characteristic>
         <characteristic name="BS" typeId="59f9-ccf5-1155-fb05">4</characteristic>
         <characteristic name="S" typeId="5b6b-1427-2a45-dd0c">3</characteristic>
@@ -672,7 +672,7 @@ If this test is failed, only rolls of natural 6 will hit.</characteristic>
     </profile>
     <profile name="Spectral Hounds" typeId="c1ac-c1c8-f9d5-9673" typeName="Special Rule" hidden="false" id="de18-9243-99b8-e4c0">
       <characteristics>
-        <characteristic name="Description" typeId="9f84-4221-785a-db50">Hounds of Orion can only be wounded by Magical attacks.</characteristic>
+        <characteristic name="Description" typeId="9f84-4221-785a-db50">Hounds of Orion can only be wounded by Magical attacks. In addition, whilst one or more Hounds of Orion remains, Orion himself cannot be targeted by enemy shooting.</characteristic>
       </characteristics>
     </profile>
     <profile name="Araloth, Lord of Talsyn" typeId="b070-143a-73f-2772" typeName="Model" hidden="false" id="27c0-219c-2193-2cf8">
@@ -1210,7 +1210,7 @@ If this test is failed, only rolls of natural 6 will hit.</characteristic>
             <infoLink name="Base (25x25)" hidden="false" type="profile" id="2d65-95b7-8f3e-cb7d" targetId="193c-4d0d-de6b-bbb1"/>
           </infoLinks>
           <costs>
-            <cost name="pts" typeId="points" value="13"/>
+            <cost name="pts" typeId="points" value="12"/>
           </costs>
           <selectionEntryGroups>
             <selectionEntryGroup name="Equipment" hidden="false" id="6c96-8439-b9da-c92d" collective="false" sortIndex="4">
@@ -1417,7 +1417,7 @@ If this test is failed, only rolls of natural 6 will hit.</characteristic>
             <infoLink name="Base (25x25)" hidden="false" type="profile" id="d07b-84e9-604a-5f5b" targetId="193c-4d0d-de6b-bbb1"/>
           </infoLinks>
           <costs>
-            <cost name="pts" typeId="points" value="11"/>
+            <cost name="pts" typeId="points" value="10"/>
           </costs>
           <categoryLinks>
             <categoryLink name="Regular Infantry" hidden="false" id="8546-a928-6019-dae1" targetId="f3f7-ca43-674e-115f" primary="false"/>
@@ -2059,6 +2059,11 @@ If this test is failed, only rolls of natural 6 will hit.</characteristic>
                 </modifier>
               </modifiers>
             </infoLink>
+            <infoLink name="Armour Bane" id="3c74-4cb4-79c1-f34e" hidden="false" type="profile" targetId="2af0-975f-bb14-8b8f">
+              <modifiers>
+                <modifier type="append" value="(1)" field="name" join=""/>
+              </modifiers>
+            </infoLink>
           </infoLinks>
         </infoGroup>
       </infoGroups>
@@ -2507,7 +2512,7 @@ If this test is failed, only rolls of natural 6 will hit.</characteristic>
             <cost name="pts" typeId="points" value="135"/>
           </costs>
           <selectionEntryGroups>
-            <selectionEntryGroup name="Mounts" hidden="false" id="4c5-b313-5f14-e14" sortIndex="11">
+            <selectionEntryGroup name="Mounts" hidden="false" id="4c5-b313-5f14-e14" sortIndex="11" collapsible="true">
               <entryLinks>
                 <entryLink import="true" name="Elven Steed" hidden="false" type="selectionEntry" id="e8cf-e907-d619-6993" targetId="8000-e257-f686-6aa7" sortIndex="1">
                   <costs>
@@ -2761,7 +2766,7 @@ If this test is failed, only rolls of natural 6 will hit.</characteristic>
                 </entryLink>
               </entryLinks>
             </selectionEntryGroup>
-            <selectionEntryGroup name="Mounts" hidden="false" id="5610-6c15-976b-e6c1" sortIndex="11">
+            <selectionEntryGroup name="Mounts" hidden="false" id="5610-6c15-976b-e6c1" sortIndex="11" collapsible="true">
               <entryLinks>
                 <entryLink import="true" name="Elven Steed" hidden="false" type="selectionEntry" id="64e-d9da-384d-ea37" targetId="8000-e257-f686-6aa7" sortIndex="1">
                   <costs>
@@ -2993,7 +2998,7 @@ If this test is failed, only rolls of natural 6 will hit.</characteristic>
                 </modifier>
               </modifiers>
             </selectionEntryGroup>
-            <selectionEntryGroup name="Mounts" hidden="false" id="9394-9972-a37e-dcf3" sortIndex="6">
+            <selectionEntryGroup name="Mounts" hidden="false" id="9394-9972-a37e-dcf3" sortIndex="6" collapsible="true">
               <entryLinks>
                 <entryLink import="true" name="Elven Steed" hidden="false" type="selectionEntry" id="65ee-8ab7-40eb-e1ed" targetId="8000-e257-f686-6aa7" sortIndex="1">
                   <costs>
@@ -3327,7 +3332,7 @@ If this test is failed, only rolls of natural 6 will hit.</characteristic>
                 </modifier>
               </modifiers>
             </selectionEntryGroup>
-            <selectionEntryGroup name="Mounts" hidden="false" id="8ba1-1764-c589-b377" sortIndex="6">
+            <selectionEntryGroup name="Mounts" hidden="false" id="8ba1-1764-c589-b377" sortIndex="6" collapsible="true">
               <entryLinks>
                 <entryLink import="true" name="Elven Steed" hidden="false" type="selectionEntry" id="4719-9e8a-4232-be72" targetId="8000-e257-f686-6aa7" sortIndex="1">
                   <costs>
@@ -3884,7 +3889,7 @@ If this test is failed, only rolls of natural 6 will hit.</characteristic>
       <selectionEntries>
         <selectionEntry type="model" import="true" name="Glade Rider" hidden="false" id="cb9a-54c-551d-1993" sortIndex="2">
           <constraints>
-            <constraint type="min" value="5" field="selections" scope="parent" shared="true" id="da83-2008-37d8-592a"/>
+            <constraint type="min" value="4" field="selections" scope="parent" shared="true" id="da83-2008-37d8-592a"/>
           </constraints>
           <entryLinks>
             <entryLink import="true" name="Asrai Longbow" hidden="false" type="selectionEntry" id="2719-4ec4-8ab-418f" targetId="d0cf-9fa2-aac7-32c7" collective="true" sortIndex="3">
@@ -3915,7 +3920,7 @@ If this test is failed, only rolls of natural 6 will hit.</characteristic>
             <infoLink name="Base (30x60)" hidden="false" type="profile" id="243e-9423-5770-7400" targetId="3a8b-1dd5-77fb-fdc3"/>
           </infoLinks>
           <costs>
-            <cost name="pts" typeId="points" value="18"/>
+            <cost name="pts" typeId="points" value="17"/>
           </costs>
           <selectionEntryGroups>
             <selectionEntryGroup name="Unit Options" id="35f5-41cb-1887-d11d" hidden="false" flatten="true" sortIndex="5">
@@ -4336,7 +4341,7 @@ If this test is failed, only rolls of natural 6 will hit.</characteristic>
             <infoLink name="Base (30x60)" hidden="false" type="profile" id="59ff-f9b3-bafb-c2d5" targetId="3a8b-1dd5-77fb-fdc3"/>
           </infoLinks>
           <costs>
-            <cost name="pts" typeId="points" value="24"/>
+            <cost name="pts" typeId="points" value="22"/>
           </costs>
           <categoryLinks>
             <categoryLink name="Light Cavalry" hidden="false" id="8ac-f0c3-9aa8-bbbb" targetId="600c-7d08-5be1-fe0c" primary="false"/>
@@ -4546,7 +4551,7 @@ If this test is failed, only rolls of natural 6 will hit.</characteristic>
             <infoLink name="Base (30x60)" hidden="false" type="profile" id="af58-214d-3cf3-bedd" targetId="3a8b-1dd5-77fb-fdc3"/>
           </infoLinks>
           <costs>
-            <cost name="pts" typeId="points" value="27"/>
+            <cost name="pts" typeId="points" value="26"/>
           </costs>
           <selectionEntryGroups>
             <selectionEntryGroup name="Equipment" hidden="false" id="3670-da0f-1ad8-27b8" sortIndex="5">
@@ -4987,6 +4992,16 @@ If this test is failed, only rolls of natural 6 will hit.</characteristic>
               <infoLinks>
                 <infoLink name="Strike First" id="6c1e-f490-5570-1850" hidden="false" type="profile" targetId="48fd-23c1-c0d5-ae1d"/>
                 <infoLink name="Terror" id="473b-160b-ea0b-8fea" hidden="false" type="profile" targetId="c7a2-35bf-4313-f4f0"/>
+                <infoLink name="Magic Resistance" id="9e7d-47df-35b3-89d6" hidden="false" type="profile" targetId="90ed-c9be-a611-79cc">
+                  <modifiers>
+                    <modifier type="append" value="(2)" field="name"/>
+                  </modifiers>
+                </infoLink>
+                <infoLink name="Stomp Attacks" id="bd13-94d7-23ac-0ce3" hidden="false" type="profile" targetId="72db-24bb-7493-d753">
+                  <modifiers>
+                    <modifier type="append" value="(D3+2)" field="name"/>
+                  </modifiers>
+                </infoLink>
               </infoLinks>
             </infoGroup>
           </infoGroups>
@@ -5033,7 +5048,6 @@ If this test is failed, only rolls of natural 6 will hit.</characteristic>
       <infoGroups>
         <infoGroup name="Special Rules" id="a1fc-208e-44c4-fb93" hidden="false">
           <infoLinks>
-            <infoLink name="Fear" id="0cf7-031a-9bac-36fc" hidden="false" type="profile" targetId="5ec9-a98-d8c5-e18b"/>
             <infoLink name="Frenzy" id="ad75-24df-3fce-01e5" hidden="false" type="profile" targetId="3b0c-a477-8823-3a25"/>
             <infoLink name="Immune To Psychology" id="a015-0800-4ce5-dc22" hidden="false" type="profile" targetId="93d9-c75b-f655-30ac"/>
             <infoLink name="Move Through Cover" id="9bcf-eb3f-6d29-b038" hidden="false" type="profile" targetId="e83e-f127-1904-3858"/>
@@ -5091,7 +5105,7 @@ If this test is failed, only rolls of natural 6 will hit.</characteristic>
             <infoLink name="Base (25x25)" id="17c4-3df3-1570-b642" hidden="false" type="profile" targetId="193c-4d0d-de6b-bbb1"/>
           </infoLinks>
           <costs>
-            <cost name="pts" typeId="points" value="170"/>
+            <cost name="pts" typeId="points" value="150"/>
           </costs>
           <categoryLinks>
             <categoryLink name="Regular Infantry" hidden="false" id="7f14-9ae2-d882-865b" targetId="f3f7-ca43-674e-115f" primary="false"/>
@@ -6235,7 +6249,7 @@ If this test is failed, only rolls of natural 6 will hit.</characteristic>
         </selectionEntry>
       </selectionEntries>
     </selectionEntryGroup>
-    <selectionEntryGroup name="Kindreds" id="d961-4f91-2b63-4c4b" hidden="false">
+    <selectionEntryGroup name="Kindreds" id="d961-4f91-2b63-4c4b" hidden="false" collapsible="true">
       <selectionEntryGroups>
         <selectionEntryGroup name="Alter Kindreds" id="45fc-c136-b732-fa7f" hidden="true" flatten="true">
           <selectionEntries>
@@ -6247,7 +6261,7 @@ If this test is failed, only rolls of natural 6 will hit.</characteristic>
                 <infoLink name="Aspect of the Hound" id="8ff6-25ca-612f-c4c3" hidden="false" type="profile" targetId="ef40-880f-3bd1-957b"/>
               </infoLinks>
             </selectionEntry>
-            <selectionEntry type="upgrade" import="true" name="Aspect of the Bear" hidden="true" id="5eb3-f9de-6759-9255" sortIndex="3">
+            <selectionEntry type="upgrade" import="true" name="Aspect of the Bear" hidden="false" id="5eb3-f9de-6759-9255" sortIndex="3">
               <costs>
                 <cost name="pts" typeId="points" value="15"/>
               </costs>
@@ -6255,25 +6269,26 @@ If this test is failed, only rolls of natural 6 will hit.</characteristic>
                 <infoLink name="Aspect of the Bear" id="8634-1f2a-53d9-264e" hidden="false" type="profile" targetId="9458-8885-3c5d-4879"/>
               </infoLinks>
               <modifiers>
-                <modifier type="set" value="false" field="hidden">
+                <modifier type="add" value="{this} Infantry or Cavalry only." field="error">
                   <conditionGroups>
                     <conditionGroup type="or">
                       <conditions>
-                        <condition type="instanceOf" value="1" field="selections" scope="parent" childId="2c85-5f2b-9288-1257" shared="true"/>
-                        <condition type="instanceOf" value="1" field="selections" scope="parent" childId="600c-7d08-5be1-fe0c" shared="true"/>
-                        <condition type="instanceOf" value="1" field="selections" scope="parent" childId="5165-d052-cfc2-5887" shared="true"/>
-                        <condition type="instanceOf" value="1" field="selections" scope="parent" childId="5c55-f9d6-b181-92f8" shared="true"/>
-                        <condition type="instanceOf" value="1" field="selections" scope="parent" childId="f3f7-ca43-674e-115f" shared="true"/>
-                        <condition type="instanceOf" value="1" field="selections" scope="parent" childId="ca7e-d004-ccde-caf3" shared="true"/>
-                        <condition type="atLeast" value="1" field="selections" scope="parent" childId="5165-d052-cfc2-5887" shared="true"/>
-                        <condition type="atLeast" value="1" field="selections" scope="parent" childId="600c-7d08-5be1-fe0c" shared="true"/>
-                        <condition type="atLeast" value="1" field="selections" scope="parent" childId="f3f7-ca43-674e-115f" shared="true"/>
-                        <condition type="atLeast" value="1" field="selections" scope="parent" childId="2c85-5f2b-9288-1257" shared="true"/>
-                        <condition type="atLeast" value="1" field="selections" scope="parent" childId="5c55-f9d6-b181-92f8" shared="true"/>
-                        <condition type="atLeast" value="1" field="selections" scope="parent" childId="ca7e-d004-ccde-caf3" shared="true"/>
+                        <condition type="instanceOf" value="1" field="selections" scope="parent" childId="fb36-5275-617-c895" shared="true"/>
+                        <condition type="instanceOf" value="1" field="selections" scope="parent" childId="3755-6732-99b2-c713" shared="true"/>
+                        <condition type="instanceOf" value="1" field="selections" scope="parent" childId="9fcf-19ad-fe84-9c61" shared="true"/>
+                        <condition type="instanceOf" value="1" field="selections" scope="parent" childId="7dce-b0f0-2217-2820" shared="true"/>
+                        <condition type="instanceOf" value="1" field="selections" scope="parent" childId="d768-7cf0-de0a-c249" shared="true"/>
+                        <condition type="atLeast" value="1" field="selections" scope="parent" childId="fb36-5275-617-c895" shared="true"/>
+                        <condition type="atLeast" value="1" field="selections" scope="parent" childId="3755-6732-99b2-c713" shared="true"/>
+                        <condition type="atLeast" value="1" field="selections" scope="parent" childId="9fcf-19ad-fe84-9c61" shared="true"/>
+                        <condition type="atLeast" value="1" field="selections" scope="parent" childId="7dce-b0f0-2217-2820" shared="true"/>
+                        <condition type="atLeast" value="1" field="selections" scope="parent" childId="d768-7cf0-de0a-c249" shared="true"/>
                       </conditions>
                     </conditionGroup>
                   </conditionGroups>
+                  <conditions>
+                    <condition type="atLeast" value="1" field="selections" scope="parent" childId="5eb3-f9de-6759-9255" shared="true"/>
+                  </conditions>
                 </modifier>
               </modifiers>
             </selectionEntry>
@@ -6331,7 +6346,7 @@ If this test is failed, only rolls of natural 6 will hit.</characteristic>
                 </modifier>
               </modifiers>
             </selectionEntry>
-            <selectionEntry type="upgrade" import="true" name="Eternal Kindred" hidden="true" id="db95-9b8d-6668-702c" sortIndex="2">
+            <selectionEntry type="upgrade" import="true" name="Eternal Kindred" hidden="false" id="db95-9b8d-6668-702c" sortIndex="2">
               <costs>
                 <cost name="pts" typeId="points" value="20"/>
               </costs>
@@ -6339,19 +6354,32 @@ If this test is failed, only rolls of natural 6 will hit.</characteristic>
                 <infoLink name="Eternal Kindred" id="033e-42f9-2dfd-4234" hidden="false" type="profile" targetId="71a4-763f-8231-c853"/>
               </infoLinks>
               <modifiers>
-                <modifier type="set" value="false" field="hidden">
+                <modifier type="add" value="{this} Infantry only." field="error">
                   <conditionGroups>
                     <conditionGroup type="or">
                       <conditions>
-                        <condition type="instanceOf" value="1" field="selections" scope="parent" childId="5c55-f9d6-b181-92f8" shared="true"/>
-                        <condition type="instanceOf" value="1" field="selections" scope="parent" childId="f3f7-ca43-674e-115f" shared="true"/>
-                        <condition type="instanceOf" value="1" field="selections" scope="parent" childId="ca7e-d004-ccde-caf3" shared="true"/>
-                        <condition type="atLeast" value="1" field="selections" scope="parent" childId="f3f7-ca43-674e-115f" shared="true"/>
-                        <condition type="atLeast" value="1" field="selections" scope="parent" childId="5c55-f9d6-b181-92f8" shared="true"/>
-                        <condition type="atLeast" value="1" field="selections" scope="parent" childId="ca7e-d004-ccde-caf3" shared="true"/>
+                        <condition type="instanceOf" value="1" field="selections" scope="parent" childId="fb36-5275-617-c895" shared="true"/>
+                        <condition type="instanceOf" value="1" field="selections" scope="parent" childId="3755-6732-99b2-c713" shared="true"/>
+                        <condition type="instanceOf" value="1" field="selections" scope="parent" childId="9fcf-19ad-fe84-9c61" shared="true"/>
+                        <condition type="instanceOf" value="1" field="selections" scope="parent" childId="7dce-b0f0-2217-2820" shared="true"/>
+                        <condition type="instanceOf" value="1" field="selections" scope="parent" childId="d768-7cf0-de0a-c249" shared="true"/>
+                        <condition type="atLeast" value="1" field="selections" scope="parent" childId="fb36-5275-617-c895" shared="true"/>
+                        <condition type="atLeast" value="1" field="selections" scope="parent" childId="3755-6732-99b2-c713" shared="true"/>
+                        <condition type="atLeast" value="1" field="selections" scope="parent" childId="9fcf-19ad-fe84-9c61" shared="true"/>
+                        <condition type="atLeast" value="1" field="selections" scope="parent" childId="7dce-b0f0-2217-2820" shared="true"/>
+                        <condition type="atLeast" value="1" field="selections" scope="parent" childId="d768-7cf0-de0a-c249" shared="true"/>
+                        <condition type="instanceOf" value="1" field="selections" scope="parent" childId="600c-7d08-5be1-fe0c" shared="true"/>
+                        <condition type="instanceOf" value="1" field="selections" scope="parent" childId="5165-d052-cfc2-5887" shared="true"/>
+                        <condition type="instanceOf" value="1" field="selections" scope="parent" childId="2c85-5f2b-9288-1257" shared="true"/>
+                        <condition type="atLeast" value="1" field="selections" scope="parent" childId="600c-7d08-5be1-fe0c" shared="true"/>
+                        <condition type="atLeast" value="1" field="selections" scope="parent" childId="5165-d052-cfc2-5887" shared="true"/>
+                        <condition type="atLeast" value="1" field="selections" scope="parent" childId="2c85-5f2b-9288-1257" shared="true"/>
                       </conditions>
                     </conditionGroup>
                   </conditionGroups>
+                  <conditions>
+                    <condition type="atLeast" value="1" field="selections" scope="parent" childId="db95-9b8d-6668-702c" shared="true"/>
+                  </conditions>
                 </modifier>
               </modifiers>
             </selectionEntry>
@@ -6371,17 +6399,24 @@ If this test is failed, only rolls of natural 6 will hit.</characteristic>
                         <condition type="instanceOf" value="1" field="selections" scope="root-entry" childId="f957-3ded-9234-666f" shared="true"/>
                       </conditions>
                     </conditionGroup>
-                    <conditionGroup type="or">
+                  </conditionGroups>
+                </modifier>
+                <modifier type="add" value="{this} A character belonging to the Wild Rider Kindred must be mounted on an Elven Steed or Great Stag and may only wear light armour." field="error">
+                  <conditionGroups>
+                    <conditionGroup type="and">
                       <conditions>
-                        <condition type="atLeast" value="1" field="selections" scope="root-entry" childId="8000-e257-f686-6aa7" shared="true" includeChildSelections="true"/>
-                        <condition type="atLeast" value="1" field="selections" scope="root-entry" childId="1415-fa03-8d8-bb0" shared="true" includeChildSelections="true"/>
+                        <condition type="lessThan" value="1" field="selections" scope="root-entry" childId="8000-e257-f686-6aa7" shared="true" includeChildSelections="true"/>
+                        <condition type="lessThan" value="1" field="selections" scope="root-entry" childId="1415-fa03-8d8-bb0" shared="true" includeChildSelections="true"/>
                       </conditions>
                     </conditionGroup>
                   </conditionGroups>
+                  <conditions>
+                    <condition type="atLeast" value="1" field="selections" scope="parent" childId="9191-c3e0-ec71-b6b4" shared="true"/>
+                  </conditions>
                 </modifier>
               </modifiers>
             </selectionEntry>
-            <selectionEntry type="upgrade" import="true" name="Scout Kindred" hidden="true" id="104c-1c37-1bd8-78c4" sortIndex="1">
+            <selectionEntry type="upgrade" import="true" name="Scout Kindred" hidden="false" id="104c-1c37-1bd8-78c4" sortIndex="1">
               <infoLinks>
                 <infoLink name="Scout Kindred" id="c7c2-1559-4601-b3ef" hidden="false" type="profile" targetId="e15b-823a-3483-2b7f"/>
               </infoLinks>
@@ -6389,19 +6424,32 @@ If this test is failed, only rolls of natural 6 will hit.</characteristic>
                 <cost name="pts" typeId="points" value="15"/>
               </costs>
               <modifiers>
-                <modifier type="set" value="false" field="hidden">
+                <modifier type="add" value="{this} Infantry only." field="error">
                   <conditionGroups>
                     <conditionGroup type="or">
                       <conditions>
-                        <condition type="instanceOf" value="1" field="selections" scope="parent" childId="5c55-f9d6-b181-92f8" shared="true"/>
-                        <condition type="instanceOf" value="1" field="selections" scope="parent" childId="f3f7-ca43-674e-115f" shared="true"/>
-                        <condition type="instanceOf" value="1" field="selections" scope="parent" childId="ca7e-d004-ccde-caf3" shared="true"/>
-                        <condition type="atLeast" value="1" field="selections" scope="parent" childId="f3f7-ca43-674e-115f" shared="true"/>
-                        <condition type="atLeast" value="1" field="selections" scope="parent" childId="5c55-f9d6-b181-92f8" shared="true"/>
-                        <condition type="atLeast" value="1" field="selections" scope="parent" childId="ca7e-d004-ccde-caf3" shared="true"/>
+                        <condition type="instanceOf" value="1" field="selections" scope="parent" childId="fb36-5275-617-c895" shared="true"/>
+                        <condition type="instanceOf" value="1" field="selections" scope="parent" childId="3755-6732-99b2-c713" shared="true"/>
+                        <condition type="instanceOf" value="1" field="selections" scope="parent" childId="9fcf-19ad-fe84-9c61" shared="true"/>
+                        <condition type="instanceOf" value="1" field="selections" scope="parent" childId="7dce-b0f0-2217-2820" shared="true"/>
+                        <condition type="instanceOf" value="1" field="selections" scope="parent" childId="d768-7cf0-de0a-c249" shared="true"/>
+                        <condition type="atLeast" value="1" field="selections" scope="parent" childId="fb36-5275-617-c895" shared="true"/>
+                        <condition type="atLeast" value="1" field="selections" scope="parent" childId="3755-6732-99b2-c713" shared="true"/>
+                        <condition type="atLeast" value="1" field="selections" scope="parent" childId="9fcf-19ad-fe84-9c61" shared="true"/>
+                        <condition type="atLeast" value="1" field="selections" scope="parent" childId="7dce-b0f0-2217-2820" shared="true"/>
+                        <condition type="atLeast" value="1" field="selections" scope="parent" childId="d768-7cf0-de0a-c249" shared="true"/>
+                        <condition type="instanceOf" value="1" field="selections" scope="parent" childId="600c-7d08-5be1-fe0c" shared="true"/>
+                        <condition type="instanceOf" value="1" field="selections" scope="parent" childId="5165-d052-cfc2-5887" shared="true"/>
+                        <condition type="instanceOf" value="1" field="selections" scope="parent" childId="2c85-5f2b-9288-1257" shared="true"/>
+                        <condition type="atLeast" value="1" field="selections" scope="parent" childId="600c-7d08-5be1-fe0c" shared="true"/>
+                        <condition type="atLeast" value="1" field="selections" scope="parent" childId="5165-d052-cfc2-5887" shared="true"/>
+                        <condition type="atLeast" value="1" field="selections" scope="parent" childId="2c85-5f2b-9288-1257" shared="true"/>
                       </conditions>
                     </conditionGroup>
                   </conditionGroups>
+                  <conditions>
+                    <condition type="atLeast" value="1" field="selections" scope="parent" childId="104c-1c37-1bd8-78c4" shared="true"/>
+                  </conditions>
                 </modifier>
               </modifiers>
             </selectionEntry>

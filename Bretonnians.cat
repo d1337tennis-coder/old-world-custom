@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue xmlns="http://www.battlescribe.net/schema/catalogueSchema" library="false" id="f8cb-e518-1881-292" name="Kingdom of Bretonnia" gameSystemId="sys-31d1-bf57-53ea-ad55" gameSystemRevision="1" revision="142" authorUrl="www.newrecruit.eu" authorContact="newrecruit.eu@gmail.com" authorName="Flammy" battleScribeVersion="2.03" type="catalogue">
+<catalogue xmlns="http://www.battlescribe.net/schema/catalogueSchema" library="false" id="f8cb-e518-1881-292" name="Kingdom of Bretonnia" gameSystemId="sys-31d1-bf57-53ea-ad55" gameSystemRevision="1" revision="150" authorUrl="www.newrecruit.eu" authorContact="newrecruit.eu@gmail.com" authorName="Flammy" battleScribeVersion="2.03" type="catalogue">
   <sharedProfiles>
     <profile typeId="b070-143a-73f-2772" id="cd5f-980c-2da9-31b" name="Grail Knight" hidden="false" publicationId="3a81ff07--pubd1e638" typeName="Model">
       <characteristics>
@@ -479,7 +479,7 @@ A unit with this Chivalrous Vow cannot be joined by a character that has the Kni
     </profile>
     <profile name="Virtue of Heroism" hidden="false" id="8bef-e19-c138-3efc" typeId="c1ac-c1c8-f9d5-9673" typeName="Special Rule">
       <characteristics>
-        <characteristic name="Description" typeId="9f84-4221-785a-db50">Unless using a magic weapon, a model with rhis Virtue gains the Killing Blow and Monster Slayer special rules.</characteristic>
+        <characteristic name="Description" typeId="9f84-4221-785a-db50">Unless using a magic weapon, a model with this Virtue gains the Killing Blow and Monster Slayer special rules.</characteristic>
       </characteristics>
     </profile>
     <profile name="Virtue of Stoicism" hidden="false" id="20e9-20f9-7186-4db0" typeId="c1ac-c1c8-f9d5-9673" typeName="Special Rule">
@@ -778,7 +778,7 @@ Note that when the Green Knight appears within a natural terrain feature, he mus
         <characteristic name="S" typeId="ac19-f99c-72e9-a1a7">S+1</characteristic>
         <characteristic name="AP" typeId="9429-ffe7-2ce5-e9a5">-1</characteristic>
         <characteristic name="Special Rules" typeId="5f83-3633-336b-93b4">Requires Two Hands</characteristic>
-        <characteristic name="Notes" typeId="772a-a7ff-f6b3-df71">-</characteristic>
+        <characteristic name="Notes" typeId="772a-a7ff-f6b3-df71">A polearm has two profiles. You must choose which the unit will use when its combat is chosen during Step 1.1 of the Choose &amp; Fight Combat sub-phase. A model wielding a polearm cannot make a supporting attack during a turn in which it charged.</characteristic>
       </characteristics>
     </profile>
     <profile name="Polearm (Single handed)" typeId="a378-c633-912d-11ce" typeName="Weapon" hidden="false" id="985a-110b-3393-79b7">
@@ -787,7 +787,7 @@ Note that when the Green Knight appears within a natural terrain feature, he mus
         <characteristic name="S" typeId="ac19-f99c-72e9-a1a7">S</characteristic>
         <characteristic name="AP" typeId="9429-ffe7-2ce5-e9a5">-</characteristic>
         <characteristic name="Special Rules" typeId="5f83-3633-336b-93b4">Fight in Extra Rank</characteristic>
-        <characteristic name="Notes" typeId="772a-a7ff-f6b3-df71">-</characteristic>
+        <characteristic name="Notes" typeId="772a-a7ff-f6b3-df71">A polearm has two profiles. You must choose which the unit will use when its combat is chosen during Step 1.1 of the Choose &amp; Fight Combat sub-phase. A model wielding a polearm cannot make a supporting attack during a turn in which it charged.</characteristic>
       </characteristics>
     </profile>
     <profile name="Yeoman Guard" typeId="b070-143a-73f-2772" typeName="Model" hidden="false" id="65f3-1c51-5e5d-5806">
@@ -1083,7 +1083,7 @@ A unit with this Chivalrous Vow cannot be joined by a character with the Peasant
                     <constraint type="max" value="50" field="points" scope="parent" shared="false" id="ef30-edb3-4e33-4e08"/>
                   </constraints>
                 </entryLink>
-                <entryLink import="true" name="Virtues" hidden="false" type="selectionEntryGroup" id="a8e1-6975-3801-7c34" targetId="a11b-447e-9444-ca54" sortIndex="1"/>
+                <entryLink import="true" name="Virtues" hidden="false" type="selectionEntryGroup" id="a8e1-6975-3801-7c34" targetId="a11b-447e-9444-ca54" sortIndex="1" collapsible="true"/>
               </entryLinks>
             </selectionEntry>
           </selectionEntries>
@@ -1205,7 +1205,7 @@ A unit with this Chivalrous Vow cannot be joined by a character with the Peasant
         <cost name="pts" typeId="points" value="70"/>
       </costs>
       <categoryLinks>
-        <categoryLink targetId="2c85-5f2b-9288-1257" id="2ecf-3820-624b-76bf" primary="false" name="Monstrous Cavalry"/>
+        <categoryLink targetId="fb36-5275-617-c895" id="54a4-b364-2834-920c" primary="false" name="Monstrous Creature"/>
       </categoryLinks>
     </selectionEntry>
     <selectionEntry type="model" import="true" name="Barded Pegasus" hidden="false" id="b7b3-cc09-3e53-eac1" collective="true" subType="mount">
@@ -1349,7 +1349,7 @@ A unit with this Chivalrous Vow cannot be joined by a character with the Peasant
                 <cost name="pts" typeId="points" value="2"/>
               </costs>
             </entryLink>
-            <entryLink import="true" name="Virtues" hidden="false" type="selectionEntryGroup" id="d957-4598-4632-5cd6" targetId="a11b-447e-9444-ca54" sortIndex="5"/>
+            <entryLink import="true" name="Virtues" hidden="false" type="selectionEntryGroup" id="d957-4598-4632-5cd6" targetId="a11b-447e-9444-ca54" sortIndex="5" collapsible="true"/>
           </entryLinks>
           <infoLinks>
             <infoLink name="Duke" hidden="false" type="profile" id="dfea-9b3a-baa4-f904" targetId="91bb-f98c-bfe-2295">
@@ -1404,7 +1404,7 @@ A unit with this Chivalrous Vow cannot be joined by a character with the Peasant
                 </entryLink>
               </entryLinks>
             </selectionEntryGroup>
-            <selectionEntryGroup name="Mount" hidden="false" id="df26-427a-9da7-608e" sortIndex="7">
+            <selectionEntryGroup name="Mount" hidden="false" id="df26-427a-9da7-608e" sortIndex="7" collapsible="true">
               <entryLinks>
                 <entryLink import="true" name="Bretonnian Warhorse" hidden="false" type="selectionEntry" id="7aaa-c926-2675-3eb1" targetId="eba7-2f8e-fdde-d7a4" sortIndex="1">
                   <constraints>
@@ -1578,7 +1578,7 @@ A unit with this Chivalrous Vow cannot be joined by a character with the Peasant
                 </entryLink>
               </entryLinks>
             </selectionEntryGroup>
-            <selectionEntryGroup name="Mount" hidden="false" id="1396-1a0b-b605-f750" sortIndex="8">
+            <selectionEntryGroup name="Mount" hidden="false" id="1396-1a0b-b605-f750" sortIndex="8" collapsible="true">
               <entryLinks>
                 <entryLink import="true" name="Bretonnian Warhorse" hidden="false" type="selectionEntry" id="1458-11d1-4075-3b02" targetId="eba7-2f8e-fdde-d7a4" sortIndex="1">
                   <constraints>
@@ -1614,7 +1614,7 @@ A unit with this Chivalrous Vow cannot be joined by a character with the Peasant
                 <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="49ef-839b-e1d6-b53e"/>
               </constraints>
             </selectionEntryGroup>
-            <selectionEntryGroup name="Vow" hidden="false" id="78cd-1719-23c8-d501" sortIndex="5" defaultSelectionEntryId="a774-44c9-eadb-3e5f">
+            <selectionEntryGroup name="Vow" hidden="false" id="78cd-1719-23c8-d501" sortIndex="5" defaultSelectionEntryId="a774-44c9-eadb-3e5f" collapsible="true">
               <selectionEntries>
                 <selectionEntry type="upgrade" import="true" name="The Knight&apos;s Vow" hidden="false" id="a774-44c9-eadb-3e5f" sortIndex="3">
                   <constraints>
@@ -1672,6 +1672,11 @@ A unit with this Chivalrous Vow cannot be joined by a character with the Peasant
                         <condition type="instanceOf" value="1" field="selections" scope="primary-catalogue" childId="c637-f6be-935d-faae" shared="true"/>
                       </conditions>
                     </modifier>
+                    <modifier type="set" value="1" field="defaultAmount">
+                      <conditions>
+                        <condition type="instanceOf" value="1" field="selections" scope="primary-catalogue" childId="c637-f6be-935d-faae" shared="true"/>
+                      </conditions>
+                    </modifier>
                   </modifiers>
                 </selectionEntry>
                 <selectionEntry type="upgrade" import="true" name="The Crusader&apos;s Vow" hidden="true" id="b02d-420f-302b-1126" sortIndex="1">
@@ -1683,6 +1688,11 @@ A unit with this Chivalrous Vow cannot be joined by a character with the Peasant
                   </constraints>
                   <modifiers>
                     <modifier type="set" value="false" field="hidden">
+                      <conditions>
+                        <condition type="instanceOf" value="1" field="selections" scope="primary-catalogue" childId="7318-4de6-f164-6575" shared="true"/>
+                      </conditions>
+                    </modifier>
+                    <modifier type="set" value="1" field="defaultAmount">
                       <conditions>
                         <condition type="instanceOf" value="1" field="selections" scope="primary-catalogue" childId="7318-4de6-f164-6575" shared="true"/>
                       </conditions>
@@ -1778,7 +1788,7 @@ A unit with this Chivalrous Vow cannot be joined by a character with the Peasant
                 <cost name="pts" typeId="points" value="2"/>
               </costs>
             </entryLink>
-            <entryLink import="true" name="Virtues" hidden="false" type="selectionEntryGroup" id="d565-e7e2-bf9-7e4e" targetId="a11b-447e-9444-ca54" sortIndex="6"/>
+            <entryLink import="true" name="Virtues" hidden="false" type="selectionEntryGroup" id="d565-e7e2-bf9-7e4e" targetId="a11b-447e-9444-ca54" sortIndex="6" collapsible="true"/>
           </entryLinks>
           <infoLinks>
             <infoLink name="Paladin" hidden="false" type="profile" id="6470-478-725d-3d3" targetId="3fd6-eb62-6acb-3903">
@@ -1840,7 +1850,7 @@ A unit with this Chivalrous Vow cannot be joined by a character with the Peasant
                 </entryLink>
               </entryLinks>
             </selectionEntryGroup>
-            <selectionEntryGroup name="Mount" hidden="false" id="8dd9-abb4-3466-db11" sortIndex="8">
+            <selectionEntryGroup name="Mount" hidden="false" id="8dd9-abb4-3466-db11" sortIndex="8" collapsible="true">
               <entryLinks>
                 <entryLink import="true" name="Bretonnian Warhorse" hidden="false" type="selectionEntry" id="f43b-cb47-2175-9563" targetId="eba7-2f8e-fdde-d7a4" sortIndex="1">
                   <constraints>
@@ -1871,7 +1881,7 @@ A unit with this Chivalrous Vow cannot be joined by a character with the Peasant
                 <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="d433-14c1-2566-982e"/>
               </constraints>
             </selectionEntryGroup>
-            <selectionEntryGroup name="Vow" hidden="false" id="721-a7f9-8a45-7727" sortIndex="5" defaultSelectionEntryId="8b58-2ccd-2c1a-2029">
+            <selectionEntryGroup name="Vow" hidden="false" id="721-a7f9-8a45-7727" sortIndex="5" defaultSelectionEntryId="8b58-2ccd-2c1a-2029" collapsible="true">
               <selectionEntries>
                 <selectionEntry type="upgrade" import="true" name="The Knight&apos;s Vow" hidden="false" id="8b58-2ccd-2c1a-2029" sortIndex="3">
                   <constraints>
@@ -1929,6 +1939,11 @@ A unit with this Chivalrous Vow cannot be joined by a character with the Peasant
                         <condition type="instanceOf" value="1" field="selections" scope="primary-catalogue" childId="c637-f6be-935d-faae" shared="true"/>
                       </conditions>
                     </modifier>
+                    <modifier type="set" value="1" field="defaultAmount">
+                      <conditions>
+                        <condition type="instanceOf" value="1" field="selections" scope="primary-catalogue" childId="c637-f6be-935d-faae" shared="true"/>
+                      </conditions>
+                    </modifier>
                   </modifiers>
                 </selectionEntry>
                 <selectionEntry type="upgrade" import="true" name="The Crusader&apos;s Vow" hidden="true" id="b8c9-ef42-233e-a55" sortIndex="1">
@@ -1940,6 +1955,11 @@ A unit with this Chivalrous Vow cannot be joined by a character with the Peasant
                   </constraints>
                   <modifiers>
                     <modifier type="set" value="false" field="hidden">
+                      <conditions>
+                        <condition type="instanceOf" value="1" field="selections" scope="primary-catalogue" childId="7318-4de6-f164-6575" shared="true"/>
+                      </conditions>
+                    </modifier>
+                    <modifier type="set" value="1" field="defaultAmount">
                       <conditions>
                         <condition type="instanceOf" value="1" field="selections" scope="primary-catalogue" childId="7318-4de6-f164-6575" shared="true"/>
                       </conditions>
@@ -2074,7 +2094,7 @@ A unit with this Chivalrous Vow cannot be joined by a character with the Peasant
                 </entryLink>
               </entryLinks>
             </selectionEntryGroup>
-            <selectionEntryGroup name="Mount" hidden="false" id="e7e4-2120-1743-f7f4" sortIndex="3">
+            <selectionEntryGroup name="Mount" hidden="false" id="e7e4-2120-1743-f7f4" sortIndex="3" collapsible="true">
               <constraints>
                 <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="7d55-12ad-9e57-7eac"/>
               </constraints>
@@ -2213,7 +2233,7 @@ A unit with this Chivalrous Vow cannot be joined by a character with the Peasant
                 </entryLink>
               </entryLinks>
             </selectionEntryGroup>
-            <selectionEntryGroup name="Mount" hidden="false" id="9833-3c64-ccdd-cc0f" sortIndex="3">
+            <selectionEntryGroup name="Mount" hidden="false" id="9833-3c64-ccdd-cc0f" sortIndex="3" collapsible="true">
               <constraints>
                 <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="9fb4-b592-1877-3065"/>
               </constraints>
@@ -2429,7 +2449,7 @@ A unit with this Chivalrous Vow cannot be joined by a character with the Peasant
                 <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="78d-d48d-a8c2-6468"/>
               </constraints>
             </entryLink>
-            <entryLink import="true" name="Heavy Armour" hidden="false" type="selectionEntry" id="1ccf-7c2b-e36b-daf8" targetId="62fb-f89d-afc-1cf1" sortIndex="3">
+            <entryLink import="true" name="Heavy Armour" hidden="false" type="selectionEntry" id="1ccf-7c2b-e36b-daf8" targetId="62fb-f89d-afc-1cf1" sortIndex="2">
               <constraints>
                 <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="8be9-b4de-85f5-8671"/>
               </constraints>
@@ -2443,9 +2463,9 @@ A unit with this Chivalrous Vow cannot be joined by a character with the Peasant
             <cost name="pts" typeId="points" value="11"/>
           </costs>
           <selectionEntryGroups>
-            <selectionEntryGroup name="Equipment" hidden="false" id="912c-2720-e4d9-e594" sortIndex="2" defaultSelectionEntryId="cdab-271c-75cc-cf2c" flatten="true">
+            <selectionEntryGroup name="Equipment" hidden="false" id="912c-2720-e4d9-e594" sortIndex="3" defaultSelectionEntryId="cdab-271c-75cc-cf2c" flatten="true">
               <entryLinks>
-                <entryLink import="true" name="Great Weapon" hidden="false" type="selectionEntry" id="d8c9-aa16-625f-cd3b" targetId="2283-26e9-76c3-6048" sortIndex="1">
+                <entryLink import="true" name="Great Weapon" hidden="false" type="selectionEntry" id="d8c9-aa16-625f-cd3b" targetId="2283-26e9-76c3-6048" sortIndex="2">
                   <costs>
                     <cost name="pts" typeId="points" value="2"/>
                   </costs>
@@ -2457,7 +2477,7 @@ A unit with this Chivalrous Vow cannot be joined by a character with the Peasant
                     </modifier>
                   </modifiers>
                 </entryLink>
-                <entryLink import="true" name="Shield" hidden="false" type="selectionEntry" id="cdab-271c-75cc-cf2c" targetId="6192-f9f1-5d53-2042" sortIndex="2"/>
+                <entryLink import="true" name="Shield" hidden="false" type="selectionEntry" id="cdab-271c-75cc-cf2c" targetId="6192-f9f1-5d53-2042" sortIndex="1"/>
               </entryLinks>
               <constraints>
                 <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="752b-420-f48d-ac0f-min"/>
@@ -2490,6 +2510,11 @@ A unit with this Chivalrous Vow cannot be joined by a character with the Peasant
                         <condition type="instanceOf" value="1" field="selections" scope="primary-catalogue" childId="c637-f6be-935d-faae" shared="true"/>
                       </conditions>
                     </modifier>
+                    <modifier type="set" value="1" field="defaultAmount">
+                      <conditions>
+                        <condition type="instanceOf" value="1" field="selections" scope="primary-catalogue" childId="c637-f6be-935d-faae" shared="true"/>
+                      </conditions>
+                    </modifier>
                   </modifiers>
                 </selectionEntry>
                 <selectionEntry type="upgrade" import="true" name="The Crusader&apos;s Vow" hidden="true" id="9083-5403-ea11-1aa5" sortIndex="1" collective="true">
@@ -2501,6 +2526,11 @@ A unit with this Chivalrous Vow cannot be joined by a character with the Peasant
                   </constraints>
                   <modifiers>
                     <modifier type="set" value="false" field="hidden">
+                      <conditions>
+                        <condition type="instanceOf" value="1" field="selections" scope="primary-catalogue" childId="7318-4de6-f164-6575" shared="true"/>
+                      </conditions>
+                    </modifier>
+                    <modifier type="set" value="1" field="defaultAmount">
                       <conditions>
                         <condition type="instanceOf" value="1" field="selections" scope="primary-catalogue" childId="7318-4de6-f164-6575" shared="true"/>
                       </conditions>
@@ -3137,7 +3167,7 @@ A unit with this Chivalrous Vow cannot be joined by a character with the Peasant
             <infoLink name="Base (25x25)" hidden="false" type="profile" id="b428-5ce-ee04-4881" targetId="193c-4d0d-de6b-bbb1"/>
           </infoLinks>
           <costs>
-            <cost name="pts" typeId="points" value="8"/>
+            <cost name="pts" typeId="points" value="6"/>
           </costs>
           <categoryLinks>
             <categoryLink name="Heavy Infantry" hidden="false" id="83e-fd39-63e3-3ce0" targetId="ca7e-d004-ccde-caf3" primary="false"/>
@@ -3311,6 +3341,11 @@ A unit with this Chivalrous Vow cannot be joined by a character with the Peasant
                         <condition type="instanceOf" value="1" field="selections" scope="primary-catalogue" childId="c637-f6be-935d-faae" shared="true"/>
                       </conditions>
                     </modifier>
+                    <modifier type="set" value="1" field="defaultAmount">
+                      <conditions>
+                        <condition type="instanceOf" value="1" field="selections" scope="primary-catalogue" childId="c637-f6be-935d-faae" shared="true"/>
+                      </conditions>
+                    </modifier>
                   </modifiers>
                 </selectionEntry>
                 <selectionEntry type="upgrade" import="true" name="The Crusader&apos;s Vow" hidden="true" id="efec-8e7b-c190-f119" sortIndex="1" collective="true">
@@ -3322,6 +3357,11 @@ A unit with this Chivalrous Vow cannot be joined by a character with the Peasant
                   </constraints>
                   <modifiers>
                     <modifier type="set" value="false" field="hidden">
+                      <conditions>
+                        <condition type="instanceOf" value="1" field="selections" scope="primary-catalogue" childId="7318-4de6-f164-6575" shared="true"/>
+                      </conditions>
+                    </modifier>
+                    <modifier type="set" value="1" field="defaultAmount">
                       <conditions>
                         <condition type="instanceOf" value="1" field="selections" scope="primary-catalogue" childId="7318-4de6-f164-6575" shared="true"/>
                       </conditions>
@@ -3365,7 +3405,7 @@ A unit with this Chivalrous Vow cannot be joined by a character with the Peasant
                 <infoLink name="Standard Bearer" hidden="false" type="profile" id="ed5e-92cb-b68d-f55c" targetId="bcf8-d942-102e-b155"/>
               </infoLinks>
               <entryLinks>
-                <entryLink import="true" name="Magic Standards" hidden="false" type="selectionEntryGroup" id="7dd6-b576-4be9-7319" targetId="6bbe-8054-19b7-e5d6">
+                <entryLink import="true" name="Magic Standards" hidden="false" type="selectionEntryGroup" id="7dd6-b576-4be9-7319" targetId="6bbe-8054-19b7-e5d6" collapsible="true">
                   <constraints>
                     <constraint type="max" value="25" field="points" scope="parent" shared="false" id="b150-642b-27c0-9412"/>
                   </constraints>
@@ -3435,7 +3475,7 @@ A unit with this Chivalrous Vow cannot be joined by a character with the Peasant
               <modifiers>
                 <modifier type="set" value="false" field="hidden">
                   <conditions>
-                    <condition type="instanceOf" value="1" field="selections" scope="primary-category" childId="6acb-f99a-8d48-1c3d" shared="true"/>
+                    <condition type="instanceOf" value="1" field="selections" scope="primary-catalogue" childId="7318-4de6-f164-6575" shared="true"/>
                   </conditions>
                 </modifier>
               </modifiers>
@@ -3537,6 +3577,11 @@ A unit with this Chivalrous Vow cannot be joined by a character with the Peasant
                         <condition type="instanceOf" value="1" field="selections" scope="primary-catalogue" childId="c637-f6be-935d-faae" shared="true"/>
                       </conditions>
                     </modifier>
+                    <modifier type="set" value="1" field="defaultAmount">
+                      <conditions>
+                        <condition type="instanceOf" value="1" field="selections" scope="primary-catalogue" childId="c637-f6be-935d-faae" shared="true"/>
+                      </conditions>
+                    </modifier>
                   </modifiers>
                 </selectionEntry>
                 <selectionEntry type="upgrade" import="true" name="The Crusader&apos;s Vow" hidden="true" id="9103-721-ffb5-f467" sortIndex="1" collective="true">
@@ -3548,6 +3593,11 @@ A unit with this Chivalrous Vow cannot be joined by a character with the Peasant
                   </constraints>
                   <modifiers>
                     <modifier type="set" value="false" field="hidden">
+                      <conditions>
+                        <condition type="instanceOf" value="1" field="selections" scope="primary-catalogue" childId="7318-4de6-f164-6575" shared="true"/>
+                      </conditions>
+                    </modifier>
+                    <modifier type="set" value="1" field="defaultAmount">
                       <conditions>
                         <condition type="instanceOf" value="1" field="selections" scope="primary-catalogue" childId="7318-4de6-f164-6575" shared="true"/>
                       </conditions>
@@ -3808,7 +3858,7 @@ A unit with this Chivalrous Vow cannot be joined by a character with the Peasant
                     <constraint type="max" value="25" field="points" scope="parent" shared="false" id="9a64-9229-aa15-ded7"/>
                   </constraints>
                 </entryLink>
-                <entryLink import="true" name="Virtues" hidden="false" type="selectionEntryGroup" id="2dd6-1a05-b7dd-2a85" targetId="a11b-447e-9444-ca54" sortIndex="1"/>
+                <entryLink import="true" name="Virtues" hidden="false" type="selectionEntryGroup" id="2dd6-1a05-b7dd-2a85" targetId="a11b-447e-9444-ca54" sortIndex="1" collapsible="true"/>
               </entryLinks>
             </selectionEntry>
           </selectionEntries>
@@ -3934,6 +3984,11 @@ A unit with this Chivalrous Vow cannot be joined by a character with the Peasant
                         <condition type="instanceOf" value="1" field="selections" scope="primary-catalogue" childId="c637-f6be-935d-faae" shared="true"/>
                       </conditions>
                     </modifier>
+                    <modifier type="set" value="1" field="defaultAmount">
+                      <conditions>
+                        <condition type="instanceOf" value="1" field="selections" scope="primary-catalogue" childId="c637-f6be-935d-faae" shared="true"/>
+                      </conditions>
+                    </modifier>
                   </modifiers>
                 </selectionEntry>
                 <selectionEntry type="upgrade" import="true" name="The Crusader&apos;s Vow" hidden="true" id="ddfc-b977-fca1-9064" sortIndex="1" collective="true">
@@ -3945,6 +4000,11 @@ A unit with this Chivalrous Vow cannot be joined by a character with the Peasant
                   </constraints>
                   <modifiers>
                     <modifier type="set" value="false" field="hidden">
+                      <conditions>
+                        <condition type="instanceOf" value="1" field="selections" scope="primary-catalogue" childId="7318-4de6-f164-6575" shared="true"/>
+                      </conditions>
+                    </modifier>
+                    <modifier type="set" value="1" field="defaultAmount">
                       <conditions>
                         <condition type="instanceOf" value="1" field="selections" scope="primary-catalogue" childId="7318-4de6-f164-6575" shared="true"/>
                       </conditions>
@@ -4249,7 +4309,7 @@ A unit with this Chivalrous Vow cannot be joined by a character with the Peasant
         <infoLink name="Hippogryph" hidden="false" type="profile" id="f8c7-2067-fc6b-41e7" targetId="2b53-a86a-db53-60ec"/>
       </infoLinks>
       <entryLinks>
-        <entryLink import="true" name="Wicked Claws" hidden="false" type="selectionEntry" id="15ae-dee9-ef64-df11" targetId="7414-cec3-7cd7-a94b" sortIndex="3">
+        <entryLink import="true" name="Wicked Claws" hidden="false" type="selectionEntry" id="15ae-dee9-ef64-df11" targetId="7414-cec3-7cd7-a94b" sortIndex="1">
           <constraints>
             <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="47f0-a7de-1f09-496d"/>
           </constraints>
@@ -4259,7 +4319,7 @@ A unit with this Chivalrous Vow cannot be joined by a character with the Peasant
             <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="8c81-622d-7d25-7e1"/>
           </constraints>
         </entryLink>
-        <entryLink import="true" name="Heavy Armour" hidden="false" type="selectionEntry" id="717a-ef6e-9684-e5ec" targetId="62fb-f89d-afc-1cf1" sortIndex="1">
+        <entryLink import="true" name="Heavy Armour" hidden="false" type="selectionEntry" id="717a-ef6e-9684-e5ec" targetId="62fb-f89d-afc-1cf1" sortIndex="3">
           <constraints>
             <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="c2c8-d0c-9926-80ad"/>
           </constraints>
@@ -4672,7 +4732,7 @@ A unit with this Chivalrous Vow cannot be joined by a character with the Peasant
                     <infoLink name="Champion" id="e583-2efc-b5e9-f01b" hidden="false" type="profile" targetId="5f1c-fd04-b0d5-d5e"/>
                   </infoLinks>
                   <costs>
-                    <cost name="pts" typeId="points" value="11"/>
+                    <cost name="pts" typeId="points" value="7"/>
                   </costs>
                   <entryLinks>
                     <entryLink import="true" name="Magic Items" hidden="false" id="508b-943b-fe75-d96c" type="selectionEntryGroup" targetId="1539-fd78-88f-badd" sortIndex="5">
@@ -4694,7 +4754,7 @@ A unit with this Chivalrous Vow cannot be joined by a character with the Peasant
                 </selectionEntry>
                 <selectionEntry type="upgrade" import="true" name="Standard Bearer" hidden="false" id="6fb8-bfe4-2343-4230" sortIndex="2" collapsible="true">
                   <costs>
-                    <cost name="pts" typeId="points" value="9"/>
+                    <cost name="pts" typeId="points" value="5"/>
                   </costs>
                   <infoLinks>
                     <infoLink name="Standard Bearer" id="ef45-98cf-fc96-7a66" hidden="false" type="profile" targetId="bcf8-d942-102e-b155"/>
@@ -4712,7 +4772,7 @@ A unit with this Chivalrous Vow cannot be joined by a character with the Peasant
                 </selectionEntry>
                 <selectionEntry type="upgrade" import="true" name="Musician" hidden="false" id="4e75-cd06-fae5-46ec" sortIndex="3" collapsible="true">
                   <costs>
-                    <cost name="pts" typeId="points" value="9"/>
+                    <cost name="pts" typeId="points" value="5"/>
                   </costs>
                   <infoLinks>
                     <infoLink name="Musician" id="9f48-96d3-1490-d117" hidden="false" type="profile" targetId="40f2-dd77-f0ca-3663"/>
@@ -4747,7 +4807,7 @@ A unit with this Chivalrous Vow cannot be joined by a character with the Peasant
       <selectionEntryGroups>
         <selectionEntryGroup name="Formation" hidden="false" id="9566-5cad-1759-780d" defaultSelectionEntryId="9e1f-551e-17b5-fd68" sortIndex="4">
           <selectionEntries>
-            <selectionEntry type="upgrade" import="true" name="Open Order" hidden="false" id="9e1f-551e-17b5-fd68" sortIndex="2">
+            <selectionEntry type="upgrade" import="true" name="Open Order" hidden="false" id="9e1f-551e-17b5-fd68" sortIndex="1">
               <infoLinks>
                 <infoLink name="Open Order" hidden="false" id="5a88-9ac-8786-9947" type="profile" targetId="5b67-8535-146c-7cea"/>
               </infoLinks>
@@ -4755,7 +4815,7 @@ A unit with this Chivalrous Vow cannot be joined by a character with the Peasant
                 <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="266-9f4e-c131-b680" includeChildSelections="false"/>
               </constraints>
             </selectionEntry>
-            <selectionEntry type="upgrade" import="true" name="Close Order" hidden="false" id="2b17-eaea-b027-66c" sortIndex="1">
+            <selectionEntry type="upgrade" import="true" name="Close Order" hidden="false" id="2b17-eaea-b027-66c" sortIndex="2">
               <infoLinks>
                 <infoLink name="Close Order" hidden="false" id="8ce6-7256-c838-a70f" type="profile" targetId="883e-e1b1-4fe9-5912"/>
               </infoLinks>
@@ -5104,7 +5164,7 @@ A unit with this Chivalrous Vow cannot be joined by a character with the Peasant
                 </modifier>
               </modifiers>
             </selectionEntryGroup>
-            <selectionEntryGroup name="Mount" id="212a-5587-2066-c95d" hidden="false" sortIndex="3">
+            <selectionEntryGroup name="Mount" id="212a-5587-2066-c95d" hidden="false" sortIndex="3" collapsible="true">
               <entryLinks>
                 <entryLink import="true" name="Warhorse" hidden="false" id="ef0e-33e5-1b62-e4a2" type="selectionEntry" targetId="6ca1-80d3-ca3-b92a">
                   <constraints>
@@ -5732,7 +5792,7 @@ A unit with this Chivalrous Vow cannot be joined by a character with the Peasant
     <catalogueLink type="catalogue" name="Mercenaries" id="27ef-9a5-83fe-d757" targetId="12a0-32cd-11d6-f952" importRootEntries="true"/>
   </catalogueLinks>
   <sharedSelectionEntryGroups>
-    <selectionEntryGroup name="Virtues" hidden="false" id="a11b-447e-9444-ca54">
+    <selectionEntryGroup name="Virtues" hidden="false" id="a11b-447e-9444-ca54" collapsible="true">
       <selectionEntries>
         <selectionEntry type="upgrade" import="true" name="Virtue of Knightly Temper" hidden="false" id="c7f5-7c44-cef0-94df" sortIndex="14">
           <costs>

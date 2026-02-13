@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue library="true" id="7aa2-db17-4956-5c36" name="Runic Items" gameSystemId="sys-31d1-bf57-53ea-ad55" gameSystemRevision="117" revision="3" authorUrl="www.newrecruit.eu" authorContact="Discord: Tidomann" authorName="Tidomann" battleScribeVersion="2.03" type="catalogue" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue library="true" id="7aa2-db17-4956-5c36" name="Runic Items" gameSystemId="sys-31d1-bf57-53ea-ad55" gameSystemRevision="117" revision="7" authorUrl="www.newrecruit.eu" authorContact="Discord: Tidomann" authorName="Tidomann" battleScribeVersion="2.03" type="catalogue" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <profileTypes>
     <profileType name="Standard Runes" hidden="false" id="9c4f-4e8-f3bf-3908" sortIndex="15">
       <characteristicTypes>
@@ -322,7 +322,7 @@ Note that any additional attacks that cause unsaved wounds and any unsaved wound
     </profile>
     <profile name="Master Rune of Slaying" hidden="false" id="fecb-854a-da80-95e9" typeId="cfe7-07bc-6b40-f629" typeName="Engineers&apos; Weapon Runes">
       <characteristics>
-        <characteristic name="Description" typeId="b43f-5dcb-c595-3518">When making a roll To Wound against an enemy whose troop type is &apos;behemoth&apos; with a weapon inscribed with this rune, a roll of 3+ is always a success regardless of the target&apos;s Toughness. In addition, a weapon inscribed with this rune gains the Multiple Wounds (D3) special rule.</characteristic>
+        <characteristic name="Description" typeId="3fe3-b87f-a1a4-d6f4">When making a roll To Wound against an enemy whose troop type is &apos;behemoth&apos; with a weapon inscribed with this rune, a roll of 3+ is always a success regardless of the target&apos;s Toughness. In addition, a weapon inscribed with this rune gains the Multiple Wounds (D3) special rule.</characteristic>
       </characteristics>
     </profile>
     <profile name="Master Rune of Piercing" typeId="cfe7-07bc-6b40-f629" typeName="Engineers&apos; Weapon Runes" hidden="false" id="ffca-892a-67dc-e748">
@@ -570,7 +570,7 @@ Note that any additional attacks that cause unsaved wounds and any unsaved wound
             <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="5786-d9cb-dffb-e1b0"/>
           </constraints>
           <selectionEntries>
-            <selectionEntry type="upgrade" import="true" name="Master Rune of Grungni" hidden="false" id="648d-e1a7-c02c-d6b1" sortIndex="3">
+            <selectionEntry type="upgrade" import="true" name="Master Rune of Grungni" hidden="true" id="648d-e1a7-c02c-d6b1" sortIndex="3">
               <infoLinks>
                 <infoLink name="Master Rune of Grungni" hidden="false" type="profile" id="7d3a-5c7c-8b6f-2085" targetId="2d01-95e2-bb37-11f3"/>
               </infoLinks>
@@ -960,7 +960,7 @@ Note that any additional attacks that cause unsaved wounds and any unsaved wound
         </selectionEntryGroup>
       </selectionEntryGroups>
     </selectionEntryGroup>
-    <selectionEntryGroup name="Runes" hidden="false" id="1e31-2c1f-9494-2b89" flatten="false" collapsible="false">
+    <selectionEntryGroup name="Runes" hidden="false" id="1e31-2c1f-9494-2b89" flatten="false" collapsible="true">
       <entryLinks>
         <entryLink import="true" name="Weapon Runes" hidden="false" type="selectionEntryGroup" id="ec42-72c0-9941-966c" targetId="4862-48a0-d10c-9fce" sortIndex="3" collapsible="true"/>
         <entryLink targetId="bb15-91b5-9a62-f31a" id="47a8-e164-1547-94fb" type="selectionEntryGroup" name="Talismanic Runes" hidden="false" sortIndex="2" collapsible="true"/>
@@ -1074,9 +1074,14 @@ Note that any additional attacks that cause unsaved wounds and any unsaved wound
       </selectionEntries>
       <modifiers>
         <modifier type="set" value="1" field="365c-e96f-60da-3b84">
-          <conditions>
-            <condition type="instanceOf" value="1" field="selections" scope="ancestor" childId="2060-7d20-9562-c54b" shared="true"/>
-          </conditions>
+          <conditionGroups>
+            <conditionGroup type="or">
+              <conditions>
+                <condition type="instanceOf" value="1" field="selections" scope="ancestor" childId="b0f5-be16-6e39-9c4a" shared="true" includeChildSelections="false"/>
+                <condition type="instanceOf" value="1" field="selections" scope="ancestor" childId="2060-7d20-9562-c54b" shared="true"/>
+              </conditions>
+            </conditionGroup>
+          </conditionGroups>
         </modifier>
         <modifier type="set" value="2" field="365c-e96f-60da-3b84">
           <conditions>

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue library="true" id="a4ff-b11e-14a0-4bcf" name="Chaos Library" gameSystemId="sys-31d1-bf57-53ea-ad55" gameSystemRevision="47" revision="44" authorUrl="www.newrecruit.eu" authorContact="Discord: vflam" authorName="Flammy" battleScribeVersion="2.03" type="catalogue" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue library="true" id="a4ff-b11e-14a0-4bcf" name="Chaos Library" gameSystemId="sys-31d1-bf57-53ea-ad55" gameSystemRevision="47" revision="49" authorUrl="www.newrecruit.eu" authorContact="Discord: vflam" authorName="Flammy" battleScribeVersion="2.03" type="catalogue" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <sharedSelectionEntries>
     <selectionEntry type="unit" import="true" name="Chaos Giants" hidden="false" id="b352-fa53-fad5-dfad">
       <profiles>
@@ -112,7 +112,7 @@
                 <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="6eb4-fa09-eed7-d8c4"/>
               </constraints>
             </entryLink>
-            <entryLink import="true" name="Heavy Armour" hidden="false" type="selectionEntry" id="5eea-cc7d-d3f2-a921" targetId="62fb-f89d-afc-1cf1" sortIndex="2">
+            <entryLink import="true" name="Heavy Armour" hidden="false" type="selectionEntry" id="5eea-cc7d-d3f2-a921" targetId="62fb-f89d-afc-1cf1" sortIndex="3">
               <constraints>
                 <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="8db1-38a-f685-a428"/>
               </constraints>
@@ -126,7 +126,7 @@
             <cost name="pts" typeId="points" value="33"/>
           </costs>
           <selectionEntryGroups>
-            <selectionEntryGroup name="Equipment" hidden="false" id="ee36-4fbe-4854-ea1e" sortIndex="4">
+            <selectionEntryGroup name="Equipment" hidden="false" id="ee36-4fbe-4854-ea1e" sortIndex="2" flatten="true">
               <entryLinks>
                 <entryLink import="true" name="Great Weapon" hidden="false" type="selectionEntry" id="ed24-b0de-1db7-6f67" targetId="2283-26e9-76c3-6048" sortIndex="2">
                   <costs>
@@ -143,7 +143,7 @@
                 <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="9802-f499-e693-4ce5"/>
               </constraints>
             </selectionEntryGroup>
-            <selectionEntryGroup name="Mark of Chaos" hidden="false" id="4d03-bead-f4a1-c948" defaultSelectionEntryId="895c-7973-3827-7ca8" sortIndex="3">
+            <selectionEntryGroup name="Mark of Chaos" hidden="false" id="4d03-bead-f4a1-c948" defaultSelectionEntryId="895c-7973-3827-7ca8" sortIndex="4">
               <constraints>
                 <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="68b5-27f3-e280-ffa4"/>
                 <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="714b-3e47-d2f4-53fa"/>
@@ -273,7 +273,7 @@
     </selectionEntry>
     <selectionEntry type="upgrade" import="true" name="Mark of Khorne" hidden="false" id="dbfd-c8b3-5688-4550" collective="true">
       <infoLinks>
-        <infoLink name="Mark of Khorne" hidden="false" type="profile" id="3914-da7c-27e8-e95" targetId="47ce-619-7fe2-fd08"/>
+        <infoLink name="Mark of Khorne" id="9780-f718-2499-2980" hidden="false" type="profile" targetId="47ce-619-7fe2-fd08"/>
       </infoLinks>
     </selectionEntry>
     <selectionEntry type="upgrade" import="true" name="Mark of Nurgle" hidden="false" id="f69c-c9ca-68f1-eebf" collective="true">
@@ -1183,7 +1183,7 @@ Effect: If this Bound spell is cast, all units within 6&quot; of this model (fri
     </profile>
     <profile name="Chaos Spawn" hidden="false" id="f139-11d-60a6-d21c" typeId="b070-143a-73f-2772" typeName="Model">
       <characteristics>
-        <characteristic name="M" typeId="cd3b-a5a4-e185-5a9d">2D6</characteristic>
+        <characteristic name="M" typeId="cd3b-a5a4-e185-5a9d">2D6+1</characteristic>
         <characteristic name="WS" typeId="b007-7d58-4f14-1e01">3</characteristic>
         <characteristic name="BS" typeId="59f9-ccf5-1155-fb05">0</characteristic>
         <characteristic name="S" typeId="5b6b-1427-2a45-dd0c">4</characteristic>
@@ -1255,8 +1255,8 @@ Effect: If this Bound spell is cast, all units within 6&quot; of this model (fri
     <profile name="Doomfire" hidden="false" id="cf5a-3201-dddf-5561" typeId="a378-c633-912d-11ce" typeName="Weapon">
       <characteristics>
         <characteristic name="R" typeId="2360-c777-5e07-ed58">12-60&quot; 5(10) AP-2(-3)</characteristic>
-        <characteristic name="S" typeId="ac19-f99c-72e9-a1a7">5 (10</characteristic>
-        <characteristic name="AP" typeId="9429-ffe7-2ce5-e9a5">-2 (-3)</characteristic>
+        <characteristic name="S" typeId="ac19-f99c-72e9-a1a7">5 (10)</characteristic>
+        <characteristic name="AP" typeId="9429-ffe7-2ce5-e9a5">-2 (-5)</characteristic>
         <characteristic name="Special Rules" typeId="5f83-3633-336b-93b4">Bombardment, Move Or Shoot, Cumbersome, Multiple Wounds (D3)</characteristic>
         <characteristic name="Notes" typeId="772a-a7ff-f6b3-df71">This weapon shoots like a stone thrower, using the &apos;Bombardment&apos; special rule a 3&quot; blast template and the Hellcannon Misfire table. Any unit that suffers one or more unsaved wounds from this weapon must make a Panic test as if it had taken heavy casualties.</characteristic>
       </characteristics>
@@ -1337,13 +1337,23 @@ Effect: If this Bound spell is cast, all units within 6&quot; of this model (fri
         <characteristic name="Description" typeId="9f84-4221-785a-db50">For every Wound this character loses during a challenge, their enemy suffers a Strength 4 hit, with an AP of -2.</characteristic>
       </characteristics>
     </profile>
+    <profile name="Chaotic Cults" typeId="c1ac-c1c8-f9d5-9673" typeName="Special Rule" hidden="false" id="3858-0a3a-f1c4-26e2">
+      <characteristics>
+        <characteristic name="Description" typeId="9f84-4221-785a-db50">Units of Chaos Marauders and Marauder Horseman have the option to belong to a &apos;Chaotic Cult&apos;:
+• A model cannot belong to more than one Chaotic Cult.
+• A character with a Mark of Chaos can join a unit belonging to any Chaotic Cult as normal.
+
+**Praising The Gods**
+Once per game, during the Command sub-phase of its turn, a unit belonging to a Chaotic Cult may implore its patron for their blessing by making a Leadership test. If this test is passed, until its next Start of Turn sub-phase, all Chaotic Cult models within the unit gain the benefit specified by the specific cult. If this test is failed, the unit&apos;s implorations go unheeded.</characteristic>
+      </characteristics>
+    </profile>
   </sharedProfiles>
   <catalogueLinks>
     <catalogueLink type="catalogue" name="Giant Library" id="9c40-414e-3832-13af" targetId="4013-4240-7515-27e0"/>
     <catalogueLink type="catalogue" name="Magic Items" id="1311-6254-afbf-db23" targetId="6c22-b0e4-7c83-f9ce"/>
   </catalogueLinks>
   <sharedSelectionEntryGroups>
-    <selectionEntryGroup name="Mark of Chaos" hidden="false" id="4761-327a-7529-fc41" defaultSelectionEntryId="ef0f-7b45-4839-d1">
+    <selectionEntryGroup name="Mark of Chaos" hidden="false" id="4761-327a-7529-fc41" defaultSelectionEntryId="ef0f-7b45-4839-d1" collapsible="true">
       <selectionEntries>
         <selectionEntry type="upgrade" import="true" name="Mark of Khorne" hidden="false" id="6aff-f11c-2c0f-de3a" sortIndex="2">
           <constraints>
@@ -1402,7 +1412,7 @@ Effect: If this Bound spell is cast, all units within 6&quot; of this model (fri
         </selectionEntry>
       </selectionEntries>
     </selectionEntryGroup>
-    <selectionEntryGroup name="Chaos Mutations" hidden="false" id="6c4d-40ba-4d01-74b3">
+    <selectionEntryGroup name="Chaos Mutations" hidden="false" id="6c4d-40ba-4d01-74b3" collapsible="true">
       <selectionEntries>
         <selectionEntry type="upgrade" import="true" name="Gnarled Hide" hidden="true" id="db43-f66b-1a77-2104" sortIndex="2">
           <constraints>
@@ -1546,7 +1556,7 @@ Effect: If this Bound spell is cast, all units within 6&quot; of this model (fri
         </selectionEntry>
       </selectionEntries>
     </selectionEntryGroup>
-    <selectionEntryGroup name="Gifts of Chaos" hidden="false" id="82fd-ec27-de63-3852">
+    <selectionEntryGroup name="Gifts of Chaos" hidden="false" id="82fd-ec27-de63-3852" collapsible="true">
       <selectionEntries>
         <selectionEntry type="upgrade" import="true" name="Dark Majesty" hidden="false" id="45f8-d41c-b1aa-65f6" sortIndex="9">
           <infoLinks>
@@ -1699,6 +1709,62 @@ Effect: If this Bound spell is cast, all units within 6&quot; of this model (fri
           <costs>
             <cost name="pts" typeId="points" value="15"/>
           </costs>
+        </selectionEntry>
+      </selectionEntries>
+    </selectionEntryGroup>
+    <selectionEntryGroup name="Chaotic Cults" id="d8f9-34b1-c1fa-947c" hidden="false" collapsible="true">
+      <selectionEntries>
+        <selectionEntry type="upgrade" import="true" name="The Cult of the Bloodied Hound" hidden="false" id="ff5a-a52d-f281-1bde" sortIndex="1" collective="true">
+          <costs>
+            <cost name="pts" typeId="points" value="1"/>
+          </costs>
+          <profiles>
+            <profile name="The Cult of the Bloodied Hound" typeId="c1ac-c1c8-f9d5-9673" typeName="Special Rule" hidden="false" id="513f-e846-72c7-3ce9">
+              <characteristics>
+                <characteristic name="Description" typeId="9f84-4221-785a-db50">Once per game, during the Command sub-phase of its turn, a unit belonging to a Chaotic Cult may implore it&apos;s patron for their blessing by making a Leadership test. If this test is passed, until its next Start of Turn sub-phase, all Chaotic Cult models within the unit gain the following benefit. If this test is failed, the unit&apos;s implorations go unheeded:
+Models belonging to this Chaotic Cult gain a +1 modifier to their Weapon Skill characteristic</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+        </selectionEntry>
+        <selectionEntry type="upgrade" import="true" name="The Cult of the Fell Raptor" hidden="false" id="23e8-ddae-a88b-8db6" sortIndex="3" collective="true">
+          <costs>
+            <cost name="pts" typeId="points" value="1"/>
+          </costs>
+          <profiles>
+            <profile name="The Cult of the Fell Raptor" typeId="c1ac-c1c8-f9d5-9673" typeName="Special Rule" hidden="false" id="8dbc-93e6-333e-2651">
+              <characteristics>
+                <characteristic name="Description" typeId="9f84-4221-785a-db50">Once per game, during the Command sub-phase of its turn, a unit belonging to a Chaotic Cult may implore it&apos;s patron for their blessing by making a Leadership test. If this test is passed, until its next Start of Turn sub-phase, all Chaotic Cult models within the unit gain the following benefit. If this test is failed, the unit&apos;s implorations go unheeded:
+Models belonging to this Chaotic Cult gain a 6+ Ward save against any wounds suffered that where caused by a non-magical enemy attack</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+        </selectionEntry>
+        <selectionEntry type="upgrade" import="true" name="The Cult of the Slithering Serpent" hidden="false" id="0bc0-aa41-ac89-81de" sortIndex="4" collective="true">
+          <costs>
+            <cost name="pts" typeId="points" value="1"/>
+          </costs>
+          <profiles>
+            <profile name="The Cult of the Slithering Serpent" typeId="c1ac-c1c8-f9d5-9673" typeName="Special Rule" hidden="false" id="c107-a76b-15cd-0d77">
+              <characteristics>
+                <characteristic name="Description" typeId="9f84-4221-785a-db50">Once per game, during the Command sub-phase of its turn, a unit belonging to a Chaotic Cult may implore it&apos;s patron for their blessing by making a Leadership test. If this test is passed, until its next Start of Turn sub-phase, all Chaotic Cult models within the unit gain the following benefit. If this test is failed, the unit&apos;s implorations go unheeded:
+Models belonging to this Chaotic Cult gain the Poisoned Attacks special rule</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+        </selectionEntry>
+        <selectionEntry type="upgrade" import="true" name="The Cult of the Carrion Crow" hidden="false" id="2089-85b8-4cd0-4fa9" sortIndex="2" collective="true">
+          <costs>
+            <cost name="pts" typeId="points" value="1"/>
+          </costs>
+          <profiles>
+            <profile name="The Cult of the Carrion Crow" typeId="c1ac-c1c8-f9d5-9673" typeName="Special Rule" hidden="false" id="b656-8775-36b4-859f">
+              <characteristics>
+                <characteristic name="Description" typeId="9f84-4221-785a-db50">Once per game, during the Command sub-phase of its turn, a unit belonging to a Chaotic Cult may implore it&apos;s patron for their blessing by making a Leadership test. If this test is passed, until its next Start of Turn sub-phase, all Chaotic Cult models within the unit gain the following benefit. If this test is failed, the unit&apos;s implorations go unheeded:
+Models belonging to this Chaotic Cult gain a +1 modifier to their Toughness characteristic</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
         </selectionEntry>
       </selectionEntries>
     </selectionEntryGroup>

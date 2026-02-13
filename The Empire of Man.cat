@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue xmlns="http://www.battlescribe.net/schema/catalogueSchema" library="false" id="7b8f-602e-29cd-5786" name="The Empire of Man" gameSystemId="sys-31d1-bf57-53ea-ad55" gameSystemRevision="22" revision="110" authorUrl="www.newrecruit.eu" authorContact="Discord: vflam" authorName="Flammy" battleScribeVersion="2.03" type="catalogue">
+<catalogue xmlns="http://www.battlescribe.net/schema/catalogueSchema" library="false" id="7b8f-602e-29cd-5786" name="The Empire of Man" gameSystemId="sys-31d1-bf57-53ea-ad55" gameSystemRevision="22" revision="116" authorUrl="www.newrecruit.eu" authorContact="Discord: vflam" authorName="Flammy" battleScribeVersion="2.03" type="catalogue">
   <sharedProfiles>
     <profile name="Prayers of Ulric" hidden="false" id="d1f4-5e82-b7ed-3ad0" typeId="c1ac-c1c8-f9d5-9673" typeName="Special Rule" page="53" publicationId="8b8d-8fc4-559e-87b1">
       <characteristics>
@@ -69,7 +69,7 @@
     </profile>
     <profile name="Clouds of Shoot &amp; Smoke" hidden="false" id="1327-a23a-6082-a5d5" typeId="c1ac-c1c8-f9d5-9673" typeName="Special Rule">
       <characteristics>
-        <characteristic name="Description" typeId="9f84-4221-785a-db50">This model is considered to be behind full cover whilst it is within 3&quot; of friendly unit whose troop type is &apos;war machine&apos;.</characteristic>
+        <characteristic name="Description" typeId="9f84-4221-785a-db50">Unless it is mounted, this model is considered to be behind full cover whilst it is within 3&quot; of a friendly unit whose troop type is ‘war machine’</characteristic>
       </characteristics>
     </profile>
     <profile name="Pegasus" hidden="false" id="20b8-5803-d215-db53" typeId="b070-143a-73f-2772" typeName="Model">
@@ -126,7 +126,7 @@
     </profile>
     <profile name="&quot;Hold The Line!&quot;" hidden="false" id="d4cc-fe08-c70d-b8a8" typeId="c1ac-c1c8-f9d5-9673" typeName="Special Rule">
       <characteristics>
-        <characteristic name="Description" typeId="9f84-4221-785a-db50">This character and any unit they have joined automatically ally passes any Panic test they are required to make.</characteristic>
+        <characteristic name="Description" typeId="9f84-4221-785a-db50">This character and any unit they have joined automatically passes any Panic tests they are required to make.</characteristic>
       </characteristics>
     </profile>
     <profile name="Fanatical Zeal" hidden="false" id="a6cf-dfbe-4dcb-153a" typeId="c1ac-c1c8-f9d5-9673" typeName="Special Rule" page="61" publicationId="8b8d-8fc4-559e-87b1">
@@ -327,7 +327,7 @@ This weapon does not have a 360° line of sight, it can only shoot into the Stea
         <characteristic name="W" typeId="83ed-7b82-bf1f-e558">3</characteristic>
         <characteristic name="I" typeId="73b1-abe5-72f8-41e2">5</characteristic>
         <characteristic name="A" typeId="dddc-9fbd-b0fd-a480">3</characteristic>
-        <characteristic name="Ld" typeId="c435-6b14-f77e-3c72">8</characteristic>
+        <characteristic name="Ld" typeId="c435-6b14-f77e-3c72">9</characteristic>
       </characteristics>
     </profile>
     <profile name="Chapter Master" hidden="false" id="f839-6244-df90-c33a" typeId="b070-143a-73f-2772" typeName="Model">
@@ -366,7 +366,7 @@ This weapon does not have a 360° line of sight, it can only shoot into the Stea
         <characteristic name="W" typeId="83ed-7b82-bf1f-e558">3</characteristic>
         <characteristic name="I" typeId="73b1-abe5-72f8-41e2">5</characteristic>
         <characteristic name="A" typeId="dddc-9fbd-b0fd-a480">3</characteristic>
-        <characteristic name="Ld" typeId="c435-6b14-f77e-3c72">8</characteristic>
+        <characteristic name="Ld" typeId="c435-6b14-f77e-3c72">9</characteristic>
       </characteristics>
     </profile>
     <profile name="Priest of Sigmar" hidden="false" id="50a9-5115-8515-915d" typeId="b070-143a-73f-2772" typeName="Model">
@@ -379,7 +379,7 @@ This weapon does not have a 360° line of sight, it can only shoot into the Stea
         <characteristic name="W" typeId="83ed-7b82-bf1f-e558">2</characteristic>
         <characteristic name="I" typeId="73b1-abe5-72f8-41e2">4</characteristic>
         <characteristic name="A" typeId="dddc-9fbd-b0fd-a480">2</characteristic>
-        <characteristic name="Ld" typeId="c435-6b14-f77e-3c72">7</characteristic>
+        <characteristic name="Ld" typeId="c435-6b14-f77e-3c72">8</characteristic>
       </characteristics>
     </profile>
     <profile name="Greatsword" hidden="false" id="10a6-12d6-15a2-3f38" typeId="b070-143a-73f-2772" typeName="Model">
@@ -405,7 +405,7 @@ This weapon does not have a 360° line of sight, it can only shoot into the Stea
         <characteristic name="W" typeId="83ed-7b82-bf1f-e558">2</characteristic>
         <characteristic name="I" typeId="73b1-abe5-72f8-41e2">4</characteristic>
         <characteristic name="A" typeId="dddc-9fbd-b0fd-a480">2</characteristic>
-        <characteristic name="Ld" typeId="c435-6b14-f77e-3c72">7</characteristic>
+        <characteristic name="Ld" typeId="c435-6b14-f77e-3c72">8</characteristic>
       </characteristics>
     </profile>
     <profile name="Empire Engineer" hidden="false" id="f0b1-fc30-97fc-7929" typeId="b070-143a-73f-2772" typeName="Model">
@@ -492,7 +492,7 @@ This weapon does not have a 360° line of sight, it can only shoot into the Stea
         <characteristic name="WS" typeId="b007-7d58-4f14-1e01">3</characteristic>
         <characteristic name="BS" typeId="59f9-ccf5-1155-fb05">2</characteristic>
         <characteristic name="S" typeId="5b6b-1427-2a45-dd0c">3</characteristic>
-        <characteristic name="T" typeId="ab43-8b61-83e7-d090">3</characteristic>
+        <characteristic name="T" typeId="ab43-8b61-83e7-d090">4</characteristic>
         <characteristic name="W" typeId="83ed-7b82-bf1f-e558">1</characteristic>
         <characteristic name="I" typeId="73b1-abe5-72f8-41e2">3</characteristic>
         <characteristic name="A" typeId="dddc-9fbd-b0fd-a480">1</characteristic>
@@ -586,7 +586,7 @@ This weapon does not have a 360° line of sight, it can only shoot into the Stea
         <characteristic name="T" typeId="ab43-8b61-83e7-d090">3</characteristic>
         <characteristic name="W" typeId="83ed-7b82-bf1f-e558">3</characteristic>
         <characteristic name="I" typeId="73b1-abe5-72f8-41e2">3</characteristic>
-        <characteristic name="A" typeId="dddc-9fbd-b0fd-a480">1</characteristic>
+        <characteristic name="A" typeId="dddc-9fbd-b0fd-a480">3</characteristic>
         <characteristic name="Ld" typeId="c435-6b14-f77e-3c72">7</characteristic>
       </characteristics>
     </profile>
@@ -670,7 +670,7 @@ This weapon does not have a 360° line of sight, it can only shoot into the Stea
     </profile>
     <profile name="Pigeon Bombs" hidden="false" id="d71-dbcc-b41f-1429" typeId="c1ac-c1c8-f9d5-9673" typeName="Special Rule">
       <characteristics>
-        <characteristic name="Description" typeId="47f2-ecee-cae0-9ef9">Instead of shooting normally during the Shooting phase, a model equipped with pigeon bombs may release one. Choose an enemy unit that is within 24&quot; of the model and roll a D6 on the Pigeon Bomb table below:
+        <characteristic name="Description" typeId="9f84-4221-785a-db50">Instead of shooting normally during the Shooting phase, a model equipped with pigeon bombs may release one. Choose an enemy unit that is within 24&quot; of the model and roll a D6 on the Pigeon Bomb table below:
 
 1: Bird Brain: Center a small (3&quot;) blast template over the model that released the pigeon bomb. Any model whose base lies underneath the template risks being hit and suffering a Strength 4 hit with an AP of -1.
 
@@ -927,7 +927,7 @@ During the Shooting phase, each member of the crew equipped with a missile weapo
         <characteristic name="W" typeId="83ed-7b82-bf1f-e558">3</characteristic>
         <characteristic name="I" typeId="73b1-abe5-72f8-41e2">4</characteristic>
         <characteristic name="A" typeId="dddc-9fbd-b0fd-a480">4</characteristic>
-        <characteristic name="Ld" typeId="c435-6b14-f77e-3c72">9</characteristic>
+        <characteristic name="Ld" typeId="c435-6b14-f77e-3c72">10</characteristic>
       </characteristics>
     </profile>
     <profile name="Mercenary Commander" typeId="c1ac-c1c8-f9d5-9673" typeName="Special Rule" hidden="false" id="6162-d784-bf5c-b04e">
@@ -1341,7 +1341,7 @@ Note that any special rules granted by these upgrades do not apply to the models
                 </selectionEntryGroup>
               </selectionEntryGroups>
             </selectionEntryGroup>
-            <selectionEntryGroup name="Mount" hidden="false" id="850f-69d6-f329-215b" sortIndex="4">
+            <selectionEntryGroup name="Mount" hidden="false" id="850f-69d6-f329-215b" sortIndex="4" collapsible="true">
               <constraints>
                 <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="e04b-62bb-b9dd-2516-min"/>
                 <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="e04b-62bb-b9dd-2516-max"/>
@@ -1499,7 +1499,7 @@ Note that any special rules granted by these upgrades do not apply to the models
                 </modifier>
               </modifiers>
             </selectionEntryGroup>
-            <selectionEntryGroup name="Mount" hidden="false" id="d969-9c38-80b-e92c" sortIndex="3">
+            <selectionEntryGroup name="Mount" hidden="false" id="d969-9c38-80b-e92c" sortIndex="3" collapsible="true">
               <entryLinks>
                 <entryLink import="true" name="Empire Warhorse" hidden="false" type="selectionEntry" id="360c-df36-5580-7feb" targetId="50f2-3c1-5900-c47f" sortIndex="1">
                   <constraints>
@@ -1669,7 +1669,7 @@ Note that any special rules granted by these upgrades do not apply to the models
                 </entryLink>
               </entryLinks>
             </selectionEntryGroup>
-            <selectionEntryGroup name="Mount" hidden="false" id="12c0-b1d2-758f-87da" sortIndex="4">
+            <selectionEntryGroup name="Mount" hidden="false" id="12c0-b1d2-758f-87da" sortIndex="4" collapsible="true">
               <constraints>
                 <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="6119-d6c-270e-bff7"/>
               </constraints>
@@ -1847,7 +1847,7 @@ Note that any special rules granted by these upgrades do not apply to the models
                 </entryLink>
               </entryLinks>
             </selectionEntryGroup>
-            <selectionEntryGroup name="Mount" hidden="false" id="998a-b22-4d88-e113" sortIndex="4">
+            <selectionEntryGroup name="Mount" hidden="false" id="998a-b22-4d88-e113" sortIndex="4" collapsible="true">
               <constraints>
                 <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="255a-ec6f-724f-ab42"/>
               </constraints>
@@ -1979,7 +1979,7 @@ Note that any special rules granted by these upgrades do not apply to the models
                 <entryLink import="true" name="Light Armour" hidden="false" type="selectionEntry" id="e8ce-66cb-4285-d32" targetId="7cab-40e6-f134-de78" sortIndex="1"/>
               </entryLinks>
             </selectionEntryGroup>
-            <selectionEntryGroup name="Mount" hidden="false" id="4e9b-c533-2ba9-a4d1" sortIndex="4">
+            <selectionEntryGroup name="Mount" hidden="false" id="4e9b-c533-2ba9-a4d1" sortIndex="4" collapsible="true">
               <constraints>
                 <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="10c2-edc-3c75-be86-max"/>
               </constraints>
@@ -2135,7 +2135,7 @@ Note that any special rules granted by these upgrades do not apply to the models
                 <entryLink import="true" name="Light Armour" hidden="false" type="selectionEntry" id="a19-b023-5643-948f" targetId="7cab-40e6-f134-de78" sortIndex="1"/>
               </entryLinks>
             </selectionEntryGroup>
-            <selectionEntryGroup name="Mount" hidden="false" id="61ce-702c-fab-9615" sortIndex="4">
+            <selectionEntryGroup name="Mount" hidden="false" id="61ce-702c-fab-9615" sortIndex="4" collapsible="true">
               <constraints>
                 <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="8f10-5a9b-8014-a7e6-max"/>
               </constraints>
@@ -2275,7 +2275,7 @@ Note that any special rules granted by these upgrades do not apply to the models
                 <entryLink import="true" name="Light Armour" hidden="false" type="selectionEntry" id="bc50-d301-ce99-4908" targetId="7cab-40e6-f134-de78" sortIndex="1"/>
               </entryLinks>
             </selectionEntryGroup>
-            <selectionEntryGroup name="Mount" hidden="false" id="59c2-abc0-5c33-7da2" sortIndex="4">
+            <selectionEntryGroup name="Mount" hidden="false" id="59c2-abc0-5c33-7da2" sortIndex="4" collapsible="true">
               <constraints>
                 <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="5dbd-409c-a1b1-b159-max"/>
               </constraints>
@@ -2415,7 +2415,7 @@ Note that any special rules granted by these upgrades do not apply to the models
                 <entryLink import="true" name="Light Armour" hidden="false" type="selectionEntry" id="d5f1-493f-bbd0-9fdd" targetId="7cab-40e6-f134-de78" sortIndex="1"/>
               </entryLinks>
             </selectionEntryGroup>
-            <selectionEntryGroup name="Mount" hidden="false" id="8601-c080-8e14-1a13" sortIndex="4">
+            <selectionEntryGroup name="Mount" hidden="false" id="8601-c080-8e14-1a13" sortIndex="4" collapsible="true">
               <constraints>
                 <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="f444-4d46-2491-5900-max"/>
               </constraints>
@@ -2595,7 +2595,7 @@ Note that any special rules granted by these upgrades do not apply to the models
                 <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="61e8-b202-bb39-6d05"/>
               </constraints>
             </selectionEntryGroup>
-            <selectionEntryGroup name="Mount" id="b669-93f1-2f95-cb14" hidden="false" sortIndex="5">
+            <selectionEntryGroup name="Mount" id="b669-93f1-2f95-cb14" hidden="false" sortIndex="5" collapsible="true">
               <constraints>
                 <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="c85d-77ff-92d0-3f4e"/>
               </constraints>
@@ -5649,7 +5649,7 @@ Note that any special rules granted by these upgrades do not apply to the models
                 </entryLink>
               </entryLinks>
             </selectionEntryGroup>
-            <selectionEntryGroup name="Mount" hidden="false" id="7978-6a41-f341-8ea4" sortIndex="4">
+            <selectionEntryGroup name="Mount" hidden="false" id="7978-6a41-f341-8ea4" sortIndex="4" collapsible="true">
               <constraints>
                 <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="1da4-5bc5-7d62-2003"/>
               </constraints>
@@ -5698,13 +5698,25 @@ Note that any special rules granted by these upgrades do not apply to the models
             </selectionEntryGroup>
             <selectionEntryGroup name="Command" hidden="false" id="8a8a-39da-ed68-8f56" sortIndex="3">
               <entryLinks>
-                <entryLink import="true" name="Battle Standard Bearer" hidden="false" type="selectionEntry" id="cf0a-74f3-a32a-c86" targetId="5b87-9cf5-953d-3829" flatten="true" sortIndex="2">
+                <entryLink import="true" name="Battle Standard Bearer" hidden="true" type="selectionEntry" id="cf0a-74f3-a32a-c86" targetId="5b87-9cf5-953d-3829" flatten="true" sortIndex="2">
                   <costs>
                     <cost name="pts" typeId="points" value="25"/>
                   </costs>
                   <entryLinks>
                     <entryLink import="true" name="Magic Standards" hidden="false" id="75ec-1af6-2eb0-5cd4" type="selectionEntryGroup" targetId="6bbe-8054-19b7-e5d6"/>
                   </entryLinks>
+                  <modifiers>
+                    <modifier type="set" value="false" field="hidden">
+                      <conditionGroups>
+                        <conditionGroup type="or">
+                          <conditions>
+                            <condition type="instanceOf" value="1" field="selections" scope="primary-catalogue" childId="7b8f-602e-29cd-5786" shared="true"/>
+                            <condition type="instanceOf" value="1" field="selections" scope="primary-catalogue" childId="7706-6528-7747-65a2" shared="true"/>
+                          </conditions>
+                        </conditionGroup>
+                      </conditionGroups>
+                    </modifier>
+                  </modifiers>
                 </entryLink>
                 <entryLink import="true" name="General" hidden="false" type="selectionEntry" id="52ae-2734-892b-7ec7" targetId="7d76-b1a1-1535-a04c" sortIndex="1"/>
               </entryLinks>
@@ -5818,7 +5830,7 @@ Note that any special rules granted by these upgrades do not apply to the models
                 </modifier>
               </modifiers>
             </selectionEntryGroup>
-            <selectionEntryGroup name="Mount" hidden="false" id="1712-1da-570c-af5f" sortIndex="3">
+            <selectionEntryGroup name="Mount" hidden="false" id="1712-1da-570c-af5f" sortIndex="3" collapsible="true">
               <entryLinks>
                 <entryLink import="true" name="Empire Warhorse" hidden="false" type="selectionEntry" id="8d51-660d-9414-87fb" targetId="50f2-3c1-5900-c47f" sortIndex="1">
                   <constraints>
@@ -5992,7 +6004,7 @@ Note that any special rules granted by these upgrades do not apply to the models
                 </selectionEntryGroup>
               </selectionEntryGroups>
             </selectionEntryGroup>
-            <selectionEntryGroup name="Mount" hidden="false" id="e732-5eee-e647-60fe" sortIndex="4">
+            <selectionEntryGroup name="Mount" hidden="false" id="e732-5eee-e647-60fe" sortIndex="4" collapsible="true">
               <constraints>
                 <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="1073-2f98-444c-ff93-min"/>
                 <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="1073-2f98-444c-ff93-max"/>
@@ -8327,7 +8339,7 @@ Note that any special rules granted by these upgrades do not apply to the models
     </categoryEntry>
   </categoryEntries>
   <sharedSelectionEntryGroups>
-    <selectionEntryGroup name="Knightly Order" id="934d-0c94-9509-cb36" hidden="true" collective="true">
+    <selectionEntryGroup name="Knightly Order" id="934d-0c94-9509-cb36" hidden="true" collective="true" collapsible="true">
       <comment>units</comment>
       <entryLinks>
         <entryLink import="true" name="Order of the Blazing Sun" hidden="false" id="3f2f-fb62-1d21-1e6a" type="selectionEntry" targetId="9100-3967-5889-c6ec">
@@ -8421,7 +8433,7 @@ Note that any special rules granted by these upgrades do not apply to the models
         <constraint type="min" value="0" field="selections" scope="parent" shared="true" id="3f8c-a26c-45cc-893f"/>
       </constraints>
     </selectionEntryGroup>
-    <selectionEntryGroup name="Knightly Order" id="3141-3c83-b47b-4ab9" hidden="true" collective="true">
+    <selectionEntryGroup name="Knightly Order" id="3141-3c83-b47b-4ab9" hidden="true" collective="true" collapsible="true">
       <comment>characters</comment>
       <entryLinks>
         <entryLink import="true" name="Order of the Blazing Sun" hidden="false" id="267b-b8cb-dc09-319e" type="selectionEntry" targetId="9100-3967-5889-c6ec">
